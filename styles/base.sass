@@ -1,3 +1,6 @@
+@import variables.sass
+
+//basic setup
 html
   background-image: url('../assets/images/destiny_logo_vector_tint_30.svg')
   background-size: 50px
@@ -9,17 +12,55 @@ body
   margin-left: auto
   margin-right: auto
   background-color: rgba(0, 0, 0, 0)
+  padding-top: 150px
 
+//general view
 .navbar
   margin-bottom: 50px
 
 .container
   background-color: rgba(0, 0, 0, 0.1)
+  border-radius: 5px
 
+.row
+  p
+    display: inline-block
+    vertical-align: middle
+  div
+    text-align: center
+
+// first column with picture and item name
 .pic-name
   img
+    display: block
+    width: 80px
     margin-left: auto
     margin-right: auto
     margin-top: 20px
   p
+    display: inline-block
     text-align: center
+    vertical-align: middle
+    font-size: 20px
+    font-weight: 500
+
+
+
+// Tier section
+.tier-1
+  font-size: 20px
+  font-weight: bolder
+  margin-top: 25px
+  position: relative
+  &:after
+    position: absolute
+    content: ' '
+    display: block
+    height: 50px
+    width: 50px
+    background: url("../assets/images/icon_tier1.svg")
+    background-repeat: no-repeat
+    top: 35px
+    left: 0%
+
+// rarity section
