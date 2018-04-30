@@ -47,6 +47,10 @@ body
 
 
 // Tier section
+.specialization
+  margin-top: 20px
+  font-weight: 500
+
 .tier-1
   font-size: 20px
   font-weight: bolder
@@ -60,7 +64,25 @@ body
     width: 50px
     background: url("../assets/images/icon_tier1.svg")
     background-repeat: no-repeat
-    top: 35px
-    left: 0%
+    background-size: 35px
+    top: 30px
+    left: 17%
+
+.tier-2
+  font-size: 20px
+  font-weight: bolder
+  margin-top: 25px
+  position: relative
+  &:after
+    position: absolute
+    content: ' '
+    display: block
+    height: 50px
+    width: 60px
+    background: url("../assets/images/icon_tier2.svg")
+    background-repeat: repeat-x
+    background-size: 30px
+    top: 33px
+    left: -8%
 
 // rarity section
