@@ -9,4 +9,23 @@ body {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  background-color: transparent;
+}
+
+.navbar {
+  margin-bottom: 50px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pic-name img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.pic-name p {
+  text-align: center;
 }
