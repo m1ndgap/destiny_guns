@@ -130,6 +130,8 @@ body
     line-height: 15px
     font-size: 11px
     font-weight: 500
+    &:hover
+      background-color: rgba($perks, 0.8)
   .stat-value
     z-index: 1000
     position: absolute
@@ -148,24 +150,28 @@ body
 .perks
   border: 1px solid red
   .perks-container
-    border: 1px solid red
-    max-width: 260px
+    //border: 1px solid red
+    max-width: 200px
     margin: auto
-    margin-top: 5px
+    margin-top: 15px
     display: flex
     flex-direction: row
     justify-content: space-around
   .perk-clmn
-    border: 1px solid red
+    //border: 1px solid red
     margin: 0px
     margin-right: 0px
     width: 50px
+    align-items: center
   .perk-wrap
-    width: 45px
-    height: 45px
-    padding: 8px
+    width: 35px
+    height: 35px
+    margin-top: 2px
+    padding: 2px 2px
     background-color: $perks
     border-radius: 50%
+    &:hover
+      background-color: rgba($perks, 0.8)
   .perk
     width: 30px
     height: 30px

@@ -152,6 +152,10 @@ body {
   font-weight: 500;
 }
 
+.stats .stat-fill:hover {
+  background-color: rgba(102, 135, 143, 0.8);
+}
+
 .stats .stat-value {
   z-index: 1000;
   position: absolute;
@@ -173,28 +177,32 @@ body {
 }
 
 .perks .perks-container {
-  border: 1px solid red;
-  max-width: 260px;
+  max-width: 200px;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
 .perks .perk-clmn {
-  border: 1px solid red;
   margin: 0px;
   margin-right: 0px;
   width: 50px;
+  align-items: center;
 }
 
 .perks .perk-wrap {
-  width: 45px;
-  height: 45px;
-  padding: 8px;
+  width: 35px;
+  height: 35px;
+  margin-top: 2px;
+  padding: 2px 2px;
   background-color: #66878f;
   border-radius: 50%;
+}
+
+.perks .perk-wrap:hover {
+  background-color: rgba(102, 135, 143, 0.8);
 }
 
 .perks .perk {
