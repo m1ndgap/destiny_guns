@@ -18,7 +18,7 @@ body
 .navbar
   margin-bottom: 50px
 
-.container
+.container-fluid
   background-color: rgba(0, 0, 0, 0.1)
   border-radius: 5px
 
@@ -31,6 +31,7 @@ body
 
 // first column with picture and item name
 .pic-name
+  border: 1px solid red
   img
     display: block
     width: 80px
@@ -47,47 +48,52 @@ body
 
 
 // Tier section
-.specialization
-  margin-top: 20px
-  font-weight: 500
+.tier
+  display: flex
+  flex-direction: column
 
-.tier-1
-  font-size: 20px
-  font-weight: bolder
-  margin-top: 25px
-  position: relative
-  &:after
-    position: absolute
-    content: ' '
-    display: block
-    height: 50px
-    width: 50px
-    background: url("../assets/images/icon_tier1.svg")
-    background-repeat: no-repeat
-    background-size: 35px
-    top: 30px
-    left: 17%
+  .specialization
+    margin-top: 20px
+    font-weight: 500
 
-.tier-2
-  font-size: 20px
-  font-weight: bolder
-  margin-top: 25px
-  position: relative
-  &:after
-    position: absolute
-    content: ' '
-    display: block
-    height: 50px
-    width: 60px
-    background: url("../assets/images/icon_tier2.svg")
-    background-repeat: repeat-x
-    background-size: 30px
-    top: 33px
-    left: -8%
+  .tier-1
+    font-size: 20px
+    font-weight: bolder
+    margin-top: 25px
+    position: relative
+    &:after
+      position: absolute
+      content: ' '
+      display: block
+      height: 50px
+      width: 50px
+      background: url("../assets/images/icon_tier1.svg")
+      background-repeat: no-repeat
+      background-size: 35px
+      top: 30px
+      left: 30%
+
+  .tier-2
+    font-size: 20px
+    font-weight: bolder
+    margin-top: 25px
+    position: relative
+    &:after
+      position: absolute
+      content: ' '
+      display: block
+      height: 50px
+      width: 60px
+      background: url("../assets/images/icon_tier2.svg")
+      background-repeat: repeat-x
+      background-size: 30px
+      top: 32px
+      left: 15%
 
 // rarity section
 
 .rarity
+  border: 1px solid red
   font-size: 20px
   font-weight: 500
   .rare
@@ -102,3 +108,19 @@ body
   p:first-child
     margin-top: 40px
     margin-bottom: 0px
+
+
+
+// stats section
+.stats
+  padding-top: 10px
+  border: 1px solid red
+  .stat
+    margin: auto
+    margin-top: 1px
+    width: 70%
+    height: 15px
+    background-color: rgba($perks, 0.5)
+  .stat-fill
+    height: 15px
+    background-color: $perks
