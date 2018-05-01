@@ -31,7 +31,7 @@ body
 
 // first column with picture and item name
 .pic-name
-  border: 1px solid red
+  //border: 1px solid red
   img
     display: block
     width: 80px
@@ -93,16 +93,21 @@ body
 // rarity section
 
 .rarity
-  border: 1px solid red
+  //border: 1px solid red
+  display: flex
+  flex-direction: column
   font-size: 20px
   font-weight: 500
   .rare
     color: $rare
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black
   .uncommon
     font-size: 18px
     color: $uncommon
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black
   .epic
     color: $epic
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black
   p
     margin-top: 5px
   p:first-child
@@ -122,6 +127,7 @@ body
     width: 70%
     height: 17px
     background-color: rgba($perks, 0.5)
+    cursor: default
   .stat-fill
     padding-left: 3px
     text-align: left
@@ -130,6 +136,7 @@ body
     line-height: 15px
     font-size: 11px
     font-weight: 500
+    cursor: pointer
     &:hover
       background-color: rgba($perks, 0.8)
   .stat-value
@@ -148,7 +155,7 @@ body
 
 // perks section
 .perks
-  border: 1px solid red
+  //border: 1px solid red
   .perks-container
     //border: 1px solid red
     max-width: 200px
@@ -175,8 +182,18 @@ body
   .perk
     width: 30px
     height: 30px
+  .5perks
+    width: 260px
 
 
 // links section
 .links
-  border: 1px solid red
+  //border: 1px solid red
+  .description
+    margin-top: 15px
+    line-height: 15px
+    font-size: 12px
+    font-weight: 500
+  a
+    color: $perks
+    text-decoration: underline

@@ -31,10 +31,6 @@ body {
   text-align: center;
 }
 
-.pic-name {
-  border: 1px solid red;
-}
-
 .pic-name img {
   display: block;
   width: 80px;
@@ -102,22 +98,26 @@ body {
 }
 
 .rarity {
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
   font-size: 20px;
   font-weight: 500;
 }
 
 .rarity .rare {
   color: #0081ff;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
 
 .rarity .uncommon {
   font-size: 18px;
   color: #2bda14;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
 
 .rarity .epic {
   color: #bf07ff;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
 
 .rarity p {
@@ -140,6 +140,7 @@ body {
   width: 70%;
   height: 17px;
   background-color: rgba(102, 135, 143, 0.5);
+  cursor: default;
 }
 
 .stats .stat-fill {
@@ -150,6 +151,7 @@ body {
   line-height: 15px;
   font-size: 11px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .stats .stat-fill:hover {
@@ -170,10 +172,6 @@ body {
 
 .stats div:last-child {
   margin-top: 3px;
-}
-
-.perks {
-  border: 1px solid red;
 }
 
 .perks .perks-container {
@@ -210,6 +208,18 @@ body {
   height: 30px;
 }
 
-.links {
-  border: 1px solid red;
+.perks .5perks {
+  width: 260px;
+}
+
+.links .description {
+  margin-top: 15px;
+  line-height: 15px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.links a {
+  color: #66878f;
+  text-decoration: underline;
 }
