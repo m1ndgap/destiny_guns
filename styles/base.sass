@@ -2,7 +2,7 @@
 
 //basic setup
 html
-  background-image: url('../assets/images/destiny_logo_vector_tint_30.svg')
+  //background-image: url('../assets/images/destiny_logo_vector_tint_30.svg')
   background-size: 50px
   background-color: rgba(225, 225, 225, 1)
   font-family: "Myriad Pro", sans-serif
@@ -13,6 +13,13 @@ body
   margin-right: auto
   background-color: rgba(0, 0, 0, 0)
   padding-top: 150px
+  .first-container
+    border-top-right-radius: 5px
+    border-top-left-radius: 5px
+  .last-container
+    border-bottom-right-radius: 5px
+    border-bottom-left-radius: 5px
+
 
 //general view
 .navbar
@@ -20,7 +27,7 @@ body
 
 .container-fluid
   background-color: rgba(0, 0, 0, 0.1)
-  border-radius: 5px
+
 
 .row
   p
@@ -100,14 +107,11 @@ body
   font-weight: 500
   .rare
     color: $rare
-    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black
   .uncommon
     font-size: 18px
     color: $uncommon
-    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black
   .epic
     color: $epic
-    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black
   p
     margin-top: 5px
   p:first-child

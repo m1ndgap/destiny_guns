@@ -1,5 +1,4 @@
 html {
-  background-image: url("../assets/images/destiny_logo_vector_tint_30.svg");
   background-size: 50px;
   background-color: #e1e1e1;
   font-family: "Myriad Pro", sans-serif;
@@ -13,13 +12,22 @@ body {
   padding-top: 150px;
 }
 
+body .first-container {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+body .last-container {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
 .navbar {
   margin-bottom: 50px;
 }
 
 .container-fluid {
   background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
 }
 
 .row p {
@@ -106,18 +114,15 @@ body {
 
 .rarity .rare {
   color: #0081ff;
-  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
 
 .rarity .uncommon {
   font-size: 18px;
-  color: #2bda14;
-  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  color: #1ea00d;
 }
 
 .rarity .epic {
   color: #bf07ff;
-  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
 
 .rarity p {
