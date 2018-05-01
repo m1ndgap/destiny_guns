@@ -167,3 +167,41 @@ body {
 .stats div:last-child {
   margin-top: 3px;
 }
+
+.perks {
+  border: 1px solid red;
+}
+
+.perks .perks-container {
+  border: 1px solid red;
+  max-width: 260px;
+  margin: auto;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.perks .perk-clmn {
+  border: 1px solid red;
+  margin: 0px;
+  margin-right: 0px;
+  width: 50px;
+}
+
+.perks .perk-wrap {
+  width: 45px;
+  height: 45px;
+  padding: 8px;
+  background-color: #66878f;
+  border-radius: 50%;
+}
+
+.perks .perk {
+  width: 30px;
+  height: 30px;
+}
+
+.links {
+  border: 1px solid red;
+}
