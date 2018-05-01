@@ -131,18 +131,39 @@ body {
 
 .stats {
   padding-top: 10px;
-  border: 1px solid red;
 }
 
 .stats .stat {
+  position: relative;
   margin: auto;
-  margin-top: 1px;
+  margin-top: 0px;
   width: 70%;
-  height: 15px;
+  height: 17px;
   background-color: rgba(102, 135, 143, 0.5);
 }
 
 .stats .stat-fill {
-  height: 15px;
+  padding-left: 3px;
+  text-align: left;
+  height: 16px;
   background-color: #66878f;
+  line-height: 15px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.stats .stat-value {
+  z-index: 1000;
+  position: absolute;
+  right: 3px;
+  top: 0px;
+  display: inline-block;
+  margin-left: auto;
+  line-height: 15px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.stats div:last-child {
+  margin-top: 3px;
 }
