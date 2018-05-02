@@ -51,6 +51,7 @@ body
     vertical-align: middle
     font-size: 20px
     font-weight: 500
+    margin-bottom: 5px
 
 
 
@@ -58,34 +59,47 @@ body
 .tier
   display: flex
   flex-direction: column
+  align-items: center
+
 
   .specialization
-    margin-top: 20px
+    margin-top: 0px
+    margin-bottom: 5px
     font-weight: 500
 
   .tier-1
+    //border: 1px solid red
     font-size: 20px
     font-weight: bolder
     margin-top: 25px
+    margin-bottom: 0px
     position: relative
-    &:after
+    height: 71px
+    //    &:after
       position: absolute
       content: ' '
       display: block
       height: 50px
       width: 50px
-      background: url("../assets/images/icon_tier1.svg")
-      background-repeat: no-repeat
-      background-size: 35px
-      top: 30px
-      left: 30%
+
+    background: url("../assets/images/icon_tier1.svg")
+    background-repeat: no-repeat
+    background-size: 35px
+    background-position: 9px 32px
+
 
   .tier-2
     font-size: 20px
     font-weight: bolder
     margin-top: 25px
+    margin-bottom: 0px
     position: relative
-    &:after
+    background: url("../assets/images/icon_tier2.svg")
+    background-repeat: repeat-x
+    background-size: 26px
+    background-position: 0px 32px
+    height: 64px
+    //&:after
       position: absolute
       content: ' '
       display: block
@@ -156,6 +170,7 @@ body
   div
     &:last-child
       margin-top: 3px
+      margin-bottom: 5px
 
 // perks section
 .perks

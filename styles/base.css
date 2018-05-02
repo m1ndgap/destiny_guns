@@ -53,15 +53,18 @@ body .last-container {
   vertical-align: middle;
   font-size: 20px;
   font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .tier {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .tier .specialization {
-  margin-top: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
   font-weight: 500;
 }
 
@@ -69,40 +72,26 @@ body .last-container {
   font-size: 20px;
   font-weight: bolder;
   margin-top: 25px;
+  margin-bottom: 0px;
   position: relative;
-}
-
-.tier .tier-1:after {
-  position: absolute;
-  content: ' ';
-  display: block;
-  height: 50px;
-  width: 50px;
+  height: 71px;
   background: url("../assets/images/icon_tier1.svg");
   background-repeat: no-repeat;
   background-size: 35px;
-  top: 30px;
-  left: 30%;
+  background-position: 9px 32px;
 }
 
 .tier .tier-2 {
   font-size: 20px;
   font-weight: bolder;
   margin-top: 25px;
+  margin-bottom: 0px;
   position: relative;
-}
-
-.tier .tier-2:after {
-  position: absolute;
-  content: ' ';
-  display: block;
-  height: 50px;
-  width: 60px;
   background: url("../assets/images/icon_tier2.svg");
   background-repeat: repeat-x;
-  background-size: 30px;
-  top: 32px;
-  left: 15%;
+  background-size: 26px;
+  background-position: 0px 32px;
+  height: 64px;
 }
 
 .rarity {
@@ -177,6 +166,7 @@ body .last-container {
 
 .stats div:last-child {
   margin-top: 3px;
+  margin-bottom: 5px;
 }
 
 .perks .perks-container {
