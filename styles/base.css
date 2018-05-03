@@ -189,6 +189,7 @@ body .last-container {
 }
 
 .perks .perk-wrap {
+  position: relative;
   width: 35px;
   height: 35px;
   margin-top: 2px;
@@ -202,12 +203,25 @@ body .last-container {
 }
 
 .perks .perk {
+  position: relative;
   width: 30px;
   height: 30px;
 }
 
 .perks .5perks {
   width: 260px;
+}
+
+.perks .recommended:after {
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: -2px;
+  content: ' ';
+  height: 9px;
+  width: 9px;
+  background-color: #1ea00d;
 }
 
 .links .description {
