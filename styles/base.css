@@ -102,15 +102,18 @@ body .last-container {
 }
 
 .rarity .rare {
+  margin-bottom: 0px;
   color: #0081ff;
 }
 
 .rarity .uncommon {
+  margin-bottom: 0px;
   font-size: 18px;
   color: #1ea00d;
 }
 
 .rarity .epic {
+  margin-bottom: 0px;
   color: #bf07ff;
 }
 
@@ -119,7 +122,7 @@ body .last-container {
 }
 
 .rarity p:first-child {
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 0px;
 }
 
