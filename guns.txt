@@ -1,0 +1,90 @@
+
+Auto rifles
+	+Valakadyn
+	+Origin Story (Vanguard)
+	+Last Breath (To9 s2 kinetic)
+	+Forward Path (Iron banner kinetic) 
+	+Duty Bound (Savathun's song NF drop kinetic)
+	+Null Calamity 9 (Mercury forge energy)
+	+Positive Outlook (Vanguard S2 Energy)
+	Hard Light (Exotic)
+	Foregone Conclusion (Mars, Kinetic)
+	SUROS Regime (Exotic, Kinetic)
+	Guiding Star (Dead Orbit faction, kinetic)
+	Halfdan-D (Banshee, Kinetic)
+	Coldheart (Exotic, Enegry, Trace rifle)
+	Prometheus Lens (Exotic, Enegry, Trace rifle)
+	Orimund's Anvil (Iron Banner)
+	Uriel's Gift (Nessus, Energy)
+	Kibou AR3 (Mars, Energy)
+	The Number (Future War/Cayde-6, Energy)
+	Sweet Business (Exotic, Kinetic)
+	BrayTech Winter Wolf (Braytech, Kinetic)
+
+Scout Rifles
+	Purpose (To9, Kinetic)
+	Manannan SR4 (Banshee, Energy)
+	Conspirator (Raid, Energy)
+	Nameless Midnight (Vanguard, Kinetic)
+	Skyburner's Oath (Exotic, Energy)
+	MIDA Multi-Tool (Exotic Quest, Kinetic)
+
+SMGs
+	+Hero's Burden (iron banner, energy)
+	+Foggy Notion
+	Riskrunner (Exotic, Energy)
+	Antiope-D (Banshee, Kinetic)
+
+Hand Cannons
+	+Better Devils (crucible kinetic)
+	Midnight Coup (Raid, Kinetic)
+	Sunshot (Exotic, Energy)
+	Jack Queen King 3 (Mercury forge, Energy)
+	Crimil's Dagger (Iron Banner, Kinetic)
+
+Pulse Rifles
+	+Vigilance Wing (Kinetic Exotic)
+	The Time-Worn Spire (Kinetic Iron Banner)
+	Darkest Before (To9, Energy)
+	Inaugural Address (Raid, Energy)
+	Graviton Lance (Exotic, Energy)
+
+Sidearms
+	The Last Dance (Vanguard)
+	Last Hope
+	Rat King (Quest exotic)
+
+Rocket Launchers
+	Sins of the Past (Raid)
+	Curtain Call (Vanguard)
+	The Wardcliff Coil (Exotic)
+
+Grenade Launchers
+	Play of the Game
+	The Colony (Exotic)
+
+Shotguns
+	Legend of Acrius (Raid quest)
+	Hawthorne's Field-Forged Shotgun
+	Gunnora's Axe (Iron Banner)
+	Tractor Cannon (Exotic)
+	IKELOS_SG_v1.0.1 (Escalation)
+
+Fusion Rifles
+	Telesto	(Exotic)
+	Merciless (Exotic)
+	Main Ingredient (Vanguard)
+
+Linear Fusion Rifles
+	Tarantula 
+	Sleeper Simulant (Exotic quest)
+
+Sniper Rifles
+	Maestro-46
+	D.A.R.C.I. (Exotic)
+	Alone as a god (Raid)
+	The Long Walk (To9)
+
+Swords 
+	Quickfang (Hunter)
+	It stared back
