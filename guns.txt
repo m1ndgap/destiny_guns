@@ -1,62 +1,61 @@
-
 Auto rifles
-	+Valakadyn
-	+Origin Story (Vanguard)
-	+Last Breath (To9 s2 kinetic)
-	+Forward Path (Iron banner kinetic) 
+	BrayTech Winter Wolf (Braytech, Kinetic)
+	Coldheart (Exotic, Enegry, Trace rifle)
 	+Duty Bound (Savathun's song NF drop kinetic)
-	+Null Calamity 9 (Mercury forge energy)
-	+Positive Outlook (Vanguard S2 Energy)
-	Hard Light (Exotic)
 	Foregone Conclusion (Mars, Kinetic)
-	SUROS Regime (Exotic, Kinetic)
+	+Forward Path (Iron banner kinetic) 
 	Guiding Star (Dead Orbit faction, kinetic)
 	Halfdan-D (Banshee, Kinetic)
-	Coldheart (Exotic, Enegry, Trace rifle)
-	Prometheus Lens (Exotic, Enegry, Trace rifle)
-	Orimund's Anvil (Iron Banner)
-	Uriel's Gift (Nessus, Energy)
+	Hard Light (Exotic)
 	Kibou AR3 (Mars, Energy)
-	The Number (Future War/Cayde-6, Energy)
+	+Last Breath (To9 s2 kinetic)
+	+Null Calamity 9 (Mercury forge energy)
+	+Origin Story (Vanguard)
+	Orimund's Anvil (Iron Banner)
+	+Positive Outlook (Vanguard S2 Energy)
+	Prometheus Lens (Exotic, Enegry, Trace rifle)
 	Sweet Business (Exotic, Kinetic)
-	BrayTech Winter Wolf (Braytech, Kinetic)
+	SUROS Regime (Exotic, Kinetic)
+	The Number (Future War/Cayde-6, Energy)
+	Uriel's Gift (Nessus, Energy)
+	+Valakadyn
 
 Scout Rifles
-	Purpose (To9, Kinetic)
-	Manannan SR4 (Banshee, Energy)
 	Conspirator (Raid, Energy)
-	Nameless Midnight (Vanguard, Kinetic)
-	Skyburner's Oath (Exotic, Energy)
+	Manannan SR4 (Banshee, Energy)
 	MIDA Multi-Tool (Exotic Quest, Kinetic)
-
+	Nameless Midnight (Vanguard, Kinetic)
+	Purpose (To9, Kinetic)
+	Skyburner's Oath (Exotic, Energy)
+	
 SMGs
-	+Hero's Burden (iron banner, energy)
-	+Foggy Notion
-	Riskrunner (Exotic, Energy)
 	Antiope-D (Banshee, Kinetic)
-
+	+Foggy Notion
+	+Hero's Burden (iron banner, energy)
+	Riskrunner (Exotic, Energy)
+	
 Hand Cannons
 	+Better Devils (crucible kinetic)
+	Crimil's Dagger (Iron Banner, Kinetic)
+	Jack Queen King 3 (Mercury forge, Energy)
 	Midnight Coup (Raid, Kinetic)
 	Sunshot (Exotic, Energy)
-	Jack Queen King 3 (Mercury forge, Energy)
-	Crimil's Dagger (Iron Banner, Kinetic)
-
+	
 Pulse Rifles
-	+Vigilance Wing (Kinetic Exotic)
-	The Time-Worn Spire (Kinetic Iron Banner)
 	Darkest Before (To9, Energy)
-	Inaugural Address (Raid, Energy)
 	Graviton Lance (Exotic, Energy)
-
+	Inaugural Address (Raid, Energy)
+	The Time-Worn Spire (Kinetic Iron Banner)
+	+Vigilance Wing (Kinetic Exotic)
+	
 Sidearms
-	The Last Dance (Vanguard)
 	Last Hope
 	Rat King (Quest exotic)
-
+	The Last Dance (Vanguard)
+	
 Rocket Launchers
-	Sins of the Past (Raid)
 	Curtain Call (Vanguard)
+	Sins of the Past (Raid)
 	The Wardcliff Coil (Exotic)
 
 Grenade Launchers
@@ -64,27 +63,29 @@ Grenade Launchers
 	The Colony (Exotic)
 
 Shotguns
-	Legend of Acrius (Raid quest)
-	Hawthorne's Field-Forged Shotgun
 	Gunnora's Axe (Iron Banner)
-	Tractor Cannon (Exotic)
+	Hawthorne's Field-Forged Shotgun
 	IKELOS_SG_v1.0.1 (Escalation)
-
+	Legend of Acrius (Raid quest)
+	Tractor Cannon (Exotic)
+	
 Fusion Rifles
-	Telesto	(Exotic)
-	Merciless (Exotic)
 	Main Ingredient (Vanguard)
-
+	Manowar (Io)
+	Merciless (Exotic)
+	Telesto	(Exotic)
+	
 Linear Fusion Rifles
-	Tarantula 
 	Sleeper Simulant (Exotic quest)
+	Tarantula 
 
 Sniper Rifles
-	Maestro-46
-	D.A.R.C.I. (Exotic)
 	Alone as a god (Raid)
+	D.A.R.C.I. (Exotic)
+	Maestro-46
 	The Long Walk (To9)
 
 Swords 
-	Quickfang (Hunter)
 	It stared back
+	Quickfang (Hunter)
+	
