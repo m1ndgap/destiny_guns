@@ -9,11 +9,13 @@ Auto rifles
 	Hard Light (Exotic)
 	Kibou AR3 (Mars, Energy)
 	+Last Breath (To9 s2 kinetic)
+	Loquitor IV (New monarchy faction, Kinetic)
 	+Null Calamity 9 (Mercury forge energy)
 	+Origin Story (Vanguard)
 	Orimund's Anvil (Iron Banner)
 	+Positive Outlook (Vanguard S2 Energy)
 	Prometheus Lens (Exotic, Enegry, Trace rifle)
+	Scathelocke (Kinetic)
 	Sweet Business (Exotic, Kinetic)
 	SUROS Regime (Exotic, Kinetic)
 	The Number (Future War/Cayde-6, Energy)
@@ -22,6 +24,7 @@ Auto rifles
 
 Scout Rifles
 	Conspirator (Raid, Energy)
+	Frostmire's Hex (Banner, Energy)
 	Manannan SR4 (Banshee, Energy)
 	MIDA Multi-Tool (Exotic Quest, Kinetic)
 	Nameless Midnight (Vanguard, Kinetic)
@@ -32,16 +35,24 @@ SMGs
 	Antiope-D (Banshee, Kinetic)
 	+Foggy Notion
 	+Hero's Burden (iron banner, energy)
+	The Huckleberry (Exotic, Kinetic)
 	Riskrunner (Exotic, Energy)
+	Stochastic Variable (Future War faction, Energy)
 	
 Hand Cannons
 	+Better Devils (crucible kinetic)
 	Crimil's Dagger (Iron Banner, Kinetic)
+	Сrimson (Exotic, Kinetic)
+	D.F.A. (Tree of probabilities NF)
+	Dire Promise (Dead orbit, Kinetic)
 	Jack Queen King 3 (Mercury forge, Energy)
+	IKELOS_HC_v1.0.1 (Mars quest, Energy)
 	Midnight Coup (Raid, Kinetic)
+	Old fashioned (Banshee, Kinetic)
 	Sunshot (Exotic, Energy)
 	
 Pulse Rifles
+	Autumn Wind (Crucible, Kinetic)
 	Darkest Before (To9, Energy)
 	Graviton Lance (Exotic, Energy)
 	Inaugural Address (Raid, Energy)
@@ -50,10 +61,14 @@ Pulse Rifles
 	
 Sidearms
 	Last Hope
+	Last of the Legion (Raid Lair 2, Kinetic)
 	Rat King (Quest exotic)
 	The Last Dance (Vanguard)
+	18 Kelvins (Braytech, Energy)
 	
 Rocket Launchers
+	BrayTech Osprey (Nokris nightfall)
+	Classical-42 (Banshee)
 	Curtain Call (Vanguard)
 	Sins of the Past (Raid)
 	The Wardcliff Coil (Exotic)
@@ -83,9 +98,10 @@ Sniper Rifles
 	Alone as a god (Raid)
 	D.A.R.C.I. (Exotic)
 	Maestro-46
+	Silicon Neuroma (Pyramidion NF)
 	The Long Walk (To9)
 
 Swords 
-	It stared back
+	It stared back (Raid)
 	Quickfang (Hunter)
 	
