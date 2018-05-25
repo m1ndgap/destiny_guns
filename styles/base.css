@@ -39,6 +39,12 @@ body .last-container {
   text-align: center;
 }
 
+.show-switch {
+  height: 15px;
+  background-color: red;
+  border: 1px solid black;
+}
+
 .pic-name img {
   display: block;
   width: 80px;
