@@ -1,12 +1,150 @@
-{
+[{
   "id": 1,
-  "name": "Dynamo.Approach.Arche",
-  "description": "Easy to find, right at the dymano arch",
+  "name": "Aurora.Mindlab.Observation",
+  "description": "---",
   "video": "https://www.youtube.com/watch?v=QegheP_fj1k&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
-}
+},
 {
   "id": 2,
+  "name": "Descent.Cave.Runes",
+  "description": "---",
+  "video": "https://www.youtube.com/watch?v=XP6GIoINIOE&index=2&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
+  "id": 3,
+  "name": "Descent.Cavern.Warsat",
+  "description": "---",
+  "video": "https://www.youtube.com/watch?v=mrwa2T1enbM&index=3&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
+  "id": 4,
+  "name": "Drift.Checkpoint.Elevator",
+  "description": "---",
+  "video": "https://www.youtube.com/watch?v=6ZPSDzu0gMs&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=6",
+},
+{
+  "id": 5,
+  "name": "Drift.Flammable.Storage",
+  "description": "---",
+  "video": "https://www.youtube.com/watch?v=Ufl9EUOpZuA&index=7&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
+  "id": 6,
+  "name": "Drift.Gatehouse.Catwalk",
+  "description": "---",
+  "video": "https://www.youtube.com/watch?v=eEb7vkNN5xg&index=8&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
+  "id": 7,
   "name": "Descent.Chasm.Ledge",
   "description": "veri tuff to find",
   "video": "https://www.youtube.com/watch?v=QegheP_fj1k&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
-}
+},
+{
+  "id": 8,
+  "name": "Drift.Service.Backend",
+  "description": "---",
+  "video": "https://www.youtube.com/watch?v=cmXVolBz2gk&index=9&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
+  "id": 9,
+  "name": "Drift.Subterrane.Cliffside",
+  "description": "---",
+  "video": "https://www.youtube.com/watch?v=LL3jCdPgxtA&index=11&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
+  "id": 10,
+  "name": "Drift.Transit.Freight",
+  "description": "---",
+  "video": "https://www.youtube.com/watch?v=_P3-Y0fOvok&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=12",
+},
+{
+  "id": 11,
+  "name": "Drift.Transit.Foundation",
+  "description": "---",
+  "video": "https://www.youtube.com/watch?v=gPT0lzgZybk&index=13&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
+  "id": 12,
+  "name": "Drift.Transit.Freight",
+  "description": "---",
+  "video": "https://www.youtube.com/watch?v=_P3-Y0fOvok&index=12&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
+  "id": 13,
+  "name": "Dynamo.Approach.Arche",
+  "description": "Easy to find, right at the dymano arch",
+  "video": "https://www.youtube.com/watch?v=6MNIXHI-TMs&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=14",
+},
+{
+  "id": 14,
+  "name": "Dynamo.Approach.Cavern",
+  "description": "Easy to find, right at the dymano arch",
+  "video": "https://www.youtube.com/watch?v=aNnmsqwRZH0&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=15",
+},
+{
+  "id": 15,
+  "name": "Dynamo.Approach.Tree",
+  "description": "Easy to find, right at the dymano arch",
+  "video": "https://www.youtube.com/watch?v=tHtgIW56q_k&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=16",
+},
+{
+  "id": 16,
+  "name": "Dynamo.Control.Door",
+  "description": "Easy to find, right at the dymano arch",
+  "video": "https://www.youtube.com/watch?v=cDERL8pdwSQ&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=17",
+},
+{
+  "id": 17,
+  "name": "Dynamo.Coolant.Ventilation",
+  "description": "Easy to find, right at the dymano arch",
+  "video": "https://www.youtube.com/watch?v=L8K6NExbQyE&index=18&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
+  "id": 18,
+  "name": "Dynamo.Core.Brace",
+  "description": "Easy to find, right at the dymano arch",
+  "video": "https://www.youtube.com/watch?v=aWAB5axCGvQ&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=19",
+},
+{
+  "id": 19,
+  "name": "Dynamo.Core.Catwalk",
+  "description": "Easy to find, right at the dymano arch",
+  "video": "https://www.youtube.com/watch?v=2UnwMuwc1iE&index=20&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
+  "id": 20,
+  "name": "Dynamo.Deck.Dampener",
+  "description": "Easy to find, right at the dymano arch",
+  "video": "https://www.youtube.com/watch?v=KmLjgB4MWI0&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=21",
+},
+{
+  "id": 20,
+  "name": "Dynamo.Observation.Core",
+  "description": "Easy to find, right at the dymano arch",
+  "video": "https://www.youtube.com/watch?v=KmLjgB4MWI0&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=21",
+},
+
+
+
+Dynamo.Observation.Door
+Dynamo.Observation.Valkyrie
+Dynamo.Server.Heatshield
+Dynamo.Server.Stairwell
+Futurescape.Dock.Garage
+Futurescape.Dock.Outpost
+Futurescape.Dock.Silo
+Futurescape.Plaza.Console
+Futurescape.Plaza.Infestation
+Futurescape.Reception.Overlook
+Futurescape.Ridgeline.Waterfall
+Futurescape.Terminus.Console
+Futurescape.Transit.Service
+Mindlab.Conveyor.Bridge
+Minlab.Conveyor.Junction
+Mindlab.Elevator.Right
+Mindlab.Elevator.Service
+Mindlab.Overhang.Node
+
+
+]
