@@ -26,6 +26,10 @@
   }
 }
 
+.node {
+  display: block;
+}
+
 html {
   background-size: 50px;
   background-color: #e1e1e1;
