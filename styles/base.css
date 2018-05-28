@@ -1,3 +1,43 @@
+.perks, .stats, .links {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .sn-check, .sn-vid, .sn-desc, .sn-name {
+    padding: 0px;
+  }
+  .sn-vid {
+    margin-bottom: 5px;
+  }
+  .sn-check input {
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 576px) {
+  .perks, .stats, .links {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .perks, .stats, .links {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .perks, .stats, .links {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .perks, .stats, .links {
+    display: block;
+  }
+}
+
 .node {
   display: block;
 }
@@ -37,44 +77,8 @@ h3 {
   line-height: 10px;
 }
 
-.perks, .stats, .links {
-  display: none;
-}
-
-.sn-check, .sn-vid, .sn-desc, .sn-name {
-  padding: 0px;
-}
-
 .sn-vid {
-  margin-bottom: 5px;
-}
-
-.sn-check input {
-  margin-top: 5px;
-}
-
-@media (min-width: 576px) {
-  .perks, .stats, .links {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .perks, .stats, .links {
-    display: none;
-  }
-}
-
-@media (min-width: 992px) {
-  .perks, .stats, .links {
-    display: block;
-  }
-}
-
-@media (min-width: 1200px) {
-  .perks, .stats, .links {
-    display: block;
-  }
+  margin-bottom: 0px;
 }
 
 html {

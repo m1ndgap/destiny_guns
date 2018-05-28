@@ -2,16 +2,16 @@
   display: none;
 }
 
-.sn-check, .sn-vid, .sn-desc, .sn-name {
-  padding: 0px;
-}
-
-.sn-vid {
-  margin-bottom: 5px;
-}
-
-.sn-check input {
-  margin-top: 5px;
+@media (max-width: 576px) {
+  .sn-check, .sn-vid, .sn-desc, .sn-name {
+    padding: 0px;
+  }
+  .sn-vid {
+    margin-bottom: 5px;
+  }
+  .sn-check input {
+    margin-top: 5px;
+  }
 }
 
 @media (min-width: 576px) {

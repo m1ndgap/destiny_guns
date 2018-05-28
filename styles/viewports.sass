@@ -3,22 +3,23 @@
 .perks, .stats, .links
   display: none
 
-.sn-check, .sn-vid, .sn-desc, .sn-name
-  padding: 0px
+// artificial extra small to fix the issues on SN page
+@media (max-width: 576px)
 
-.sn-vid
-  margin-bottom: 5px
+  .sn-check, .sn-vid, .sn-desc, .sn-name
+    padding: 0px
 
-.sn-check
-  input
-    margin-top: 5px
+  .sn-vid
+    margin-bottom: 5px
+
+  .sn-check
+    input
+      margin-top: 5px
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px)
   .perks, .stats, .links
     display: none
-
-
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px)
