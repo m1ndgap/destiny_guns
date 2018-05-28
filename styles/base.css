@@ -1,5 +1,56 @@
+.node {
+  display: block;
+}
+
+input[type='checkbox'] {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid #555;
+  user-select: none;
+  outline: none;
+}
+
+input[type='checkbox']:checked {
+  background-image: url("../assets/images/icon_sleeper_node_check.png");
+  user-select: none;
+  outline: none;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.sn-check, .sn-vid, .sn-desc, .sn-name {
+  padding: 10px 0px 10px;
+}
+
+.sn-name {
+  overflow-wrap: break-word;
+}
+
+.sn-desc {
+  font-size: 10px;
+  line-height: 10px;
+}
+
 .perks, .stats, .links {
   display: none;
+}
+
+.sn-check, .sn-vid, .sn-desc, .sn-name {
+  padding: 0px;
+}
+
+.sn-vid {
+  margin-bottom: 5px;
+}
+
+.sn-check input {
+  margin-top: 5px;
 }
 
 @media (min-width: 576px) {
@@ -24,10 +75,6 @@
   .perks, .stats, .links {
     display: block;
   }
-}
-
-.node {
-  display: block;
 }
 
 html {
@@ -58,7 +105,7 @@ body .last-container {
   margin-bottom: 50px;
 }
 
-.container-fluid {
+[class*="col-"] {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -211,6 +258,11 @@ body .last-container {
   margin-bottom: 5px;
 }
 
+.perks {
+  outline: none;
+  user-select: none;
+}
+
 .perks .perks-container {
   max-width: 200px;
   margin: auto;
@@ -218,6 +270,8 @@ body .last-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  outline: none;
+  user-select: none;
 }
 
 .perks .perk-clmn {

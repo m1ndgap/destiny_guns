@@ -1,1 +1,1 @@
-.node{display:block}
+.node{display:block}input[type='checkbox']{-webkit-appearance:none;width:30px;height:30px;background:white;border-radius:5px;border:2px solid #555;user-select:none;outline:none}input[type='checkbox']:checked{background-image:url("../assets/images/icon_sleeper_node_check.png");user-select:none;outline:none}h3{text-align:center;margin-bottom:15px}.sn-check,.sn-vid,.sn-desc,.sn-name{padding:10px 0px 10px}.sn-name{overflow-wrap:break-word}.sn-desc{font-size:10px;line-height:10px}

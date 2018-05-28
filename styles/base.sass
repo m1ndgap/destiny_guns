@@ -1,6 +1,6 @@
 @import variables.sass
-@import viewports.sass
 @import ../sleeper_nodes/sleeper_nodes.sass
+@import viewports.sass
 
 //basic setup
 html
@@ -27,9 +27,8 @@ body
 .navbar
   margin-bottom: 50px
 
-.container-fluid
+[class*="col-"]
   background-color: rgba(0, 0, 0, 0.1)
-
 
 .row
   p
@@ -186,6 +185,8 @@ body
 
 // perks section
 .perks
+  outline: none
+  user-select: none
   //border: 1px solid red
   .perks-container
     //border: 1px solid red
@@ -195,6 +196,8 @@ body
     display: flex
     flex-direction: row
     justify-content: space-around
+    outline: none
+    user-select: none
   .perk-clmn
     //border: 1px solid red
     margin: 0px
