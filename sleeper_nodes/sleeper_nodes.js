@@ -14,7 +14,7 @@ $(document).ready(function() {
     //../sleeper_nodes/sleeper_nodes.jsonp
 
       $.ajax({
-       url: "../sleeper_nodes/sleeper_nodes.jsonp",
+       url: "sleeper_nodes.jsonp",
        type: 'POST',
        crossDomain: true,
        dataType: 'jsonp',
