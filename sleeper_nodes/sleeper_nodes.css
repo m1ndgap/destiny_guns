@@ -11,12 +11,14 @@ input[type='checkbox'] {
   border: 2px solid #555;
   user-select: none;
   outline: none;
+  cursor: pointer;
 }
 
 input[type='checkbox']:checked {
   background-image: url("../assets/images/icon_sleeper_node_check.png");
   user-select: none;
   outline: none;
+  cursor: pointer;
 }
 
 h3 {

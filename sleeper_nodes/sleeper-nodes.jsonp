@@ -1,3 +1,4 @@
+nodes(
 [{
   "id": 1,
   "name": "Aurora.Mindlab.Observation",
@@ -238,3 +239,4 @@
   "description": "Easy to find, right at the dymano arch",
   "video": "https://www.youtube.com/watch?v=0VtB9TFA1Q8&index=40&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 }]
+);

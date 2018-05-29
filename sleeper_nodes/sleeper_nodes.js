@@ -1,16 +1,32 @@
 $(document).ready(function() {
-  $(function(){
-    $.getJSON( "sleeper_nodes.json", function( data ) {
-      var items = [];
-      $.each( data, function( key, val ) {
 
-      });
+  // if(localStorage.getItem('nodes'))  {
+  //   exit }
+  //   else
+  //   {
+  //     localStorage.setItem('nodes', )
+  //   }
+  // };
 
-      $( "<ul/>", {
-        "class": "my-new-list",
-        html: items.join( "" )
-      }).appendTo( "body" );
-    });
+
+
+    //http://188.166.107.84/sleeper_nodes/sleeper_nodes.jsonp
+    //../sleeper_nodes/sleeper_nodes.jsonp
+    $(function () {
+      $.ajax({
+       url: "../sleeper_nodes/sleeper_nodes.jsonp",
+       type: 'POST',
+       crossDomain: true,
+       dataType: 'jsonp',
+       accepts: 'application/jsonp'
+       jsonpCallback: 'callback',
+         success: function (data) {
+             console.log(data);
+         }
+       });
+     });
+
+
 
   $('.sn-check').on('click', 'input', function(){
     var row = $(this).closest('.row')
@@ -25,5 +41,4 @@ $(document).ready(function() {
         row.addClass('.completed-node');
       }
   });
-});
 });
