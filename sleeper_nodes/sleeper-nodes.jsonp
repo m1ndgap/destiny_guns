@@ -1,4 +1,4 @@
-nodes(
+callback(
 [{
   "id": 1,
   "name": "Aurora.Mindlab.Observation",

@@ -12,19 +12,19 @@ $(document).ready(function() {
 
     //http://188.166.107.84/sleeper_nodes/sleeper_nodes.jsonp
     //../sleeper_nodes/sleeper_nodes.jsonp
-    $(function () {
+
       $.ajax({
        url: "../sleeper_nodes/sleeper_nodes.jsonp",
        type: 'POST',
        crossDomain: true,
        dataType: 'jsonp',
-       accepts: 'application/jsonp'
+       accepts: 'application/jsonp',
        jsonpCallback: 'callback',
          success: function (data) {
              console.log(data);
          }
        });
-     });
+
 
 
 
