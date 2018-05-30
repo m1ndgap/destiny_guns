@@ -25,11 +25,17 @@ $(document).ready(function() {
            var json = data;
            $.each(json, function(index, value){
               var id = json[index].id;
-              console.log(id);
               var name = json[index].name;
-              console.log(name);
-              $.('.sn-in-progress').append(`<div id="${id}" class="row justify-content-center">
-              <div class="col-lg-1 col-md-1 col-sm-1 col-12 sn-check"><input type="checkbox" data-id="${id}"></div>`);
+              var desc = json[index].description;
+              var video = json[index].video;
+
+              $('.sn-in-progress').append(`<div id="${id}" class="row justify-content-center">
+              <div class="col-lg-1 col-md-1 col-sm-1 col-12 sn-check"><input type="checkbox" data-id="${id}"></div>
+              <div class="col-lg-3 col-md-5 col-sm-5 col-12 sn-name"><span class="align-middle">${name}</span></div>
+              <div class="col-lg-2 col-md-2 col-sm-2 col-12 sn-desc"><span class="align-middle">${desc}</span></div>
+              <div class="col-lg-2 col-md-2 col-sm-2 col-12 sn-vid"><span class="align-middle"><a target="_blank" href="${video}">Video</a></span></div>
+              </div>
+              `);
            });
     }});
 
