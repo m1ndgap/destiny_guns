@@ -10,7 +10,7 @@ $(document).ready(function() {
       var ls_nodes = [];
       localStorage.setItem('nodes', JSON.stringify(ls_nodes));
       console.log(ls_nodes);
-   };
+    };
 
 
   $.ajax({
@@ -23,9 +23,15 @@ $(document).ready(function() {
        success: function (data) {
            console.log(data);
            var json = data;
-          // for each
-       }
-   });
+           $.each(json, function(index, value){
+              var id = json[index].id;
+              console.log(id);
+              var name = json[index].name;
+              console.log(name);
+              $.('.sn-in-progress').append(`<div id="${id}" class="row justify-content-center">
+              <div class="col-lg-1 col-md-1 col-sm-1 col-12 sn-check"><input type="checkbox" data-id="${id}"></div>`);
+           });
+    }});
 
 
 //console.log("чччччччччччччч");
