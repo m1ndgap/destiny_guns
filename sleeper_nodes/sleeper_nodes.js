@@ -31,9 +31,11 @@ $(document).ready(function() {
                  if (localstorage.includes(id)) {
                    var target = '.sn-completed';
                    var checked = 'checked';
+                   var completed = "1123";
                  } else {
                    var target = '.sn-in-progress';
                    var checked = '';
+                   var completed = "131123";
                  };
 
                  $(target).append(
