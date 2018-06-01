@@ -53,26 +53,28 @@ $(document).ready(function() {
     var node_id = $(this).data('id');
     var ls_nodes = JSON.parse(localStorage.getItem('nodes'));
 
-    if(row.hasClass('.completed-node')) {
+    console.log(row.closest('.container-fluid').hasClass('sn-completed'));
+
+    if(row.closest('.container-fluid').hasClass('sn-completed')) {
         // row.animate()
         var index = ls_nodes.indexOf(node_id);
           if (index > -1) {
             ls_nodes.splice(index, 1);
           }
         row.appendTo('.sn-in-progress');
-        row.removeClass('.completed-node');
+        // row.removeClass('.completed-node');
         localStorage.setItem('nodes', JSON.stringify(ls_nodes));
         console.log("local storage contains:" + localStorage.getItem('nodes'));
       }
       else {
         row.prependTo('.sn-completed');
-        row.addClass('.completed-node');
+        // row.addClass('.completed-node');
         ls_nodes.push(node_id);
         console.log('Type of ls_nodes is:' + typeof(ls_nodes));
         console.log("ls_nodes is:" + ls_nodes);
         console.log("Node_id is:" + node_id);
         localStorage.setItem('nodes', JSON.stringify(ls_nodes));
-        console.log("local storage contains:" + localStorage.getItem('nodes'));
+        console.log("local storage contains 123:" + localStorage.getItem('nodes'));
       }
   });
 });
