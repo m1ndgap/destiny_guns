@@ -3,7 +3,7 @@ callback(
   "name": "Valakadyn",
   "picture": "./assets/images/ar-valakadyn.jpg"
   "tier": 1,
-  "role": PvE,
+  "role": 'PvE',
   "rarity": ["Energy", "Uncom.", "Io"],
   "stats": {"Impact": 18,
             "Range": 35,
@@ -18,51 +18,127 @@ callback(
                   { 'perk1':
                             { 'name': 'Rapid-Fire Frame',
                               'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
-                              'recommended': false
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
                             { 'name': 'Corkscrew Rifling',
                               'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
-                              'recommended': false
+                              'recommended': false,
+                              'icon': './assets/images/icon_corkscrew_rifling.png'
                             },
                     'perk2':
                             { 'name': 'Fluted Barrel',
                               'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
                             },
                     'perk3':
                             { 'name': 'Hammer-Forged Rifling',
                               'description': 'Durable ranged barrel. • Increases range',
-                              'recommended': true
+                              'recommended': true,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
                             },
                   },
             'set3':
                   { 'perk1':
                             { 'name': 'Accurized Rounds',
                               'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
                             },
                     'perk2':
                             { 'name': 'Flared Magwell',
                               'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true
+                              'recommended': true,
+                              'icon': './assets/images/icon_flared_magwell.png'
                             },
                   },
             'set4':
                   { 'perk1':
                             { 'name': 'Under Pressure',
                               'description': 'Improved stability and accuracy as the magazine gets lower.',
-                              'recommended': false
+                              'recommended': false,
+                              'icon': './assets/images/icon_under_pressure.png'
                             },
                   },
             },
-            {}
+  'links': {
+            'description': 'Solid midrange auto-rifle, highest RPM in its class, fast reload, murza seal of approval',
+            'destinytracker': 'db.destinytracker.com/d2/en/items/3762467079-valakadyn'
+  }
 },
 {
-  "id": 1,
-  "name": "Aurora.Mindlab.Observation",
-  "description": "---",
-  "video": "https://www.youtube.com/watch?v=QegheP_fj1k&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+  "name": "Purpose",
+  'type': "Scout_rifles"
+  "picture": "./assets/images/scout-purpose.jpg"
+  "tier": 1,
+  "role": 'PvE > PvP',
+  "rarity": ["Kinetic", "Rare.", "To9"],
+  "stats": {"Impact": 60,
+            "Range": 42,
+            "Stability": 50,
+            "Magazine": 16,
+            "Reload speed": 60,
+            "Handling": 72,
+            "RPM": 200,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Extended Barrel',
+                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_barrel.png'
+                            },
+                    'perk2':
+                            { 'name': 'Smallbore',
+                              'description': 'Dual strength barrel. • Increases range • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_smallbore.png'
+                            },
+                    'perk3':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': true,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Slideshot',
+                              'description': 'Sliding partially reloads this weapon's magazine and temporarily boosts range and stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_slideshot.png'
+                            },
+                    'perk2':
+                            { 'name': 'Hip-Fire Grip',
+                              'description': 'Ergonomic grips that increase accuracy and stability when firing from the hip.',
+                              'recommended': true,
+                              'icon': './assets/images/icon_hipfire_grip.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Explosive Payload',
+                              'description': 'Projectiles create an area-of-effect detonation on impact.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_explosive_payload.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'One of the best scout rifles in the game, lightweight + explosive payload = terrible damage',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2516360525-purpose'
+  }
 },]
