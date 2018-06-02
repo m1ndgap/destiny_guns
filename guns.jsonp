@@ -2,9 +2,19 @@ callback(
 [{
 
   "name": "Valakadyn",
-  picture: "./assets/images/ar-valakadyn.jpg"
-  "Tier": 1,
-  "video": "https://www.youtube.com/watch?v=QegheP_fj1k&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+  "picture": "./assets/images/ar-valakadyn.jpg"
+  "tier": 1,
+  "role": PvE,
+  "rarity": ["Energy", "Uncom.", "Io"],
+  "stats": {"Impact": 18,
+            "Range": 35, 
+            "Stability": 52,
+            "Magazine": 53,
+            "Reload speed": 54,
+            "Handling": 44,
+            "RPM": 720,
+            },
+  "perks":
 },
 {
   "id": 1,
