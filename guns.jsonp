@@ -1,13 +1,12 @@
 callback(
 [{
-
   "name": "Valakadyn",
   "picture": "./assets/images/ar-valakadyn.jpg"
   "tier": 1,
   "role": PvE,
   "rarity": ["Energy", "Uncom.", "Io"],
   "stats": {"Impact": 18,
-            "Range": 35, 
+            "Range": 35,
             "Stability": 52,
             "Magazine": 53,
             "Reload speed": 54,
@@ -15,6 +14,51 @@ callback(
             "RPM": 720,
             },
   "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Corkscrew Rifling',
+                              'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
+                              'recommended': false
+                            },
+                    'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false
+                            },
+                    'perk3':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': true
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false
+                            },
+                    'perk2':
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': true
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Under Pressure',
+                              'description': 'Improved stability and accuracy as the magazine gets lower.',
+                              'recommended': false
+                            },
+                  },
+            },
+            {}
 },
 {
   "id": 1,
