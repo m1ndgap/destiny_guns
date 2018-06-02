@@ -1,7 +1,7 @@
 callback(
 [{
   "name": "Valakadyn",
-  "picture": "./assets/images/ar-valakadyn.jpg"
+  "picture": "./assets/images/ar-valakadyn.jpg",
   "tier": 1,
   "role": 'PvE',
   "rarity": ["Energy", "Uncom.", "Io"],
@@ -72,8 +72,8 @@ callback(
 },
 {
   "name": "Purpose",
-  'type': "Scout_rifles"
-  "picture": "./assets/images/scout-purpose.jpg"
+  'type': "Scout_rifles",
+  "picture": "./assets/images/scout-purpose.jpg",
   "tier": 1,
   "role": 'PvE > PvP',
   "rarity": ["Kinetic", "Rare.", "To9"],
@@ -117,7 +117,7 @@ callback(
             'set3':
                   { 'perk1':
                             { 'name': 'Slideshot',
-                              'description': 'Sliding partially reloads this weapon's magazine and temporarily boosts range and stability.',
+                              'description': "Sliding partially reloads this weapon's magazine and temporarily boosts range and stability.",
                               'recommended': false,
                               'icon': './assets/images/icon_slideshot.png'
                             },
@@ -141,4 +141,4 @@ callback(
             'description': 'One of the best scout rifles in the game, lightweight + explosive payload = terrible damage',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2516360525-purpose'
   }
-},]
+}])
