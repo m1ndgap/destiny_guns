@@ -301,6 +301,32 @@ body .last-container {
   background-color: rgba(102, 135, 143, 0.8);
 }
 
+.perks .perk-wrap .perk-tooltip {
+  padding: 3px;
+  font-size: 11px;
+  position: absolute;
+  background-color: #eaeaea;
+  min-width: 150px;
+  max-width: 200px;
+  top: 5px;
+  left: 37px;
+  z-index: 1000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=0, Color=#000000)";
+  /*IE 8*/
+  -moz-box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  /*FF 3.5+*/
+  -webkit-box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+
+.perks .perk-wrap .perk-tooltip h5 {
+  font-size: 11px;
+  font-weight: bold;
+  width: 100%;
+}
+
 .perks .perk {
   position: relative;
   width: 30px;
