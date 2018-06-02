@@ -73,7 +73,7 @@ callback(
 {
   "name": "Purpose",
   'type': "Scout_rifles",
-  "picture": "./assets/images/scout-purpose.jpg",
+  "picture": "./assets/images/scout_purpose.jpg",
   "tier": 1,
   "role": 'PvE > PvP',
   "rarity": ["Kinetic", "Rare.", "To9"],
