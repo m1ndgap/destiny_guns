@@ -6,6 +6,12 @@ callback(
   "video": "https://www.youtube.com/watch?v=QegheP_fj1k&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
+  "id": 41,
+  "name": "Aurora.Mindlab.Supplies",
+  "description": "In the small outside area overlooking the Rasputin bridge on the way to Rasputin",
+  "video": "https://youtu.be/XP6GIoINIOE?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
   "id": 2,
   "name": "Descent.Cave.Runes",
   "description": "All the way down in the caves. Right to the left from the Nokris strike hive 'gateway'",
@@ -105,8 +111,8 @@ callback(
 {
   "id": 18,
   "name": "Dynamo.Coolant.Ventilation",
-  "description": "Easy to find, right at the dymano arch",
-  "video": "https://www.youtube.com/watch?v=L8K6NExbQyE&index=18&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+  "description": "Behind locked doors in one of the Dynamo rooms, start looking for a ventilation shaft as soon as you hear the music",
+  "video": "https://youtu.be/L8K6NExbQyE?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 19,
@@ -159,8 +165,8 @@ callback(
 {
   "id": 27,
   "name": "Futurescape.Dock.Garage",
-  "description": "Easy to find, right at the dymano arch",
-  "video": "https://www.youtube.com/watch?v=5OFLVx5tgRQ&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=27",
+  "description": "In between two buildings by the Injection Rig public event",
+  "video": "https://youtu.be/5OFLVx5tgRQ?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 28,
@@ -195,14 +201,14 @@ callback(
 {
   "id": 33,
   "name": "Futurescape.Ridgeline.Waterfall",
-  "description": "Easy to find, right at the dymano arch",
+  "description": "On the way from Futurescape spawn towards dynamo",
   "video": "https://youtu.be/tZnbjWWPWz4?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 34,
   "name": "Futurescape.Terminus.Console",
-  "description": "Easy to find, right at the dymano arch",
-  "video": "https://www.youtube.com/watch?v=nSDwCix8ED8&index=34&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+  "description": "In the Futurescape lost sector",
+  "video": "https://youtu.be/nSDwCix8ED8?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 35,
@@ -218,9 +224,9 @@ callback(
 },
 {
   "id": 37,
-  "name": "Minlab.Conveyor.Junction",
-  "description": "Easy to find, right at the dymano arch",
-  "video": "https://www.youtube.com/watch?v=NdLhW3sqiJw&index=37&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+  "name": "Mindlab.Conveyor.Junction",
+  "description": "In the small lab on halfway to Rasputin from the Futurescape spawn point",
+  "video": "https://youtu.be/NdLhW3sqiJw?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 38,
