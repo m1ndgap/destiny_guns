@@ -8,20 +8,26 @@ callback(
 {
   "id": 2,
   "name": "Descent.Cave.Runes",
-  "description": "---",
-  "video": "https://www.youtube.com/watch?v=XP6GIoINIOE&index=2&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+  "description": "All the way down in the caves. Right to the left from the Nokris strike hive 'gateway'",
+  "video": "https://youtu.be/J9BRlpuj2jA?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 3,
   "name": "Descent.Cavern.Warsat",
-  "description": "---",
-  "video": "https://www.youtube.com/watch?v=mrwa2T1enbM&index=3&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+  "description": "Down the ledge by the downed warsat, close to the caverns entrance from the drift spawn point",
+  "video": "https://youtu.be/mrwa2T1enbM?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+},
+{
+  "id": 8,
+  "name": "Descent.Chasm.Ledge",
+  "description": "Next room after the downed Warsat, all the way in the back over the ledge",
+  "video": "https://youtu.be/vOFaVn09nro?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 4,
   "name": "Drift.Checkpoint.Elevator",
-  "description": "---",
-  "video": "https://www.youtube.com/watch?v=6ZPSDzu0gMs&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=6",
+  "description": "In the small structure across the bridge from the garage, right by the end of the train tracks",
+  "video": "https://youtu.be/6ZPSDzu0gMs?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 5,
@@ -32,8 +38,8 @@ callback(
 {
   "id": 6,
   "name": "Drift.Gatehouse.Catwalk",
-  "description": "---",
-  "video": "https://www.youtube.com/watch?v=eEb7vkNN5xg&index=8&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+  "description": "In the big garage by the end of the bridge, on the way to the second spawning point",
+  "video": "https://youtu.be/eEb7vkNN5xg?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 7,
@@ -41,12 +47,7 @@ callback(
   "description": "---",
   "video": "https://www.youtube.com/watch?v=1xKui_FAVf8&index=10&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
-{
-  "id": 8,
-  "name": "Descent.Chasm.Ledge",
-  "description": "veri tuff to find",
-  "video": "https://www.youtube.com/watch?v=QegheP_fj1k&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
-},
+
 {
   "id": 9,
   "name": "Drift.Service.Backend",
@@ -116,8 +117,8 @@ callback(
 {
   "id": 20,
   "name": "Dynamo.Core.Catwalk",
-  "description": "Easy to find, right at the dymano arch",
-  "video": "https://www.youtube.com/watch?v=2UnwMuwc1iE&index=20&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
+  "description": "Under the bridge (catwalk) next to the last Valkyrie furnace before worm god boss",
+  "video": "https://youtu.be/2UnwMuwc1iE?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 21,
@@ -128,8 +129,8 @@ callback(
 {
   "id": 22,
   "name": "Dynamo.Observation.Core",
-  "description": "Easy to find, right at the dymano arch",
-  "video": "https://www.youtube.com/watch?v=KmLjgB4MWI0&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=21",
+  "description": "In the small room before the Valkirie reactor on the way to the worm god boss",
+  "video": "https://youtu.be/A1HyYkzfhAw?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 23,
@@ -195,7 +196,7 @@ callback(
   "id": 33,
   "name": "Futurescape.Ridgeline.Waterfall",
   "description": "Easy to find, right at the dymano arch",
-  "video": "https://www.youtube.com/watch?v=tZnbjWWPWz4&list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL&index=33",
+  "video": "https://youtu.be/tZnbjWWPWz4?list=PLuGZAFj5iqHdYcVar7Soqmr0vVFPLgiOL",
 },
 {
   "id": 34,
