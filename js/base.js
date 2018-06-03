@@ -17,7 +17,7 @@ $(document).ready(function() {
       crossDomain: true,
       dataType: 'jsonp',
       accepts: 'application/jsonp',
-      jsonpCallback: 'callback',
+      jsonpCallback: 'guns_callback',
         success: function (data) {
             console.log(data);
             var json = data;

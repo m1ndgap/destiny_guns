@@ -1,4 +1,4 @@
-callback(
+guns_callback(
 [{
   "name": "Valakadyn",
   "picture": "./assets/images/ar-valakadyn.jpg",
