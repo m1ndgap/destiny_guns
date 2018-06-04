@@ -142,4 +142,67 @@ guns_callback(
             'description': 'One of the best scout rifles in the game, lightweight + explosive payload = terrible damage',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2516360525-purpose'
   }
-}])
+},
+{
+  "name": "Hard Light",
+  'type': "ar",
+  "picture": "./assets/images/ar-hard-light.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare", "Exotic"],
+  "stats": {"Impact": 21,
+            "Range": 46,
+            "Stability": 68,
+            "Magazine": 49,
+            "Reload_speed": 68,
+            "Handling": 75,
+            "RPM": 600,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Volatile Light',
+                              'description': 'Rounds fired from this weapon have no damage falloff, overpenetrate targets, and ricochet off hard surfaces. Projectile damage increases after bounce.',
+                              'recommended': false,
+                              'icon': './assets/images/hard-light-perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_polygonal_rifling.png'
+                            }
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Alloy Magazine',
+                              'description': 'Faster reloads when the magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_alloy_magazine.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'The Fundamentals',
+                              'description': "Holding changes this weapon`s damage type, cycling between Solar, Arc, and Void.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_the_fundamentals.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Composite Stock',
+                              'description': 'This weapon has a versatile dual-purpose stock. • Slightly increases stability • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_composite_stock.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'No damage falloff, all types of damage, ricochet rounds. Niche utility',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/4124984448-hard-light'
+  }
+},
+])
