@@ -107,6 +107,10 @@ body .last-container {
   border-bottom-left-radius: 5px;
 }
 
+h3 {
+  margin-top: 20px;
+}
+
 .navbar {
   margin-bottom: 50px;
 }
@@ -129,6 +133,10 @@ body .last-container {
   height: 55px;
   background-color: red;
   border: 1px solid black;
+}
+
+.gun-search {
+  margin-bottom: 45px;
 }
 
 .pic-name img {

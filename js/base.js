@@ -22,6 +22,7 @@ $(document).ready(function() {
             console.log(data);
             var json = data;
             $.each(json, function(index, value){
+              var type = json[index].type;
               var name = json[index].name;
               var picture = json[index].picture;
               var tier = json[index].tier;
@@ -38,13 +39,34 @@ $(document).ready(function() {
               var stats_handling = json[index].stats.Handling;
               var stats_rpm = json[index].stats.RPM;
               var stats_rpm_css = (stats_rpm/900)*100;
+              var perks = json[index].perks;
+              var perks_html = '<div class="perks-container">';
+              //console.log(perks);
+               $.each(perks, function(index, value){
+                  console.log(perks[index]);
+                  perks_html += '<div class="perk-clmn">';
+                  var perks2 = perks[index];
+                 $.each(perks2, function(i, value){
+                   console.log(perks2[i].name);
+                   if (perks2[i].recommended) var recommended = 'recommended';
+                   perks_html += `<div class="perk-wrap ${recommended}"
+                     data-name='${perks2[i].name}'
+                     data-desc='${perks2[i].description}'>
+                   <img class="perk" src="${perks2[i].icon}" alt=""></div>`;
+                   console.log(perks_html);
+                 });
+                 perks_html += '</div>';
+               });
+
+              var description = json[index].links.description;
+              var dt_link = json[index].links.destinytracker;
               // var stats_range = json[index].stats.Range;
               // var stats_range = json[index].stats.Range;
                // var id = json[index].id;
                // var name = json[index].name;
                // var desc = json[index].description;
                // var video = json[index].video;
-               $('.last-container').append(`<div class="row">
+               $('.' + type).append(`<div class="row">
 
                    <div class="col-lg-2 col-md-4 col-sm-4 col-4 pic-name">
                      <img src="${picture}">
@@ -92,51 +114,15 @@ $(document).ready(function() {
                    </div>
                    <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-perks"></div>
                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 perks">
-                     <div class="perks-container">
-                       <div class="perk-clmn">
-                         <div class="perk-wrap"
-                           data-name='Rapid-Fire Frame'
-                           data-desc='Deeper ammo reserves. Slightly faster reload when magazine is empty.'>
-                         <img class="perk" src="./assets/images/icon_rapid_fire_frame.png" alt=""></div>
-                       </div>
-                       <div class="perk-clmn">
-                         <div class="perk-wrap"
-                           data-name='Corkscrew Rifling'
-                           data-desc='Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed'>
-                         <img class="perk" src="./assets/images/icon_corkscrew_rifling.png" alt=""></div>
-                         <div class="perk-wrap"
-                           data-name='Fluted Barrel'
-                           data-desc='Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability'>
-                         <img class="perk" src="./assets/images/icon_fluted_barrel.png" alt=""></div>
-                         <div class="perk-wrap recommended"
-                           data-name='Hammer-Forged Rifling'
-                           data-desc='Durable ranged barrel. • Increases range'>
-                         <img class="perk" src="./assets/images/icon_hammer_forged_rifling.png" alt=""></div>
-                       </div>
-                       <div class="perk-clmn">
-                         <div class="perk-wrap"
-                           data-name='Accurized Rounds'
-                           data-desc='This weapon can fire longer distances. • Increases range'>
-                         <img class="perk" src="./assets/images/icon_accurized_rounds.png" alt=""></div>
-                         <div class="perk-wrap recommended"
-                           data-name='Flared Magwell'
-                           data-desc='Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed'>
-                         <img class="perk" src="./assets/images/icon_flared_magwell.png" alt=""></div>
-                       </div>
-                       <div class="perk-clmn">
-                         <div class="perk-wrap"
-                           data-name='Under Pressure'
-                           data-desc='Improved stability and accuracy as the magazine gets lower.'>
-                         <img class="perk" src="./assets/images/icon_under_pressure.png" alt=""></div>
-                       </div>
+                     ${perks_html}
                      </div>
 
                    </div>
                    <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-links"></div>
                    <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 links">
-                     <p class="description">Solid midrange auto-rifle, highest RPM in its class, fast reload, murza seal of approval</p>
-                     <a href="https://db.destinytracker.com/d2/en/items/3762467079-valakadyn">destinytracker.com</a>
-                     <a href="https://destinysets.com/data/3762467079">destinysets.com</a>
+                     <p class="description">${description}</p>
+                     <a href="${dt_link}">destinytracker.com</a>
+
                    </div>
 
                  </div>`);

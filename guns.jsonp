@@ -1,6 +1,7 @@
 guns_callback(
 [{
   "name": "Valakadyn",
+  'type': "ar",
   "picture": "./assets/images/ar-valakadyn.jpg",
   "tier": 1,
   "role": 'PvE',
@@ -72,7 +73,7 @@ guns_callback(
 },
 {
   "name": "Purpose",
-  'type': "Scout_rifles",
+  'type': "scout_rifles",
   "picture": "./assets/images/scout_purpose.jpg",
   "tier": 1,
   "role": 'PvE > PvP',
