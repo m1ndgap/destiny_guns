@@ -26,6 +26,20 @@ $(document).ready(function() {
               var picture = json[index].picture;
               var tier = json[index].tier;
               var spec = json[index].specialization;
+              var role = json[index].role;
+              var rarity_type = json[index].rarity[0];
+              var rarity_rarity = json[index].rarity[1];
+              var rarity_source = json[index].rarity[2];
+              var stats_impact = json[index].stats.Impact;
+              var stats_range = json[index].stats.Range;
+              var stats_stability = json[index].stats.Stability;
+              var stats_magazine = json[index].stats.Magazine;
+              var stats_reload = json[index].stats.Reload_speed;
+              var stats_handling = json[index].stats.Handling;
+              var stats_rpm = json[index].stats.RPM;
+              var stats_rpm_css = (stats_rpm/900)*100;
+              // var stats_range = json[index].stats.Range;
+              // var stats_range = json[index].stats.Range;
                // var id = json[index].id;
                // var name = json[index].name;
                // var desc = json[index].description;
@@ -38,42 +52,42 @@ $(document).ready(function() {
                    </div>
                    <div class="col-lg-1 col-md-4 col-sm-4 col-4 tier">
                      <p class="tier-${tier}">Tier ${tier}</p>
-                     <p class="specialization">PvE</p>
+                     <p class="specialization">${role}</p>
                    </div>
                    <div class="col-lg-1 col-md-4 col-sm-4 col-4 rarity">
-                     <p class="wep-type">Energy</p>
-                     <p class="uncommon">Uncom.</p>
-                     <p class="source">Io</p>
+                     <p class="wep-type">${rarity_type}</p>
+                     <p class="${rarity_rarity.slice(0, -1).toLowerCase()}">${rarity_rarity}</p>
+                     <p class="source">${rarity_source}</p>
                    </div>
                    <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-stats"></div>
                    <div class="col-lg-3 col-md-12 col-sm-12 col-12 stats">
                      <div class="stat">
-                       <div class="stat-fill" style="width: 18%">Impact</div>
-                       <span class="stat-value">18</span>
+                       <div class="stat-fill" style="width: ${stats_impact}%">Impact</div>
+                       <span class="stat-value">${stats_impact}</span>
                      </div>
                      <div class="stat">
-                       <div class="stat-fill" style="width: 35%">Range</div>
-                       <span class="stat-value">35</span>
+                       <div class="stat-fill" style="width: ${stats_range}%">Range</div>
+                       <span class="stat-value">${stats_range}</span>
                      </div>
                      <div class="stat">
-                       <div class="stat-fill" style="width: 52%">Stability</div>
-                       <span class="stat-value">52</span>
+                       <div class="stat-fill" style="width: ${stats_stability}%">Stability</div>
+                       <span class="stat-value">${stats_stability}</span>
                      </div>
                      <div class="stat">
-                       <div class="stat-fill" style="width: 53%">Magazine</div>
-                       <span class="stat-value">53</span>
+                       <div class="stat-fill" style="width: ${stats_magazine}%">Magazine</div>
+                       <span class="stat-value">${stats_magazine}</span>
                      </div>
                      <div class="stat">
-                       <div class="stat-fill" style="width: 54%">Reload speed</div>
-                       <span class="stat-value">54</span>
+                       <div class="stat-fill" style="width: ${stats_reload}%">Reload speed</div>
+                       <span class="stat-value">${stats_reload}</span>
                      </div>
                      <div class="stat">
-                       <div class="stat-fill" style="width: 44%">Handling</div>
-                       <span class="stat-value">44</span>
+                       <div class="stat-fill" style="width: ${stats_handling}%">Handling</div>
+                       <span class="stat-value">${stats_handling}</span>
                      </div>
                      <div class="stat">
-                       <div class="stat-fill" style="width: 100%"> RPM </div>
-                       <span class="stat-value">720</span>
+                       <div class="stat-fill" style="width: ${stats_rpm_css}%"> RPM </div>
+                       <span class="stat-value">${stats_rpm}</span>
                      </div>
                    </div>
                    <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-perks"></div>

@@ -198,13 +198,13 @@ body .last-container {
   color: #0081ff;
 }
 
-.rarity .uncommon {
+.rarity .uncom {
   margin-bottom: 0px;
   font-size: 18px;
   color: #1ea00d;
 }
 
-.rarity .epic {
+.rarity .epi {
   margin-bottom: 0px;
   color: #bf07ff;
 }
