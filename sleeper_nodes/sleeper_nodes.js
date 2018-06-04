@@ -3,7 +3,10 @@ $(document).ready(function() {
       //../sleeper_nodes/sleeper_nodes.jsonp
 
   if(localStorage.getItem('nodes'))
-    {}
+    {
+      var ls_nodes = JSON.parse(localStorage.getItem('nodes'));
+      $('#sn-nodes-left').text(40 - ls_nodes.length);
+    }
     else
     {
       var ls_nodes = [];
@@ -66,12 +69,14 @@ $(document).ready(function() {
         row.appendTo('.sn-in-progress');
         // row.removeClass('.completed-node');
         localStorage.setItem('nodes', JSON.stringify(ls_nodes));
+        $('#sn-nodes-left').text(40 - ls_nodes.length);
         console.log("local storage contains:" + localStorage.getItem('nodes'));
       }
       else {
         row.prependTo('.sn-completed');
         // row.addClass('.completed-node');
         ls_nodes.push(node_id);
+        $('#sn-nodes-left').text(40 - ls_nodes.length);
         console.log('Type of ls_nodes is:' + typeof(ls_nodes));
         console.log("ls_nodes is:" + ls_nodes);
         console.log("Node_id is:" + node_id);
