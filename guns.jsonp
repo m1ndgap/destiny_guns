@@ -72,140 +72,6 @@ guns_callback(
   }
 },
 {
-  "name": "Purpose",
-  'type': "scout_rifles",
-  "picture": "./assets/images/scout-purpose.jpg",
-  "tier": 1,
-  "role": 'PvE > PvP',
-  "rarity": ["Kinetic", "Rare ", "To9"],
-  "stats": {"Impact": 60,
-            "Range": 42,
-            "Stability": 50,
-            "Magazine": 16,
-            "Reload_speed": 60,
-            "Handling": 72,
-            "RPM": 200,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Lightweight Frame',
-                              'description': 'Superb handling. Move faster with this weapon equipped.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_lightweight_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Extended Barrel',
-                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_barrel.png'
-                            },
-                    'perk2':
-                            { 'name': 'Smallbore',
-                              'description': 'Dual strength barrel. • Increases range • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_smallbore.png'
-                            },
-                    'perk3':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': true,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Slideshot',
-                              'description': "Sliding partially reloads this weapon's magazine and temporarily boosts range and stability.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_slideshot.png'
-                            },
-                    'perk2':
-                            { 'name': 'Hip-Fire Grip',
-                              'description': 'Ergonomic grips that increase accuracy and stability when firing from the hip.',
-                              'recommended': true,
-                              'icon': './assets/images/icon_hipfire_grip.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Explosive Payload',
-                              'description': 'Projectiles create an area-of-effect detonation on impact.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_explosive_payload.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'One of the best scout rifles in the game, lightweight + explosive payload = terrible damage',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2516360525-purpose'
-  }
-},
-{
-  "name": "Hard Light",
-  'type': "ar",
-  "picture": "./assets/images/ar-hard-light.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 21,
-            "Range": 46,
-            "Stability": 68,
-            "Magazine": 49,
-            "Reload_speed": 68,
-            "Handling": 75,
-            "RPM": 600,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Volatile Light',
-                              'description': 'Rounds fired from this weapon have no damage falloff, overpenetrate targets, and ricochet off hard surfaces. Projectile damage increases after bounce.',
-                              'recommended': false,
-                              'icon': './assets/images/hard-light-perk.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Polygonal Rifling',
-                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_polygonal_rifling.png'
-                            }
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Alloy Magazine',
-                              'description': 'Faster reloads when the magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_alloy_magazine.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'The Fundamentals',
-                              'description': "Holding changes this weapon`s damage type, cycling between Solar, Arc, and Void.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_the_fundamentals.png'
-                            },
-                  },
-            'set5':
-                  { 'perk1':
-                            { 'name': 'Composite Stock',
-                              'description': 'This weapon has a versatile dual-purpose stock. • Slightly increases stability • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_composite_stock.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'No damage falloff, all types of damage, ricochet rounds. Niche utility',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/4124984448-hard-light'
-  }
-},
-{
   "name": "BrayTech Winter Wolf",
   'type': "ar",
   "picture": "./assets/images/ar-braytech-winterwolf.jpg",
@@ -2078,6 +1944,84 @@ guns_callback(
   }
 },
 {
+  "name": "Motion to Compel",
+  'type': "scout_rifles",
+  "picture": "./assets/images/scout-motion-to-compel.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
   "name": "Nameless Midnight",
   'type': "scout_rifles",
   "picture": "./assets/images/scout-nameless-midnight.jpg",
@@ -2153,6 +2097,140 @@ guns_callback(
   'links': {
             'description': '---',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Purpose",
+  'type': "scout_rifles",
+  "picture": "./assets/images/scout-purpose.jpg",
+  "tier": 1,
+  "role": 'PvE > PvP',
+  "rarity": ["Kinetic", "Rare ", "To9"],
+  "stats": {"Impact": 60,
+            "Range": 42,
+            "Stability": 50,
+            "Magazine": 16,
+            "Reload_speed": 60,
+            "Handling": 72,
+            "RPM": 200,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Extended Barrel',
+                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_barrel.png'
+                            },
+                    'perk2':
+                            { 'name': 'Smallbore',
+                              'description': 'Dual strength barrel. • Increases range • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_smallbore.png'
+                            },
+                    'perk3':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': true,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Slideshot',
+                              'description': "Sliding partially reloads this weapon's magazine and temporarily boosts range and stability.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_slideshot.png'
+                            },
+                    'perk2':
+                            { 'name': 'Hip-Fire Grip',
+                              'description': 'Ergonomic grips that increase accuracy and stability when firing from the hip.',
+                              'recommended': true,
+                              'icon': './assets/images/icon_hipfire_grip.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Explosive Payload',
+                              'description': 'Projectiles create an area-of-effect detonation on impact.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_explosive_payload.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'One of the best scout rifles in the game, lightweight + explosive payload = terrible damage',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2516360525-purpose'
+  }
+},
+{
+  "name": "Hard Light",
+  'type': "ar",
+  "picture": "./assets/images/ar-hard-light.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 21,
+            "Range": 46,
+            "Stability": 68,
+            "Magazine": 49,
+            "Reload_speed": 68,
+            "Handling": 75,
+            "RPM": 600,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Volatile Light',
+                              'description': 'Rounds fired from this weapon have no damage falloff, overpenetrate targets, and ricochet off hard surfaces. Projectile damage increases after bounce.',
+                              'recommended': false,
+                              'icon': './assets/images/hard-light-perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_polygonal_rifling.png'
+                            }
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Alloy Magazine',
+                              'description': 'Faster reloads when the magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_alloy_magazine.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'The Fundamentals',
+                              'description': "Holding changes this weapon`s damage type, cycling between Solar, Arc, and Void.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_the_fundamentals.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Composite Stock',
+                              'description': 'This weapon has a versatile dual-purpose stock. • Slightly increases stability • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_composite_stock.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'No damage falloff, all types of damage, ricochet rounds. Niche utility',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/4124984448-hard-light'
   }
 },
 {
@@ -5591,6 +5669,84 @@ guns_callback(
   "name": "Legend of Acrius",
   'type': "shotguns",
   "picture": "./assets/images/sg-acrius.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Motion to Vacate",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-motion-to-vacate.jpg",
   "tier": 2,
   "role": 'PvE',
   "rarity": ["Energy", "Rare ", "Exotic"],
