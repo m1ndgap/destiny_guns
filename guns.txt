@@ -42,6 +42,7 @@ SMGs
 	The Huckleberry (Exotic, Kinetic)
 	
 Hand Cannons
+	Annual Skate (Energy)
 	Better Devils (crucible kinetic)
 	Crimil's Dagger (Iron Banner, Kinetic)
 	Сrimson (Exotic, Kinetic)
@@ -111,4 +112,5 @@ Sniper Rifles
 Swords 
 	It stared back (Raid)
 	Quickfang (Hunter)
+	Worldline Zero (Mars Exploration Exotic)
 	

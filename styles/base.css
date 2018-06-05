@@ -212,7 +212,7 @@ h3 {
   color: #1ea00d;
 }
 
-.rarity .epi {
+.rarity .epic {
   margin-bottom: 0px;
   color: #bf07ff;
 }
@@ -316,7 +316,7 @@ h3 {
   background-color: #eaeaea;
   min-width: 150px;
   max-width: 200px;
-  top: 5px;
+  top: 15px;
   left: 37px;
   z-index: 1000;
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=0, Color=#000000)";

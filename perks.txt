@@ -1,0 +1,48 @@
+
+{ 'name': 'Precision Frame',
+                              'description': 'This weapon's recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+
+{ 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },                          
+
+{ 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+
+{ 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+
+{ 'name': 'Alloy Magazine',
+                              'description': 'Faster reloads when the magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_alloy_magazine.png'
+                            },
+
+{ 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+
+{ 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+
+{ 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },

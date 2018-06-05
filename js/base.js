@@ -1,13 +1,14 @@
 $(document).ready(function() {
-  $('.show-stats').on('click', function(){
+  $(".container-fluid").on('click', '.show-stats', function(){
+    console.log('xyu`');
     $(this).next().toggle();
   });
 
-  $('.show-perks').on('click', function(){
+  $(".container-fluid").on('click','.show-perks', function(){
     $(this).next().toggle();
   });
 
-  $('.show-links').on('click', function(){
+  $(".container-fluid").on('click', '.show-links', function(){
     $(this).next().toggle();
   });
 
@@ -38,22 +39,22 @@ $(document).ready(function() {
               var stats_reload = json[index].stats.Reload_speed;
               var stats_handling = json[index].stats.Handling;
               var stats_rpm = json[index].stats.RPM;
-              var stats_rpm_css = (stats_rpm/900)*100;
+              var stats_rpm_css = (stats_rpm/1000)*100;
               var perks = json[index].perks;
               var perks_html = '<div class="perks-container">';
               //console.log(perks);
                $.each(perks, function(index, value){
-                  console.log(perks[index]);
+                  //console.log(perks[index]);
                   perks_html += '<div class="perk-clmn">';
                   var perks2 = perks[index];
                  $.each(perks2, function(i, value){
-                   console.log(perks2[i].name);
+                   //console.log(perks2[i].name);
                    if (perks2[i].recommended) var recommended = 'recommended';
                    perks_html += `<div class="perk-wrap ${recommended}"
                      data-name='${perks2[i].name}'
                      data-desc='${perks2[i].description}'>
                    <img class="perk" src="${perks2[i].icon}" alt=""></div>`;
-                   console.log(perks_html);
+                   //console.log(perks_html);
                  });
                  perks_html += '</div>';
                });
