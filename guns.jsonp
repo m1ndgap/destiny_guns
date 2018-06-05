@@ -4418,9 +4418,2350 @@ guns_callback(
   }
 },
 {
-  "name": "Vigilance Wing",
+  "name": "Last Hope",
   'type': "sidearms",
-  "picture": "./assets/images/pr-vigilance-wing.jpg",
+  "picture": "./assets/images/sa-last-hope.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Last of the Legion",
+  'type': "sidearms",
+  "picture": "./assets/images/sa-last-of-the-legion.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Rat King",
+  'type': "sidearms",
+  "picture": "./assets/images/sa-rat-king.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "The Last Dance",
+  'type': "sidearms",
+  "picture": "./assets/images/sa-the-last-dance.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "18 Kelvins",
+  'type': "sidearms",
+  "picture": "./assets/images/sa-18-kelvins.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "BrayTech Osprey",
+  'type': "rocket_launchers",
+  "picture": "./assets/images/rl-braytech-osprey.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Classical-42",
+  'type': "rocket_launchers",
+  "picture": "./assets/images/rl-classical-42.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Curtain Call",
+  'type': "rocket_launchers",
+  "picture": "./assets/images/rl-curtain-call.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Sins of the Past",
+  'type': "rocket_launchers",
+  "picture": "./assets/images/rl-sins-of-the-past.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "The Wardcliff Coil",
+  'type': "rocket_launchers",
+  "picture": "./assets/images/rl-wardcliff-coil.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Play of the Game",
+  'type': "grenade_launchers",
+  "picture": "./assets/images/gl-play-of-the-game.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "The Colony",
+  'type': "grenade_launchers",
+  "picture": "./assets/images/gl-the-colony.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Gunnora's Axe",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-gunnoras-axe.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Hawthorne's Field-Forged Shotgun",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-hawthornes.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "IKELOS_SG_v1.0.1",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-ikelos-sg.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Legend of Acrius",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-acrius.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Tractor Cannon",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-tractor-cannon.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Main Ingredient",
+  'type': "fusion_rifles",
+  "picture": "./assets/images/fr-main-ingredient.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Man o' War",
+  'type': "fusion_rifles",
+  "picture": "./assets/images/fr-manowar.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Merciless",
+  'type': "fusion_rifles",
+  "picture": "./assets/images/fr-merciless.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Telesto",
+  'type': "fusion_rifles",
+  "picture": "./assets/images/fr-telesto.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Sleeper Simulant",
+  'type': "linear_fusion_rifles",
+  "picture": "./assets/images/lfr-sleeper.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Tarantula",
+  'type': "linear_fusion_rifles",
+  "picture": "./assets/images/lfr-tarantula.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Alone as a god",
+  'type': "sniper_rifles",
+  "picture": "./assets/images/sr-alone-as-a-god.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "D.A.R.C.I.",
+  'type': "sniper_rifles",
+  "picture": "./assets/images/sr-darci.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Maestro-46",
+  'type': "sniper_rifles",
+  "picture": "./assets/images/sr-maestro-46.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Silicon Neuroma",
+  'type': "sniper_rifles",
+  "picture": "./assets/images/sr-silicon.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+
+{
+  "name": "The Long Walk",
+  'type': "sniper_rifles",
+  "picture": "./assets/images/sr-the-long-walk.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "It stared back",
+  'type': "swords",
+  "picture": "./assets/images/sw-it-stared-back.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Quickfang",
+  'type': "swords",
+  "picture": "./assets/images/sw-quickfang.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': '---',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+{
+  "name": "Worldline Zero",
+  'type': "swords",
+  "picture": "./assets/images/sw-worldline.jpg",
   "tier": 2,
   "role": 'PvE',
   "rarity": ["Energy", "Rare ", "Exotic"],
