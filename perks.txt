@@ -414,3 +414,33 @@
                               'recommended': false,
                               'icon': './assets/images/icon_torch_hs3.png'
                             },
+
+{ 'name': 'Fastdraw HCS',
+                              'description': 'Agile Hand Cannon sight. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+              
+                            { 'name': 'HitMark HCS',
+                              'description': 'Accurate Hand Cannon sight. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+              
+                            { 'name': 'Sureshot HCS',
+                              'description': 'Pinpoint Hand Cannon sight. • Increases range • Decreases stability • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+
+{ 'name': 'Outlaw',
+                              'description': "Precision kills greatly decrease reload time.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_outlaw.png'
+                            },
+
+{ 'name': 'SteadyHand HCS',
+                              'description': 'Stable Hand Cannon sight. • Increases stability • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
