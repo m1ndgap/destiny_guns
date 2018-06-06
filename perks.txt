@@ -11,12 +11,6 @@
                               'icon': './assets/images/icon_hammer_forged_rifling.png'
                             },                          
 
-{ 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-
 { 'name': 'Chambered Compensator',
                               'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
                               'recommended': false,
@@ -39,7 +33,7 @@
                               'description': 'Causing damage with this weapon increases its stability.',
                               'recommended': false,
                               'icon': './assets/images/icon_zen_moment.png'
-},
+                            },
 
 { 'name': 'High-Impact Reserves',
                               'description': "Rounds at the end of the magazine deal more damage.",
@@ -287,7 +281,7 @@
                               'description': 'Barrel optimized for recoil reduction. • Increases stability',
                               'recommended': false,
                               'icon': './assets/images/icon_polygonal_rifling.png'
-                            }
+                            },
 
 { 'name': 'Hand-Laid Stock',
                               'description': "This weapon is optimized for recoil control. • Increases stability",
@@ -305,4 +299,58 @@
                               'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
                               'recommended': false,
                               'icon': './assets/images/icon_steady_rounds.png'
+                            },
+
+{ 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+
+{ 'name': 'Ambitious Assassin',
+                              'description': "Overflows the magazine based on the number of rapid kills before reloading.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_ambitious_assassin.png'
+                            },
+
+{ 'name': 'Corkscrew Rifling',
+	                          'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
+	                          'recommended': false,
+	                          'icon': './assets/images/icon_corkscrew_rifling.png'
+	                        },
+
+{ 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+
+{ 'name': 'Explosive Payload',
+                              'description': 'Projectiles create an area-of-effect detonation on impact.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_explosive_payload.png'
+                            },
+
+{ 'name': 'Swap Mag',
+                              'description': 'Swap weapons much faster for a short duration after emptying the magazine.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_swap_mag.png'
+                            },
+
+{ 'name': 'Drop Mag',
+                              'description': 'Magazine drops on reload, wasting ammunition but greatly increasing reload speed.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_drop_mag.png'
+                            },
+
+{ 'name': 'Rifle Scope SSF',
+                              'description': 'Focused scope. Long zoom. • Slightly increases range • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rifle_scope_ssf.png'
+                            },
+
+{ 'name': 'Fitted Stock',
+                              'description': 'This stock makes the weapon stable but heavy • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fitted_stock.png'
                             },
