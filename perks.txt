@@ -95,6 +95,12 @@
                               'icon': './assets/images/icon_extended_barrel.png'
                             },
 
+{ 'name': 'Extended Mag',
+                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_mag.png'
+                            },
+
 { 'name': 'Hand-Laid Stock',
                               'description': "This weapon is optimized for recoil control. • Increases stability",
                               'recommended': false,
@@ -107,11 +113,7 @@
                               'icon': './assets/images/icon_rapid_fire_frame.png'
                             },
 
-{ 'name': 'Extended Mag',
-                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_mag.png'
-                            },
+
 
 { 'name': 'Tap the Trigger',
                               'description': "Grants a short period of increased stability and accuracy on initial trigger pull.",
@@ -279,4 +281,28 @@
                               'description': 'Circular iron sights. Short zoom. • Greatly increases handling speed',
                               'recommended': false,
                               'icon': './assets/images/icon_is_5_circle.png'
+                            },
+
+{ 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_polygonal_rifling.png'
+                            }
+
+{ 'name': 'Hand-Laid Stock',
+                              'description': "This weapon is optimized for recoil control. • Increases stability",
+                              'recommended': false,
+                              'icon': './assets/images/icon_handlaid_stock.png'
+                            },
+
+{ 'name': 'Spark PS',
+                              'description': 'Omolon post sight. Short zoom. • Slightly increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_spark_ps.png'
+                            },
+
+{ 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_steady_rounds.png'
                             },
