@@ -1,6 +1,6 @@
 
 { 'name': 'Precision Frame',
-                              'description': 'This weapon's recoil pattern is more predictably vertical.',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
                               'recommended': false,
                               'icon': './assets/images/icon_precision_frame.png'
                             },
@@ -39,10 +39,244 @@
                               'description': 'Causing damage with this weapon increases its stability.',
                               'recommended': false,
                               'icon': './assets/images/icon_zen_moment.png'
-                            },
+},
 
 { 'name': 'High-Impact Reserves',
                               'description': "Rounds at the end of the magazine deal more damage.",
                               'recommended': false,
                               'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+
+{ 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_adaptive_frame.png'
+                            },
+
+{ 'name': 'Fastdraw IS',
+                              'description': 'Lightweight sight. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fast_draw_is.png'
+                            },
+
+{ 'name': 'Red Dot-ORS1',
+                              'description': 'Agile sight. Short zoom. • Increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_red_dot_ors1.png'
+                            },
+
+{ 'name': 'Red Dot 2 MOA',
+                              'description': 'Snapshot sight. Short zoom. • Slightly increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_red_dot_2_moa.png'
+                            },
+
+{ 'name': 'Red Dot Micro',
+                              'description': 'Agile sight. Short zoom. • Increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_red_dot_micro.png'
+                            },
+
+{ 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+
+{ 'name': 'Rampage',
+                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rampage.png'
+                            },
+
+{ 'name': 'Extended Barrel',
+                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_barrel.png'
+                            },
+
+{ 'name': 'Hand-Laid Stock',
+                              'description': "This weapon is optimized for recoil control. • Increases stability",
+                              'recommended': false,
+                              'icon': './assets/images/icon_handlaid_stock.png'
+                            },
+
+{ 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
+                            },
+
+{ 'name': 'Extended Mag',
+                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_mag.png'
+                            },
+
+{ 'name': 'Tap the Trigger',
+                              'description': "Grants a short period of increased stability and accuracy on initial trigger pull.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_tap_the_trigger.png'
+                            },
+
+{ 'name': 'IS 2 Classic',
+                              'description': 'Rugged and simple iron sights. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_is_2_classic.png'
+                            },
+
+{ 'name': 'Model 8 Red',
+                              'description': 'Red-dot. Medium zoom. • Greatly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_model_8_red.png'
+                            },
+
+{ 'name': 'High-Caliber Rounds',
+                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_caliber_rounds.png'
+                            },
+
+{ 'name': 'Appended Mag',
+                              'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_appended_mag.png'
+                            },
+
+{ 'name': 'Moving Target',
+                              'description': "Increased movement speed and target acquisition when moving while aiming down sights.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_moving_target.png'
+                            },
+
+{ 'name': 'High-Impact Frame',
+                              'description': 'Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_frame.png'
+                            },
+
+{ 'name': 'GA Post',
+                              'description': 'Agile post sights. Short zoom. • Greatly increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_ga_post.png'
+                            },
+
+{ 'name': 'SD Thermal',
+                              'description': 'Häkke thermal imaging scope. Medium-zoom. Highlights enemy targets. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_sd_thermal.png'
+                            },
+
+{ 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+
+{ 'name': 'Candle PS',
+                              'description': 'Omolon post sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_candle_ps.png'
+                            },
+
+{ 'name': 'Flash HS5',
+                              'description': 'Omolon red-dot. Medium zoom. Highlights enemy targets. • Increases range • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_flash_hs5.png'
+                            },
+
+{ 'name': 'Dragonfly',
+                              'description': "Precision kills create an elemental damage explosion.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_dragonfly.png'
+                            },
+
+{ 'name': 'Slideshot',
+                              'description': "Sliding partially reloads this weapon`s magazine and temporarily boosts range and stability.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_slideshot.png'
+                            },
+
+{ 'name': 'LC Ranged',
+                              'description': 'Häkke marksman scope. Long zoom. • Greatly increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lc_ranged.png'
+                            },
+
+{ 'name': 'Ricochet Rounds',
+                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_ricochet_rounds.png'
+                            },
+
+{ 'name': 'Smallbore',
+                              'description': 'Dual strength barrel. • Increases range • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_smallbore.png'
+                            },
+
+{ 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': true,
+                              'icon': './assets/images/icon_flared_magwell.png'
+                            },
+
+{ 'name': 'Hitmark IS',
+                              'description': 'Agile sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hitmark_is.png'
+                            },
+
+{ 'name': 'Mark 15 Lens',
+                              'description': 'Ocular sights. Long zoom. • Greatly increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_mark_15_lens.png'
+                            },
+
+{ 'name': 'Model 6 Loop',
+                              'description': 'Red-dot. Medium zoom. • Increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_model_6_loop.png'
+                            },
+
+{ 'name': 'Under Pressure',
+                              'description': 'Improved stability and accuracy as the magazine gets lower.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_under_pressure.png'
+                            },
+
+{ 'name': 'Jolt PS',
+                              'description': 'Omolon Post sights. Short zoom. • Increases range • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_jolt_ps.png'
+                            },
+
+{ 'name': 'Transmission MS7',
+                              'description': 'Omolon ocular technology. Long zoom. • Increases range • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_transmission_ms7.png'
+                            },
+
+{ 'name': 'Kill Clip',
+                              'description': "Reloading after a kill grants increased damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_kill_clip.png'
+                            },
+
+{ 'name': 'Projection Fuse',
+                              'description': 'Distance optimizations. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_projection_fuse.png'
+                            },
+
+{ 'name': 'Composite Stock',
+                              'description': 'This weapon has a versatile dual-purpose stock. • Slightly increases stability • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_composite_stock.png'
+                            },
+
+{ 'name': 'IS 5 Circle',
+                              'description': 'Circular iron sights. Short zoom. • Greatly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_is_5_circle.png'
                             },
