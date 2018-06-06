@@ -2085,75 +2085,59 @@ guns_callback(
   "tier": 2,
   "role": 'PvE',
   "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "stats": {"Impact": 60,
+            "Range": 46,
+            "Stability": 55,
+            "Magazine": 15,
+            "Reload_speed": 55,
+            "Handling": 64,
+            "RPM": 200,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'Slug Rifle',
+                              'description': 'This weapon lobs large, explosive, seeking slugs when you`re firing from the hip. When you`re aiming down sights, the slugs travel fast and straight, with higher damage and a lower rate of fire.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/skyburners_perk.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'Extended Barrel',
+                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
-                            },
-                  'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_extended_barrel.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'Extended Mag',
+                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
-                            },
-                    'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_extended_mag.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'For the Empire',
+                              'description': "This weapon is Full Auto, does extra damage to Cabal, and penetrates Phalanx shields.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
+                              'icon': './assets/images/skyburners_perk2.png'
                             },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Short-Action Stock',
+                              'description': "This weapon is especially easy to grip. • Greatly increases handling speed",
                               'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_short_action_stock.png'
                             },
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'Interesting scout with very prominent situational utility, very good for cabal intensive fights',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/4255268456-skyburners-oath'
   }
 },
 
@@ -2161,16 +2145,16 @@ guns_callback(
   "name": "Atalanta-D",
   'type': "smgs",
   "picture": "./assets/images/smgs-atalanta.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "tier": 1,
+  "role": 'PvP > PvE',
+  "rarity": ["Kinetic", "Rare ", "Banshee"],
+  "stats": {"Impact": 25,
+            "Range": 52,
+            "Stability": 45,
+            "Magazine": 27,
+            "Reload_speed": 27,
+            "Handling": 31,
+            "RPM": 600,
             },
   "perks":
             {'set1':
@@ -2183,72 +2167,60 @@ guns_callback(
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'GA Post',
+                              'description': 'Agile post sights. Short zoom. • Greatly increases handling speed • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                              'icon': './assets/images/icon_ga_post.png'
                             },
                   'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                            { 'name': 'SD Thermal',
+                              'description': 'Häkke thermal imaging scope. Medium-zoom. Highlights enemy targets. • Increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_sd_thermal.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'Extended Mag',
+                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
+                              'icon': './assets/images/icon_extended_mag.png'
                             },
                     'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_steady_rounds.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Tap the Trigger',
+                              'description': "Grants a short period of increased stability and accuracy on initial trigger pull.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_tap_the_trigger.png'
                             },
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'Decent SMG for both PvE and PvP, if you don`t have Antiope use this one',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2414612777-atalanta-d'
   }
 },
 {
   "name": "Antiope-D",
   'type': "smgs",
   "picture": "./assets/images/smgs-antiope.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "tier": 1,
+  "role": 'PvP & PvE',
+  "rarity": ["Kinetic", "Rare ", "Banshee"],
+  "stats": {"Impact": 25,
+            "Range": 63,
+            "Stability": 39,
+            "Magazine": 26,
+            "Reload_speed": 27,
+            "Handling": 26,
+            "RPM": 600,
             },
   "perks":
             {'set1':
@@ -2261,30 +2233,24 @@ guns_callback(
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'GB Iron',
+                              'description': 'Agile iron sights. Short zoom. • Increases handling speed • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                              'icon': './assets/images/icon_gb_iron.png'
                             },
                   'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                            { 'name': 'SC Holo',
+                              'description': 'Häkke holo sights. Medium zoom. • Greatly increases range • Slightly decreases handling speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_sc_holo.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'Ricochet Rounds',
+                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
+                              'icon': './assets/images/icon_ricochet_rounds.png'
                             },
                     'perk2':
                             { 'name': 'Tactical Mag',
@@ -2295,22 +2261,16 @@ guns_callback(
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Kill Clip',
+                              'description': "Reloading after a kill grants increased damage.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_kill_clip.png'
                             },
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'One of the best SMGs in the game, great for both PvP and PvE',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/566976653-antiope-d'
   }
 },
 {
@@ -2318,109 +2278,175 @@ guns_callback(
   'type': "smgs",
   "picture": "./assets/images/smgs-foggy.jpg",
   "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "role": 'PvP',
+  "rarity": ["Energy", "Rare ", "World drop"],
+  "stats": {"Impact": 20,
+            "Range": 47,
+            "Stability": 50,
+            "Magazine": 34,
+            "Reload_speed": 49,
+            "Handling": 56,
+            "RPM": 900,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/icon_adaptive_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'SLO-21 Post',
+                              'description': 'SUROS projection sight. Short zoom. • Increases handling speed • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                              'icon': './assets/images/icon_slo_21_post.png'
                             },
                   'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                            { 'name': 'SLO-10 Post',
+                              'description': 'SUROS projection sight. Short zoom. • Increases handling speed • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
+                              'icon': './assets/images/icon_slo_10_post.png'
                             },
                   'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                            { 'name': 'SPO-26 Front',
+                              'description': 'SUROS lightweight red-dot sight. Short zoom. • Increases handling speed • Increases range',
                               'recommended': false,
                               'icon': './assets/images/icon_chambered_compensator.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': true,
+                              'icon': './assets/images/icon_flared_magwell.png'
                             },
                     'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                            { 'name': 'Ricochet Rounds',
+                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_ricochet_rounds.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Grave Robber',
+                              'description': "Melee kills reload a portion of the magazine.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_grave_robber.png'
                             },
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'Okayish SMG for PvP',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2700862856-foggy-notion'
   }
 },
 {
   "name": "Hero's Burden",
   'type': "smgs",
   "picture": "./assets/images/smgs-heros-burden.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "tier": 1,
+  "role": 'PvP & PvE',
+  "rarity": ["Energy", "Epic ", "Banner"],
+  "stats": {"Impact": 20,
+            "Range": 50,
+            "Stability": 46,
+            "Magazine": 33,
+            "Reload_speed": 58,
+            "Handling": 63,
+            "RPM": 900,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/icon_adaptive_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'SLO-10 Post',
+                              'description': 'SUROS projection sight. Short zoom. • Increases handling speed • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                              'icon': './assets/images/icon_slo_10_post.png'
+                            },
+                  'perk2':
+                            { 'name': 'SPO-28 Front',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'SPO-26 Front',
+                              'description': 'SUROS lightweight red-dot sight. Short zoom. • Increases handling speed • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'High-Caliber Rounds',
+                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_caliber_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Drop Mag',
+                              'description': 'Magazine drops on reload, wasting ammunition but greatly increasing reload speed.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_drop_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Threat Detector',
+                              'description': "Increased reload, stability, and handling when enemies are in close proximity.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_threat_detector.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Very strong SMG with unique perks, good for both PvP and PvE',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1723472487-ikelossmgv101'
+  }
+},
+{
+  "name": "IKELOS_SMG_v1.0.1",
+  'type': "smgs",
+  "picture": "./assets/images/smgs-ikelos-smg.jpg",
+  "tier": 1,
+  "role": 'PvE > PvP',
+  "rarity": ["Energy", "Epic ", "Escalation"],
+  "stats": {"Impact": 22,
+            "Range": 54,
+            "Stability": 39,
+            "Magazine": 30,
+            "Reload_speed": 32,
+            "Handling": 73,
+            "RPM": 750,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Aggressive Frame',
+                              'description': 'High damage, high recoil. Deals bonus damage at close range.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_aggressive_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Corkscrew Rifling',
+                            'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
+                            'recommended': false,
+                            'icon': './assets/images/icon_corkscrew_rifling.png'
                             },
                   'perk2':
                             { 'name': 'Fluted Barrel',
@@ -2429,38 +2455,40 @@ guns_callback(
                               'icon': './assets/images/icon_fluted_barrel.png'
                             },
                   'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                            { 'name': 'Smallbore',
+                              'description': 'Dual strength barrel. • Increases range • Increases stability',
                               'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_smallbore.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'Disruption Break',
+                              'description': 'Breaking an enemy`s shield with this weapon makes them more vulnerable to Kinetic precision damage for a brief period.',
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
-                            },
-                    'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_disruption_break.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Seraph Rounds',
+                              'description': "Rounds overpenetrate targets and bounce off hard surfaces.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
+                              'icon': './assets/images/icon_seraph_rounds.png'
                             },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Grave Robber',
+                              'description': "Melee kills reload a portion of the magazine.",
                               'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_grave_robber.png'
+                            },
+                  'perk2':
+                            { 'name': 'Threat Detector',
+                              'description': "Increased reload, stability, and handling when enemies are in close proximity.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_threat_detector.png'
                             },
                   },
             },
@@ -2475,7 +2503,7 @@ guns_callback(
   "picture": "./assets/images/smgs-new-city.jpg",
   "tier": 2,
   "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
+  "rarity": ["Kinetic", "Rare ", "World Drop"],
   "stats": {"Impact": 6,
             "Range": 64,
             "Stability": 64,
@@ -2487,64 +2515,52 @@ guns_callback(
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/icon_adaptive_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'IS 5 Circle',
+                              'description': 'Circular iron sights. Short zoom. • Greatly increases handling speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                              'icon': './assets/images/icon_is_5_circle.png'
                             },
                   'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                            { 'name': 'Model 8 Red',
+                              'description': 'Red-dot. Medium zoom. • Greatly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_model_8_red.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
-                            },
-                    'perk2':
                             { 'name': 'Tactical Mag',
                               'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
                               'recommended': false,
                               'icon': './assets/images/icon_tactical_mag.png'
                             },
+                    'perk2':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Quickdraw',
+                              'description': "This weapon can be drawn unbelievably fast.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_quickdraw.png'
                             },
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'Okayish middle of the road SMG',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2414612776-new-city'
   }
 },
 {
@@ -2552,135 +2568,120 @@ guns_callback(
   'type': "smgs",
   "picture": "./assets/images/smgs-riskrunner.jpg",
   "tier": 2,
-  "role": 'PvE',
+  "role": 'PvE > PvP',
   "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "stats": {"Impact": 20,
+            "Range": 55,
+            "Stability": 60,
+            "Magazine": 37,
+            "Reload_speed": 42,
+            "Handling": 51,
+            "RPM": 900,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'Arc Conductor',
+                              'description': 'When taking Arc Damage, this weapon becomes more powerful and resists incoming Arc Damage. Kills extend the time in this overcharged state.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/riskrunner_perk.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'Arrowhead Brake',
+                              'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
-                            },
-                  'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_arrowhead_brake.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'Extended Mag',
+                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
-                            },
-                    'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_extended_mag.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Superconductor',
+                              'description': "When Arc Conductor is active, shots fired have the chance to become chain lightning and return ammo.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/riskrunner_perk2.png'
                             },
                   },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Short-Action Stock',
+                              'description': "This weapon is especially easy to grip. • Greatly increases handling speed",
+                              'recommended': false,
+                              'icon': './assets/images/icon_short_action_stock.png'
+                            },
+                  },
+
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'An interesting SMG with very high situational utility, when it procs you feel like an olympic god annihilating everything with badass lightning',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3089417789-riskrunner'
   }
 },
 {
   "name": "Stochastic Variable",
   'type': "smgs",
   "picture": "./assets/images/smgs-stochastic.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "tier": 1,
+  "role": 'PvP > PvE',
+  "rarity": ["Energy", "Epic ", "Faction Rally"],
+  "stats": {"Impact": 15,
+            "Range": 40,
+            "Stability": 42,
+            "Magazine": 36,
+            "Reload_speed": 34,
+            "Handling": 55,
+            "RPM": 900,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/icon_lightweight_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'Candle PS',
+                              'description': 'Omolon post sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                              'icon': './assets/images/icon_candle_ps.png'
                             },
                   'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                            { 'name': 'Torch HS3',
+                              'description': 'Omolon red-dot. Medium zoom. • Greatly increases range • Slightly decreases handling speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_torch_hs3.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'High-Caliber Rounds',
+                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
+                              'icon': './assets/images/icon_high_caliber_rounds.png'
                             },
                     'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                    'perk3':
+                            { 'name': 'Phase Magazine',
+                              'description': 'Increases damage while lowering rate of fire. • Decreases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_phase_magazine.png'
                             },
                   },
             'set4':
@@ -2699,8 +2700,8 @@ guns_callback(
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'Decent SMG for any activity',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1339362514-stochastic-variable'
   }
 },
 {
@@ -2710,69 +2711,53 @@ guns_callback(
   "tier": 2,
   "role": 'PvE',
   "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "stats": {"Impact": 22,
+            "Range": 53,
+            "Stability": 42,
+            "Magazine": 37,
+            "Reload_speed": 10,
+            "Handling": 60,
+            "RPM": 750,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'Ride the Bull',
+                              'description': 'Increased rate of fire and recoil while you`re holding down the trigger. Kills with this weapon reload a portion of the magazine.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/huckleberry_perk.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
-                            },
-                  'perk2':
                             { 'name': 'Fluted Barrel',
                               'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
                               'recommended': false,
                               'icon': './assets/images/icon_fluted_barrel.png'
                             },
-                  'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
-                            },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'Ricochet Rounds',
+                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
-                            },
-                    'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_ricochet_rounds.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Rampage',
+                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
+                              'icon': './assets/images/icon_rampage.png'
                             },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Short-Action Stock',
+                              'description': "This weapon is especially easy to grip. • Greatly increases handling speed",
                               'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_short_action_stock.png'
                             },
                   },
             },

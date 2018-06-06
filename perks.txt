@@ -354,3 +354,63 @@
                               'recommended': false,
                               'icon': './assets/images/icon_fitted_stock.png'
                             },
+
+{ 'name': 'Short-Action Stock',
+                              'description': "This weapon is especially easy to grip. • Greatly increases handling speed",
+                              'recommended': false,
+                              'icon': './assets/images/icon_short_action_stock.png'
+                            },
+
+{ 'name': 'GB Iron',
+                              'description': 'Agile iron sights. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_gb_iron.png'
+                            },
+
+{ 'name': 'SLO-21 Post',
+                              'description': 'SUROS projection sight. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_slo_21_post.png'
+                            },
+
+{ 'name': 'SLO-10 Post',
+                              'description': 'SUROS projection sight. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_slo_10_post.png'
+                            },
+
+{ 'name': 'SPO-26 Front',
+                              'description': 'SUROS lightweight red-dot sight. Short zoom. • Increases handling speed • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+
+{ 'name': 'Aggressive Frame',
+                              'description': 'High damage, high recoil. Deals bonus damage at close range.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_aggressive_frame.png'
+                            },
+
+{ 'name': 'Grave Robber',
+                              'description': "Melee kills reload a portion of the magazine.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_grave_robber.png'
+                            },
+
+{ 'name': 'Threat Detector',
+                              'description': "Increased reload, stability, and handling when enemies are in close proximity.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_threat_detector.png'
+                            },
+
+{ 'name': 'Arrowhead Brake',
+                              'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_arrowhead_brake.png'
+                            },
+
+{ 'name': 'Torch HS3',
+                              'description': 'Omolon red-dot. Medium zoom. • Greatly increases range • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_torch_hs3.png'
+                            },
