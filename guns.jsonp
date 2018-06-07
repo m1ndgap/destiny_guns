@@ -5158,6 +5158,84 @@ guns_callback(
   }
 },
 {
+  "name": "Perfect Paradox",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-perfect-paradox.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Power", "Epic ", "Mars Forge"],
+  "stats": {"Impact": 65,
+            "Range": 39,
+            "Stability": 42,
+            "Magazine": 7,
+            "Reload_speed": 68,
+            "Handling": 49,
+            "RPM": 100,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Swap Mag',
+                              'description': 'Swap weapons much faster for a short duration after emptying the magazine.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_swap_mag.png'
+                            },
+                  'perk2':
+                            { 'name': 'Rifled Barrel',
+                              'description': 'Ranged shotgun barrel. • Increases range • Greatly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rifled_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Smoothbore',
+                              'description': 'Smooth shotgun barrel. Greatly increases range at the cost of more projectile spread.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_smoothbore.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': true,
+                              'icon': './assets/images/icon_flared_magwell.png'
+                            },
+                    'perk2':
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_steady_rounds.png'
+                            },
+                    'perk3':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Rampage',
+                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rampage.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Okay PvE shotgun if you have nothing else',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2248667690-perfect-paradox'
+  }
+},
+{
   "name": "Motion to Vacate",
   'type': "shotguns",
   "picture": "./assets/images/sg-motion-to-vacate.jpg",
