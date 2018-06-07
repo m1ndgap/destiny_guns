@@ -625,3 +625,15 @@
                               'recommended': false,
                               'icon': './assets/images/icon_assault_mag.png'
                             },
+
+{ 'name': 'Cleanshot IS',
+                              'description': 'Snapshot sight. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_cleanshot_is.png'
+                            },
+
+{ 'name': 'Enhanced Battery',
+                              'description': 'Strong battery life. • Increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_enhanced_battery.png'
+                            },
