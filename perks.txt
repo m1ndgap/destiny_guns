@@ -607,3 +607,21 @@
                               'recommended': false,
                               'icon': './assets/images/icon_auto_reloading_holster.png'
                             },
+
+{ 'name': 'Rifled Barrel',
+                              'description': 'Ranged shotgun barrel. • Increases range • Greatly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rifled_barrel.png'
+                            },
+                  
+                            { 'name': 'Barrel Shroud',
+                              'description': 'Balanced shotgun barrel. • Increases stability • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_barrel_shroud.png'
+                            },
+
+{ 'name': 'Assault Mag',
+                              'description': 'This shotgun`s magazine is optimized for quick combat. • Greatly increases stability • Increases rate of fire',
+                              'recommended': false,
+                              'icon': './assets/images/icon_assault_mag.png'
+                            },
