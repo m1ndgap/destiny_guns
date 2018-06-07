@@ -535,3 +535,75 @@
                               'recommended': false,
                               'icon': './assets/images//icon_control_sas.png'
                             },
+
+{ 'name': 'Linear Compensator',
+                              'description': 'This weapon`s launch barrel is well-balanced. • Slightly increases projectile speed • Slightly increases blast radius • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_linear_compensator.png'
+                            },
+
+{ 'name': 'Quick Launch',
+                              'description': 'This weapon`s barrel provides faster projectiles and much faster aiming. • Greatly increases handling speed • Increases projectile speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_quick_launch.png'
+                            },
+
+{ 'name': 'Countermass',
+                              'description': 'This weapon is weighted for vertical recoil. • Greatly controls recoil • Increases stability • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_countermass.png'
+                            },
+
+{ 'name': 'High-Velocity Rounds',
+                              'description': 'This weapon`s projectiles are particularly light and quick. • Increases projectile speed • Increases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_velocity_rounds.png'
+                            },
+                    
+                            { 'name': 'Implosion Rounds',
+                              'description': 'This weapon`s projectiles travel faster and have a controlled explosion. • Increases projectile speed • Greatly increases stability • Decreases blast radius',
+                              'recommended': false,
+                              'icon': './assets/images/icon_implosion_rounds.png'
+                            },
+                    
+                            { 'name': 'Alloy Casing',
+                              'description': 'Reduces weight for faster reloads. • Greatly increases reload speed • Decreases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_alloy_casing.png'
+                            },
+
+{ 'name': 'Confined Launch',
+                              'description': 'This weapon`s launch parameters are particularly stable. • Greatly increases stability • Increases blast radius • Decreases projectile speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_confined_launch.png'
+                            },
+
+{ 'name': 'Volatile Launch',
+                              'description': 'This weapon is optimized for an especially explosive payload. • Greatly increases blast radius • Slightly decreases handling speed • Slightly decreases projectile speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_volatile_launch.png'
+                            },
+
+{ 'name': 'Cluster Bomb',
+                              'description': "Rockets spawn cluster bombs upon detonation.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_cluster_bomb.png'
+                            },
+
+{ 'name': 'Hard Launch',
+                              'description': 'This weapon`s launch barrel is optimized for projectile speed. • Greatly increases projectile speed • Decreases stability • Slightly decreases blast radius',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hard_launch.png'
+                            },
+
+{ 'name': 'Black Powder',
+                              'description': 'This weapon`s explosives are more effective. • Slightly increases blast radius • Decreases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_black_powder.png'
+                            },
+
+{ 'name': 'Auto-Loading Holster',
+                              'description': "The holstered weapon is automatically reloaded after a short period of time.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_auto_reloading_holster.png'
+                            },

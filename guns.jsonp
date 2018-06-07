@@ -4392,76 +4392,76 @@ guns_callback(
   "picture": "./assets/images/rl-braytech-osprey.jpg",
   "tier": 2,
   "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "rarity": ["Power", "Epic ", "Nightfall"],
+  "stats": {"Impact": 95,
+            "Range": 47,
+            "Stability": 60,
+            "Magazine": 1,
+            "Reload_speed": 41,
+            "Handling": 68,
+            "RPM": 15,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'High-Impact Frame',
+                              'description': 'Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/icon_high_impact_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'Linear Compensator',
+                              'description': 'This weapon`s launch barrel is well-balanced. • Slightly increases projectile speed • Slightly increases blast radius • Slightly increases stability',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                              'icon': './assets/images/icon_linear_compensator.png'
                             },
                   'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                            { 'name': 'Quick Launch',
+                              'description': 'This weapon`s barrel provides faster projectiles and much faster aiming. • Greatly increases handling speed • Increases projectile speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
+                              'icon': './assets/images/icon_quick_launch.png'
                             },
                   'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                            { 'name': 'Countermass',
+                              'description': 'This weapon is weighted for vertical recoil. • Greatly controls recoil • Increases stability • Increases handling speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_countermass.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'High-Velocity Rounds',
+                              'description': 'This weapon`s projectiles are particularly light and quick. • Increases projectile speed • Increases reload speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
+                              'icon': './assets/images/icon_high_velocity_rounds.png'
                             },
                     'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                            { 'name': 'Implosion Rounds',
+                              'description': 'This weapon`s projectiles travel faster and have a controlled explosion. • Increases projectile speed • Greatly increases stability • Decreases blast radius',
                               'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_implosion_rounds.png'
+                            },
+                    'perk3':
+                            { 'name': 'Alloy Casing',
+                              'description': 'Reduces weight for faster reloads. • Greatly increases reload speed • Decreases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_alloy_casing.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Cluster Bomb',
+                              'description': "Rockets spawn cluster bombs upon detonation.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_cluster_bomb.png'
                             },
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'Solid cluster rocket launcher, decent option if you don`t have Sins of the Past',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1929278169-braytech-osprey'
   }
 },
 {
@@ -4470,232 +4470,214 @@ guns_callback(
   "picture": "./assets/images/rl-classical-42.jpg",
   "tier": 2,
   "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "rarity": ["Power", "Rare ", "Banshee"],
+  "stats": {"Impact": 75,
+            "Range": 57,
+            "Stability": 49,
+            "Magazine": 1,
+            "Reload_speed": 44,
+            "Handling": 44,
+            "RPM": 20,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/icon_adaptive_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'Quick Launch',
+                              'description': 'This weapon`s barrel provides faster projectiles and much faster aiming. • Greatly increases handling speed • Increases projectile speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                              'icon': './assets/images/icon_quick_launch.png'
                             },
                   'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                            { 'name': 'Confined Launch',
+                              'description': 'This weapon`s launch parameters are particularly stable. • Greatly increases stability • Increases blast radius • Decreases projectile speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
+                              'icon': './assets/images/icon_confined_launch.png'
                             },
                   'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                            { 'name': 'Volatile Launch',
+                              'description': 'This weapon is optimized for an especially explosive payload. • Greatly increases blast radius • Slightly decreases handling speed • Slightly decreases projectile speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_volatile_launch.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'Alloy Casing',
+                              'description': 'Reduces weight for faster reloads. • Greatly increases reload speed • Decreases stability',
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
+                              'icon': './assets/images/icon_alloy_casing.png'
                             },
                     'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                            { 'name': 'Implosion Rounds',
+                              'description': 'This weapon`s projectiles travel faster and have a controlled explosion. • Increases projectile speed • Greatly increases stability • Decreases blast radius',
                               'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_implosion_rounds.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Cluster Bomb',
+                              'description': "Rockets spawn cluster bombs upon detonation.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_cluster_bomb.png'
                             },
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'Decent option until you get Curtain Call or Sins of the Past',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2149166938-classical-42'
   }
 },
 {
   "name": "Curtain Call",
   'type': "rocket_launchers",
   "picture": "./assets/images/rl-curtain-call.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "tier": 1,
+  "role": 'PvE & PvP',
+  "rarity": ["Power", "Uncom.", "Vanguard"],
+  "stats": {"Impact": 55,
+            "Range": 71,
+            "Stability": 31,
+            "Magazine": 1,
+            "Reload_speed": 64,
+            "Handling": 26,
+            "RPM": 25,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'Aggressive Frame',
+                              'description': 'High damage, high recoil. Deals bonus damage at close range.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/icon_aggressive_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'Volatile Launch',
+                              'description': 'This weapon is optimized for an especially explosive payload. • Greatly increases blast radius • Slightly decreases handling speed • Slightly decreases projectile speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                              'icon': './assets/images/icon_volatile_launch.png'
                             },
                   'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                            { 'name': 'Hard Launch',
+                              'description': 'This weapon`s launch barrel is optimized for projectile speed. • Greatly increases projectile speed • Decreases stability • Slightly decreases blast radius',
                               'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
+                              'icon': './assets/images/icon_hard_launch.png'
                             },
                   'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                            { 'name': 'Countermass',
+                              'description': 'This weapon is weighted for vertical recoil. • Greatly controls recoil • Increases stability • Increases handling speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_countermass.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'High-Velocity Rounds',
+                              'description': 'This weapon`s projectiles are particularly light and quick. • Increases projectile speed • Increases reload speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
+                              'icon': './assets/images/icon_high_velocity_rounds.png'
                             },
                     'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                            { 'name': 'Black Powder',
+                              'description': 'This weapon`s explosives are more effective. • Slightly increases blast radius • Decreases stability',
                               'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_black_powder.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Cluster Bomb',
+                              'description': "Rockets spawn cluster bombs upon detonation.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_cluster_bomb.png'
                             },
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'One of the best rocket launcers in the game',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/137879537-curtain-call'
   }
 },
 {
   "name": "Sins of the Past",
   'type': "rocket_launchers",
   "picture": "./assets/images/rl-sins-of-the-past.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "tier": 1,
+  "role": 'PvE & PvP',
+  "rarity": ["Power", "Rare ", "Raid"],
+  "stats": {"Impact": 95,
+            "Range": 50,
+            "Stability": 63,
+            "Magazine": 1,
+            "Reload_speed": 42,
+            "Handling": 70,
+            "RPM": 15,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'High-Impact Frame',
+                              'description': 'Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/icon_high_impact_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'Confined Launch',
+                              'description': 'This weapon`s launch parameters are particularly stable. • Greatly increases stability • Increases blast radius • Decreases projectile speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                              'icon': './assets/images/icon_confined_launch.png'
                             },
                   'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                            { 'name': 'Linear Compensator',
+                              'description': 'This weapon`s launch barrel is well-balanced. • Slightly increases projectile speed • Slightly increases blast radius • Slightly increases stability',
                               'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
+                              'icon': './assets/images/icon_linear_compensator.png'
                             },
                   'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                            { 'name': 'Smart Drift Control',
+                              'description': 'This barrel is broadly optimized for firing control. • Moderately controls recoil • Increases stability • Increases handling speed • Slightly increases projectile speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_smart_drift_control.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'Cluster Bomb',
+                              'description': "Rockets spawn cluster bombs upon detonation.",
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
+                              'icon': './assets/images/icon_cluster_bomb.png'
                             },
                     'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                            { 'name': 'Ambitious Assassin',
+                              'description': "Overflows the magazine based on the number of rapid kills before reloading.",
                               'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_ambitious_assassin.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Auto-Loading Holster',
+                              'description': "The holstered weapon is automatically reloaded after a short period of time.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_auto_reloading_holster.png'
                             },
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'Arguably the best rocket launcher in the game, auto reload provides amazing utility in PvE',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3691881271-sins-of-the-past'
   }
 },
 {
@@ -4705,75 +4687,59 @@ guns_callback(
   "tier": 2,
   "role": 'PvE',
   "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "stats": {"Impact": 55,
+            "Range": 100,
+            "Stability": 55,
+            "Magazine": 1,
+            "Reload_speed": 55,
+            "Handling": 82,
+            "RPM": 60,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                            { 'name': 'Mad Scientist',
+                              'description': 'This weapon fires a volley of rockets.',
                               'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
+                              'icon': './assets/images/wardcliff_perk.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
+                            { 'name': 'Volatile Launch',
+                              'description': 'This weapon is optimized for an especially explosive payload. • Greatly increases blast radius • Slightly decreases handling speed • Slightly decreases projectile speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
-                            },
-                  'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_volatile_launch.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                            { 'name': 'Extended Mag',
+                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
-                            },
-                    'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
+                              'icon': './assets/images/icon_extended_mag.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Mechanized Autoloader',
+                              'description': "This weapon automatically reloads on ammo pickup.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
+                              'icon': './assets/images/wardcliff_perk2.png'
                             },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Composite Stock',
+                              'description': 'This weapon has a versatile dual-purpose stock. • Slightly increases stability • Slightly increases handling speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_composite_stock.png'
                             },
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'Very good in high pressure AoE situations, absolutely obliterates larger groups of enemies. Requires precise range to be effective',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1508896098-the-wardcliff-coil'
   }
 },
 {
