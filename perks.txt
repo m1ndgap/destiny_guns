@@ -517,3 +517,21 @@
                               'recommended': false,
                               'icon': './assets/images/icon_headseeker.png'
                             },
+
+{ 'name': 'Omolon Adaptive Frame',
+                              'description': 'Well-rounded, reliable, fires a 3-round burst.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_omolon_adaptive_frame.png'
+                            },
+
+  { 'name': 'Control SAS',
+                              'description': 'Stable Sidearm sight. • Increases handling speed • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_control_sas.png'
+                            },
+                  
+                            { 'name': 'FarPoint SAS',
+                              'description': 'Pinpoint Sidearm sight. • Greatly increases range • Decreases stability • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images//icon_control_sas.png'
+                            },
