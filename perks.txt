@@ -35,12 +35,6 @@
                               'icon': './assets/images/icon_zen_moment.png'
                             },
 
-{ 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-
 { 'name': 'Adaptive Frame',
                               'description': 'A well-rounded grip, reliable and sturdy.',
                               'recommended': false,
@@ -133,6 +127,18 @@
                               'icon': './assets/images/icon_high_caliber_rounds.png'
                             },
 
+{ 'name': 'High-Impact Frame',
+                              'description': 'Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_frame.png'
+                            },
+
+{ 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+
 { 'name': 'Appended Mag',
                               'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
                               'recommended': false,
@@ -143,12 +149,6 @@
                               'description': "Increased movement speed and target acquisition when moving while aiming down sights.",
                               'recommended': false,
                               'icon': './assets/images/icon_moving_target.png'
-                            },
-
-{ 'name': 'High-Impact Frame',
-                              'description': 'Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_impact_frame.png'
                             },
 
 { 'name': 'GA Post',
@@ -191,6 +191,12 @@
                               'description': "Sliding partially reloads this weapon`s magazine and temporarily boosts range and stability.",
                               'recommended': false,
                               'icon': './assets/images/icon_slideshot.png'
+                            },
+
+{ 'name': 'Slideways',
+                              'description': 'Sliding partially reloads this weapon`s magazine and temporarily boosts handling and stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_slideways.png'
                             },
 
 { 'name': 'LC Ranged',
@@ -300,8 +306,6 @@
                               'recommended': false,
                               'icon': './assets/images/icon_steady_rounds.png'
                             },
-
-
 
 { 'name': 'Ambitious Assassin',
                               'description': "Overflows the magazine based on the number of rapid kills before reloading.",
@@ -481,4 +485,35 @@
                               'description': "The friction on this weapon`s grip is particularly strong. • Greatly increases handling speed • Slightly decreases stability",
                               'recommended': false,
                               'icon': './assets/images/textured_grip.png'
+                            },
+
+{ 'name': 'Quickdraw',
+                              'description': "This weapon can be drawn unbelievably fast.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_quickdraw.png'
+                            },
+
+{ 'name': 'Full Auto Trigger System',
+                              'description': 'Holding down the trigger will fire this weapon at full auto.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_full_auto.png'
+                            },
+
+{ 'name': 'Full Bore',
+                              'description': 'Barrel optimized for distance. • Greatly increases range • Decreases stability • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_full_bore.png'
+                            },
+
+
+{ 'name': 'Snapshot Sights',
+                              'description': "Faster time to aim down sights.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_snapshot_sights.png'
+                            },
+
+{ 'name': 'Headseeker',
+                              'description': 'Body shots landed with this weapon increase precision damage for a short time.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_headseeker.png'
                             },
