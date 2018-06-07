@@ -71,11 +71,7 @@
                               'icon': './assets/images/icon_red_dot_micro.png'
                             },
 
-{ 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_accurized_rounds.png'
-                            },
+
 
 { 'name': 'Rampage',
                               'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
@@ -107,7 +103,11 @@
                               'icon': './assets/images/icon_rapid_fire_frame.png'
                             },
 
-
+{ 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
 
 { 'name': 'Tap the Trigger',
                               'description': "Grants a short period of increased stability and accuracy on initial trigger pull.",
@@ -301,11 +301,7 @@
                               'icon': './assets/images/icon_steady_rounds.png'
                             },
 
-{ 'name': 'Lightweight Frame',
-                              'description': 'Superb handling. Move faster with this weapon equipped.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_lightweight_frame.png'
-                            },
+
 
 { 'name': 'Ambitious Assassin',
                               'description': "Overflows the magazine based on the number of rapid kills before reloading.",
@@ -379,6 +375,12 @@
                               'icon': './assets/images/icon_slo_10_post.png'
                             },
 
+{ 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },                            
+
 { 'name': 'SPO-26 Front',
                               'description': 'SUROS lightweight red-dot sight. Short zoom. • Increases handling speed • Increases range',
                               'recommended': false,
@@ -443,4 +445,40 @@
                               'description': 'Stable Hand Cannon sight. • Increases stability • Increases handling speed',
                               'recommended': false,
                               'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+
+{ 'name': 'Heavy Grip',
+                              'description': 'This grip is weighted for recoil control. • Increases stability • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_heavy_grip.png'
+                            },
+
+{ 'name': 'Opening Shot',
+                              'description': "Improved accuracy and range on the opening shot of attack.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_opening_shot.png'
+                            },
+
+{ 'name': 'TrueSight HCS',
+                              'description': 'Balanced Hand Cannon sight. • Slightly increases range • Slightly increases stability • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+
+{ 'name': 'Triple Tap',
+                              'description': "Rapidly landing precision hits will return 1 round to the magazine from reserves.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_triple_tap.png'
+                            },
+
+{ 'name': 'Seraph Rounds',
+                              'description': "Rounds overpenetrate targets and bounce off hard surfaces.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_seraph_rounds.png'
+                            },
+
+{ 'name': 'Textured Grip',
+                              'description': "The friction on this weapon`s grip is particularly strong. • Greatly increases handling speed • Slightly decreases stability",
+                              'recommended': false,
+                              'icon': './assets/images/textured_grip.png'
                             },
