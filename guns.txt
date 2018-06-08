@@ -1,5 +1,5 @@
 Auto rifles
-	BrayTech Winter Wolf (Braytech, Kinetic)
+	+BrayTech Winter Wolf (Braytech, Kinetic)
 	Coldheart (Exotic, Enegry, Trace rifle)
 	Duty Bound (Savathun's song NF drop kinetic)
 	Foregone Conclusion (Mars, Kinetic)
@@ -56,13 +56,11 @@ Hand Cannons
 	
 Pulse Rifles
 	Autumn Wind (Crucible, Kinetic)
-	Battle scar (Kinetic)
 	Darkest Before (To9, Energy)
 	Eystein-D (Banshee, Kinetic)
 	Graviton Lance (Exotic, Energy)
 	Inaugural Address (Raid, Energy)
 	Infinite Paths 8 (Mercury, Kinetic)
-	Machina Dei 4 (Mercury forge, Kinetic)
 	Relentless (To9, Kinetic)
 	The Time-Worn Spire (Kinetic Iron Banner)
 	Vigilance Wing (Kinetic Exotic)
@@ -94,7 +92,7 @@ Shotguns
 	
 Fusion Rifles
 	Main Ingredient (Vanguard)
-	Manowar (Io)
+	Man o' War (Io)
 	Merciless (Exotic)
 	Telesto	(Exotic)
 	
@@ -114,3 +112,14 @@ Swords
 	Quickfang (Hunter)
 	Worldline Zero (Mars Exploration Exotic)
 	
+
+Impact				65		Blast Radius		55		Swing Speed		82
+Range				39		Velocity			71		Impact			40
+Stability			42		Stability			31		Range			28
+Magazine			7		Magazine			1		Efficiency		55
+Reload Speed		68		Reload Speed		64		Defense			55
+Handling			49		Handling			26		Ammo Capacity	29
+
+Rounds Per Minute  100		Rounds Per Minute  25			
+
+

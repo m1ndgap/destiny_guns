@@ -24,6 +24,29 @@ $(document).ready(function() {
             var json = data;
             $.each(json, function(index, value){
               var type = json[index].type;
+              if (type == 'rocket_launchers' || type == 'grenade_launchers' ){
+                    var text_impact = 'Blast Radius';
+                    var text_range = 'Velocity';
+                    var text_stability = 'Stability';
+                    var text_mag = 'Magazine';
+                    var text_reload = 'Reload Speed';
+                    var text_handling = 'Handling';
+                } else if (type == 'swords'){
+                    var text_impact = 'Swing Speed';
+                    var text_range = 'Impact';
+                    var text_stability = 'Range';
+                    var text_mag = 'Efficiency';
+                    var text_reload = 'Defense';
+                    var text_handling = 'Ammo Capacity';
+                } else {
+                    var text_impact = 'Impact';
+                    var text_range = 'Range';
+                    var text_stability = 'Stability';
+                    var text_mag = 'Magazine';
+                    var text_reload = 'Reload Speed';
+                    var text_handling = 'Handling';
+                };
+
               var name = json[index].name;
               var picture = json[index].picture;
               var tier = json[index].tier;
@@ -85,27 +108,27 @@ $(document).ready(function() {
                    <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-stats"></div>
                    <div class="col-lg-3 col-md-12 col-sm-12 col-12 stats">
                      <div class="stat">
-                       <div class="stat-fill" style="width: ${stats_impact}%">Impact</div>
+                       <div class="stat-fill" style="width: ${stats_impact}%">${text_impact}</div>
                        <span class="stat-value">${stats_impact}</span>
                      </div>
                      <div class="stat">
-                       <div class="stat-fill" style="width: ${stats_range}%">Range</div>
+                       <div class="stat-fill" style="width: ${stats_range}%">${text_range}</div>
                        <span class="stat-value">${stats_range}</span>
                      </div>
                      <div class="stat">
-                       <div class="stat-fill" style="width: ${stats_stability}%">Stability</div>
+                       <div class="stat-fill" style="width: ${stats_stability}%">${text_stability}</div>
                        <span class="stat-value">${stats_stability}</span>
                      </div>
                      <div class="stat">
-                       <div class="stat-fill" style="width: ${stats_magazine}%">Magazine</div>
+                       <div class="stat-fill" style="width: ${stats_magazine}%">${text_mag}</div>
                        <span class="stat-value">${stats_magazine}</span>
                      </div>
                      <div class="stat">
-                       <div class="stat-fill" style="width: ${stats_reload}%">Reload speed</div>
+                       <div class="stat-fill" style="width: ${stats_reload}%">${text_reload}</div>
                        <span class="stat-value">${stats_reload}</span>
                      </div>
                      <div class="stat">
-                       <div class="stat-fill" style="width: ${stats_handling}%">Handling</div>
+                       <div class="stat-fill" style="width: ${stats_handling}%">${text_handling}</div>
                        <span class="stat-value">${stats_handling}</span>
                      </div>
                      <div class="stat">
