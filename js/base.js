@@ -166,6 +166,17 @@ $(document).ready(function() {
       $(this).remove();
     });
 
+  $('.gun-search').on('keyup', function(){
+    if ($(this).val().length > 2) {
+      console.log('its > 2');
+      console.log($(this).val().length);
+    } else {
+      console.log('its too short');
+      console.log($(this).val().length);
+    };
+
+  });
+
   // $(".perk-wrap").tooltip({
   //     items: ".perk-wrap",
   //     track: true,
