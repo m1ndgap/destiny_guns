@@ -168,7 +168,7 @@ $(document).ready(function() {
 
   $('.gun-search').on('keyup', function(){
     if ($(this).val().length > 2) {
-      console.log('its > 2');
+      console.log('its > 2'); 
       console.log($(this).val().length);
     } else {
       console.log('its too short');
