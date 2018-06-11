@@ -159,6 +159,7 @@ h3 {
   background-size: 25px;
   background-repeat: no-repeat;
   pointer-events: all;
+  cursor: pointer;
 }
 
 .pic-name img {
