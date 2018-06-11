@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+$('.input-wrap').addClass('hidden');
+
+// showing perks stats and links on small displays
   $(".container-fluid").on('click', '.show-stats', function(){
     console.log('xyu`');
     $(this).next().toggle();
@@ -12,6 +16,8 @@ $(document).ready(function() {
     $(this).next().toggle();
   });
 
+
+// populating the page with content parsed from json
   $.ajax({
       url: "guns.jsonp",
       type: 'POST',
@@ -153,6 +159,7 @@ $(document).ready(function() {
             });
      }});
 
+// perk tooltip display
   $(".container-fluid").on('mouseenter', '.perk-wrap', function(){
     var title = $(this).data('name');
     var description = $(this).data('desc');
@@ -166,17 +173,16 @@ $(document).ready(function() {
       $(this).remove();
     });
 
+// search function and its friends
+  function showEverything() {
+    $('h3').each(function(){$(this).show()});
+    $('.row').each(function(){$(this).show()});
+  };
+
   $('.gun-search').on('keyup', function(){
 
-    $('.container-fluid').each(function(){
-      console.log($(this).children().length);
-      if ($(this).children().length <= 0){
-        console.log('12312313');
-        $(this).prev().hide();
-      };
-    });
-
     if ($(this).val().length > 2) {
+      $('.input-wrap').removeClass('hidden');
       var searchTerm = $(this).val().toLowerCase();
       $('.row').each(function(index, val){
         try {
@@ -187,21 +193,31 @@ $(document).ready(function() {
           console.log(err.message);
         }
           if (current_name.indexOf(searchTerm) >= 0) {
-            $(this).show()
+            $(this).show();
+            $(this).parent().prev().show();
           } else {
-            $(this).hide()
+            $(this).hide();
+            $(this).parent().prev().hide();
           };
 
 
 
       });
+    } else if($(this).val().length == 0) {
+      $('.input-wrap').addClass('hidden');
     } else {
+      $('.input-wrap').removeClass('hidden');
       console.log('its too short');
       console.log($(this).val().length);
+      showEverything();
     };
 
   });
 
+  $('.input-wrap').on('click', function(){
+    showEverything();
+    $('.gun-search').empty();
+  });
   // $(".perk-wrap").tooltip({
   //     items: ".perk-wrap",
   //     track: true,
