@@ -94,7 +94,7 @@ $(document).ready(function() {
 
                    <div class="col-lg-2 col-md-4 col-sm-4 col-4 pic-name">
                      <img src="${picture}">
-                     <p>${name}</p>
+                     <p id="name">${name}</p>
                    </div>
                    <div class="col-lg-1 col-md-4 col-sm-4 col-4 tier">
                      <p class="tier-${tier}">Tier ${tier}</p>
@@ -168,8 +168,19 @@ $(document).ready(function() {
 
   $('.gun-search').on('keyup', function(){
     if ($(this).val().length > 2) {
-      console.log('its > 2'); 
+      console.log('its > 2');
       console.log($(this).val().length);
+      var searchTerm = $(this).val().toLowerCase();
+      console.log("find(name) is: " + $(this).find('#name'));
+      console.log("find(name).val is: " + $(this).find('#name').val().prop('outerHTML'));
+      console.log("find(name).val.tolower is: " + $(this).find('#name').val().toLowerCase());
+      $('.container-fluid').each(function(){
+        if ($(this).find('#name').val().toLowerCase() == searchTerm) {
+          console.log($(this).find('#name').val().toLowerCase());
+          console.log(searchTerm);
+          $(this).hide();
+        }
+      });
     } else {
       console.log('its too short');
       console.log($(this).val().length);
