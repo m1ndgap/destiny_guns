@@ -168,19 +168,24 @@ $(document).ready(function() {
 
   $('.gun-search').on('keyup', function(){
     if ($(this).val().length > 2) {
-      console.log('its > 2');
-      console.log($(this).val().length);
       var searchTerm = $(this).val().toLowerCase();
-      console.log("find(name) is: " + $(this).find('#name'));
-      console.log("find(name).val is: " + $(this).find('#name').val().prop('outerHTML'));
-      console.log("find(name).val.tolower is: " + $(this).find('#name').val().toLowerCase());
-      $('.container-fluid').each(function(){
-        if ($(this).find('#name').val().toLowerCase() == searchTerm) {
-          console.log($(this).find('#name').val().toLowerCase());
-          console.log(searchTerm);
-          $(this).hide();
-        }
+      $('.container-fluid').each(function(index1, val1){
+        $('.row').each(function(index2, val2){
+          console.log($(this).find('#name')[0]);
+          console.log(index2 + ' ' + $(this).find('#name')[0].innerHTML);
+          var current_name = $(this).find('#name')[0].innerHTML.toLowerCase();
+          console.log(current_name);
+            if (searchTerm.indexOf(current_name) >= 0) {
+              console.log('PENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENIS')};
+        });
       });
+      // $('.container-fluid').each(function(){
+      //   if ($(this).find('#name').val().toLowerCase() == searchTerm) {
+      //     console.log($(this).find('#name').val().toLowerCase());
+      //     console.log(searchTerm);
+      //     $(this).hide();
+      //   }
+      // });
     } else {
       console.log('its too short');
       console.log($(this).val().length);
