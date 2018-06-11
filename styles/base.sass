@@ -40,6 +40,9 @@ h3
   div
     text-align: center
 
+.hidden
+  display: none
+
 .show-switch
   margin-top: 20px
   height: 55px
@@ -51,22 +54,18 @@ h3
 .input-wrap
   margin-bottom: 45px
   position: relative
-  pointer-events: none
-  &:after
+  .form-clear-button
     width: 30px
     height: 30px
     position: absolute
     top: 12px
     left: 9px
-    display: block
     content: ' '
     background-image: url('../assets/images/unchecked.png')
     background-size: 25px
     background-repeat: no-repeat
     pointer-events: all
-.hidden
-  &:after
-    display: none
+
 
 
 // first column with picture and item name

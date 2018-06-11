@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$('.input-wrap').addClass('hidden');
+$('.form-clear-button').addClass('hidden');
 
 // showing perks stats and links on small displays
   $(".container-fluid").on('click', '.show-stats', function(){
@@ -182,7 +182,7 @@ $('.input-wrap').addClass('hidden');
   $('.gun-search').on('keyup', function(){
 
     if ($(this).val().length > 2) {
-      $('.input-wrap').removeClass('hidden');
+      $('.form-clear-button').removeClass('hidden');
       var searchTerm = $(this).val().toLowerCase();
       $('.row').each(function(index, val){
         try {
@@ -204,9 +204,9 @@ $('.input-wrap').addClass('hidden');
 
       });
     } else if($(this).val().length == 0) {
-      $('.input-wrap').addClass('hidden');
+      $('.form-clear-button').addClass('hidden');
     } else {
-      $('.input-wrap').removeClass('hidden');
+      $('.form-clear-button').removeClass('hidden');
       console.log('its too short');
       console.log($(this).val().length);
       showEverything();
@@ -216,8 +216,11 @@ $('.input-wrap').addClass('hidden');
 
   $('.input-wrap').on('click', function(){
     showEverything();
-    $('.gun-search').empty();
+    $('.gun-search').val('');
+    $('.form-clear-button').addClass('hidden');
   });
+
+
   // $(".perk-wrap").tooltip({
   //     items: ".perk-wrap",
   //     track: true,
