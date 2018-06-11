@@ -181,7 +181,7 @@ $('.form-clear-button').addClass('hidden');
 
   $('.gun-search').on('keyup', function(){
 
-    if ($(this).val().length > 2) {
+    if ($(this).val().length > 1) {
       $('.form-clear-button').removeClass('hidden');
       var searchTerm = $(this).val().toLowerCase();
       $('.row').each(function(index, val){
@@ -214,7 +214,7 @@ $('.form-clear-button').addClass('hidden');
 
   });
 
-  $('.input-wrap').on('click', function(){
+  $('.form-clear-button').on('click', function(){
     showEverything();
     $('.gun-search').val('');
     $('.form-clear-button').addClass('hidden');
