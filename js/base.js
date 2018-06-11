@@ -167,36 +167,34 @@ $(document).ready(function() {
     });
 
   $('.gun-search').on('keyup', function(){
+
+    $('.container-fluid').each(function(){
+      console.log($(this).children().length);
+      if ($(this).children().length <= 0){
+        console.log('12312313');
+        $(this).prev().hide();
+      };
+    });
+
     if ($(this).val().length > 2) {
       var searchTerm = $(this).val().toLowerCase();
-      $('.container-fluid').each(function(index1, val1){
-        $('.row').each(function(index2, val2){
-          try {
-            console.log(index2 + ' ' + $(this).find('#name')[0].innerHTML);
-          }
-          catch(err) {
-            console.log(err.message);
-          }
-          try {
-            var current_name = $(this).find('#name')[0].innerHTML.toLowerCase();
-          }
-          catch(err) {
-            console.log(err.message);
-          }
-          console.log(current_name);
-          console.log(searchTerm);
-          console.log(searchTerm.indexOf(current_name));
-            if (current_name.indexOf(searchTerm) >= 0) {
-              console.log('PENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENIS')};
-        });
+      $('.row').each(function(index, val){
+        try {
+          var current_name = $(this).find('#name')[0].innerHTML.toLowerCase();
+          // console.log(index + ' ' + $(this).find('#name')[0].innerHTML);
+        }
+        catch(err) {
+          console.log(err.message);
+        }
+          if (current_name.indexOf(searchTerm) >= 0) {
+            $(this).show()
+          } else {
+            $(this).hide()
+          };
+
+
+
       });
-      // $('.container-fluid').each(function(){
-      //   if ($(this).find('#name').val().toLowerCase() == searchTerm) {
-      //     console.log($(this).find('#name').val().toLowerCase());
-      //     console.log(searchTerm);
-      //     $(this).hide();
-      //   }
-      // });
     } else {
       console.log('its too short');
       console.log($(this).val().length);
