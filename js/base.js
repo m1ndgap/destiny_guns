@@ -171,11 +171,22 @@ $(document).ready(function() {
       var searchTerm = $(this).val().toLowerCase();
       $('.container-fluid').each(function(index1, val1){
         $('.row').each(function(index2, val2){
-          console.log($(this).find('#name')[0]);
-          console.log(index2 + ' ' + $(this).find('#name')[0].innerHTML);
-          var current_name = $(this).find('#name')[0].innerHTML.toLowerCase();
+          try {
+            console.log(index2 + ' ' + $(this).find('#name')[0].innerHTML);
+          }
+          catch(err) {
+            console.log(err.message);
+          }
+          try {
+            var current_name = $(this).find('#name')[0].innerHTML.toLowerCase();
+          }
+          catch(err) {
+            console.log(err.message);
+          }
           console.log(current_name);
-            if (searchTerm.indexOf(current_name) >= 0) {
+          console.log(searchTerm);
+          console.log(searchTerm.indexOf(current_name));
+            if (current_name.indexOf(searchTerm) >= 0) {
               console.log('PENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENISPENIS')};
         });
       });
