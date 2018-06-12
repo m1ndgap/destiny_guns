@@ -100,7 +100,7 @@ $('.form-clear-button').addClass('hidden');
 
                    <div class="col-lg-2 col-md-4 col-sm-4 col-4 pic-name">
                      <img src="${picture}">
-                     <p id="name">${name}</p>
+                     <p class='name' data-gun-name="${name}">${name}</p>
                    </div>
                    <div class="col-lg-1 col-md-4 col-sm-4 col-4 tier">
                      <p class="tier-${tier}">Tier ${tier}</p>
@@ -186,7 +186,7 @@ $('.form-clear-button').addClass('hidden');
       var searchTerm = $(this).val().toLowerCase();
       $('.row').each(function(index, val){
         try {
-          var current_name = $(this).find('#name')[0].innerHTML.toLowerCase();
+          var current_name = $(this).find('.name')[0].innerHTML.toLowerCase();
           // console.log(index + ' ' + $(this).find('#name')[0].innerHTML);
         }
         catch(err) {
@@ -194,11 +194,21 @@ $('.form-clear-button').addClass('hidden');
         }
           if (current_name.indexOf(searchTerm) >= 0) {
             $(this).show();
-            $(this).parent().prev().show();
+            $(this).addClass('found-gun');
           } else {
             $(this).hide();
-            $(this).parent().prev().hide();
+            $(this).removeClass('found-gun');
           };
+
+          $('.container-fluid').each(function(index, val){
+              if ($(this).find('.found-gun').length > 0) {
+                $(this).prev().show();
+              } else {
+                $(this).prev().hide();
+              };
+
+          });
+
 
 
 
@@ -218,6 +228,9 @@ $('.form-clear-button').addClass('hidden');
     showEverything();
     $('.gun-search').val('');
     $('.form-clear-button').addClass('hidden');
+    $('.found-gun').each(function(){
+      $(this).removeClass('found-gun');
+    });
   });
 
 
