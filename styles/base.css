@@ -1,5 +1,6 @@
 .perks, .stats, .links {
   display: none;
+  padding-bottom: 15px;
 }
 
 @media (max-width: 576px) {
@@ -133,9 +134,47 @@ h3 {
 }
 
 .show-switch {
-  margin-top: 20px;
-  height: 15px;
+  position: relative;
+  height: 20px;
   border: 1px solid #66878f;
+  border-bottom: 0px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.show-switch span {
+  position: relative;
+}
+
+.show-switch span .arrow-down {
+  position: absolute;
+  top: 5px;
+  right: -20px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #66878f;
+}
+
+.show-links {
+  border-bottom: 1px solid #66878f;
+}
+
+.box_rotate {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.box_transition {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .gun-search {

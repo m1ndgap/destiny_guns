@@ -3,17 +3,31 @@ $(document).ready(function() {
 $('.form-clear-button').addClass('hidden');
 
 // showing perks stats and links on small displays
+
+//function to show the bottom border on click
+  function showBorder(x) {
+    if (x.css('border-bottom').substring(0, 1) == '0') {
+      x.css('border-bottom', '1px solid #66878f');
+      x.find('.arrow-down').addClass('box_rotate box_transition');
+    } else {
+      x.css('border-bottom', '0');
+      x.find('.arrow-down').removeClass('box_rotate box_transition');
+    };
+  };
+
   $(".container-fluid").on('click', '.show-stats', function(){
-    console.log('xyu`');
-    $(this).next().toggle();
+    $(this).next().slideToggle(100);
+    showBorder($(this));
   });
 
   $(".container-fluid").on('click','.show-perks', function(){
-    $(this).next().toggle();
+    $(this).next().slideToggle(100);
+    showBorder($(this));
   });
 
   $(".container-fluid").on('click', '.show-links', function(){
-    $(this).next().toggle();
+    $(this).next().slideToggle(100);
+    showBorder($(this));
   });
 
 
@@ -110,7 +124,7 @@ $('.form-clear-button').addClass('hidden');
                      <p class="${rarity_rarity.slice(0, -1).toLowerCase()}">${rarity_rarity}</p>
                      <p class="source">${rarity_source}</p>
                    </div>
-                   <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-stats"></div>
+                   <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-stats"><span>Stats<div class="arrow-down"></div></span></div>
                    <div class="col-lg-3 col-md-12 col-sm-12 col-12 stats">
                      <div class="stat">
                        <div class="stat-fill" style="width: ${stats_impact}%">${text_impact}</div>
@@ -141,13 +155,13 @@ $('.form-clear-button').addClass('hidden');
                        <span class="stat-value">${stats_rpm}</span>
                      </div>
                    </div>
-                   <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-perks"></div>
+                   <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-perks"><span>Perks<div class="arrow-down"></div></span></div>
                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 perks">
                      ${perks_html}
                      </div>
 
                    </div>
-                   <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-links"></div>
+                   <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-links"><span>Description<div class="arrow-down"></div></span></div>
                    <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 links">
                      <p class="description">${description}</p>
                      <a href="${dt_link}">destinytracker.com</a>

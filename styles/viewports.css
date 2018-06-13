@@ -1,5 +1,6 @@
 .perks, .stats, .links {
   display: none;
+  padding-bottom: 15px;
 }
 
 @media (max-width: 576px) {
