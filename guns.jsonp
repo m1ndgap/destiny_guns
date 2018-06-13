@@ -207,8 +207,8 @@ guns_callback(
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'Very good in single target fights with reload utility tools (lunarfaction, titan wall)',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1345867571-coldheart'
   }
 },
 {
@@ -279,8 +279,8 @@ guns_callback(
                   },
             },
   'links': {
-            'description': '---',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'description': 'Solid and cool looking kinetic rifle',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1457979868-duty-bound'
   }
 },
 {

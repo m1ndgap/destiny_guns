@@ -26,7 +26,6 @@ $('.form-clear-button').addClass('hidden');
       accepts: 'application/jsonp',
       jsonpCallback: 'guns_callback',
         success: function (data) {
-            console.log(data);
             var json = data;
             $.each(json, function(index, value){
               var type = json[index].type;
@@ -180,7 +179,6 @@ $('.form-clear-button').addClass('hidden');
   };
 
   $('.gun-search').on('keyup', function(){
-
     if ($(this).val().length > 1) {
       $('.form-clear-button').removeClass('hidden');
       var searchTerm = $(this).val().toLowerCase();
@@ -199,19 +197,14 @@ $('.form-clear-button').addClass('hidden');
             $(this).hide();
             $(this).removeClass('found-gun');
           };
-
+          // hiding headings for empty sections
           $('.container-fluid').each(function(index, val){
               if ($(this).find('.found-gun').length > 0) {
                 $(this).prev().show();
               } else {
                 $(this).prev().hide();
               };
-
           });
-
-
-
-
       });
     } else if($(this).val().length == 0) {
       $('.form-clear-button').addClass('hidden');
@@ -221,9 +214,8 @@ $('.form-clear-button').addClass('hidden');
       console.log($(this).val().length);
       showEverything();
     };
-
   });
-
+// button clearing the search input and resetting page state
   $('.form-clear-button').on('click', function(){
     showEverything();
     $('.gun-search').val('');
@@ -233,7 +225,25 @@ $('.form-clear-button').addClass('hidden');
     });
   });
 
+// 'scroll to top' button
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+$('#myBtn').on('click', function() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+});
+
+
+  // tried doing tooltips with jquery functionality but couldnt make it work :(
   // $(".perk-wrap").tooltip({
   //     items: ".perk-wrap",
   //     track: true,

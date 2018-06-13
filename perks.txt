@@ -65,8 +65,6 @@
                               'icon': './assets/images/icon_red_dot_micro.png'
                             },
 
-
-
 { 'name': 'Rampage',
                               'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
                               'recommended': false,
