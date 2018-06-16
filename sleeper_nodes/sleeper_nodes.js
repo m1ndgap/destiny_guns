@@ -2,6 +2,7 @@ $(document).ready(function() {
       //http://188.166.107.84/sleeper_nodes/sleeper_nodes.jsonp
       //../sleeper_nodes/sleeper_nodes.jsonp
 
+
   if(localStorage.getItem('nodes'))
     {
       var ls_nodes = JSON.parse(localStorage.getItem('nodes'));
@@ -11,7 +12,7 @@ $(document).ready(function() {
     {
       var ls_nodes = [];
       localStorage.setItem('nodes', JSON.stringify(ls_nodes));
-      console.log(ls_nodes);
+      $('#sn-nodes-left').text(40 - ls_nodes.length);
     };
 
 
