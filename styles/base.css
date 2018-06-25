@@ -1,44 +1,3 @@
-.perks, .stats, .links {
-  display: none;
-  padding-bottom: 15px;
-}
-
-@media (max-width: 576px) {
-  .sn-check, .sn-vid, .sn-desc, .sn-name {
-    padding: 0px;
-  }
-  .sn-vid {
-    margin-bottom: 5px;
-  }
-  .sn-check input {
-    margin-top: 5px;
-  }
-}
-
-@media (min-width: 576px) {
-  .perks, .stats, .links {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .perks, .stats, .links {
-    display: none;
-  }
-}
-
-@media (min-width: 992px) {
-  .perks, .stats, .links {
-    display: block;
-  }
-}
-
-@media (min-width: 1200px) {
-  .perks, .stats, .links {
-    display: block;
-  }
-}
-
 .node {
   display: block;
 }
@@ -200,7 +159,7 @@ h3 {
   cursor: pointer;
 }
 
-#myBtn {
+#goToTopBtn {
   font-weight: bold;
   display: none;
   position: fixed;
@@ -217,7 +176,7 @@ h3 {
   font-size: 18px;
 }
 
-#myBtn:hover {
+#goToTopBtn:hover {
   top: 102px;
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=0, Color=#000000)";
   /*IE 8*/
@@ -326,6 +285,7 @@ h3 {
 }
 
 .stats {
+  display: none;
   padding-top: 10px;
 }
 
@@ -376,7 +336,15 @@ h3 {
   display: none;
 }
 
+@media (min-width: 992px) {
+  .stats {
+    display: block !important;
+  }
+}
+
 .perks {
+  padding-bottom: 15px;
+  display: none;
   outline: none;
   user-select: none;
 }
@@ -461,14 +429,31 @@ h3 {
   background-color: #1ea00d;
 }
 
-.links .description {
-  margin-top: 15px;
-  line-height: 15px;
-  font-size: 12px;
-  font-weight: 500;
+@media (min-width: 992px) {
+  .perks {
+    display: block !important;
+    padding-bottom: 0px;
+  }
 }
 
-.links a {
-  color: #66878f;
-  text-decoration: underline;
+.links {
+  display: none;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+  .links {
+    margin-bottom: 0px;
+    display: block !important;
+  }
+  .links .description {
+    margin-top: 15px;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .links a {
+    color: #66878f;
+    text-decoration: underline;
+  }
 }

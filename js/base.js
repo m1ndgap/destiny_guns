@@ -8,26 +8,38 @@ $('.form-clear-button').addClass('hidden');
   function showBorder(x) {
     if (x.css('border-bottom').substring(0, 1) == '0') {
       x.css('border-bottom', '1px solid #66878f');
-      x.find('.arrow-down').addClass('box_rotate box_transition');
     } else {
       x.css('border-bottom', '0');
-      x.find('.arrow-down').removeClass('box_rotate box_transition');
     };
   };
+
+  function rotateArrow(x) {
+    if (x.find('.arrow-down').hasClass('box_rotate')) {
+      console.log(123);
+      x.find('.arrow-down').removeClass('box_rotate box_transition');
+    } else {
+      console.log(321312312312);
+      x.find('.arrow-down').addClass('box_rotate box_transition');
+    };
+  };
+
 
   $(".container-fluid").on('click', '.show-stats', function(){
     $(this).next().slideToggle(100);
     showBorder($(this));
+    rotateArrow($(this));
   });
 
   $(".container-fluid").on('click','.show-perks', function(){
     $(this).next().slideToggle(100);
     showBorder($(this));
+    rotateArrow($(this));
   });
 
   $(".container-fluid").on('click', '.show-links', function(){
     $(this).next().slideToggle(100);
-    showBorder($(this));
+    rotateArrow($(this));
+    //showBorder($(this));
   });
 
 
@@ -244,14 +256,14 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
+        document.getElementById("goToTopBtn").style.display = "block";
     } else {
-        document.getElementById("myBtn").style.display = "none";
+        document.getElementById("goToTopBtn").style.display = "none";
     }
 }
 
 // When the user clicks on the button, scroll to the top of the document
-$('#myBtn').on('click', function() {
+$('#goToTopBtn').on('click', function() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 });

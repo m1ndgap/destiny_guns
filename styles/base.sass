@@ -1,5 +1,5 @@
 @import variables.sass
-@import viewports.sass
+// @import viewports.sass
 @import ../sleeper_nodes/sleeper_nodes.sass
 
 
@@ -98,7 +98,7 @@ h3
     pointer-events: all
     cursor: pointer
 
-#myBtn
+#goToTopBtn
     font-weight: bold
     display: none
     position: fixed
@@ -231,6 +231,7 @@ h3
 
 // stats section
 .stats
+  display: none
   padding-top: 10px
   //border: 1px solid red
   .stat
@@ -273,8 +274,15 @@ h3
       &:last-child
         display: none
 
+@media (min-width: 992px)
+  .stats
+    display: block !important
+
+
 // perks section
 .perks
+  padding-bottom: 15px
+  display: none
   outline: none
   user-select: none
   //border: 1px solid red
@@ -340,15 +348,27 @@ h3
       width: 9px
       background-color: $uncommon
 
+@media (min-width: 992px)
+  .perks
+    display: block !important
+    padding-bottom: 0px
+
 
 // links section
 .links
-  //border: 1px solid red
-  .description
-    margin-top: 15px
-    line-height: 15px
-    font-size: 12px
-    font-weight: 500
-  a
-    color: $perks
-    text-decoration: underline
+  display: none
+  margin-bottom: 15px
+
+@media (min-width: 992px)
+  .links
+    margin-bottom: 0px
+    display: block !important
+    //border: 1px solid red
+    .description
+      margin-top: 15px
+      line-height: 15px
+      font-size: 12px
+      font-weight: 500
+    a
+      color: $perks
+      text-decoration: underline
