@@ -693,7 +693,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent 720 RPM kinetic, warmind Guiding Star, some people say its tier 1',
+            'description': 'Decent 720 RPM kinetic, warmind Guiding Star, some people say it`s tier-1',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1137768695-foregone-conclusion'
   }
 },

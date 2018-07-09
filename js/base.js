@@ -2,6 +2,50 @@ $(document).ready(function() {
 
 $('.form-clear-button').addClass('hidden');
 
+
+// code handling the alerts behavior on the index page: ie it is only shown once
+if(localStorage.getItem('alert_index'))
+  {
+    $('.legend').addClass('hidden');
+    $('.legend').alert('close');
+  }
+  else
+  {
+    var  alert_index = 1;
+    localStorage.setItem('alert_index', JSON.stringify(alert_index));
+  };
+
+$('.search-display-legend').on('click', function() {
+  $(`<div class="alert alert-warning alert-dismissible fade show legend" role="alert">
+    <h3>Legend</h3>
+  <hr>
+  <div class="alert-disclaimer">This list is completely arbitrary, if you like a certain gun — feel free to use it. This site is aimed to help people who want to go after the best guns but have no time for research or peers to ask for advice.
+  </div>
+  <hr>
+  <div class="alert-rarity"><span class="legend-subtitle">Rarity scale:</span>
+    <ul>
+      <li><span class="legend-epic">Epic</span> — very difficult to get guns, events on a long rotation (Faction Rally, weekly Nightfall drop etc) and with high random factor.</li>
+      <li><span class="legend-rare">Rare</span> — guns with a high random factor (Banshee or Exotic drops) you can grind for</li>
+      <li><span class="legend-uncom">Uncommon</span> — guns easily grindable through token farm</li>
+    </ul>
+  </div>
+  <div><span class="subtitle">Tier scale:</span>
+    <ul>
+      <li><span class="legend-tier1">Tier 1</span> — Objectively strong weapon excelling in PvE, PvP or both.</li>
+      <li><span class="legend-tier2">Tier 2</span> — A gun that can perform well but has some drawbacks or a gun with high situational utility.</li>
+    </ul>
+  </div>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>`).insertAfter('.navbar');
+
+});
+//
+//   $('.legend').on('closed.bs.alert', function () {
+//   // do something…
+// })
+
 // showing perks stats and links on small displays
 
 //function to show the bottom border on click
@@ -15,13 +59,12 @@ $('.form-clear-button').addClass('hidden');
 
   function rotateArrow(x) {
     if (x.find('.arrow-down').hasClass('box_rotate')) {
-      console.log(123);
       x.find('.arrow-down').removeClass('box_rotate box_transition');
     } else {
-      console.log(321312312312);
       x.find('.arrow-down').addClass('box_rotate box_transition');
     };
   };
+
 
 
   $(".container-fluid").on('click', '.show-stats', function(){

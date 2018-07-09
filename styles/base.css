@@ -211,6 +211,13 @@ h3 {
   cursor: pointer;
 }
 
+.input-wrap .search-display-legend {
+  position: absolute;
+  cursor: pointer;
+  text-decoration: underline;
+  font-style: italic;
+}
+
 #goToTopBtn {
   font-weight: bold;
   display: none;
