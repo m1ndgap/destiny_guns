@@ -1532,6 +1532,220 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2856683562-suros-regime'
   }
 },
+
+{
+  "name": "Manannan SR4",
+  'type': "scout_rifles",
+  "picture": "./assets/images/scout-manannan.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Banshee"],
+  "stats": {"Impact": 60,
+            "Range": 32,
+            "Stability": 46,
+            "Magazine": 16,
+            "Reload_speed": 57,
+            "Handling": 71,
+            "RPM": 200,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Candle PS',
+                              'description': 'Omolon post sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_candle_ps.png'
+                            },
+                  'perk2':
+                            { 'name': 'Impulse MS3',
+                              'description': 'Omolon ocular technology. Long zoom. • Increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_impulse_ms3.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Alloy Magazine',
+                              'description': 'Faster reloads when the magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_alloy_magazine.png'
+                            },
+                    'perk2':
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_steady_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Explosive Payload',
+                              'description': 'Projectiles create an area-of-effect detonation on impact.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_explosive_payload.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Best energy scout for PvE',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/925326393-manannan-sr4'
+  }
+},
+
+{
+  "name": "Nameless Midnight",
+  'type': "scout_rifles",
+  "picture": "./assets/images/scout-nameless-midnight.jpg",
+  "tier": 1,
+  "role": 'PvE > PvP',
+  "rarity": ["Kinetic", "Uncom.", "Vanguard"],
+  "stats": {"Impact": 62,
+            "Range": 46,
+            "Stability": 44,
+            "Magazine": 16,
+            "Reload_speed": 50,
+            "Handling": 47,
+            "RPM": 180,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Red Dot 2 MOA',
+                              'description': 'Snapshot sight. Short zoom. • Slightly increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_red_dot_2_moa.png'
+                            },
+                  'perk2':
+                            { 'name': 'Red Dot Micro',
+                              'description': 'Agile sight. Short zoom. • Increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_red_dot_micro.png'
+                            },
+                  'perk3':
+                            { 'name': 'Rifle Scope SSF',
+                              'description': 'Focused scope. Long zoom. • Slightly increases range • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rifle_scope_ssf.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': true,
+                              'icon': './assets/images/icon_flared_magwell.png'
+                            },
+
+                    'perk2':
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_steady_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Explosive Payload',
+                              'description': 'Projectiles create an area-of-effect detonation on impact.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_explosive_payload.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'One of the best easy to obtain kinetic scouts',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1960218487-nameless-midnight'
+  }
+},
+
+{
+  "name": "Purpose",
+  'type': "scout_rifles",
+  "picture": "./assets/images/scout-purpose.jpg",
+  "tier": 1,
+  "role": 'PvE > PvP',
+  "rarity": ["Kinetic", "Epic ", "To9"],
+  "stats": {"Impact": 60,
+            "Range": 42,
+            "Stability": 50,
+            "Magazine": 16,
+            "Reload_speed": 60,
+            "Handling": 72,
+            "RPM": 200,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Extended Barrel',
+                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_barrel.png'
+                            },
+                    'perk2':
+                            { 'name': 'Smallbore',
+                              'description': 'Dual strength barrel. • Increases range • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_smallbore.png'
+                            },
+                    'perk3':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': true,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Slideshot',
+                              'description': "Sliding partially reloads this weapon's magazine and temporarily boosts range and stability.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_slideshot.png'
+                            },
+                    'perk2':
+                            { 'name': 'Hip-Fire Grip',
+                              'description': 'Ergonomic grips that increase accuracy and stability when firing from the hip.',
+                              'recommended': true,
+                              'icon': './assets/images/icon_hipfire_grip.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Explosive Payload',
+                              'description': 'Projectiles create an area-of-effect detonation on impact.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_explosive_payload.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'One of the best scout rifles in the game, lightweight + explosive payload = terrible damage',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2516360525-purpose'
+  }
+},
 {
   "name": "Conspirator",
   'type': "scout_rifles",
@@ -1677,72 +1891,6 @@ guns_callback(
   }
 },
 {
-  "name": "Manannan SR4",
-  'type': "scout_rifles",
-  "picture": "./assets/images/scout-manannan.jpg",
-  "tier": 1,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Banshee"],
-  "stats": {"Impact": 60,
-            "Range": 32,
-            "Stability": 46,
-            "Magazine": 16,
-            "Reload_speed": 57,
-            "Handling": 71,
-            "RPM": 200,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Lightweight Frame',
-                              'description': 'Superb handling. Move faster with this weapon equipped.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_lightweight_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Candle PS',
-                              'description': 'Omolon post sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_candle_ps.png'
-                            },
-                  'perk2':
-                            { 'name': 'Impulse MS3',
-                              'description': 'Omolon ocular technology. Long zoom. • Increases range • Decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_impulse_ms3.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Alloy Magazine',
-                              'description': 'Faster reloads when the magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_alloy_magazine.png'
-                            },
-                    'perk2':
-                            { 'name': 'Steady Rounds',
-                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_steady_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Explosive Payload',
-                              'description': 'Projectiles create an area-of-effect detonation on impact.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_explosive_payload.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Best energy scout for PvE',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/925326393-manannan-sr4'
-  }
-},
-{
   "name": "MIDA Multi-Tool",
   'type': "scout_rifles",
   "picture": "./assets/images/scout-mida.jpg",
@@ -1877,79 +2025,6 @@ guns_callback(
   }
 },
 {
-  "name": "Nameless Midnight",
-  'type': "scout_rifles",
-  "picture": "./assets/images/scout-nameless-midnight.jpg",
-  "tier": 1,
-  "role": 'PvE > PvP',
-  "rarity": ["Kinetic", "Uncom.", "Vanguard"],
-  "stats": {"Impact": 62,
-            "Range": 46,
-            "Stability": 44,
-            "Magazine": 16,
-            "Reload_speed": 50,
-            "Handling": 47,
-            "RPM": 180,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Red Dot 2 MOA',
-                              'description': 'Snapshot sight. Short zoom. • Slightly increases range • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_red_dot_2_moa.png'
-                            },
-                  'perk2':
-                            { 'name': 'Red Dot Micro',
-                              'description': 'Agile sight. Short zoom. • Increases range • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_red_dot_micro.png'
-                            },
-                  'perk3':
-                            { 'name': 'Rifle Scope SSF',
-                              'description': 'Focused scope. Long zoom. • Slightly increases range • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rifle_scope_ssf.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Flared Magwell',
-                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
-                              'icon': './assets/images/icon_flared_magwell.png'
-                            },
-
-                    'perk2':
-                            { 'name': 'Steady Rounds',
-                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_steady_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Explosive Payload',
-                              'description': 'Projectiles create an area-of-effect detonation on impact.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_explosive_payload.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'One of the best easy to obtain kinetic scouts',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1960218487-nameless-midnight'
-  }
-},
-{
   "name": "Polaris Lance",
   'type': "scout_rifles",
   "picture": "./assets/images/scout_polaris_lance.jpg",
@@ -2009,78 +2084,6 @@ guns_callback(
   'links': {
             'description': 'Fun weapon to play around with, rewards good shooting, not very good in the meta',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3413074534-polaris-lance'
-  }
-},
-{
-  "name": "Purpose",
-  'type': "scout_rifles",
-  "picture": "./assets/images/scout-purpose.jpg",
-  "tier": 1,
-  "role": 'PvE > PvP',
-  "rarity": ["Kinetic", "Rare ", "To9"],
-  "stats": {"Impact": 60,
-            "Range": 42,
-            "Stability": 50,
-            "Magazine": 16,
-            "Reload_speed": 60,
-            "Handling": 72,
-            "RPM": 200,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Lightweight Frame',
-                              'description': 'Superb handling. Move faster with this weapon equipped.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_lightweight_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Extended Barrel',
-                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_barrel.png'
-                            },
-                    'perk2':
-                            { 'name': 'Smallbore',
-                              'description': 'Dual strength barrel. • Increases range • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_smallbore.png'
-                            },
-                    'perk3':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': true,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Slideshot',
-                              'description': "Sliding partially reloads this weapon's magazine and temporarily boosts range and stability.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_slideshot.png'
-                            },
-                    'perk2':
-                            { 'name': 'Hip-Fire Grip',
-                              'description': 'Ergonomic grips that increase accuracy and stability when firing from the hip.',
-                              'recommended': true,
-                              'icon': './assets/images/icon_hipfire_grip.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Explosive Payload',
-                              'description': 'Projectiles create an area-of-effect detonation on impact.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_explosive_payload.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'One of the best scout rifles in the game, lightweight + explosive payload = terrible damage',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2516360525-purpose'
   }
 },
 {
@@ -2146,72 +2149,6 @@ guns_callback(
   }
 },
 
-{
-  "name": "Atalanta-D",
-  'type': "smgs",
-  "picture": "./assets/images/smgs-atalanta.jpg",
-  "tier": 1,
-  "role": 'PvP > PvE',
-  "rarity": ["Kinetic", "Rare ", "Banshee"],
-  "stats": {"Impact": 25,
-            "Range": 52,
-            "Stability": 45,
-            "Magazine": 27,
-            "Reload_speed": 27,
-            "Handling": 31,
-            "RPM": 600,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'GA Post',
-                              'description': 'Agile post sights. Short zoom. • Greatly increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_ga_post.png'
-                            },
-                  'perk2':
-                            { 'name': 'SD Thermal',
-                              'description': 'Häkke thermal imaging scope. Medium-zoom. Highlights enemy targets. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_sd_thermal.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Extended Mag',
-                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_mag.png'
-                            },
-                    'perk2':
-                            { 'name': 'Steady Rounds',
-                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_steady_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Tap the Trigger',
-                              'description': "Grants a short period of increased stability and accuracy on initial trigger pull.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_tap_the_trigger.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Decent SMG for both PvE and PvP, if you don`t have Antiope use this one',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2414612777-atalanta-d'
-  }
-},
 {
   "name": "Antiope-D",
   'type': "smgs",
@@ -2279,77 +2216,72 @@ guns_callback(
   }
 },
 {
-  "name": "Foggy Notion",
+  "name": "Atalanta-D",
   'type': "smgs",
-  "picture": "./assets/images/smgs-foggy.jpg",
-  "tier": 2,
-  "role": 'PvP',
-  "rarity": ["Energy", "Rare ", "World drop"],
-  "stats": {"Impact": 20,
-            "Range": 47,
-            "Stability": 50,
-            "Magazine": 34,
-            "Reload_speed": 49,
-            "Handling": 56,
-            "RPM": 900,
+  "picture": "./assets/images/smgs-atalanta.jpg",
+  "tier": 1,
+  "role": 'PvP > PvE',
+  "rarity": ["Kinetic", "Rare ", "Banshee"],
+  "stats": {"Impact": 25,
+            "Range": 52,
+            "Stability": 45,
+            "Magazine": 27,
+            "Reload_speed": 27,
+            "Handling": 31,
+            "RPM": 600,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Adaptive Frame',
-                              'description': 'A well-rounded grip, reliable and sturdy.',
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
                               'recommended': false,
-                              'icon': './assets/images/icon_adaptive_frame.png'
+                              'icon': './assets/images/icon_precision_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'SLO-21 Post',
-                              'description': 'SUROS projection sight. Short zoom. • Increases handling speed • Slightly increases range',
+                            { 'name': 'GA Post',
+                              'description': 'Agile post sights. Short zoom. • Greatly increases handling speed • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_slo_21_post.png'
+                              'icon': './assets/images/icon_ga_post.png'
                             },
                   'perk2':
-                            { 'name': 'SLO-10 Post',
-                              'description': 'SUROS projection sight. Short zoom. • Increases handling speed • Slightly increases range',
+                            { 'name': 'SD Thermal',
+                              'description': 'Häkke thermal imaging scope. Medium-zoom. Highlights enemy targets. • Increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_slo_10_post.png'
-                            },
-                  'perk3':
-                            { 'name': 'SPO-26 Front',
-                              'description': 'SUROS lightweight red-dot sight. Short zoom. • Increases handling speed • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_sd_thermal.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Flared Magwell',
-                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
-                              'icon': './assets/images/icon_flared_magwell.png'
+                            { 'name': 'Extended Mag',
+                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_mag.png'
                             },
                     'perk2':
-                            { 'name': 'Ricochet Rounds',
-                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_ricochet_rounds.png'
+                              'icon': './assets/images/icon_steady_rounds.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'Grave Robber',
-                              'description': "Melee kills reload a portion of the magazine.",
+                            { 'name': 'Tap the Trigger',
+                              'description': "Grants a short period of increased stability and accuracy on initial trigger pull.",
                               'recommended': false,
-                              'icon': './assets/images/icon_grave_robber.png'
+                              'icon': './assets/images/icon_tap_the_trigger.png'
                             },
                   },
             },
   'links': {
-            'description': 'Okayish SMG for PvP',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2700862856-foggy-notion'
+            'description': 'Decent SMG for both PvE and PvP, if you don`t have Antiope use this one',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2414612777-atalanta-d'
   }
 },
+
 {
   "name": "Hero's Burden",
   'type': "smgs",
@@ -2422,6 +2354,7 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1723472487-ikelossmgv101'
   }
 },
+
 {
   "name": "IKELOS_SMG_v1.0.1",
   'type': "smgs",
@@ -2500,6 +2433,157 @@ guns_callback(
   'links': {
             'description': '---',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+  }
+},
+
+{
+  "name": "Stochastic Variable",
+  'type': "smgs",
+  "picture": "./assets/images/smgs-stochastic.jpg",
+  "tier": 1,
+  "role": 'PvP > PvE',
+  "rarity": ["Energy", "Epic ", "Faction Rally"],
+  "stats": {"Impact": 15,
+            "Range": 40,
+            "Stability": 42,
+            "Magazine": 36,
+            "Reload_speed": 34,
+            "Handling": 55,
+            "RPM": 900,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Candle PS',
+                              'description': 'Omolon post sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_candle_ps.png'
+                            },
+                  'perk2':
+                            { 'name': 'Torch HS3',
+                              'description': 'Omolon red-dot. Medium zoom. • Greatly increases range • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_torch_hs3.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'High-Caliber Rounds',
+                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_caliber_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                    'perk3':
+                            { 'name': 'Phase Magazine',
+                              'description': 'Increases damage while lowering rate of fire. • Decreases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_phase_magazine.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Decent SMG for any activity',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1339362514-stochastic-variable'
+  }
+},
+{
+  "name": "Foggy Notion",
+  'type': "smgs",
+  "picture": "./assets/images/smgs-foggy.jpg",
+  "tier": 2,
+  "role": 'PvP',
+  "rarity": ["Energy", "Rare ", "World drop"],
+  "stats": {"Impact": 20,
+            "Range": 47,
+            "Stability": 50,
+            "Magazine": 34,
+            "Reload_speed": 49,
+            "Handling": 56,
+            "RPM": 900,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_adaptive_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'SLO-21 Post',
+                              'description': 'SUROS projection sight. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_slo_21_post.png'
+                            },
+                  'perk2':
+                            { 'name': 'SLO-10 Post',
+                              'description': 'SUROS projection sight. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_slo_10_post.png'
+                            },
+                  'perk3':
+                            { 'name': 'SPO-26 Front',
+                              'description': 'SUROS lightweight red-dot sight. Short zoom. • Increases handling speed • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': true,
+                              'icon': './assets/images/icon_flared_magwell.png'
+                            },
+                    'perk2':
+                            { 'name': 'Ricochet Rounds',
+                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_ricochet_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Grave Robber',
+                              'description': "Melee kills reload a portion of the magazine.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_grave_robber.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Okayish SMG for PvP',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2700862856-foggy-notion'
   }
 },
 {
@@ -2632,84 +2716,6 @@ guns_callback(
   }
 },
 {
-  "name": "Stochastic Variable",
-  'type': "smgs",
-  "picture": "./assets/images/smgs-stochastic.jpg",
-  "tier": 1,
-  "role": 'PvP > PvE',
-  "rarity": ["Energy", "Epic ", "Faction Rally"],
-  "stats": {"Impact": 15,
-            "Range": 40,
-            "Stability": 42,
-            "Magazine": 36,
-            "Reload_speed": 34,
-            "Handling": 55,
-            "RPM": 900,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Lightweight Frame',
-                              'description': 'Superb handling. Move faster with this weapon equipped.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_lightweight_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Candle PS',
-                              'description': 'Omolon post sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_candle_ps.png'
-                            },
-                  'perk2':
-                            { 'name': 'Torch HS3',
-                              'description': 'Omolon red-dot. Medium zoom. • Greatly increases range • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_torch_hs3.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'High-Caliber Rounds',
-                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_caliber_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_accurized_rounds.png'
-                            },
-                    'perk3':
-                            { 'name': 'Phase Magazine',
-                              'description': 'Increases damage while lowering rate of fire. • Decreases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_phase_magazine.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Decent SMG for any activity',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1339362514-stochastic-variable'
-  }
-},
-{
   "name": "The Huckleberry",
   'type': "smgs",
   "picture": "./assets/images/smgs-huckleberry.jpg",
@@ -2769,6 +2775,362 @@ guns_callback(
   'links': {
             'description': 'Very nice to clear big numbers of mobs, can land awesome killing streaks in PvP too',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2286143274-the-huckleberry'
+  }
+},
+
+{
+  "name": "Better Devils",
+  'type': "hand_cannons",
+  "picture": "./assets/images/hc-better-devils.jpg",
+  "tier": 1,
+  "role": 'PvE & PvP',
+  "rarity": ["Kinetic", "Rare ", "Crucible"],
+  "stats": {"Impact": 84,
+            "Range": 46,
+            "Stability": 48,
+            "Magazine": 10,
+            "Reload_speed": 46,
+            "Handling": 46,
+            "RPM": 140,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_adaptive_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Fastdraw HCS',
+                              'description': 'Agile Hand Cannon sight. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+                  'perk2':
+                            { 'name': 'SteadyHand HCS',
+                              'description': 'Stable Hand Cannon sight. • Increases stability • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+                  'perk3':
+                            { 'name': 'Sureshot HCS',
+                              'description': 'Pinpoint Hand Cannon sight. • Increases range • Decreases stability • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Extended Mag',
+                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_mag.png'
+                            },
+                    'perk2':
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': true,
+                              'icon': './assets/images/icon_flared_magwell.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Explosive Payload',
+                              'description': 'Projectiles create an area-of-effect detonation on impact.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_explosive_payload.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'One of the best hand cannons in the game, equally good both in PvE and PvP',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1048266744-better-devils'
+  }
+},
+
+{
+  "name": "Dire Promise",
+  'type': "hand_cannons",
+  "picture": "./assets/images/hc-dire-promise.jpg",
+  "tier": 1,
+  "role": 'PvP',
+  "rarity": ["Kinetic", "Epic ", "Faction Rally"],
+  "stats": {"Impact": 80,
+            "Range": 45,
+            "Stability": 50,
+            "Magazine": 11,
+            "Reload_speed": 54,
+            "Handling": 61,
+            "RPM": 150,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Fastdraw HCS',
+                              'description': 'Agile Hand Cannon sight. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+                  'perk2':
+                            { 'name': 'SteadyHand HCS',
+                              'description': 'Stable Hand Cannon sight. • Increases stability • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+                  'perk3':
+                            { 'name': 'TrueSight HCS',
+                              'description': 'Balanced Hand Cannon sight. • Slightly increases range • Slightly increases stability • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_steady_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Appended Mag',
+                              'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_appended_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Triple Tap',
+                              'description': "Rapidly landing precision hits will return 1 round to the magazine from reserves.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_triple_tap.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'One of the best PvP hand cannons',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/582335600-dire-promise'
+  }
+},
+
+{
+  "name": "Midnight Coup",
+  'type': "hand_cannons",
+  "picture": "./assets/images/hc-midnight-coup.jpg",
+  "tier": 1,
+  "role": 'PvE & PvP',
+  "rarity": ["Kinetic", "Rare ", "Raid"],
+  "stats": {"Impact": 80,
+            "Range": 37,
+            "Stability": 46,
+            "Magazine": 12,
+            "Reload_speed": 60,
+            "Handling": 42,
+            "RPM": 150,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Smallbore',
+                              'description': 'Dual strength barrel. • Increases range • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_smallbore.png'
+                            },
+                  'perk2':
+                            { 'name': 'Corkscrew Rifling',
+                              'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_corkscrew_rifling.png'
+                            },
+                  'perk3':
+                            { 'name': 'Extended Barrel',
+                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_barrel.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Rampage',
+                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rampage.png'
+                            },
+                    'perk2':
+                            { 'name': 'Ambitious Assassin',
+                              'description': "Overflows the magazine based on the number of rapid kills before reloading.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_ambitious_assassin.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Outlaw',
+                              'description': "Precision kills greatly decrease reload time.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_outlaw.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'One of the best PvE hand cannons in the game, rampage + outlaw is an insane combination, also decent in PvP',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1128225405-midnight-coup'
+  }
+},
+
+{
+  "name": "Old fashioned",
+  'type': "hand_cannons",
+  "picture": "./assets/images/hc-old-fashioned.jpg",
+  "tier": 1,
+  "role": 'PvP',
+  "rarity": ["Kinetic", "Rare ", "Banshee"],
+  "stats": {"Impact": 84,
+            "Range": 44,
+            "Stability": 55,
+            "Magazine": 9,
+            "Reload_speed": 49,
+            "Handling": 50,
+            "RPM": 140,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_adaptive_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'TrueSight HCS',
+                              'description': 'Balanced Hand Cannon sight. • Slightly increases range • Slightly increases stability • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fastdraw HCS',
+                              'description': 'Agile Hand Cannon sight. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+                  'perk3':
+                            { 'name': 'HitMark HCS',
+                              'description': 'Accurate Hand Cannon sight. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Drop Mag',
+                              'description': 'Magazine drops on reload, wasting ammunition but greatly increasing reload speed.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_drop_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Kill Clip',
+                              'description': "Reloading after a kill grants increased damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_kill_clip.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Strong PvP choice',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1706536806-the-old-fashioned'
+  }
+},
+
+{
+  "name": "Sunshot",
+  'type': "hand_cannons",
+  "picture": "./assets/images/hc-sunshot.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 80,
+            "Range": 38,
+            "Stability": 46,
+            "Magazine": 8,
+            "Reload_speed": 75,
+            "Handling": 83,
+            "RPM": 150,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Sunburn',
+                              'description': 'This weapon fires explosive rounds and highlights targets that take damage from Sunshot.',
+                              'recommended': false,
+                              'icon': './assets/images/sunshot_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Sun Blast',
+                              'description': "Targets killed with Sunshot explode in Solar energy.",
+                              'recommended': false,
+                              'icon': './assets/images/sunshot_perk2.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Textured Grip',
+                              'description': "The friction on this weapon`s grip is particularly strong. • Greatly increases handling speed • Slightly decreases stability",
+                              'recommended': false,
+                              'icon': './assets/images/icon_textured_grip.png'
+                            },
+                  },
+
+            },
+  'links': {
+            'description': 'Decent PvE handcannon, perks help clearing trash, masterwork fixes stability issues',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2907129557-sunshot'
   }
 },
 {
@@ -2841,78 +3203,6 @@ guns_callback(
   'links': {
             'description': 'Solid PvP hand cannon',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2145476623-annual-skate'
-  }
-},
-{
-  "name": "Better Devils",
-  'type': "hand_cannons",
-  "picture": "./assets/images/hc-better-devils.jpg",
-  "tier": 1,
-  "role": 'PvE & PvP',
-  "rarity": ["Kinetic", "Rare ", "Crucible"],
-  "stats": {"Impact": 84,
-            "Range": 46,
-            "Stability": 48,
-            "Magazine": 10,
-            "Reload_speed": 46,
-            "Handling": 46,
-            "RPM": 140,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Adaptive Frame',
-                              'description': 'A well-rounded grip, reliable and sturdy.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_adaptive_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Fastdraw HCS',
-                              'description': 'Agile Hand Cannon sight. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fastdraw_hcs.png'
-                            },
-                  'perk2':
-                            { 'name': 'SteadyHand HCS',
-                              'description': 'Stable Hand Cannon sight. • Increases stability • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fastdraw_hcs.png'
-                            },
-                  'perk3':
-                            { 'name': 'Sureshot HCS',
-                              'description': 'Pinpoint Hand Cannon sight. • Increases range • Decreases stability • Decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fastdraw_hcs.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Extended Mag',
-                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_mag.png'
-                            },
-                    'perk2':
-                            { 'name': 'Flared Magwell',
-                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
-                              'icon': './assets/images/icon_flared_magwell.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Explosive Payload',
-                              'description': 'Projectiles create an area-of-effect detonation on impact.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_explosive_payload.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'One of the best hand cannons in the game, equally good both in PvE and PvP',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1048266744-better-devils'
   }
 },
 {
@@ -3128,78 +3418,6 @@ guns_callback(
   }
 },
 {
-  "name": "Dire Promise",
-  'type': "hand_cannons",
-  "picture": "./assets/images/hc-dire-promise.jpg",
-  "tier": 1,
-  "role": 'PvP',
-  "rarity": ["Kinetic", "Epic ", "Faction Rally"],
-  "stats": {"Impact": 80,
-            "Range": 45,
-            "Stability": 50,
-            "Magazine": 11,
-            "Reload_speed": 54,
-            "Handling": 61,
-            "RPM": 150,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Lightweight Frame',
-                              'description': 'Superb handling. Move faster with this weapon equipped.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_lightweight_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Fastdraw HCS',
-                              'description': 'Agile Hand Cannon sight. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fastdraw_hcs.png'
-                            },
-                  'perk2':
-                            { 'name': 'SteadyHand HCS',
-                              'description': 'Stable Hand Cannon sight. • Increases stability • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fastdraw_hcs.png'
-                            },
-                  'perk3':
-                            { 'name': 'TrueSight HCS',
-                              'description': 'Balanced Hand Cannon sight. • Slightly increases range • Slightly increases stability • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fastdraw_hcs.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Steady Rounds',
-                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_steady_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Appended Mag',
-                              'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_appended_mag.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Triple Tap',
-                              'description': "Rapidly landing precision hits will return 1 round to the magazine from reserves.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_triple_tap.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'One of the best PvP hand cannons',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/582335600-dire-promise'
-  }
-},
-{
   "name": "Jack Queen King 3",
   'type': "hand_cannons",
   "picture": "./assets/images/hc-jack-queen-king.jpg",
@@ -3349,92 +3567,157 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3866356643-ikeloshcv101'
   }
 },
+
 {
-  "name": "Midnight Coup",
-  'type': "hand_cannons",
-  "picture": "./assets/images/hc-midnight-coup.jpg",
+  "name": "Darkest Before",
+  'type': "pulse_rifles",
+  "picture": "./assets/images/pr-darkest-before.jpg",
   "tier": 1,
   "role": 'PvE & PvP',
-  "rarity": ["Kinetic", "Rare ", "Raid"],
-  "stats": {"Impact": 80,
-            "Range": 37,
-            "Stability": 46,
-            "Magazine": 12,
-            "Reload_speed": 60,
-            "Handling": 42,
-            "RPM": 150,
+  "rarity": ["Energy", "Epic ", "To9"],
+  "stats": {"Impact": 23,
+            "Range": 41,
+            "Stability": 53,
+            "Magazine": 36,
+            "Reload_speed": 42,
+            "Handling": 34,
+            "RPM": 540,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Lightweight Frame',
-                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
                               'recommended': false,
-                              'icon': './assets/images/icon_lightweight_frame.png'
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
+                            { 'name': 'Arrowhead Brake',
+                              'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_arrowhead_brake.png'
+                            },
+                  'perk2':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk3':
                             { 'name': 'Smallbore',
                               'description': 'Dual strength barrel. • Increases range • Increases stability',
                               'recommended': false,
                               'icon': './assets/images/icon_smallbore.png'
                             },
-                  'perk2':
-                            { 'name': 'Corkscrew Rifling',
-                              'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_corkscrew_rifling.png'
-                            },
-                  'perk3':
-                            { 'name': 'Extended Barrel',
-                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_barrel.png'
-                            },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Rampage',
-                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
+                            { 'name': 'Slideshot',
+                              'description': "Sliding partially reloads this weapon`s magazine and temporarily boosts range and stability.",
                               'recommended': false,
-                              'icon': './assets/images/icon_rampage.png'
+                              'icon': './assets/images/icon_slideshot.png'
                             },
                     'perk2':
-                            { 'name': 'Ambitious Assassin',
-                              'description': "Overflows the magazine based on the number of rapid kills before reloading.",
+                            { 'name': 'Quickdraw',
+                              'description': "This weapon can be drawn unbelievably fast.",
                               'recommended': false,
-                              'icon': './assets/images/icon_ambitious_assassin.png'
+                              'icon': './assets/images/icon_quickdraw.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'Outlaw',
-                              'description': "Precision kills greatly decrease reload time.",
+                            { 'name': 'Full Auto Trigger System',
+                              'description': 'Holding down the trigger will fire this weapon at full auto.',
                               'recommended': false,
-                              'icon': './assets/images/icon_outlaw.png'
+                              'icon': './assets/images/icon_full_auto.png'
                             },
                   },
             },
   'links': {
-            'description': 'One of the best PvE hand cannons in the game, rampage + outlaw is an insane combination, also decent in PvP',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1128225405-midnight-coup'
+            'description': 'One of the best energy pulse rifles, equally good in PvE and PvP',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/325519402-darkest-before'
   }
 },
+
 {
-  "name": "Old fashioned",
-  'type': "hand_cannons",
-  "picture": "./assets/images/hc-old-fashioned.jpg",
+  "name": "Graviton Lance",
+  'type': "pulse_rifles",
+  "picture": "./assets/images/pr-graviton-lance.jpg",
   "tier": 1,
-  "role": 'PvP',
-  "rarity": ["Kinetic", "Rare ", "Banshee"],
-  "stats": {"Impact": 84,
-            "Range": 44,
-            "Stability": 55,
-            "Magazine": 9,
-            "Reload_speed": 49,
-            "Handling": 50,
-            "RPM": 140,
+  "role": 'PvE & PvP',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 29,
+            "Range": 55,
+            "Stability": 100,
+            "Magazine": 31,
+            "Reload_speed": 61,
+            "Handling": 59,
+            "RPM": 257,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Black Hole',
+                              'description': 'Second shot of a burst rips a hole through space-time, doing high damage and recoil with no falloff.',
+                              'recommended': false,
+                              'icon': './assets/images/graviton_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Cosmology',
+                              'description': "Kills with this weapon cause enemy targets to detonate and spawn Void projectiles that track targets.",
+                              'recommended': false,
+                              'icon': './assets/images/graviton_perk2.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Fitted Stock',
+                              'description': 'This stock makes the weapon stable but heavy • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fitted_stock.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'After the rework feels more like a scout rifle, very strong in PvE and PvP',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3628991658-graviton-lance'
+  }
+},
+
+{
+  "name": "Inaugural Address",
+  'type': "pulse_rifles",
+  "picture": "./assets/images/pr-inaugural-address.jpg",
+  "tier": 1,
+  "role": 'PvE & PvP',
+  "rarity": ["Energy", "Rare ", "Raid"],
+  "stats": {"Impact": 29,
+            "Range": 49,
+            "Stability": 60,
+            "Magazine": 39,
+            "Reload_speed": 46,
+            "Handling": 51,
+            "RPM": 390,
             },
   "perks":
             {'set1':
@@ -3447,36 +3730,36 @@ guns_callback(
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'TrueSight HCS',
-                              'description': 'Balanced Hand Cannon sight. • Slightly increases range • Slightly increases stability • Slightly increases handling speed',
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
                               'recommended': false,
-                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                              'icon': './assets/images/icon_polygonal_rifling.png'
                             },
                   'perk2':
-                            { 'name': 'Fastdraw HCS',
-                              'description': 'Agile Hand Cannon sight. • Greatly increases handling speed • Slightly increases stability',
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
                               'recommended': false,
-                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                              'icon': './assets/images/icon_fluted_barrel.png'
                             },
                   'perk3':
-                            { 'name': 'HitMark HCS',
-                              'description': 'Accurate Hand Cannon sight. • Slightly increases range',
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_fastdraw_hcs.png'
+                              'icon': './assets/images/icon_chambered_compensator.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
+                            { 'name': 'Outlaw',
+                              'description': "Precision kills greatly decrease reload time.",
                               'recommended': false,
-                              'icon': './assets/images/icon_accurized_rounds.png'
+                              'icon': './assets/images/icon_outlaw.png'
                             },
                     'perk2':
-                            { 'name': 'Drop Mag',
-                              'description': 'Magazine drops on reload, wasting ammunition but greatly increasing reload speed.',
+                            { 'name': 'Ambitious Assassin',
+                              'description': "Overflows the magazine based on the number of rapid kills before reloading.",
                               'recommended': false,
-                              'icon': './assets/images/icon_drop_mag.png'
+                              'icon': './assets/images/icon_ambitious_assassin.png'
                             },
                   },
             'set4':
@@ -3489,71 +3772,71 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Strong PvP choice',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1706536806-the-old-fashioned'
+            'description': 'Amazing perks make this rifle a very good choice for any activity',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3325744914-inaugural-address'
   }
 },
+
 {
-  "name": "Sunshot",
-  'type': "hand_cannons",
-  "picture": "./assets/images/hc-sunshot.jpg",
+  "name": "Vigilance Wing",
+  'type': "pulse_rifles",
+  "picture": "./assets/images/pr-vigilance-wing.jpg",
   "tier": 1,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 80,
-            "Range": 38,
-            "Stability": 46,
-            "Magazine": 8,
-            "Reload_speed": 75,
-            "Handling": 83,
-            "RPM": 150,
+  "role": 'PvP',
+  "rarity": ["Kinetic", "Rare ", "Exotic"],
+  "stats": {"Impact": 33,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 30,
+            "Reload_speed": 46,
+            "Handling": 40,
+            "RPM": 530,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Sunburn',
-                              'description': 'This weapon fires explosive rounds and highlights targets that take damage from Sunshot.',
+                            { 'name': 'Harsh Truths',
+                              'description': 'This weapon fires a 5-round burst. When a nearby ally is killed, gain health regeneration and increased movement speed.',
                               'recommended': false,
-                              'icon': './assets/images/sunshot_perk.png'
+                              'icon': './assets/images/vigilance_wing_perk.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                            { 'name': 'Corkscrew Rifling',
+                            'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
+                            'recommended': false,
+                            'icon': './assets/images/icon_corkscrew_rifling.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
+                            { 'name': 'Alloy Magazine',
+                              'description': 'Faster reloads when the magazine is empty.',
                               'recommended': false,
-                              'icon': './assets/images/icon_accurized_rounds.png'
+                              'icon': './assets/images/icon_alloy_magazine.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'Sun Blast',
-                              'description': "Targets killed with Sunshot explode in Solar energy.",
+                            { 'name': 'Last Stand',
+                              'description': "Improved weapon performance and greatly increased recovery when its wielder is the last living member of a fireteam.",
                               'recommended': false,
-                              'icon': './assets/images/sunshot_perk2.png'
+                              'icon': './assets/images/vigilance_wing_perk2.png'
                             },
                   },
             'set5':
                   { 'perk1':
-                            { 'name': 'Textured Grip',
-                              'description': "The friction on this weapon`s grip is particularly strong. • Greatly increases handling speed • Slightly decreases stability",
+                            { 'name': 'Composite Stock',
+                              'description': 'This weapon has a versatile dual-purpose stock. • Slightly increases stability • Slightly increases handling speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_textured_grip.png'
+                              'icon': './assets/images/icon_composite_stock.png'
                             },
                   },
-
             },
   'links': {
-            'description': 'Decent PvE handcannon, perks help clearing trash, masterwork fixes stability issues',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2907129557-sunshot'
+            'description': 'One of the best PvP weapons in the game',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3628991659-vigilance-wing'
   }
 },
 {
@@ -3629,78 +3912,6 @@ guns_callback(
   }
 },
 {
-  "name": "Darkest Before",
-  'type': "pulse_rifles",
-  "picture": "./assets/images/pr-darkest-before.jpg",
-  "tier": 1,
-  "role": 'PvE & PvP',
-  "rarity": ["Energy", "Epic ", "To9"],
-  "stats": {"Impact": 23,
-            "Range": 41,
-            "Stability": 53,
-            "Magazine": 36,
-            "Reload_speed": 42,
-            "Handling": 34,
-            "RPM": 540,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Rapid-Fire Frame',
-                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rapid_fire_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Arrowhead Brake',
-                              'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_arrowhead_brake.png'
-                            },
-                  'perk2':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
-                            },
-                  'perk3':
-                            { 'name': 'Smallbore',
-                              'description': 'Dual strength barrel. • Increases range • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_smallbore.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Slideshot',
-                              'description': "Sliding partially reloads this weapon`s magazine and temporarily boosts range and stability.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_slideshot.png'
-                            },
-                    'perk2':
-                            { 'name': 'Quickdraw',
-                              'description': "This weapon can be drawn unbelievably fast.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_quickdraw.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Full Auto Trigger System',
-                              'description': 'Holding down the trigger will fire this weapon at full auto.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_full_auto.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'One of the best energy pulse rifles, equally good in PvE and PvP',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/325519402-darkest-before'
-  }
-},
-{
   "name": "Eystein-D",
   'type': "pulse_rifles",
   "picture": "./assets/images/pr-eystein-d.jpg",
@@ -3764,140 +3975,6 @@ guns_callback(
   'links': {
             'description': 'Solid beginner pulse rifle',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1291586825-eystein-d'
-  }
-},
-{
-  "name": "Graviton Lance",
-  'type': "pulse_rifles",
-  "picture": "./assets/images/pr-graviton-lance.jpg",
-  "tier": 1,
-  "role": 'PvE & PvP',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 29,
-            "Range": 55,
-            "Stability": 100,
-            "Magazine": 31,
-            "Reload_speed": 61,
-            "Handling": 59,
-            "RPM": 257,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Black Hole',
-                              'description': 'Second shot of a burst rips a hole through space-time, doing high damage and recoil with no falloff.',
-                              'recommended': false,
-                              'icon': './assets/images/graviton_perk.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_accurized_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Cosmology',
-                              'description': "Kills with this weapon cause enemy targets to detonate and spawn Void projectiles that track targets.",
-                              'recommended': false,
-                              'icon': './assets/images/graviton_perk2.png'
-                            },
-                  },
-            'set5':
-                  { 'perk1':
-                            { 'name': 'Fitted Stock',
-                              'description': 'This stock makes the weapon stable but heavy • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fitted_stock.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'After the rework feels more like a scout rifle, very strong in PvE and PvP',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3628991658-graviton-lance'
-  }
-},
-{
-  "name": "Inaugural Address",
-  'type': "pulse_rifles",
-  "picture": "./assets/images/pr-inaugural-address.jpg",
-  "tier": 1,
-  "role": 'PvE & PvP',
-  "rarity": ["Energy", "Rare ", "Raid"],
-  "stats": {"Impact": 29,
-            "Range": 49,
-            "Stability": 60,
-            "Magazine": 39,
-            "Reload_speed": 46,
-            "Handling": 51,
-            "RPM": 390,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Adaptive Frame',
-                              'description': 'A well-rounded grip, reliable and sturdy.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_adaptive_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Polygonal Rifling',
-                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_polygonal_rifling.png'
-                            },
-                  'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Outlaw',
-                              'description': "Precision kills greatly decrease reload time.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_outlaw.png'
-                            },
-                    'perk2':
-                            { 'name': 'Ambitious Assassin',
-                              'description': "Overflows the magazine based on the number of rapid kills before reloading.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_ambitious_assassin.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Kill Clip',
-                              'description': "Reloading after a kill grants increased damage.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_kill_clip.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Amazing perks make this rifle a very good choice for any activity',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3325744914-inaugural-address'
   }
 },
 {
@@ -4121,68 +4198,6 @@ guns_callback(
   'links': {
             'description': 'Solid kinetic pulse for any activity',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4425887-the-time-worn-spire'
-  }
-},
-{
-  "name": "Vigilance Wing",
-  'type': "pulse_rifles",
-  "picture": "./assets/images/pr-vigilance-wing.jpg",
-  "tier": 1,
-  "role": 'PvP',
-  "rarity": ["Kinetic", "Rare ", "Exotic"],
-  "stats": {"Impact": 33,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 30,
-            "Reload_speed": 46,
-            "Handling": 40,
-            "RPM": 530,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Harsh Truths',
-                              'description': 'This weapon fires a 5-round burst. When a nearby ally is killed, gain health regeneration and increased movement speed.',
-                              'recommended': false,
-                              'icon': './assets/images/vigilance_wing_perk.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Corkscrew Rifling',
-                            'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
-                            'recommended': false,
-                            'icon': './assets/images/icon_corkscrew_rifling.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Alloy Magazine',
-                              'description': 'Faster reloads when the magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_alloy_magazine.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Last Stand',
-                              'description': "Improved weapon performance and greatly increased recovery when its wielder is the last living member of a fireteam.",
-                              'recommended': false,
-                              'icon': './assets/images/vigilance_wing_perk2.png'
-                            },
-                  },
-            'set5':
-                  { 'perk1':
-                            { 'name': 'Composite Stock',
-                              'description': 'This weapon has a versatile dual-purpose stock. • Slightly increases stability • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_composite_stock.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'One of the best PvP weapons in the game',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3628991659-vigilance-wing'
   }
 },
 {
@@ -4881,78 +4896,7 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3899270607-the-colony'
   }
 },
-{
-  "name": "Gunnora's Axe",
-  'type': "shotguns",
-  "picture": "./assets/images/sg-gunnoras-axe.jpg",
-  "tier": 2,
-  "role": 'PvP',
-  "rarity": ["Power", "Epic ", "Banner"],
-  "stats": {"Impact": 70,
-            "Range": 70,
-            "Stability": 54,
-            "Magazine": 6,
-            "Reload_speed": 53,
-            "Handling": 68,
-            "RPM": 55,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  'perk2':
-                            { 'name': 'Rifled Barrel',
-                              'description': 'Ranged shotgun barrel. • Increases range • Greatly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rifled_barrel.png'
-                            },
-                  'perk3':
-                            { 'name': 'Barrel Shroud',
-                              'description': 'Balanced shotgun barrel. • Increases stability • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_barrel_shroud.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_accurized_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Assault Mag',
-                              'description': 'This shotgun`s magazine is optimized for quick combat. • Greatly increases stability • Increases rate of fire',
-                              'recommended': false,
-                              'icon': './assets/images/icon_assault_mag.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Opening Shot',
-                              'description': "Improved accuracy and range on the opening shot of attack.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_opening_shot.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Solid PvP option',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/94729174-gunnoras-axe'
-  }
-},
+
 {
   "name": "Hawthorne's Field-Forged Shotgun",
   'type': "shotguns",
@@ -5020,6 +4964,7 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/731147177-hawthornes-field-forged-shotgun'
   }
 },
+
 {
   "name": "IKELOS_SG_v1.0.1",
   'type': "shotguns",
@@ -5100,6 +5045,7 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1887808042-ikelossgv101'
   }
 },
+
 {
   "name": "Legend of Acrius",
   'type': "shotguns",
@@ -5160,6 +5106,141 @@ guns_callback(
   'links': {
             'description': 'Deals insane damage at close range, 1 shots people in PvP, 1-2 shots almost any elite enemy in PvE',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3580904580-legend-of-acrius'
+  }
+},
+
+{
+  "name": "Tractor Cannon",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-tractor-cannon.jpg",
+  "tier": 1,
+  "role": 'PvE & PvP',
+  "rarity": ["Power", "Rare ", "Exotic"],
+  "stats": {"Impact": 65,
+            "Range": 19,
+            "Stability": 82,
+            "Magazine": 4,
+            "Reload_speed": 24,
+            "Handling": 46,
+            "RPM": 84,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Repulsor Force',
+                              'description': 'This weapon emits a powerful impulse that pushes enemies away, suppresses their abilities, and makes them more vulnerable to Void damage.',
+                              'recommended': false,
+                              'icon': './assets/images/tractor_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Extended Barrel',
+                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_barrel.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Particle Repeater',
+                              'description': 'Constrains recoil for every bolt. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_particle_repeater.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'The Scientific Method',
+                              'description': "Damaging an opponent temporarily increases speed and handling.",
+                              'recommended': false,
+                              'icon': './assets/images/tractor_perk2.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Composite Stock',
+                              'description': 'This weapon has a versatile dual-purpose stock. • Slightly increases stability • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_composite_stock.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'High teamplay utility in PvE, strong pushback and suppression in PvP',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3580904581-tractor-cannon'
+  }
+},
+{
+  "name": "Gunnora's Axe",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-gunnoras-axe.jpg",
+  "tier": 2,
+  "role": 'PvP',
+  "rarity": ["Power", "Epic ", "Banner"],
+  "stats": {"Impact": 70,
+            "Range": 70,
+            "Stability": 54,
+            "Magazine": 6,
+            "Reload_speed": 53,
+            "Handling": 68,
+            "RPM": 55,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk2':
+                            { 'name': 'Rifled Barrel',
+                              'description': 'Ranged shotgun barrel. • Increases range • Greatly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rifled_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Barrel Shroud',
+                              'description': 'Balanced shotgun barrel. • Increases stability • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_barrel_shroud.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Assault Mag',
+                              'description': 'This shotgun`s magazine is optimized for quick combat. • Greatly increases stability • Increases rate of fire',
+                              'recommended': false,
+                              'icon': './assets/images/icon_assault_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Opening Shot',
+                              'description': "Improved accuracy and range on the opening shot of attack.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_opening_shot.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Solid PvP option',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/94729174-gunnoras-axe'
   }
 },
 {
@@ -5310,68 +5391,6 @@ guns_callback(
   'links': {
             'description': 'Decent PvP shotgun',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1018777295-motion-to-vacate'
-  }
-},
-{
-  "name": "Tractor Cannon",
-  'type': "shotguns",
-  "picture": "./assets/images/sg-tractor-cannon.jpg",
-  "tier": 1,
-  "role": 'PvE & PvP',
-  "rarity": ["Power", "Rare ", "Exotic"],
-  "stats": {"Impact": 65,
-            "Range": 19,
-            "Stability": 82,
-            "Magazine": 4,
-            "Reload_speed": 24,
-            "Handling": 46,
-            "RPM": 84,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Repulsor Force',
-                              'description': 'This weapon emits a powerful impulse that pushes enemies away, suppresses their abilities, and makes them more vulnerable to Void damage.',
-                              'recommended': false,
-                              'icon': './assets/images/tractor_perk.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Extended Barrel',
-                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_barrel.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Particle Repeater',
-                              'description': 'Constrains recoil for every bolt. • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_particle_repeater.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'The Scientific Method',
-                              'description': "Damaging an opponent temporarily increases speed and handling.",
-                              'recommended': false,
-                              'icon': './assets/images/tractor_perk2.png'
-                            },
-                  },
-            'set5':
-                  { 'perk1':
-                            { 'name': 'Composite Stock',
-                              'description': 'This weapon has a versatile dual-purpose stock. • Slightly increases stability • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_composite_stock.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'High teamplay utility in PvE, strong pushback and suppression in PvP',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3580904581-tractor-cannon'
   }
 },
 {
