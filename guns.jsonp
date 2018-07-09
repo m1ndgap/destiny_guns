@@ -1,77 +1,5 @@
 guns_callback(
 [{
-  "name": "Valakadyn",
-  'type': "ar",
-  "picture": "./assets/images/ar-valakadyn.jpg",
-  "tier": 1,
-  "role": 'PvE',
-  "rarity": ["Energy", "Uncom.", "Io"],
-  "stats": {"Impact": 18,
-            "Range": 35,
-            "Stability": 52,
-            "Magazine": 53,
-            "Reload_speed": 54,
-            "Handling": 44,
-            "RPM": 720,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Rapid-Fire Frame',
-                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rapid_fire_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Corkscrew Rifling',
-                              'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_corkscrew_rifling.png'
-                            },
-                    'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                    'perk3':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
-                              'recommended': true,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_accurized_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Flared Magwell',
-                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
-                              'icon': './assets/images/icon_flared_magwell.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Under Pressure',
-                              'description': 'Improved stability and accuracy as the magazine gets lower.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_under_pressure.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Solid midrange auto-rifle, highest RPM in its class, fast reload, murza seal of approval',
-            'destinytracker': 'db.destinytracker.com/d2/en/items/3762467079-valakadyn'
-  }
-},
-{
   "name": "BrayTech Winter Wolf",
   'type': "ar",
   "picture": "./assets/images/ar-braytech-winterwolf.jpg",
@@ -145,10 +73,423 @@ guns_callback(
                   },
             },
   'links': {
-            'description': '---',
+            'description': 'Solid rifle, quite difficult to obtain',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
   }
 },
+
+{
+  "name": "Guiding Star",
+  'type': "ar",
+  "picture": "./assets/images/ar-guiding-star.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Kinetic", "Epic ", "F.Rally"],
+  "stats": {"Impact": 18,
+            "Range": 37,
+            "Stability": 47,
+            "Magazine": 52,
+            "Reload_speed": 47,
+            "Handling": 40,
+            "RPM": 720,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'IS 2 Classic',
+                              'description': 'Rugged and simple iron sights. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_is_2_classic.png'
+                            },
+                  'perk2':
+                            { 'name': 'Model 8 Red',
+                              'description': 'Red-dot. Medium zoom. • Greatly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_model_8_red.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Appended Mag',
+                              'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_appended_mag.png'
+                            },
+                    'perk2':
+                            { 'name': 'High-Caliber Rounds',
+                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_caliber_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Moving Target',
+                              'description': "Increased movement speed and target acquisition when moving while aiming down sights.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_moving_target.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'One of the best 720 RPM autorifles, comes from dead orbit faction rally, so pretty hard to get',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/472847207-guiding-star'
+  }
+},
+
+{
+  "name": "Kibou AR3",
+  'type': "ar",
+  "picture": "./assets/images/ar-kibou-ar3.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Energy", "Uncom.", "Mars"],
+  "stats": {"Impact": 29,
+            "Range": 66,
+            "Stability": 49,
+            "Magazine": 31,
+            "Reload_speed": 48,
+            "Handling": 46,
+            "RPM": 450,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Candle PS',
+                              'description': 'Omolon post sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_candle_ps.png'
+                            },
+                  'perk2':
+                            { 'name': 'Flash HS5',
+                              'description': 'Omolon red-dot. Medium zoom. Highlights enemy targets. • Increases range • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_flash_hs5.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Dragonfly',
+                              'description': "Precision kills create an elemental damage explosion.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_dragonfly.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Auto rifle with dragonfly, very solid',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/4014434381-kibou-ar3'
+  }
+},
+{
+  "name": "Positive Outlook",
+  'type': "ar",
+  "picture": "./assets/images/ar-positive-outlook.jpg",
+  "tier": 1,
+  "role": 'PvE & PvP',
+  "rarity": ["Energy", "Uncom.", "Vanguard"],
+  "stats": {"Impact": 29,
+            "Range": 61,
+            "Stability": 48,
+            "Magazine": 33,
+            "Reload_speed": 49,
+            "Handling": 45,
+            "RPM": 450,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Jolt PS',
+                              'description': 'Omolon Post sights. Short zoom. • Increases range • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_jolt_ps.png'
+                            },
+                  'perk2':
+                            { 'name': 'Flash HS5',
+                              'description': 'Omolon red-dot. Medium zoom. Highlights enemy targets. • Increases range • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_flash_hs5.png'
+                            },
+                  'perk3':
+                            { 'name': 'Transmission MS7',
+                              'description': 'Omolon ocular technology. Long zoom. • Increases range • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_transmission_ms7.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Kill Clip',
+                              'description': "Reloading after a kill grants increased damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_kill_clip.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'One of the best autorifles for the energy slot',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3393130645-positive-outlook'
+  }
+},
+
+{
+  "name": "The Number",
+  'type': "ar",
+  "picture": "./assets/images/ar-the-number.jpg",
+  "tier": 1,
+  "role": 'PvE > PvP',
+  "rarity": ["Energy", "Epic ", "F.Rally"],
+  "stats": {"Impact": 29,
+            "Range": 55,
+            "Stability": 46,
+            "Magazine": 33,
+            "Reload_speed": 42,
+            "Handling": 42,
+            "RPM": 450,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Candle PS',
+                              'description': 'Omolon post sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_candle_ps.png'
+                            },
+                    'perk2':
+                            { 'name': 'Flash HS5',
+                              'description': 'Omolon red-dot. Medium zoom. Highlights enemy targets. • Increases range • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_flash_hs5.png'
+                            }
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Extended Mag',
+                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_mag.png'
+                            },
+                    'perk2':
+                            { 'name': 'Ricochet Rounds',
+                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_ricochet_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Very good energy autorifle',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3854359821-the-number'
+  }
+},
+
+{
+  "name": "Uriel's Gift",
+  'type': "ar",
+  "picture": "./assets/images/ar-uriels-gift.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Nessus"],
+  "stats": {"Impact": 29,
+            "Range": 61,
+            "Stability": 45,
+            "Magazine": 33,
+            "Reload_speed": 46,
+            "Handling": 46,
+            "RPM": 450,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Spark PS',
+                              'description': 'Omolon post sight. Short zoom. • Slightly increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_spark_ps.png'
+                            },
+                  'perk2':
+                            { 'name': 'Flash HS5',
+                              'description': 'Omolon red-dot. Medium zoom. Highlights enemy targets. • Increases range • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_flash_hs5.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'High-Caliber Rounds',
+                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_caliber_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_steady_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Tap the Trigger',
+                              'description': "Grants a short period of increased stability and accuracy on initial trigger pull.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_tap_the_trigger.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Timeless classic, allaround decent energy autorifle',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3762467076-uriels-gift'
+  }
+},
+{
+  "name": "Valakadyn",
+  'type': "ar",
+  "picture": "./assets/images/ar-valakadyn.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Energy", "Uncom.", "Io"],
+  "stats": {"Impact": 18,
+            "Range": 35,
+            "Stability": 52,
+            "Magazine": 53,
+            "Reload_speed": 54,
+            "Handling": 44,
+            "RPM": 720,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Corkscrew Rifling',
+                              'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_corkscrew_rifling.png'
+                            },
+                    'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                    'perk3':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': true,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': true,
+                              'icon': './assets/images/icon_flared_magwell.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Under Pressure',
+                              'description': 'Improved stability and accuracy as the magazine gets lower.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_under_pressure.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Solid midrange auto-rifle, highest RPM in its class, fast reload, murza seal of approval',
+            'destinytracker': 'db.destinytracker.com/d2/en/items/3762467079-valakadyn'
+  }
+},
+
 {
   "name": "Coldheart",
   'type': "ar",
@@ -352,7 +693,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent 720 RPM kinetic, warmind Guiding Star',
+            'description': 'Decent 720 RPM kinetic, warmind Guiding Star, some people say its tier 1',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1137768695-foregone-conclusion'
   }
 },
@@ -426,72 +767,6 @@ guns_callback(
   'links': {
             'description': 'Solid middle of the road auto rifle',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2014642399-the-forward-path'
-  }
-},
-{
-  "name": "Guiding Star",
-  'type': "ar",
-  "picture": "./assets/images/ar-guiding-star.jpg",
-  "tier": 1,
-  "role": 'PvE',
-  "rarity": ["Kinetic", "Epic ", "F.Rally"],
-  "stats": {"Impact": 18,
-            "Range": 37,
-            "Stability": 47,
-            "Magazine": 52,
-            "Reload_speed": 47,
-            "Handling": 40,
-            "RPM": 720,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Rapid-Fire Frame',
-                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rapid_fire_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'IS 2 Classic',
-                              'description': 'Rugged and simple iron sights. Short zoom. • Increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_is_2_classic.png'
-                            },
-                  'perk2':
-                            { 'name': 'Model 8 Red',
-                              'description': 'Red-dot. Medium zoom. • Greatly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_model_8_red.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Appended Mag',
-                              'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_appended_mag.png'
-                            },
-                    'perk2':
-                            { 'name': 'High-Caliber Rounds',
-                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_caliber_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Moving Target',
-                              'description': "Increased movement speed and target acquisition when moving while aiming down sights.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_moving_target.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'One of the best 720 RPM autorifles, comes from dead orbit faction rally, so pretty hard to get',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/472847207-guiding-star'
   }
 },
 {
@@ -621,72 +896,6 @@ guns_callback(
   'links': {
             'description': 'No damage falloff, all types of damage, ricochet rounds. Niche utility',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4124984448-hard-light'
-  }
-},
-{
-  "name": "Kibou AR3",
-  'type': "ar",
-  "picture": "./assets/images/ar-kibou-ar3.jpg",
-  "tier": 1,
-  "role": 'PvE',
-  "rarity": ["Energy", "Uncom.", "Mars"],
-  "stats": {"Impact": 29,
-            "Range": 66,
-            "Stability": 49,
-            "Magazine": 31,
-            "Reload_speed": 48,
-            "Handling": 46,
-            "RPM": 450,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Candle PS',
-                              'description': 'Omolon post sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_candle_ps.png'
-                            },
-                  'perk2':
-                            { 'name': 'Flash HS5',
-                              'description': 'Omolon red-dot. Medium zoom. Highlights enemy targets. • Increases range • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_flash_hs5.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
-                            },
-                    'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Dragonfly',
-                              'description': "Precision kills create an elemental damage explosion.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_dragonfly.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Auto rifle with dragonfly, very solid',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/4014434381-kibou-ar3'
   }
 },
 {
@@ -1060,78 +1269,6 @@ guns_callback(
   }
 },
 {
-  "name": "Positive Outlook",
-  'type': "ar",
-  "picture": "./assets/images/ar-positive-outlook.jpg",
-  "tier": 1,
-  "role": 'PvE & PvP',
-  "rarity": ["Energy", "Uncom.", "Vanguard"],
-  "stats": {"Impact": 29,
-            "Range": 61,
-            "Stability": 48,
-            "Magazine": 33,
-            "Reload_speed": 49,
-            "Handling": 45,
-            "RPM": 450,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Jolt PS',
-                              'description': 'Omolon Post sights. Short zoom. • Increases range • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_jolt_ps.png'
-                            },
-                  'perk2':
-                            { 'name': 'Flash HS5',
-                              'description': 'Omolon red-dot. Medium zoom. Highlights enemy targets. • Increases range • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_flash_hs5.png'
-                            },
-                  'perk3':
-                            { 'name': 'Transmission MS7',
-                              'description': 'Omolon ocular technology. Long zoom. • Increases range • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_transmission_ms7.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_accurized_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Kill Clip',
-                              'description': "Reloading after a kill grants increased damage.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_kill_clip.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'One of the best autorifles for the energy slot',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3393130645-positive-outlook'
-  }
-},
-{
   "name": "Prometheus Lens",
   'type': "ar",
   "picture": "./assets/images/ar-prometheus-lens.jpg",
@@ -1393,138 +1530,6 @@ guns_callback(
   'links': {
             'description': 'Average autorifle, fun to play around with',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2856683562-suros-regime'
-  }
-},
-{
-  "name": "The Number",
-  'type': "ar",
-  "picture": "./assets/images/ar-the-number.jpg",
-  "tier": 1,
-  "role": 'PvE > PvP',
-  "rarity": ["Energy", "Epic ", "F.Rally"],
-  "stats": {"Impact": 29,
-            "Range": 55,
-            "Stability": 46,
-            "Magazine": 33,
-            "Reload_speed": 42,
-            "Handling": 42,
-            "RPM": 450,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Candle PS',
-                              'description': 'Omolon post sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_candle_ps.png'
-                            },
-                    'perk2':
-                            { 'name': 'Flash HS5',
-                              'description': 'Omolon red-dot. Medium zoom. Highlights enemy targets. • Increases range • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_flash_hs5.png'
-                            }
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Extended Mag',
-                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_mag.png'
-                            },
-                    'perk2':
-                            { 'name': 'Ricochet Rounds',
-                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_ricochet_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Very good energy autorifle',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3854359821-the-number'
-  }
-},
-{
-  "name": "Uriel's Gift",
-  'type': "ar",
-  "picture": "./assets/images/ar-uriels-gift.jpg",
-  "tier": 1,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Nessus"],
-  "stats": {"Impact": 29,
-            "Range": 61,
-            "Stability": 45,
-            "Magazine": 33,
-            "Reload_speed": 46,
-            "Handling": 46,
-            "RPM": 450,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Spark PS',
-                              'description': 'Omolon post sight. Short zoom. • Slightly increases range • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_spark_ps.png'
-                            },
-                  'perk2':
-                            { 'name': 'Flash HS5',
-                              'description': 'Omolon red-dot. Medium zoom. Highlights enemy targets. • Increases range • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_flash_hs5.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'High-Caliber Rounds',
-                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_caliber_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Steady Rounds',
-                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_steady_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Tap the Trigger',
-                              'description': "Grants a short period of increased stability and accuracy on initial trigger pull.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_tap_the_trigger.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Timeless classic, allaround decent energy autorifle',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3762467076-uriels-gift'
   }
 },
 {

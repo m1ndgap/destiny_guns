@@ -1,26 +1,30 @@
 Auto rifles
+	t1
 	+BrayTech Winter Wolf (Braytech, Kinetic)
+	Guiding Star (Dead Orbit faction, kinetic)
+	Kibou AR3 (Mars, Energy)
+	Positive Outlook (Vanguard S2 Energy)
+	The Number (Future War/Cayde-6, Energy)
+	Uriel's Gift (Nessus, Energy)
+	Valakadyn
+
+	t2
 	Coldheart (Exotic, Enegry, Trace rifle)
 	Duty Bound (Savathun's song NF drop kinetic)
 	Foregone Conclusion (Mars, Kinetic)
 	Forward Path (Iron banner kinetic) 
-	Guiding Star (Dead Orbit faction, kinetic)
 	Halfdan-D (Banshee, Kinetic)
 	Hard Light (Exotic)
-	Kibou AR3 (Mars, Energy)
 	Last Breath (To9 s2 kinetic)
 	Loquitor IV (New monarchy faction, Kinetic)
 	Null Calamity 9 (Mercury forge energy)
 	Origin Story (Vanguard)
 	Orimund's Anvil (Iron Banner)
-	Positive Outlook (Vanguard S2 Energy)
 	Prometheus Lens (Exotic, Enegry, Trace rifle)
 	Scathelocke (Kinetic)
 	Sweet Business (Exotic, Kinetic)
 	SUROS Regime (Exotic, Kinetic)
-	The Number (Future War/Cayde-6, Energy)
-	Uriel's Gift (Nessus, Energy)
-	Valakadyn
+		
 
 Scout Rifles
 	Conspirator (Raid, Energy)
