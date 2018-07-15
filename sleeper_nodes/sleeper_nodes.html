@@ -30,7 +30,23 @@
     </nav>
     <body>
 
+      <div class="alert alert-warning alert-dismissible fade show legend" role="alert">
+        <h4>Legend</h4>
+      <div class='alert-disclaimer'>This is a small tool designed to help you track your sleeper nodes progress:
+        <ul>
+          <li>When you click the checkbox the node gets moved to "Completed" section at the bottom of the page</li>
+          <li>Data persists after reloading the page</li>
+          <li>Use text desctiption and video guides to find exact location of the node</li>
+        </ul>
+      </div>
+
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
     <h3>In progress (<span id='sn-nodes-left'></span> nodes left)</h3>
+
     <div class="container-fluid first-container sn-in-progress">
       <!-- <div id="1" class="row justify-content-center">
         <div class="col-lg-1 col-md-1 col-sm-1 col-12 sn-check"><input type="checkbox" data-id='1'></div>

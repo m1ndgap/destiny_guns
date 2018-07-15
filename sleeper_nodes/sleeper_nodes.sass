@@ -1,3 +1,5 @@
+@import ../styles/variables.sass
+
 .node
   display: block
 
@@ -21,6 +23,7 @@ input[type='checkbox']:checked
 h3
   text-align: center
   margin-bottom: 15px
+  position: relative
 
 .sn-check, .sn-vid, .sn-desc, .sn-name
   padding: 10px 0px 10px
@@ -36,3 +39,12 @@ h3
 
 .sn-vid
   margin-bottom: 0px
+
+.title-display-legend
+  position: absolute
+  font-size: 12px
+  color: $perks
+  display: block
+  cursor: pointer
+  text-decoration: underline
+  font-style: italic

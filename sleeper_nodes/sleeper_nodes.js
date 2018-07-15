@@ -2,6 +2,16 @@ $(document).ready(function() {
       //http://188.166.107.84/sleeper_nodes/sleeper_nodes.jsonp
       //../sleeper_nodes/sleeper_nodes.jsonp
 
+      // if(localStorage.getItem('alert_nodes'))
+      //   {
+      //     $('.legend').addClass('hidden');
+      //     $('.legend').alert('close');
+      //   }
+      //   else
+      //   {
+      //     var  alert_index = 1;
+      //     localStorage.setItem('alert_nodes', JSON.stringify(alert_index));
+      //   };
 
   if(localStorage.getItem('nodes'))
     {
