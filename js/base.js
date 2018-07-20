@@ -63,6 +63,15 @@ $('.search-display-legend').on('click', function() {
     };
   };
 
+  function showMargin(x) {
+    if (x.css('margin-bottom').substring(0, 1) == '0') {
+      x.css('margin-bottom', '10px');
+    } else {
+      x.css('margin-bottom', '0px');
+    };
+  };
+
+
   function rotateArrow(x) {
     if (x.find('.arrow-down').hasClass('box_rotate')) {
       x.find('.arrow-down').removeClass('box_rotate box_transition');
@@ -89,6 +98,7 @@ $('.search-display-legend').on('click', function() {
     $(this).next().slideToggle(100);
     rotateArrow($(this));
     //showBorder($(this));
+    showMargin($(this));
   });
 
 
