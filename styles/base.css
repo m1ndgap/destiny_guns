@@ -224,6 +224,7 @@ h3 {
 
 .input-wrap .search-display-legend {
   position: absolute;
+  left: 10px;
   cursor: pointer;
   text-decoration: underline;
   font-style: italic;
@@ -511,6 +512,21 @@ h3 {
   margin-bottom: 15px;
 }
 
+.links p {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: block;
+  width: 100%;
+}
+
+.links a {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  color: #66878f;
+  text-decoration: underline;
+}
+
 @media (min-width: 992px) {
   .links {
     margin-bottom: 0px;
@@ -522,7 +538,13 @@ h3 {
     font-size: 12px;
     font-weight: 500;
   }
+  .links p {
+    display: block;
+    width: 100%;
+  }
   .links a {
+    display: block;
+    width: 100%;
     color: #66878f;
     text-decoration: underline;
   }
