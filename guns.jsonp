@@ -146,6 +146,79 @@ guns_callback(
 },
 
 {
+  "name": "Foregone Conclusion",
+  'type': "ar",
+  "picture": "./assets/images/ar-foregone.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Kinetic", "Uncom.", "Mars"],
+  "stats": {"Impact": 18,
+            "Range": 30,
+            "Stability": 54,
+            "Magazine": 51,
+            "Reload_speed": 55,
+            "Handling": 47,
+            "RPM": 720,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hitmark IS',
+                              'description': 'Agile sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hitmark_is.png'
+                            },
+                  'perk2':
+                            { 'name': 'Cleanshot IS',
+                              'description': 'Snapshot sight. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_cleanshot_is.png'
+                            },
+                  'perk3':
+                            { 'name': 'Red Dot 2 MOA',
+                              'description': 'Snapshot sight. Short zoom. • Slightly increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_red_dot_2_moa.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Alloy Magazine',
+                              'description': 'Faster reloads when the magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_alloy_magazine.png'
+                            },
+
+                    'perk2':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Decent 720 RPM kinetic, warmind Guiding Star, much easier to get for new players',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1137768695-foregone-conclusion'
+  }
+},
+{
   "name": "Kibou AR3",
   'type': "ar",
   "picture": "./assets/images/ar-kibou-ar3.jpg",
@@ -622,79 +695,6 @@ guns_callback(
   'links': {
             'description': 'Solid and cool looking kinetic rifle',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1457979868-duty-bound'
-  }
-},
-{
-  "name": "Foregone Conclusion",
-  'type': "ar",
-  "picture": "./assets/images/ar-foregone.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Kinetic", "Uncom.", "Mars"],
-  "stats": {"Impact": 18,
-            "Range": 30,
-            "Stability": 54,
-            "Magazine": 51,
-            "Reload_speed": 55,
-            "Handling": 47,
-            "RPM": 720,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Rapid-Fire Frame',
-                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rapid_fire_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Hitmark IS',
-                              'description': 'Agile sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_hitmark_is.png'
-                            },
-                  'perk2':
-                            { 'name': 'Cleanshot IS',
-                              'description': 'Snapshot sight. Short zoom. • Increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_cleanshot_is.png'
-                            },
-                  'perk3':
-                            { 'name': 'Red Dot 2 MOA',
-                              'description': 'Snapshot sight. Short zoom. • Slightly increases range • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_red_dot_2_moa.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Alloy Magazine',
-                              'description': 'Faster reloads when the magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_alloy_magazine.png'
-                            },
-
-                    'perk2':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Decent 720 RPM kinetic, warmind Guiding Star, some people say it`s tier-1',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1137768695-foregone-conclusion'
   }
 },
 {
@@ -6295,12 +6295,12 @@ guns_callback(
   "tier": 1,
   "role": 'PvE',
   "rarity": ["Power", "Rare ", "Raid"],
-  "stats": {"Impact": 62,
-            "Range": 46,
-            "Stability": 0,
-            "Magazine": 25,
-            "Reload_speed": 37,
-            "Handling": 46,
+  "stats": {"Impact": 46,
+            "Range": 62,
+            "Stability": 46,
+            "Magazine": 55,
+            "Reload_speed": 46,
+            "Handling": 25,
             "RPM": 0,
             },
   "perks":
@@ -6369,12 +6369,12 @@ guns_callback(
   "tier": 1,
   "role": 'PvP',
   "rarity": ["Power", "Rare ", "World Drop"],
-  "stats": {"Impact": 40,
-            "Range": 28,
-            "Stability": 0,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 82,
+  "stats": {"Impact": 82,
+            "Range": 40,
+            "Stability": 28,
+            "Magazine": 55,
+            "Reload_speed": 55,
+            "Handling": 29,
             "RPM": 0,
             },
   "perks":
@@ -6429,27 +6429,27 @@ guns_callback(
   }
 },
 {
-  "name": "Worldline Zero",
+  "name": "Crown Splitter",
   'type': "swords",
-  "picture": "./assets/images/sw-worldline.jpg",
+  "picture": "./assets/images/sw-crown-splitter.jpg",
   "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 6,
-            "Range": 64,
+  "role": 'PvP',
+  "rarity": ["Power", "Rare ", "World Drop"],
+  "stats": {"Impact": 10,
+            "Range": 84,
             "Stability": 64,
-            "Magazine": 95,
+            "Magazine": 55,
             "Reload_speed": 37,
-            "Handling": 42,
+            "Handling": 23,
             "RPM": 1000,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Tesseract',
-                              'description': 'Press after sprinting for a short period to perform a Tesseract.',
+                            { 'name': 'Aggressive Frame',
+                              'description': 'High damage, high recoil. Deals bonus damage at close range.',
                               'recommended': false,
-                              'icon': './assets/images/worldline_perk.png'
+                              'icon': './assets/images/icon_aggressive_frame.png'
                             },
                   },
             'set2':
@@ -6459,13 +6459,25 @@ guns_callback(
                               'recommended': false,
                               'icon': './assets/images/icon_chambered_compensator.png'
                             },
+                    'perk2':
+                              { 'name': 'Enduring Blade',
+                                'description': 'Greatly increased sword ammo at the cost of damage.',
+                                'recommended': false,
+                                'icon': './assets/images/icon_endruring_blade.png'
+                              },
+                    'perk3':
+                              { 'name': 'Hungry Edge',
+                                'description': 'Increased sword ammo.',
+                                'recommended': false,
+                                'icon': './assets/images/icon_hungry_edge.png'
+                              },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Infinite Guard',
-                              'description': 'Sword Guard has very high efficiency and balanced defense.',
+                            { 'name': 'Heavy Guard',
+                              'description': 'Sword Guard has high efficiency and high defense.',
                               'recommended': false,
-                              'icon': './assets/images/icon_infinite_guard.png'
+                              'icon': './assets/images/icon_heavy_guard.png'
                             },
                   },
             'set4':
@@ -6486,8 +6498,8 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Fun to play around with, can land some interesting multikills in PvP',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1864563948-worldline-zero'
+            'description': 'Decent PvP option for Titans',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1180270694-crown-splitter'
   }
 },
 {
@@ -6496,7 +6508,7 @@ guns_callback(
   "picture": "./assets/images/sw-worldline.jpg",
   "tier": 2,
   "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
+  "rarity": ["Power", "Rare ", "Exotic quest"],
   "stats": {"Impact": 6,
             "Range": 64,
             "Stability": 64,
