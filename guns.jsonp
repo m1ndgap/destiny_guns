@@ -4484,78 +4484,7 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1929278169-braytech-osprey'
   }
 },
-{
-  "name": "Classical-42",
-  'type': "rocket_launchers",
-  "picture": "./assets/images/rl-classical-42.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Power", "Rare ", "World Drop"],
-  "stats": {"Impact": 75,
-            "Range": 57,
-            "Stability": 49,
-            "Magazine": 1,
-            "Reload_speed": 44,
-            "Handling": 44,
-            "RPM": 20,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Adaptive Frame',
-                              'description': 'A well-rounded grip, reliable and sturdy.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_adaptive_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Quick Launch',
-                              'description': 'This weapon`s barrel provides faster projectiles and much faster aiming. • Greatly increases handling speed • Increases projectile speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_quick_launch.png'
-                            },
-                  'perk2':
-                            { 'name': 'Confined Launch',
-                              'description': 'This weapon`s launch parameters are particularly stable. • Greatly increases stability • Increases blast radius • Decreases projectile speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_confined_launch.png'
-                            },
-                  'perk3':
-                            { 'name': 'Volatile Launch',
-                              'description': 'This weapon is optimized for an especially explosive payload. • Greatly increases blast radius • Slightly decreases handling speed • Slightly decreases projectile speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_volatile_launch.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Alloy Casing',
-                              'description': 'Reduces weight for faster reloads. • Greatly increases reload speed • Decreases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_alloy_casing.png'
-                            },
-                    'perk2':
-                            { 'name': 'Implosion Rounds',
-                              'description': 'This weapon`s projectiles travel faster and have a controlled explosion. • Increases projectile speed • Greatly increases stability • Decreases blast radius',
-                              'recommended': false,
-                              'icon': './assets/images/icon_implosion_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Cluster Bomb',
-                              'description': "Rockets spawn cluster bombs upon detonation.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_cluster_bomb.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Decent option until you get Curtain Call or Sins of the Past',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2149166938-classical-42'
-  }
-},
+
 {
   "name": "Curtain Call",
   'type': "rocket_launchers",
@@ -4698,6 +4627,78 @@ guns_callback(
   'links': {
             'description': 'Arguably the best rocket launcher in the game, auto reload provides amazing utility in PvE',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3691881271-sins-of-the-past'
+  }
+},
+{
+  "name": "Classical-42",
+  'type': "rocket_launchers",
+  "picture": "./assets/images/rl-classical-42.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Power", "Rare ", "World Drop"],
+  "stats": {"Impact": 75,
+            "Range": 57,
+            "Stability": 49,
+            "Magazine": 1,
+            "Reload_speed": 44,
+            "Handling": 44,
+            "RPM": 20,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_adaptive_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Quick Launch',
+                              'description': 'This weapon`s barrel provides faster projectiles and much faster aiming. • Greatly increases handling speed • Increases projectile speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_quick_launch.png'
+                            },
+                  'perk2':
+                            { 'name': 'Confined Launch',
+                              'description': 'This weapon`s launch parameters are particularly stable. • Greatly increases stability • Increases blast radius • Decreases projectile speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_confined_launch.png'
+                            },
+                  'perk3':
+                            { 'name': 'Volatile Launch',
+                              'description': 'This weapon is optimized for an especially explosive payload. • Greatly increases blast radius • Slightly decreases handling speed • Slightly decreases projectile speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_volatile_launch.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Alloy Casing',
+                              'description': 'Reduces weight for faster reloads. • Greatly increases reload speed • Decreases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_alloy_casing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Implosion Rounds',
+                              'description': 'This weapon`s projectiles travel faster and have a controlled explosion. • Increases projectile speed • Greatly increases stability • Decreases blast radius',
+                              'recommended': false,
+                              'icon': './assets/images/icon_implosion_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Cluster Bomb',
+                              'description': "Rockets spawn cluster bombs upon detonation.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_cluster_bomb.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Decent option until you get Curtain Call or Sins of the Past',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2149166938-classical-42'
   }
 },
 {
