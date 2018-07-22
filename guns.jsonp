@@ -4407,85 +4407,6 @@ guns_callback(
   }
 },
 {
-  "name": "BrayTech Osprey",
-  'type': "rocket_launchers",
-  "picture": "./assets/images/rl-braytech-osprey.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Power", "Epic ", "Nightfall"],
-  "stats": {"Impact": 95,
-            "Range": 47,
-            "Stability": 60,
-            "Magazine": 1,
-            "Reload_speed": 41,
-            "Handling": 68,
-            "RPM": 15,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'High-Impact Frame',
-                              'description': 'Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_impact_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Linear Compensator',
-                              'description': 'This weapon`s launch barrel is well-balanced. • Slightly increases projectile speed • Slightly increases blast radius • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_linear_compensator.png'
-                            },
-                  'perk2':
-                            { 'name': 'Quick Launch',
-                              'description': 'This weapon`s barrel provides faster projectiles and much faster aiming. • Greatly increases handling speed • Increases projectile speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_quick_launch.png'
-                            },
-                  'perk3':
-                            { 'name': 'Countermass',
-                              'description': 'This weapon is weighted for vertical recoil. • Greatly controls recoil • Increases stability • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_countermass.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'High-Velocity Rounds',
-                              'description': 'This weapon`s projectiles are particularly light and quick. • Increases projectile speed • Increases reload speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_velocity_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Implosion Rounds',
-                              'description': 'This weapon`s projectiles travel faster and have a controlled explosion. • Increases projectile speed • Greatly increases stability • Decreases blast radius',
-                              'recommended': false,
-                              'icon': './assets/images/icon_implosion_rounds.png'
-                            },
-                    'perk3':
-                            { 'name': 'Alloy Casing',
-                              'description': 'Reduces weight for faster reloads. • Greatly increases reload speed • Decreases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_alloy_casing.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Cluster Bomb',
-                              'description': "Rockets spawn cluster bombs upon detonation.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_cluster_bomb.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Solid cluster rocket launcher, decent option if you don`t have Sins of the Past',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1929278169-braytech-osprey'
-  }
-},
-
-{
   "name": "Curtain Call",
   'type': "rocket_launchers",
   "picture": "./assets/images/rl-curtain-call.jpg",
@@ -4629,6 +4550,86 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3691881271-sins-of-the-past'
   }
 },
+
+{
+  "name": "BrayTech Osprey",
+  'type': "rocket_launchers",
+  "picture": "./assets/images/rl-braytech-osprey.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Power", "Epic ", "Nightfall"],
+  "stats": {"Impact": 95,
+            "Range": 47,
+            "Stability": 60,
+            "Magazine": 1,
+            "Reload_speed": 41,
+            "Handling": 68,
+            "RPM": 15,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'High-Impact Frame',
+                              'description': 'Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Linear Compensator',
+                              'description': 'This weapon`s launch barrel is well-balanced. • Slightly increases projectile speed • Slightly increases blast radius • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_linear_compensator.png'
+                            },
+                  'perk2':
+                            { 'name': 'Quick Launch',
+                              'description': 'This weapon`s barrel provides faster projectiles and much faster aiming. • Greatly increases handling speed • Increases projectile speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_quick_launch.png'
+                            },
+                  'perk3':
+                            { 'name': 'Countermass',
+                              'description': 'This weapon is weighted for vertical recoil. • Greatly controls recoil • Increases stability • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_countermass.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'High-Velocity Rounds',
+                              'description': 'This weapon`s projectiles are particularly light and quick. • Increases projectile speed • Increases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_velocity_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Implosion Rounds',
+                              'description': 'This weapon`s projectiles travel faster and have a controlled explosion. • Increases projectile speed • Greatly increases stability • Decreases blast radius',
+                              'recommended': false,
+                              'icon': './assets/images/icon_implosion_rounds.png'
+                            },
+                    'perk3':
+                            { 'name': 'Alloy Casing',
+                              'description': 'Reduces weight for faster reloads. • Greatly increases reload speed • Decreases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_alloy_casing.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Cluster Bomb',
+                              'description': "Rockets spawn cluster bombs upon detonation.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_cluster_bomb.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Solid cluster rocket launcher, decent option if you don`t have Sins of the Past',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1929278169-braytech-osprey'
+  }
+},
+
 {
   "name": "Classical-42",
   'type': "rocket_launchers",
