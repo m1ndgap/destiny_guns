@@ -140,7 +140,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best 720 RPM autorifles, comes from dead orbit faction rally, so pretty hard to get',
+            'description': 'One of the best 720 RPM autorifles, comes from dead orbit faction rally, so it`s pretty hard to get',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/472847207-guiding-star'
   }
 },
@@ -5788,6 +5788,211 @@ guns_callback(
   }
 },
 {
+  "name": "D.A.R.C.I.",
+  'type': "sniper_rifles",
+  "picture": "./assets/images/sr-darci.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Power", "Rare ", "Exotic"],
+  "stats": {"Impact": 55,
+            "Range": 37,
+            "Stability": 78,
+            "Magazine": 5,
+            "Reload_speed": 64,
+            "Handling": 78,
+            "RPM": 140,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Personal Assistant',
+                              'description': 'Aim at an enemy to view its health and other critical information in the scope.',
+                              'recommended': false,
+                              'icon': './assets/images/darci_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Extended Barrel',
+                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_barrel.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Extended Mag',
+                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Target Acquired',
+                              'description': "When Personal Assistant is active, this weapon has better target acquisition and deals significantly more precision damage.",
+                              'recommended': false,
+                              'icon': './assets/images/darci_perk2.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Short-Action Stock',
+                              'description': "This weapon is especially easy to grip. • Greatly increases handling speed",
+                              'recommended': false,
+                              'icon': './assets/images/icon_short_action_stock.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Terrible-terrible single target damage, powered-up shots hit like a truck',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3141979346-darci'
+  }
+},
+
+{
+  "name": "Silicon Neuroma",
+  'type': "sniper_rifles",
+  "picture": "./assets/images/sr-silicon.jpg",
+  "tier": 1,
+  "role": 'PvE > PvP',
+  "rarity": ["Power", "Epic ", "Nightfall"],
+  "stats": {"Impact": 90,
+            "Range": 77,
+            "Stability": 25,
+            "Magazine": 3,
+            "Reload_speed": 34,
+            "Handling": 32,
+            "RPM": 72,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Aggressive Frame',
+                              'description': 'High damage, high recoil. Deals bonus damage at close range.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_aggressive_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_polygonal_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Corkscrew Rifling',
+                            'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
+                            'recommended': false,
+                            'icon': './assets/images/icon_corkscrew_rifling.png'
+                            },
+                  'perk3':
+                            { 'name': 'Arrowhead Brake',
+                              'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_arrowhead_brake.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': true,
+                              'icon': './assets/images/icon_flared_magwell.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Snapshot Sights',
+                              'description': "Faster time to aim down sights.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_snapshot_sights.png'
+                            },
+                    'perk2':
+                            { 'name': 'Opening Shot',
+                              'description': "Improved accuracy and range on the opening shot of attack.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_opening_shot.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Strong sniper rifle, decent in any activity',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/990416096-silicon-neuroma'
+  }
+},
+
+{
+  "name": "Whispers of the worm",
+  'type': "sniper_rifles",
+  "picture": "./assets/images/sr-whisper-of-the-worm.png",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Power", "Epic ", "Classified"],
+  "stats": {"Impact": 00,
+            "Range": 00,
+            "Stability": 00,
+            "Magazine": 00,
+            "Reload_speed": 00,
+            "Handling": 00,
+            "RPM": 72,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'classified',
+                              'description': 'classified',
+                              'recommended': false,
+                              'icon': './assets/images/icon_seraph_rounds.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'classified',
+                              'description': 'classified',
+                              'recommended': false,
+                              'icon': './assets/images/icon_seraph_rounds.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'classified',
+                              'description': 'classified',
+                              'recommended': false,
+                              'icon': './assets/images/icon_seraph_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'classified',
+                              'description': "classified",
+                              'recommended': false,
+                              'icon': './assets/images/icon_seraph_rounds.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'classified',
+                              'description': "classified",
+                              'recommended': false,
+                              'icon': './assets/images/icon_seraph_rounds.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Insane single target damage and reload perk',
+            'destinytracker': '#'
+  }
+},
+
+{
   "name": "Alone as a god",
   'type': "sniper_rifles",
   "picture": "./assets/images/sr-alone-as-a-god.jpg",
@@ -5857,68 +6062,6 @@ guns_callback(
   'links': {
             'description': 'Solid PvP and PvE sniper rifle',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
-  }
-},
-{
-  "name": "D.A.R.C.I.",
-  'type': "sniper_rifles",
-  "picture": "./assets/images/sr-darci.jpg",
-  "tier": 1,
-  "role": 'PvE',
-  "rarity": ["Power", "Rare ", "Exotic"],
-  "stats": {"Impact": 55,
-            "Range": 37,
-            "Stability": 78,
-            "Magazine": 5,
-            "Reload_speed": 64,
-            "Handling": 78,
-            "RPM": 140,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Personal Assistant',
-                              'description': 'Aim at an enemy to view its health and other critical information in the scope.',
-                              'recommended': false,
-                              'icon': './assets/images/darci_perk.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Extended Barrel',
-                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_barrel.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Extended Mag',
-                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_mag.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Target Acquired',
-                              'description': "When Personal Assistant is active, this weapon has better target acquisition and deals significantly more precision damage.",
-                              'recommended': false,
-                              'icon': './assets/images/darci_perk2.png'
-                            },
-                  },
-            'set5':
-                  { 'perk1':
-                            { 'name': 'Short-Action Stock',
-                              'description': "This weapon is especially easy to grip. • Greatly increases handling speed",
-                              'recommended': false,
-                              'icon': './assets/images/icon_short_action_stock.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Terrible-terrible single target damage, powered-up shots hit like a truck',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3141979346-darci'
   }
 },
 {
@@ -6073,85 +6216,6 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2295941921-maestro-46'
   }
 },
-{
-  "name": "Silicon Neuroma",
-  'type': "sniper_rifles",
-  "picture": "./assets/images/sr-silicon.jpg",
-  "tier": 1,
-  "role": 'PvE > PvP',
-  "rarity": ["Power", "Epic ", "Nightfall"],
-  "stats": {"Impact": 90,
-            "Range": 77,
-            "Stability": 25,
-            "Magazine": 3,
-            "Reload_speed": 34,
-            "Handling": 32,
-            "RPM": 72,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Aggressive Frame',
-                              'description': 'High damage, high recoil. Deals bonus damage at close range.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_aggressive_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Polygonal Rifling',
-                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_polygonal_rifling.png'
-                            },
-                  'perk2':
-                            { 'name': 'Corkscrew Rifling',
-                            'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
-                            'recommended': false,
-                            'icon': './assets/images/icon_corkscrew_rifling.png'
-                            },
-                  'perk3':
-                            { 'name': 'Arrowhead Brake',
-                              'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_arrowhead_brake.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_accurized_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Flared Magwell',
-                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
-                              'icon': './assets/images/icon_flared_magwell.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Snapshot Sights',
-                              'description': "Faster time to aim down sights.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_snapshot_sights.png'
-                            },
-                    'perk2':
-                            { 'name': 'Opening Shot',
-                              'description': "Improved accuracy and range on the opening shot of attack.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_opening_shot.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Strong sniper rifle, decent in any activity',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/990416096-silicon-neuroma'
-  }
-},
-
 {
   "name": "The Long Walk",
   'type': "sniper_rifles",
@@ -6426,4 +6490,66 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1864563948-worldline-zero'
   }
 },
+{
+  "name": "Worldline Zero",
+  'type': "swords",
+  "picture": "./assets/images/sw-worldline.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Tesseract',
+                              'description': 'Press after sprinting for a short period to perform a Tesseract.',
+                              'recommended': false,
+                              'icon': './assets/images/worldline_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Tempered Edge',
+                              'description': 'Increased sword damage and ammo.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Infinite Guard',
+                              'description': 'Sword Guard has very high efficiency and balanced defense.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_infinite_guard.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Assassin`s Blade',
+                              'description': "Sword Kills boost movement speed and damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_assassins_blade.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Tireless Blade',
+                              'description': "Powered sword kills grant sword ammo.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_tireless_blade.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Fun to play around with, can land some interesting multikills in PvP',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1864563948-worldline-zero'
+  }
+}
 ])
