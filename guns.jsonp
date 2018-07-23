@@ -6476,7 +6476,7 @@ guns_callback(
                             { 'name': 'Tempered Edge',
                               'description': 'Increased sword damage and ammo.',
                               'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_tempered_edge.png'
                             },
                   },
             'set3':
@@ -6530,13 +6530,13 @@ guns_callback(
                             { 'name': 'Tempered Edge',
                               'description': 'Increased sword damage and ammo.',
                               'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_tempered_edge.png'
                             },
                     'perk2':
                               { 'name': 'Enduring Blade',
                                 'description': 'Greatly increased sword ammo at the cost of damage.',
                                 'recommended': false,
-                                'icon': './assets/images/icon_endruring_blade.png'
+                                'icon': './assets/images/icon_enduring_blade.png'
                               },
                     'perk3':
                               { 'name': 'Hungry Edge',
