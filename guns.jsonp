@@ -73,7 +73,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid rifle, quite difficult to obtain',
+            'description': 'Very solid auto rifle, quite difficult to obtain through.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
   }
 },
@@ -140,7 +140,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best 720 RPM autorifles, comes from dead orbit faction rally, so it`s pretty hard to get',
+            'description': 'One of the best 720 RPM autorifles, comes from Dead Orbit faction rally, so it`s pretty hard to get.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/472847207-guiding-star'
   }
 },
@@ -214,7 +214,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent 720 RPM kinetic, warmind Guiding Star, much easier to get for new players',
+            'description': 'Decent 720 RPM kinetic, Warmind Guiding Star, much easier to get, which makes it a solid choice for new players.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1137768695-foregone-conclusion'
   }
 },
@@ -280,7 +280,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Auto rifle with dragonfly, very solid',
+            'description': 'Only auto rifle with dragonfly, paired with other nice perks.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4014434381-kibou-ar3'
   }
 },
@@ -352,7 +352,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best autorifles for the energy slot',
+            'description': 'One of the best auto rifles for the energy slot because of the Armor-Piercing rounds and Kill Clip',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3393130645-positive-outlook'
   }
 },
@@ -419,7 +419,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Very good energy autorifle',
+            'description': 'Very good energy auto rifle with a larger mag.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3854359821-the-number'
   }
 },
@@ -486,7 +486,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Timeless classic, allaround decent energy autorifle',
+            'description': 'Timeless classic, all around decent energy auto rifle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3762467076-uriels-gift'
   }
 },
@@ -558,7 +558,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid midrange auto-rifle, highest RPM in its class, fast reload, murza seal of approval',
+            'description': 'Solid midrange auto-rifle, highest RPM in its class and slot, fast reload.',
             'destinytracker': 'db.destinytracker.com/d2/en/items/3762467079-valakadyn'
   }
 },
@@ -621,7 +621,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Very good in single target fights with reload utility tools (lunarfaction, titan wall)',
+            'description': 'Very good in single target fights when used with reload utility tools.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1345867571-coldheart'
   }
 },
@@ -693,7 +693,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid and cool looking kinetic rifle',
+            'description': 'Solid perks and cool looks make this kinetic rifle an good choice to try out.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1457979868-duty-bound'
   }
 },
@@ -765,7 +765,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid middle of the road auto rifle',
+            'description': 'Solid middle of the road auto rifle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2014642399-the-forward-path'
   }
 },
@@ -832,7 +832,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Slow and heavyhitting auto, very special feel',
+            'description': 'Slow and heavy hitting auto rifle, unique feel, love it or hate it.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3778520450-halfdan-d'
   }
 },
@@ -894,7 +894,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'No damage falloff, all types of damage, ricochet rounds. Niche utility',
+            'description': 'No damage falloff, all types of damage, ricochet rounds. Niche utility.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4124984448-hard-light'
   }
 },
@@ -966,7 +966,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid kinetic autorifle',
+            'description': 'Solid kinetic auto rifle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1503609584-the-last-breath'
   }
 },
@@ -1044,7 +1044,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Different version of Halfdan-D, harder to get and has different perks',
+            'description': 'Halfdan-D variation, harder to get and has arguably inferior perks',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1650442173-loquitor-iv'
   }
 },
@@ -1120,7 +1120,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent rifle with zen moment',
+            'description': 'Decent auto rifle with zen moment.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3188460622-null-calamity-9'
   }
 },
@@ -1192,7 +1192,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best easy to get kinetic autorifles',
+            'description': 'One of the best easy to get kinetic auto rifles. Solid beginner`s choice',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1644162710-origin-story'
   }
 },
@@ -1264,7 +1264,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent banner autorifle',
+            'description': 'Decent banner auto rifle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1369487074-orimunds-anvil'
   }
 },
@@ -1326,7 +1326,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Unique trace rifle with niche utility',
+            'description': 'Unique trace rifle with niche utility in AoE situations.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/19024058-prometheus-lens'
   }
 },
@@ -1398,7 +1398,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent starting weapon, drops everywhere',
+            'description': 'Decent starting weapon, drops everywhere.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3762467078-scathelocke'
   }
 },
@@ -1460,7 +1460,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent for singletarget damage like Argus or the Emperor. Synergises well with reload items and skills',
+            'description': 'Decent for single target heavy fights like Argus or the Emperor. Synergises well with reload items and skills.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1345867570-sweet-business'
   }
 },
@@ -1528,7 +1528,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Average autorifle, fun to play around with',
+            'description': 'Average auto rifle, fun to play around with. Should become much more interesting with the upcoming catalyst.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2856683562-suros-regime'
   }
 },
@@ -1595,7 +1595,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Best energy scout for PvE',
+            'description': 'Best energy scout for PvE, explosive payload is an awesome perk.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/925326393-manannan-sr4'
   }
 },
@@ -1669,7 +1669,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best easy to obtain kinetic scouts',
+            'description': 'One of the best easy to obtain kinetic scouts, explosive payload and decent stats.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1960218487-nameless-midnight'
   }
 },
@@ -1742,7 +1742,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best scout rifles in the game, lightweight + explosive payload = terrible damage',
+            'description': 'Best kinetic scout rifle in the game, lightweight + explosive payload = terrible damage',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2516360525-purpose'
   }
 },
@@ -1814,7 +1814,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent dragonfly scout which can go full auto',
+            'description': 'Decent dragonfly scout which can go full auto.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3906942101-conspirator'
   }
 },
@@ -1886,7 +1886,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Full-auto scout with dragonfly, interesting weapon',
+            'description': 'Full-auto scout with dragonfly, interesting weapon but pretty hard to obtain.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3005104939-frostmires-hex'
   }
 },
@@ -1948,7 +1948,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Classic. Decent in PvP and PvE',
+            'description': 'Classic. Decent in PvP and PvE.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1331482397-mida-multi-tool'
   }
 },
@@ -2020,7 +2020,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Heavy energy scout',
+            'description': 'Heavy energy scout.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3425561386-motion-to-compel'
   }
 },
@@ -2082,7 +2082,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Fun weapon to play around with, rewards good shooting, not very good in the meta',
+            'description': 'Fun weapon to play around with, rewards good shooting and is very strong in AoE heavy encounters.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3413074534-polaris-lance'
   }
 },
@@ -2144,7 +2144,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Interesting scout with very prominent situational utility, very good for cabal intensive fights',
+            'description': 'Interesting scout with prominent situational utility, very good for cabal intensive fights.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4255268456-skyburners-oath'
   }
 },
@@ -2211,7 +2211,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best SMGs in the game, great for both PvP and PvE',
+            'description': 'One of the best SMGs in the game, great for both PvP and PvE.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/566976653-antiope-d'
   }
 },
@@ -2277,7 +2277,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent SMG for both PvE and PvP, if you don`t have Antiope use this one',
+            'description': 'Decent SMG for both PvE and PvP, if you don`t have Antiope use this one.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2414612777-atalanta-d'
   }
 },
@@ -2350,7 +2350,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Very strong SMG with unique perks, good for both PvP and PvE',
+            'description': 'Very strong 900RPM SMG with unique perks, good for both PvP and PvE.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1723472487-ikelossmgv101'
   }
 },
@@ -2431,7 +2431,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': '---',
+            'description': 'Strong SMG with decent synergies.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
   }
 },
@@ -2510,7 +2510,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent SMG for any activity',
+            'description': 'Decent SMG for any activity.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1339362514-stochastic-variable'
   }
 },
@@ -2582,7 +2582,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Okayish SMG for PvP',
+            'description': 'Okay SMG for PvP.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2700862856-foggy-notion'
   }
 },
@@ -2648,7 +2648,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Okayish middle of the road SMG',
+            'description': 'Middle of the road SMG, easy to obtain which makes it a good starter choice.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2414612776-new-city'
   }
 },
@@ -2711,7 +2711,7 @@ guns_callback(
 
             },
   'links': {
-            'description': 'An interesting SMG with very high situational utility, when it procs you feel like an olympic god annihilating everything with badass lightning',
+            'description': 'An interesting SMG with very high situational utility, when it procs you feel like an olympic god annihilating everything with badass lightning.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3089417789-riskrunner'
   }
 },
@@ -2773,7 +2773,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Very nice to clear big numbers of mobs, can land awesome killing streaks in PvP too',
+            'description': 'Very nice in AoE heavy situations, can sometimes land awesome killing streaks in PvP too.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2286143274-the-huckleberry'
   }
 },
@@ -2846,7 +2846,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best hand cannons in the game, equally good both in PvE and PvP',
+            'description': 'One of the best hand cannons in the game, equally good both in PvE and PvP.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1048266744-better-devils'
   }
 },
@@ -2919,7 +2919,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best PvP hand cannons',
+            'description': 'One of the best PvP hand cannons.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/582335600-dire-promise'
   }
 },
@@ -2992,7 +2992,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best PvE hand cannons in the game, rampage + outlaw is an insane combination, also decent in PvP',
+            'description': 'One of the best PvE hand cannons in the game, rampage + outlaw is an insane combination, also viable in PvP.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1128225405-midnight-coup'
   }
 },
@@ -3065,7 +3065,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Strong PvP choice',
+            'description': 'Strong PvP choice.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1706536806-the-old-fashioned'
   }
 },
@@ -3129,7 +3129,7 @@ guns_callback(
 
             },
   'links': {
-            'description': 'Decent PvE handcannon, perks help clearing trash, masterwork fixes stability issues',
+            'description': 'Decent PvE handcannon, perks help clearing trash, masterwork fixes stability issues.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2907129557-sunshot'
   }
 },
@@ -3201,7 +3201,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid PvP hand cannon',
+            'description': 'Solid PvP hand cannon.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2145476623-annual-skate'
   }
 },
@@ -3273,7 +3273,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Destiny 2 version of desert eagle, hits like a truck but very difficult to handle',
+            'description': 'Destiny 2 version of Desert Eagle, hits like a truck but very difficult to handle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3649055823-crimils-dagger'
   }
 },
@@ -3335,7 +3335,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Fun gun with self-heal',
+            'description': 'Fun gun with self-heal. Very useful during faction rallies.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3437746471-crimson'
   }
 },
@@ -3413,7 +3413,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Nice HC, lacks mag size and some stats but is a solid choice anyways',
+            'description': 'Nice HC, lacks mag size and some stats but is a solid choice due to nice perks.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4238497225-dfa'
   }
 },
@@ -3491,7 +3491,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid PvP and PvE hand cannon',
+            'description': 'Solid hand cannon for both PvP and PvE.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3285365666-jack-queen-king-3'
   }
 },
@@ -3563,7 +3563,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Strong HC with interesting perks, suffers greatly because of its slow reload time',
+            'description': 'Strong HC with interesting perks, suffers greatly because of its slow reload time.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3866356643-ikeloshcv101'
   }
 },
@@ -3636,7 +3636,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best energy pulse rifles, equally good in PvE and PvP',
+            'description': 'Best energy pulse rifles, full auto, equally good in PvE and PvP.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/325519402-darkest-before'
   }
 },
@@ -3699,7 +3699,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'After the rework feels more like a scout rifle, very strong in PvE and PvP',
+            'description': 'After the rework feels more like a scout rifle, very strong in both PvE and PvP.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3628991658-graviton-lance'
   }
 },
@@ -3772,7 +3772,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Amazing perks make this rifle a very good choice for any activity',
+            'description': 'Amazing perks make this rifle a very good choice for any activity.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3325744914-inaugural-address'
   }
 },
@@ -3835,7 +3835,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best PvP weapons in the game',
+            'description': 'One of the best PvP weapons in the game.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3628991659-vigilance-wing'
   }
 },
@@ -3907,7 +3907,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid kinetic all-purpose pulse',
+            'description': 'Solid kinetic all-purpose pulse rifle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1674742470-autumn-wind'
   }
 },
@@ -3973,7 +3973,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid beginner pulse rifle',
+            'description': 'Solid beginner pulse rifle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1291586825-eystein-d'
   }
 },
@@ -4051,7 +4051,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid dragonfly pulse rifle',
+            'description': 'Solid dragonfly pulse rifle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/161537637-infinite-paths-8'
   }
 },
@@ -4123,7 +4123,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Interesting weapon with unique perks',
+            'description': 'Interesting weapon with unique perks.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1187594590-relentless'
   }
 },
@@ -4196,7 +4196,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid kinetic pulse for any activity',
+            'description': 'Solid kinetic pulse for any activity.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4425887-the-time-worn-spire'
   }
 },
@@ -4262,7 +4262,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Top notch PvP sidearm',
+            'description': 'Top notch PvP sidearm.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1911843791-last-hope'
   }
 },
@@ -4324,7 +4324,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'fun weapon to try with friends',
+            'description': 'Fun weapon to try with friends.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2362471601-rat-king'
   }
 },
@@ -4402,7 +4402,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the very few usable sidearms, enjoy',
+            'description': 'One of the very few usable sidearms.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1798874854-18-kelvins'
   }
 },
@@ -4474,7 +4474,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best rocket launcers in the game',
+            'description': 'One of the best rocket launchers in the game. Cluster Bomb is the best perk.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/137879537-curtain-call'
   }
 },
@@ -4546,7 +4546,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Arguably the best rocket launcher in the game, auto reload provides amazing utility in PvE',
+            'description': 'Arguably the best rocket launcher in the game, cluster bomb + pocket reload provides amazing utility in PvE.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3691881271-sins-of-the-past'
   }
 },
@@ -4625,11 +4625,10 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid cluster rocket launcher, decent option if you don`t have Sins of the Past',
+            'description': 'Solid cluster rocket launcher, decent option if you don`t have Sins of the Past.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1929278169-braytech-osprey'
   }
 },
-
 {
   "name": "Classical-42",
   'type': "rocket_launchers",
@@ -4698,7 +4697,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent option until you get Curtain Call or Sins of the Past',
+            'description': 'Decent option until you get Curtain Call or Sins of the Past.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2149166938-classical-42'
   }
 },
@@ -4760,7 +4759,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Very good in high pressure AoE situations, absolutely obliterates larger groups of enemies. Requires precise range to be effective',
+            'description': 'Very good in high pressure AoE situations, obliterates larger groups of enemies. Requires precise range to be effective.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1508896098-the-wardcliff-coil'
   }
 },
@@ -4832,7 +4831,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Interesting PvP power slot choice',
+            'description': 'Interesting PvP power slot choice.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2621637518-play-of-the-game'
   }
 },
@@ -4894,7 +4893,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Very entertaining PvP option: fire and forget, grenades will find their targets on their own, or they won`t...',
+            'description': 'Very entertaining PvP option: fire and forget, grenades will find their targets on their own (or they won`t...)',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3899270607-the-colony'
   }
 },
@@ -4962,7 +4961,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Full auto shotgun, rips and tears in any activity',
+            'description': 'Full auto shotgun, rips and tears in any activity.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/731147177-hawthornes-field-forged-shotgun'
   }
 },
@@ -5043,7 +5042,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best shotguns in the game, does absurd damage in close range if you can utilize Trench Barrel perk',
+            'description': 'One of the best shotguns in the game, does absurd damage in close range if you can utilize Trench Barrel perk.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1887808042-ikelossgv101'
   }
 },
@@ -5106,7 +5105,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Deals insane damage at close range, 1 shots people in PvP, 1-2 shots almost any elite enemy in PvE',
+            'description': 'Deals insane damage at close range, 1 shots people in PvP, 1-2 shots almost any elite enemy in PvE.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3580904580-legend-of-acrius'
   }
 },
@@ -5169,7 +5168,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'High teamplay utility in PvE, strong pushback and suppression in PvP',
+            'description': 'High team play utility in PvE, strong pushback and suppression in PvP.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3580904581-tractor-cannon'
   }
 },
@@ -5241,7 +5240,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid PvP option',
+            'description': 'Solid PvP option.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/94729174-gunnoras-axe'
   }
 },
@@ -5319,7 +5318,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Okay PvE shotgun if you have nothing else',
+            'description': 'Okay PvE shotgun if you have nothing else.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2248667690-perfect-paradox'
   }
 },
@@ -5391,7 +5390,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent PvP shotgun',
+            'description': 'Decent PvP shotgun.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1018777295-motion-to-vacate'
   }
 },
@@ -5463,7 +5462,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent choice if you like fusion rifles',
+            'description': 'Decent choice if you like fusion rifles (which is a weird choice to begin with).',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3445437901-main-ingredient'
   }
 },
@@ -5535,7 +5534,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent weapon if you like using fusion rifles for some reason',
+            'description': 'Decent weapon if you like using fusion rifles for some reason.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3909683950-man-o-war'
   }
 },
@@ -5597,7 +5596,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Very high DPS on single target encounters',
+            'description': 'Very high DPS on single target encounters.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4190156464-merciless'
   }
 },
@@ -5651,7 +5650,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Fun weapon to play around, basically a weaker rocket launcher',
+            'description': 'Fun weapon to play around, basically a weaker cluster bomb rocket launcher.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2208405142-telesto'
   }
 },
@@ -5713,7 +5712,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Craziest burst in the game, strike/nightfall bosses melt away in seconds. Ricochet deals crazy damage as well if you find the right angle',
+            'description': 'Craziest burst in the game, strike/nightfall bosses melt away in seconds. Ricochet deals crazy damage as well if you find the right angle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4036115577-sleeper-simulant'
   }
 },
@@ -5785,7 +5784,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Okayish LFR',
+            'description': 'Okay LFR.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2502422775-tarantula'
   }
 },
@@ -5847,7 +5846,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Terrible-terrible single target damage, powered-up shots hit like a truck',
+            'description': 'Terrible single target damage, powered-up shots hit like a truck',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3141979346-darci'
   }
 },
@@ -5926,7 +5925,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Strong sniper rifle, decent in any activity',
+            'description': 'Strong sniper rifle, decent in any activity.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/990416096-silicon-neuroma'
   }
 },
@@ -5989,7 +5988,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Insane single target damage and reload perk',
+            'description': 'Insane single target damage and crazy utility provided by the reload perk. Stats and perks coming soon.',
             'destinytracker': '#'
   }
 },
@@ -6062,7 +6061,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid PvP and PvE sniper rifle',
+            'description': 'Solid PvP and PvE sniper rifle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
   }
 },
@@ -6214,7 +6213,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Slow and hard-hitting sniper rifle',
+            'description': 'Slow and hard-hitting sniper rifle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2295941921-maestro-46'
   }
 },
@@ -6286,7 +6285,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent sniper rifle with Outlaw',
+            'description': 'Decent sniper rifle with Outlaw.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/174804902-the-long-walk'
   }
 },
@@ -6360,7 +6359,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Swords suck but this one sucks a little less',
+            'description': 'Swords suck but this one sucks a little less.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1018072983-it-stared-back'
   }
 },
@@ -6426,7 +6425,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Fun PvP sword (hunter only)',
+            'description': 'Fun PvP sword (hunter only).',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1180270692-quickfang'
   }
 },
@@ -6500,7 +6499,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent PvP option for Titans',
+            'description': 'Decent PvP option for Titans.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1180270694-crown-splitter'
   }
 },
@@ -6562,7 +6561,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Fun to play around with, can land some interesting multikills in PvP',
+            'description': 'Fun to play around with, can land some interesting multikills in PvP.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1864563948-worldline-zero'
   }
 }
