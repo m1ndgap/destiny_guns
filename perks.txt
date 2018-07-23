@@ -528,11 +528,23 @@
                               'icon': './assets/images/icon_control_sas.png'
                             },
                   
-                            { 'name': 'FarPoint SAS',
-                              'description': 'Pinpoint Sidearm sight. • Greatly increases range • Decreases stability • Decreases handling speed',
+{ 'name': 'FarPoint SAS',
+  'description': 'Pinpoint Sidearm sight. • Greatly increases range • Decreases stability • Decreases handling speed',
+  'recommended': false,
+  'icon': './assets/images//icon_control_sas.png'
+},
+
+  { 'name': 'Target SAS',
+                              'description': 'Sharp Sidearm sight. • Increases range • Slightly decreases stability • Slightly decreases handling speed',
                               'recommended': false,
-                              'icon': './assets/images//icon_control_sas.png'
+                              'icon': './assets/images/icon_control_sas.png'
                             },
+                  
+{ 'name': 'Shortspec SAS',
+  'description': 'Balanced Sidearm sight. • Slightly increases stability • Slightly increases handling speed • Slightly increases range',
+  'recommended': false,
+  'icon': './assets/images/icon_control_sas.png'
+},
 
 { 'name': 'Linear Compensator',
                               'description': 'This weapon`s launch barrel is well-balanced. • Slightly increases projectile speed • Slightly increases blast radius • Slightly increases stability',
