@@ -1742,7 +1742,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Best kinetic scout rifle in the game, lightweight + explosive payload = terrible damage',
+            'description': 'Best kinetic scout rifle in the game, lightweight + explosive payload = crazy damage',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2516360525-purpose'
   }
 },
