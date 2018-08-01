@@ -33,7 +33,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Fluted Barrel',
                               'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_fluted_barrel.png'
                             },
                   'perk3':
@@ -53,7 +53,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Tactical Mag',
                               'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_tactical_mag.png'
                             },
                   },
@@ -67,13 +67,13 @@ guns_callback(
                     'perk2':
                             { 'name': 'Zen Moment',
                               'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_zen_moment.png'
                             },
                   },
             },
   'links': {
-            'description': 'Very solid auto rifle, quite difficult to obtain through.',
+            'description': 'Very solid auto rifle, quite difficult to obtain but well worth the trouble.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
   }
 },
@@ -112,7 +112,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Model 8 Red',
                               'description': 'Red-dot. Medium zoom. • Greatly increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_model_8_red.png'
                             },
                   },
@@ -126,7 +126,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'High-Caliber Rounds',
                               'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_high_caliber_rounds.png'
                             },
                   },
@@ -140,7 +140,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best 720 RPM autorifles, comes from Dead Orbit faction rally, so it`s pretty hard to get.',
+            'description': 'One of the fastest kinetic auto rifles, shoots so fast you can cut trees with it, comes from Dead Orbit faction rally, so it`s pretty hard to get.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/472847207-guiding-star'
   }
 },
@@ -214,7 +214,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent 720 RPM kinetic, Warmind Guiding Star, much easier to get, which makes it a solid choice for new players.',
+            'description': 'Decent 720 RPM kinetic, Warmind Guiding Star but much easier to get, which makes it a solid choice for new players.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1137768695-foregone-conclusion'
   }
 },
@@ -246,7 +246,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Candle PS',
                               'description': 'Omolon post sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_candle_ps.png'
                             },
                   'perk2':
@@ -266,7 +266,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Tactical Mag',
                               'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_tactical_mag.png'
                             },
                   },
@@ -280,7 +280,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Only auto rifle with dragonfly, paired with other nice perks.',
+            'description': 'Only auto rifle with dragonfly, paired with other nice perks makes this a good choice for PvE.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4014434381-kibou-ar3'
   }
 },
@@ -318,7 +318,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Flash HS5',
                               'description': 'Omolon red-dot. Medium zoom. Highlights enemy targets. • Increases range • Slightly increases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_flash_hs5.png'
                             },
                   'perk3':
@@ -332,7 +332,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Accurized Rounds',
                               'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_accurized_rounds.png'
                             },
                     'perk2':
@@ -352,7 +352,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best auto rifles for the energy slot because of the Armor-Piercing rounds and Kill Clip',
+            'description': 'One of the stronger auto rifle options for the energy slot because of the Kill Clip perk and decent stats.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3393130645-positive-outlook'
   }
 },
@@ -391,7 +391,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Flash HS5',
                               'description': 'Omolon red-dot. Medium zoom. Highlights enemy targets. • Increases range • Slightly increases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_flash_hs5.png'
                             }
                   },
@@ -405,7 +405,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Ricochet Rounds',
                               'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_ricochet_rounds.png'
                             },
                   },
@@ -558,7 +558,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid midrange auto-rifle, highest RPM in its class and slot, fast reload.',
+            'description': 'Solid midrange auto-rifle, highest RPM in its class and slot, continious shooting gives you amazingly fast reload.',
             'destinytracker': 'db.destinytracker.com/d2/en/items/3762467079-valakadyn'
   }
 },
@@ -659,7 +659,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Red Dot-ORS1',
                               'description': 'Agile sight. Short zoom. • Increases range • Increases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_red_dot_ors1.png'
                             },
                   },
@@ -673,7 +673,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Accurized Rounds',
                               'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_accurized_rounds.png'
                             }
                   },
@@ -687,13 +687,13 @@ guns_callback(
                     'perk2':
                             { 'name': 'Rampage',
                               'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_rampage.png'
                             },
                   },
             },
   'links': {
-            'description': 'Solid perks and cool looks make this kinetic rifle an good choice to try out.',
+            'description': 'Solid perks and cool looks make this kinetic auto rifle a good choice for mob-killing activities.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1457979868-duty-bound'
   }
 },
@@ -731,7 +731,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Red Dot Micro',
                               'description': 'Agile sight. Short zoom. • Increases range • Increases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_red_dot_micro.png'
                             },
                   'perk3':
@@ -745,7 +745,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Armor-Piercing Rounds',
                               'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_armor_piercing.png'
                             },
                     'perk2':
@@ -765,7 +765,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid middle of the road auto rifle.',
+            'description': 'Solid middle of the road auto rifle. If you got it might as well show it some action.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2014642399-the-forward-path'
   }
 },
@@ -803,7 +803,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'SD Thermal',
                               'description': 'Häkke thermal imaging scope. Medium-zoom. Highlights enemy targets. • Increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_sd_thermal.png'
                             },
                   },
@@ -817,7 +817,7 @@ guns_callback(
                   'perk1':
                             { 'name': 'Armor-Piercing Rounds',
                               'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_armor_piercing.png'
                             },
 
@@ -832,7 +832,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Slow and heavy hitting auto rifle, unique feel, love it or hate it.',
+            'description': 'Slow and heavy hitting auto rifle, unique feel, love it or hate it. Outlaw makes it a viable PvE choice.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3778520450-halfdan-d'
   }
 },
@@ -938,7 +938,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Chambered Compensator',
                               'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_chambered_compensator.png'
                             },
                   },
@@ -952,7 +952,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Dynamic Sway Reduction',
                               'description': 'When holding down the trigger, this weapon`s sway-reduction system boosts accuracy over time.',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_dynamic_sway_reduction.png'
                             },
                   },
@@ -966,7 +966,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid kinetic auto rifle.',
+            'description': 'Solid kinetic auto rifle. Nothing too crazy but still good.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1503609584-the-last-breath'
   }
 },
@@ -1044,7 +1044,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Halfdan-D variation, harder to get and has arguably inferior perks',
+            'description': 'Halfdan-D variation, harder to get and has arguably inferior perks.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1650442173-loquitor-iv'
   }
 },
@@ -1086,7 +1086,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Smallbore',
                               'description': 'Dual strength barrel. • Increases range • Increases stability',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_smallbore.png'
                             },
                   },
@@ -1106,7 +1106,7 @@ guns_callback(
                     'perk3':
                             { 'name': 'Appended Mag',
                               'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_appended_mag.png'
                             },
                   },
@@ -1120,7 +1120,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent auto rifle with zen moment.',
+            'description': 'Decent auto rifle with zen moment. Looks unique and special.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3188460622-null-calamity-9'
   }
 },
@@ -1158,7 +1158,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Red Dot 2 MOA',
                               'description': 'Snapshot sight. Short zoom. • Slightly increases range • Increases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_red_dot_2_moa.png'
                             },
                   'perk3':
@@ -1172,7 +1172,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Appended Mag',
                               'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_appended_mag.png'
                             },
                     'perk2':
@@ -1192,7 +1192,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best easy to get kinetic auto rifles. Solid beginner`s choice',
+            'description': 'Very easy to get, strong PvE perks. Solid beginner`s choice',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1644162710-origin-story'
   }
 },
@@ -1236,7 +1236,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Mark 15 Lens',
                               'description': 'Ocular sights. Long zoom. • Greatly increases range • Decreases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_mark_15_lens.png'
                             },
                   },
@@ -1250,7 +1250,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Steady Rounds',
                               'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_steady_rounds.png'
                             },
                   },
@@ -1264,7 +1264,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent banner auto rifle.',
+            'description': 'Decent banner auto rifle. Nothing mind blowing considering how hard it is to obtain.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1369487074-orimunds-anvil'
   }
 },
@@ -1567,7 +1567,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Impulse MS3',
                               'description': 'Omolon ocular technology. Long zoom. • Increases range • Decreases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_impulse_ms3.png'
                             },
                   },
@@ -1581,7 +1581,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Steady Rounds',
                               'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_steady_rounds.png'
                             },
                   },
@@ -1628,7 +1628,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Red Dot 2 MOA',
                               'description': 'Snapshot sight. Short zoom. • Slightly increases range • Increases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_red_dot_2_moa.png'
                             },
                   'perk2':
@@ -1669,7 +1669,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best easy to obtain kinetic scouts, explosive payload and decent stats.',
+            'description': 'Very very good considering how easily obtainable it is, explosive payload and decent stats make it the best kinetic scout a new player can get.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1960218487-nameless-midnight'
   }
 },
@@ -1742,7 +1742,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Best kinetic scout rifle in the game, lightweight + explosive payload = crazy damage',
+            'description': 'Best kinetic scout rifle in the game, lightweight + explosive payload = crazy utility and damage.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2516360525-purpose'
   }
 },
@@ -1774,7 +1774,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Smallbore',
                               'description': 'Dual strength barrel. • Increases range • Increases stability',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_smallbore.png'
                             },
                   'perk2':
@@ -1800,7 +1800,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Ambitious Assassin',
                               'description': "Overflows the magazine based on the number of rapid kills before reloading.",
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_ambitious_assassin.png'
                             },
                   },
@@ -1948,7 +1948,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Classic. Decent in PvP and PvE.',
+            'description': 'Classic. Decent in PvP and PvE. Is not very meta currently, but still a reliable choice.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1331482397-mida-multi-tool'
   }
 },
@@ -2082,7 +2082,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Fun weapon to play around with, rewards good shooting and is very strong in AoE heavy encounters.',
+            'description': 'Fun weapon to play around with, rewards good shooting and is very strong in AoE-heavy encounters.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3413074534-polaris-lance'
   }
 },
@@ -2211,7 +2211,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best SMGs in the game, great for both PvP and PvE.',
+            'description': 'One of the top tier SMGs in the game, great for both PvP and PvE.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/566976653-antiope-d'
   }
 },
@@ -2322,7 +2322,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'SPO-26 Front',
                               'description': 'SUROS lightweight red-dot sight. Short zoom. • Increases handling speed • Increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_chambered_compensator.png'
                             },
                   },
@@ -2330,7 +2330,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'High-Caliber Rounds',
                               'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_high_caliber_rounds.png'
                             },
                     'perk2':
@@ -2389,7 +2389,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Fluted Barrel',
                               'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_fluted_barrel.png'
                             },
                   'perk3':
@@ -2419,7 +2419,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Grave Robber',
                               'description': "Melee kills reload a portion of the magazine.",
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_grave_robber.png'
                             },
                   'perk2':
@@ -2431,7 +2431,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Strong SMG with decent synergies.',
+            'description': 'Strong SMG with decent synergies. Threat detector is amazing in PvP, Graverobber in PvE.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
   }
 },
@@ -2470,7 +2470,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Torch HS3',
                               'description': 'Omolon red-dot. Medium zoom. • Greatly increases range • Slightly decreases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_torch_hs3.png'
                             },
                   },
@@ -2490,22 +2490,16 @@ guns_callback(
                     'perk3':
                             { 'name': 'Phase Magazine',
                               'description': 'Increases damage while lowering rate of fire. • Decreases magazine size',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_phase_magazine.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
+                            { 'name': 'Tap the Trigger',
+                              'description': "Grants a short period of increased stability and accuracy on initial trigger pull.",
                               'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
+                              'icon': './assets/images/icon_tap_the_trigger.png'
                             },
                   },
             },
@@ -2582,7 +2576,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Okay SMG for PvP.',
+            'description': 'Okay SMG for PvP. If you don`t have better options like Ikelos or Hero`s Burden available this one will do.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2700862856-foggy-notion'
   }
 },
@@ -2846,7 +2840,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best hand cannons in the game, equally good both in PvE and PvP.',
+            'description': 'Top tier hand cannon, all time favorite, equally good both in PvE and PvP.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1048266744-better-devils'
   }
 },
@@ -2891,7 +2885,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'TrueSight HCS',
                               'description': 'Balanced Hand Cannon sight. • Slightly increases range • Slightly increases stability • Slightly increases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_fastdraw_hcs.png'
                             },
                   },
@@ -2905,7 +2899,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Appended Mag',
                               'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_appended_mag.png'
                             },
                   },
@@ -2919,7 +2913,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best PvP hand cannons.',
+            'description': 'Challenging to obtain but very strong in PvP.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/582335600-dire-promise'
   }
 },
@@ -2964,7 +2958,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Extended Barrel',
                               'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_extended_barrel.png'
                             },
                   },
@@ -2972,7 +2966,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Rampage',
                               'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_rampage.png'
                             },
                     'perk2':
@@ -2992,7 +2986,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best PvE hand cannons in the game, rampage + outlaw is an insane combination, also viable in PvP.',
+            'description': 'One of the best PvE weapons in the game, rampage + outlaw is an insane combination, also viable in PvP.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1128225405-midnight-coup'
   }
 },
@@ -3037,7 +3031,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'HitMark HCS',
                               'description': 'Accurate Hand Cannon sight. • Slightly increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_fastdraw_hcs.png'
                             },
                   },
@@ -3051,7 +3045,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Drop Mag',
                               'description': 'Magazine drops on reload, wasting ammunition but greatly increasing reload speed.',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_drop_mag.png'
                             },
                   },
@@ -3129,7 +3123,7 @@ guns_callback(
 
             },
   'links': {
-            'description': 'Decent PvE handcannon, perks help clearing trash, masterwork fixes stability issues.',
+            'description': 'Decent PvE handcannon, perks help with AoE trash, masterwork fixes stability issues.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2907129557-sunshot'
   }
 },
@@ -3173,7 +3167,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Sureshot HCS',
                               'description': 'Pinpoint Hand Cannon sight. • Increases range • Decreases stability • Decreases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_fastdraw_hcs.png'
                             },
                   },
@@ -3187,7 +3181,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Extended Mag',
                               'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_extended_mag.png'
                             },
                   },
@@ -3245,7 +3239,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'SteadyHand HCS',
                               'description': 'Stable Hand Cannon sight. • Increases stability • Increases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_fastdraw_hcs.png'
                             },
                   },
@@ -3259,7 +3253,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Drop Mag',
                               'description': 'Magazine drops on reload, wasting ammunition but greatly increasing reload speed.',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_drop_mag.png'
                             },
                   },
@@ -3335,7 +3329,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Fun gun with self-heal. Very useful during faction rallies.',
+            'description': 'Fun gun with strong self-heal. Very useful during faction rallies and when playing specs with limited healing.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3437746471-crimson'
   }
 },
@@ -3413,7 +3407,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Nice HC, lacks mag size and some stats but is a solid choice due to nice perks.',
+            'description': 'Nice HC, lacks mag size and some stats but is a solid choice due to its nice perks.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4238497225-dfa'
   }
 },
@@ -3457,7 +3451,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'HitMark HCS',
                               'description': 'Accurate Hand Cannon sight. • Slightly increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_fastdraw_hcs.png'
                             },
                   },
@@ -3477,7 +3471,7 @@ guns_callback(
                     'perk3':
                             { 'name': 'Accurized Rounds',
                               'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_accurized_rounds.png'
                             },
                   },
@@ -3608,7 +3602,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Smallbore',
                               'description': 'Dual strength barrel. • Increases range • Increases stability',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_smallbore.png'
                             },
                   },
@@ -3622,7 +3616,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Quickdraw',
                               'description': "This weapon can be drawn unbelievably fast.",
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_quickdraw.png'
                             },
                   },
@@ -3636,7 +3630,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Best energy pulse rifles, full auto, equally good in PvE and PvP.',
+            'description': 'Best non exotic energy pulse rifle, full auto, equally good in PvE and PvP.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/325519402-darkest-before'
   }
 },
@@ -3744,7 +3738,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Chambered Compensator',
                               'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_chambered_compensator.png'
                             },
                   },
@@ -3752,7 +3746,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Outlaw',
                               'description': "Precision kills greatly decrease reload time.",
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_outlaw.png'
                             },
                     'perk2':
@@ -3835,7 +3829,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best PvP weapons in the game.',
+            'description': 'One of the best PvP weapons in the game. Most of the time if you die in PvP its either from this one or Graviton Lance.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3628991659-vigilance-wing'
   }
 },
@@ -3867,7 +3861,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Hitmark IS',
                               'description': 'Agile sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_hitmark_is.png'
                             },
                   'perk2':
@@ -3893,7 +3887,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Tactical Mag',
                               'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_tactical_mag.png'
                             },
                   },
@@ -4368,7 +4362,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'FarPoint SAS',
                               'description': 'Pinpoint Sidearm sight. • Greatly increases range • Decreases stability • Decreases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_control_sas.png'
                             },
                   },
@@ -4382,7 +4376,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Appended Mag',
                               'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_appended_mag.png'
                             },
                   },
@@ -4440,7 +4434,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Smallbore',
                               'description': 'Dual strength barrel. • Increases range • Increases stability',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_smallbore.png'
                             },
                   },
@@ -4454,7 +4448,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Tactical Mag',
                               'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_tactical_mag.png'
                             },
                   },
@@ -4468,7 +4462,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Opening Shot',
                               'description': "Improved accuracy and range on the opening shot of attack.",
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_opening_shot.png'
                             },
                   },
@@ -4518,7 +4512,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Countermass',
                               'description': 'This weapon is weighted for vertical recoil. • Greatly controls recoil • Increases stability • Increases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_countermass.png'
                             },
                   },
@@ -4532,7 +4526,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Black Powder',
                               'description': 'This weapon`s explosives are more effective. • Slightly increases blast radius • Decreases stability',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_black_powder.png'
                             },
                   },
@@ -4546,7 +4540,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best rocket launchers in the game. Cluster Bomb is the best perk.',
+            'description': 'One of top two best rocket launchers in the game. Cluster Bomb is the only viable perk for Rocket Launchers.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/137879537-curtain-call'
   }
 },
@@ -4590,7 +4584,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Smart Drift Control',
                               'description': 'This barrel is broadly optimized for firing control. • Moderately controls recoil • Increases stability • Increases handling speed • Slightly increases projectile speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_smart_drift_control.png'
                             },
                   },
@@ -4598,7 +4592,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Cluster Bomb',
                               'description': "Rockets spawn cluster bombs upon detonation.",
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_cluster_bomb.png'
                             },
                     'perk2':
@@ -4618,7 +4612,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Arguably the best rocket launcher in the game, cluster bomb + pocket reload provides amazing utility in PvE.',
+            'description': 'Arguably the best rocket launcher in the game, cluster bomb + holster reload provides amazing utility in PvE.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3691881271-sins-of-the-past'
   }
 },
@@ -4869,7 +4863,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Confined Launch',
                               'description': 'This weapon`s launch parameters are particularly stable. • Greatly increases stability • Increases blast radius • Decreases projectile speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_confined_launch.png'
                             },
                   'perk3':
@@ -4883,7 +4877,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Proximity Grenades',
                               'description': 'Grenades fired from this weapon have increased proximity detection.',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_proximity_grenades.png'
                             },
                     'perk2':
@@ -4903,7 +4897,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Interesting PvP power slot choice.',
+            'description': 'Interesting PvP power slot choice. Two shots PvP targets.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2621637518-play-of-the-game'
   }
 },
@@ -5004,7 +4998,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Smoothbore',
                               'description': 'Smooth shotgun barrel. Greatly increases range at the cost of more projectile spread.',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_smoothbore.png'
                             },
                   },
@@ -5018,7 +5012,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Assault Mag',
                               'description': 'This shotgun`s magazine is optimized for quick combat. • Greatly increases stability • Increases rate of fire',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_assault_mag.png'
                             },
 
@@ -5078,7 +5072,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Polygonal Rifling',
                               'description': 'Barrel optimized for recoil reduction. • Increases stability',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_polygonal_rifling.png'
                             },
                   },
@@ -5108,13 +5102,13 @@ guns_callback(
                     'perk2':
                             { 'name': 'Threat Detector',
                               'description': "Increased reload, stability, and handling when enemies are in close proximity.",
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_threat_detector.png'
                             },
                   },
             },
   'links': {
-            'description': 'One of the best shotguns in the game, does absurd damage in close range if you can utilize Trench Barrel perk.',
+            'description': 'Uniquely powerful shotgun, does absurd damage in close range if you can properly utilize Trench Barrel perk.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1887808042-ikelossgv101'
   }
 },
@@ -5278,7 +5272,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Rifled Barrel',
                               'description': 'Ranged shotgun barrel. • Increases range • Greatly decreases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_rifled_barrel.png'
                             },
                   'perk3':
@@ -5292,7 +5286,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Accurized Rounds',
                               'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_accurized_rounds.png'
                             },
                     'perk2':
@@ -5356,7 +5350,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Smoothbore',
                               'description': 'Smooth shotgun barrel. Greatly increases range at the cost of more projectile spread.',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_smoothbore.png'
                             },
                   },
@@ -5376,7 +5370,7 @@ guns_callback(
                     'perk3':
                             { 'name': 'Accurized Rounds',
                               'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_accurized_rounds.png'
                             },
                   },
@@ -5390,7 +5384,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Okay PvE shotgun if you have nothing else.',
+            'description': 'Okay PvE shotgun if you don`t have better options available.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2248667690-perfect-paradox'
   }
 },
@@ -5494,7 +5488,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Red Dot 2 MOA',
                               'description': 'Snapshot sight. Short zoom. • Slightly increases range • Increases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_red_dot_2_moa.png'
                             },
                   'perk2':
@@ -5520,7 +5514,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Liquid Coils',
                               'description': 'Slower-building charge for higher damage. • Increases impact damage • Slower charge time',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_liquid_coils.png'
                             },
                   },
@@ -5534,7 +5528,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent choice if you like fusion rifles (which is a weird choice to begin with).',
+            'description': 'Decent choice if you like fusion rifles (which is a weird thing to begin with).',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3445437901-main-ingredient'
   }
 },
@@ -5606,7 +5600,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Decent weapon if you like using fusion rifles for some reason.',
+            'description': 'Decent weapon if you like using fusion rifles.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3909683950-man-o-war'
   }
 },
@@ -5668,7 +5662,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Very high DPS on single target encounters.',
+            'description': 'Very high DPS on single target encounters. Sadly is outperformed by almost any other single target oriented exotic weapon.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4190156464-merciless'
   }
 },
@@ -5722,7 +5716,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Fun weapon to play around, basically a weaker cluster bomb rocket launcher.',
+            'description': 'Fun weapon to play around, basically a cluster bomb rocket launcher with weaker splash and more prominent long-range capabilities.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2208405142-telesto'
   }
 },
@@ -6009,59 +6003,59 @@ guns_callback(
   "tier": 1,
   "role": 'PvE',
   "rarity": ["Power", "Epic ", "Classified"],
-  "stats": {"Impact": 00,
-            "Range": 00,
-            "Stability": 00,
-            "Magazine": 00,
-            "Reload_speed": 00,
-            "Handling": 00,
+  "stats": {"Impact": 100,
+            "Range": 78,
+            "Stability": 24,
+            "Magazine": 3,
+            "Reload_speed": 42,
+            "Handling": 35,
             "RPM": 72,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'classified',
-                              'description': 'classified',
+                            { 'name': 'White Nail',
+                              'description': 'Higher base precision damage. Rapidly landing three precision hits will refill the magazine.',
                               'recommended': false,
-                              'icon': './assets/images/icon_seraph_rounds.png'
+                              'icon': './assets/images/whispers-of-the-worm-perk.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'classified',
-                              'description': 'classified',
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
                               'recommended': false,
-                              'icon': './assets/images/icon_seraph_rounds.png'
+                              'icon': './assets/images/icon_polygonal_rifling.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'classified',
-                              'description': 'classified',
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
                               'recommended': false,
-                              'icon': './assets/images/icon_seraph_rounds.png'
+                              'icon': './assets/images/icon_armor_piercing.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'classified',
-                              'description': "classified",
+                            { 'name': 'Mulligan',
+                              'description': "Missing a shot has a chance to return ammo directly to the magazine.",
                               'recommended': false,
-                              'icon': './assets/images/icon_seraph_rounds.png'
+                              'icon': './assets/images/icon_mulligan.png'
                             },
                   },
             'set5':
                   { 'perk1':
-                            { 'name': 'classified',
-                              'description': "classified",
+                            { 'name': 'Fitted Stock',
+                              'description': 'This stock makes the weapon stable but heavy • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
                               'recommended': false,
-                              'icon': './assets/images/icon_seraph_rounds.png'
+                              'icon': './assets/images/icon_fitted_stock.png'
                             },
                   },
             },
   'links': {
             'description': 'Insane single target damage and crazy utility provided by the reload perk. Stats and perks coming soon.',
-            'destinytracker': '#'
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1891561814-whisper-of-the-worm'
   }
 },
 
@@ -6105,7 +6099,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Arrowhead Brake',
                               'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_arrowhead_brake.png'
                             },
                   },
@@ -6119,7 +6113,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Ambitious Assassin',
                               'description': "Overflows the magazine based on the number of rapid kills before reloading.",
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_ambitious_assassin.png'
                             },
                   },
@@ -6133,7 +6127,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid PvP and PvE sniper rifle.',
+            'description': 'Solid sniper rifle for both PvP and PvE .',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
   }
 },

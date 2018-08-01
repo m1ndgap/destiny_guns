@@ -647,3 +647,9 @@
                               'recommended': false,
                               'icon': './assets/images/icon_enhanced_battery.png'
                             },
+
+{ 'name': 'Mulligan',
+                              'description': "Missing a shot has a chance to return ammo directly to the magazine.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_mulligan.png'
+                            },
