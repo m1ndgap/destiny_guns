@@ -263,7 +263,7 @@ $('.search-display-legend').on('click', function() {
     $('.row').each(function(){$(this).show()});
   };
 
-  $('.gun-search').on('keyup', function(){
+  $('.gun-search').on('keyup', function(e){
     if ($(this).val().length > 1) {
       $('.form-clear-button').removeClass('hidden');
       var searchTerm = $(this).val().toLowerCase();
@@ -286,6 +286,7 @@ $('.search-display-legend').on('click', function() {
           $('.container-fluid').each(function(index, val){
               if ($(this).find('.found-gun').length > 0) {
                 $(this).prev().show();
+                if
               } else {
                 $(this).prev().hide();
               };

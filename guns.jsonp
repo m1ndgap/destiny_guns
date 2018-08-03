@@ -6002,7 +6002,7 @@ guns_callback(
   "picture": "./assets/images/sr-whisper-of-the-worm.png",
   "tier": 1,
   "role": 'PvE',
-  "rarity": ["Power", "Epic ", "Classified"],
+  "rarity": ["Power", "Epic ", "Exotic Quest"],
   "stats": {"Impact": 100,
             "Range": 78,
             "Stability": 24,
