@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-$('.form-clear-button').addClass('hidden');
-
 
 // code handling the alerts behavior on the index page: ie it is only shown once
 if(localStorage.getItem('alert_index'))
@@ -16,7 +14,6 @@ if(localStorage.getItem('alert_index'))
   };
 
 $('.search-display-legend').on('click', function() {
-  console.log($('body').find('.legend'));
   if ($('body').find('.legend').length > 0) {
     $('.legend').alert('close');
     $('.search-display-legend').text('Show legend');
@@ -47,10 +44,12 @@ $('.search-display-legend').on('click', function() {
     $('.search-display-legend').text('Hide legend');
   }
 });
-//
-//   $('.legend').on('closed.bs.alert', function () {
-//   // do something…
-// })
+
+  $('body').on('click', '.legend button', function () {
+    console.log(112311);
+    $('.search-display-legend').text('Show legend');
+  });
+
 
 // showing perks stats and links on small displays
 
