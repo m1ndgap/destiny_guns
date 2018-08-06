@@ -258,10 +258,7 @@ $('.search-display-legend').on('click', function() {
     });
 
 // search function and its friends
-  function showEverything() {
-    $('h3').each(function(){$(this).show()});
-    $('.row').each(function(){$(this).show()});
-  };
+
 
   $('.gun-search').on('keyup', function(e){
     if ($(this).val().length > 1) {
@@ -276,31 +273,49 @@ $('.search-display-legend').on('click', function() {
           console.log(err.message);
         }
           if (current_name.indexOf(searchTerm) >= 0) {
-            $(this).show();
+            $(this).removeClass('hidden');
             $(this).addClass('found-gun');
           } else {
-            $(this).hide();
+            $(this).addClass('hidden');
             $(this).removeClass('found-gun');
           };
           // hiding headings for empty sections
           $('.container-fluid').each(function(index, val){
               if ($(this).find('.found-gun').length > 0) {
-                $(this).prev().show();
-                if
+                $(this).prev().removeClass('hidden');
               } else {
-                $(this).prev().hide();
+                $(this).prev().addClass('hidden');
+
               };
           });
       });
     } else if($(this).val().length == 0) {
       $('.form-clear-button').addClass('hidden');
+      showEverything();
     } else {
       $('.form-clear-button').removeClass('hidden');
       console.log('its too short');
       console.log($(this).val().length);
       showEverything();
     };
+
+
+    if($('.row:not(.hidden)').length == 0) {
+        if($('body').find('.no-result').length == 0) {$('body').append('<h3 class="no-result">Sorry, nothing found :( <br> Seems like this gun is not on our list</h3>');}
+      } else {
+        $('.no-result').remove();
+      };
+
+
   });
+
+
+  function showEverything() {
+    $('h3').each(function(){$(this).removeClass("hidden")});
+    $('.row').each(function(){$(this).removeClass("hidden")});
+    $('.no-result').remove();
+  };
+
 // button clearing the search input and resetting page state
   $('.form-clear-button').on('click', function(){
     showEverything();
