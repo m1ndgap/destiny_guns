@@ -200,6 +200,25 @@ h3 {
   background-position: 45px 4px, 62px 4px;
 }
 
+.legend .legend-rec-perks {
+  color: #66878f;
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.legend .legend-rec-perks:after {
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: -12px;
+  content: ' ';
+  height: 9px;
+  width: 9px;
+  background-color: #1ea00d;
+}
+
 .gun-search {
   padding-left: 40px;
 }

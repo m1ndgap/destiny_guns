@@ -31,10 +31,15 @@ $('.search-display-legend').on('click', function() {
           <li><span class="legend-uncom">Uncommon</span> — guns easily grindable through token farm</li>
         </ul>
       </div>
-      <div><span class="subtitle">Tier scale:</span>
+      <div><span class="legend-subtitle">Tier scale:</span>
         <ul>
           <li><span class="legend-tier1">Tier 1</span> — Objectively strong weapon excelling in PvE, PvP or both.</li>
           <li><span class="legend-tier2">Tier 2</span> — A gun that can perform well but has some drawbacks or a gun with high situational utility.</li>
+        </ul>
+      </div>
+      <div><span class="legend-subtitle">Perks:</span>
+        <ul>
+          <li><span class="legend-rec-perks">Recommended perks</span> — Perks recommended by the community.</li>
         </ul>
       </div>
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
