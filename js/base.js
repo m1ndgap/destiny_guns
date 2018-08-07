@@ -261,9 +261,8 @@ $('.search-display-legend').on('click', function() {
       $(this).remove();
     });
 
+
 // search function and its friends
-
-
   $('.gun-search').on('keyup', function(e){
     if ($(this).val().length > 1) {
       $('.form-clear-button').removeClass('hidden');
@@ -334,7 +333,7 @@ $('.search-display-legend').on('click', function() {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 310 || document.documentElement.scrollTop > 310) {
         document.getElementById("goToTopBtn").style.display = "block";
     } else {
         document.getElementById("goToTopBtn").style.display = "none";
