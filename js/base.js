@@ -264,14 +264,22 @@ function locations_ajax() {$.ajax({
 };
 
 locations_ajax();
-setTimeout(console.log(locations), 1000);
 
 // location tooltip display
 $(".container-fluid").on('mouseenter', '.source', function(){
-  var title = $(this).data('name');
-  var description = $(this).data('desc');
-  $(this).append(`<div class='perk-tooltip'><h5>${title}</h5>${description}</div>`);
+  var descr = $(this).data('desc');
+  let text = locations.filter(function(element){
+    return element.name == descr;
+  });
+  $(this).append(`<div class='source-tooltip'>${text[0].description}</div>`);
 });
+$(".container-fluid").on('mouseleave', '.source', function(){
+  $(this).find('.source-tooltip').remove();
+});
+
+  $(".container-fluid").on('mouseenter', '.perk-tooltip', function(){
+    $(this).remove();
+  });
 
 
 
@@ -285,7 +293,7 @@ $(".container-fluid").on('mouseenter', '.source', function(){
     $(this).find('.perk-tooltip').remove();
   });
 
-    $(".container-fluid").on('mouseleave', '.perk-tooltip', function(){
+    $(".container-fluid").on('mouseenter', '.perk-tooltip', function(){
       $(this).remove();
     });
 

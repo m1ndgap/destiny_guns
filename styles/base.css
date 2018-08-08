@@ -409,6 +409,32 @@ h3 {
   cursor: pointer;
 }
 
+.rarity .source .source-tooltip {
+  padding: 3px;
+  font-size: 11px;
+  position: absolute;
+  background-color: #eaeaea;
+  min-width: 150px;
+  max-width: 170px;
+  top: 35px;
+  left: -55px;
+  z-index: 1000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=0, Color=#000000)";
+  /*IE 8*/
+  -moz-box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  /*FF 3.5+*/
+  -webkit-box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+
+.rarity .source .source-tooltip h5 {
+  font-size: 11px;
+  font-weight: bold;
+  width: 100%;
+}
+
 .stats {
   display: none;
   padding-top: 10px;
