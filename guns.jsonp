@@ -5,7 +5,7 @@ guns_callback(
   "picture": "./assets/images/ar-braytech-winterwolf.jpg",
   "tier": 1,
   "role": 'PvE',
-  "rarity": ["Kinetic", "Epic ", "BrayTech"],
+  "rarity": ["Kinetic", "Epic ", "Braytech"],
   "stats": {"Impact": 29,
             "Range": 72,
             "Stability": 47,
@@ -84,7 +84,7 @@ guns_callback(
   "picture": "./assets/images/ar-guiding-star.jpg",
   "tier": 1,
   "role": 'PvE',
-  "rarity": ["Kinetic", "Epic ", "F.Rally"],
+  "rarity": ["Kinetic", "Epic ", "Faction Rally"],
   "stats": {"Impact": 18,
             "Range": 37,
             "Stability": 47,
@@ -363,7 +363,7 @@ guns_callback(
   "picture": "./assets/images/ar-the-number.jpg",
   "tier": 1,
   "role": 'PvE > PvP',
-  "rarity": ["Energy", "Epic ", "F.Rally"],
+  "rarity": ["Energy", "Epic ", "Faction Rally"],
   "stats": {"Impact": 29,
             "Range": 55,
             "Stability": 46,
@@ -976,7 +976,7 @@ guns_callback(
   "picture": "./assets/images/ar-loquitor.jpg",
   "tier": 2,
   "role": 'PvE',
-  "rarity": ["Kinetic", "Epic ", "F.Rally"],
+  "rarity": ["Kinetic", "Epic ", "Faction Rally"],
   "stats": {"Impact": 33,
             "Range": 78,
             "Stability": 24,
@@ -1094,7 +1094,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Flared Magwell',
                               'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
+                              'recommended': false,
                               'icon': './assets/images/icon_flared_magwell.png'
                             },
                     'perk2':
@@ -1178,7 +1178,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Flared Magwell',
                               'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
+                              'recommended': false,
                               'icon': './assets/images/icon_flared_magwell.png'
                             },
                   },
@@ -2556,7 +2556,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Flared Magwell',
                               'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
+                              'recommended': false,
                               'icon': './assets/images/icon_flared_magwell.png'
                             },
                     'perk2':
@@ -2800,7 +2800,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Fastdraw HCS',
                               'description': 'Agile Hand Cannon sight. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_fastdraw_hcs.png'
                             },
                   'perk2':
@@ -3339,7 +3339,7 @@ guns_callback(
   "picture": "./assets/images/hc-dfa.jpg",
   "tier": 2,
   "role": 'PvE & PvP',
-  "rarity": ["Kinetic", "Epic ", "Nightfall Drop"],
+  "rarity": ["Kinetic", "Epic ", "Nightfall"],
   "stats": {"Impact": 84,
             "Range": 50,
             "Stability": 59,
@@ -3417,7 +3417,7 @@ guns_callback(
   "picture": "./assets/images/hc-jack-queen-king.jpg",
   "tier": 2,
   "role": 'PvE & PvP',
-  "rarity": ["Energy", "Epic ", "Mercury forge"],
+  "rarity": ["Energy", "Epic ", "Mercury Forge"],
   "stats": {"Impact": 80,
             "Range": 45,
             "Stability": 42,
@@ -4328,7 +4328,7 @@ guns_callback(
   "picture": "./assets/images/sa-the-vision.jpg",
   "tier": 2,
   "role": 'PvP > PvE',
-  "rarity": ["Energy", "Epic ", "F.Rally"],
+  "rarity": ["Energy", "Epic ", "Faction Rally"],
   "stats": {"Impact": 75,
             "Range": 37,
             "Stability": 82,
@@ -4400,7 +4400,7 @@ guns_callback(
   "picture": "./assets/images/sa-18-kelvins.jpg",
   "tier": 2,
   "role": 'PvE > PvP',
-  "rarity": ["Energy", "Epic ", "Mars BrayTech"],
+  "rarity": ["Energy", "Epic ", "Braytech"],
   "stats": {"Impact": 49,
             "Range": 44,
             "Stability": 72,
@@ -5358,7 +5358,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'Flared Magwell',
                               'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
+                              'recommended': false,
                               'icon': './assets/images/icon_flared_magwell.png'
                             },
                     'perk2':
@@ -5756,7 +5756,7 @@ guns_callback(
                   { 'perk1':
                           { 'name': 'Flared Magwell',
                             'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                            'recommended': true,
+                            'recommended': false,
                             'icon': './assets/images/icon_flared_magwell.png'
                           },
                   },
@@ -5971,7 +5971,7 @@ guns_callback(
                     'perk2':
                             { 'name': 'Flared Magwell',
                               'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
+                              'recommended': false,
                               'icon': './assets/images/icon_flared_magwell.png'
                             },
                   },

@@ -26,9 +26,9 @@ $('.search-display-legend').on('click', function() {
       <hr>
       <div class="alert-rarity"><span class="legend-subtitle">Rarity scale:</span>
         <ul>
-          <li><span class="legend-epic">Epic</span> — very difficult to get guns, events on a long rotation (Faction Rally, weekly Nightfall drop etc) and with high random factor.</li>
-          <li><span class="legend-rare">Rare</span> — guns with a high random factor (Banshee or Exotic drops) you can grind for</li>
-          <li><span class="legend-uncom">Uncommon</span> — guns easily grindable through token farm</li>
+          <li><span class="legend-epic">Epic</span> — Very difficult to get guns, events on a long rotation (Faction Rally, weekly Nightfall drop etc) and with high random factor.</li>
+          <li><span class="legend-rare">Rare</span> — Guns with a high random factor (Banshee or Exotic drops) you can grind for.</li>
+          <li><span class="legend-uncom">Uncommon</span> — Guns thata are easily grindable through token farm.</li>
         </ul>
       </div>
       <div><span class="legend-subtitle">Tier scale:</span>
@@ -58,7 +58,7 @@ $('.search-display-legend').on('click', function() {
 
 // showing perks stats and links on small displays
 
-//function to show the bottom border on click
+  //function to show the bottom border on click
   function showBorder(x) {
     if (x.css('border-bottom').substring(0, 1) == '0') {
       x.css('border-bottom', '1px solid #66878f');
@@ -85,7 +85,7 @@ $('.search-display-legend').on('click', function() {
   };
 
 
-
+  // visuals for arrows and expanding blocks on smaller displays
   $(".container-fluid").on('click', '.show-stats', function(){
     $(this).next().slideToggle(100);
     showBorder($(this));
@@ -197,7 +197,7 @@ $('.search-display-legend').on('click', function() {
                    <div class="col-lg-1 col-md-4 col-sm-4 col-4 rarity">
                      <p class="wep-type">${rarity_type}</p>
                      <p class="${rarity_rarity.slice(0, -1).toLowerCase()}">${rarity_rarity}</p>
-                     <p class="source">${rarity_source}</p>
+                     <p class="source ${rarity_source.toLowerCase().replace(/ /g, '_')} ">${rarity_source}</p>
                    </div>
                    <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-stats"><span>Stats<div class="arrow-down"></div></span></div>
                    <div class="col-lg-3 col-md-12 col-sm-12 col-12 stats">
@@ -302,7 +302,7 @@ $('.search-display-legend').on('click', function() {
       showEverything();
     };
 
-
+    // "nothing found" message
     if($('.row:not(.hidden)').length == 0) {
         if($('body').find('.no-result').length == 0) {$('body').append('<h3 class="no-result">Sorry, nothing found :( <br> Seems like this gun is not on our list</h3>');}
       } else {
@@ -312,7 +312,7 @@ $('.search-display-legend').on('click', function() {
 
   });
 
-
+  // resets visuals of the page after the search
   function showEverything() {
     $('h3').each(function(){$(this).removeClass("hidden")});
     $('.row').each(function(){$(this).removeClass("hidden")});
