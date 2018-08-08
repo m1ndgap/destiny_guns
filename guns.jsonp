@@ -3495,7 +3495,7 @@ guns_callback(
   "picture": "./assets/images/hc-ikelos-hc.jpg",
   "tier": 2,
   "role": 'PvE',
-  "rarity": ["Energy", "Uncom.", "Mars quest"],
+  "rarity": ["Energy", "Uncom.", "Exotic Quest"],
   "stats": {"Impact": 78,
             "Range": 39,
             "Stability": 60,

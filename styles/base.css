@@ -500,6 +500,7 @@ h3 {
   padding: 2px 2px;
   background-color: #66878f;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .perks .perk-wrap:hover {

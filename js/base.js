@@ -197,7 +197,7 @@ $('.search-display-legend').on('click', function() {
                    <div class="col-lg-1 col-md-4 col-sm-4 col-4 rarity">
                      <p class="wep-type">${rarity_type}</p>
                      <p class="${rarity_rarity.slice(0, -1).toLowerCase()}">${rarity_rarity}</p>
-                     <p class="source ${rarity_source.toLowerCase().replace(/ /g, '_')} ">${rarity_source}</p>
+                     <p class="source" data-desc="${rarity_source.toLowerCase().replace(/ /g, '_')}">${rarity_source}</p>
                    </div>
                    <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-stats"><span>Stats<div class="arrow-down"></div></span></div>
                    <div class="col-lg-3 col-md-12 col-sm-12 col-12 stats">
@@ -246,6 +246,34 @@ $('.search-display-legend').on('click', function() {
                  </div>`);
             });
      }});
+
+// location array generation from json
+var locations = Array();
+
+function locations_ajax() {$.ajax({
+    url: "locations.jsonp",
+    type: 'POST',
+    crossDomain: true,
+    dataType: 'jsonp',
+    accepts: 'application/jsonp',
+    jsonpCallback: 'locations_callback',
+      success: function (data) {
+          locations = data;
+          console.log(locations);
+   }});
+};
+
+locations_ajax();
+setTimeout(console.log(locations), 1000);
+
+// location tooltip display
+$(".container-fluid").on('mouseenter', '.source', function(){
+  var title = $(this).data('name');
+  var description = $(this).data('desc');
+  $(this).append(`<div class='perk-tooltip'><h5>${title}</h5>${description}</div>`);
+});
+
+
 
 // perk tooltip display
   $(".container-fluid").on('mouseenter', '.perk-wrap', function(){
