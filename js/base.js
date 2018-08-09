@@ -277,7 +277,7 @@ $(".container-fluid").on('mouseleave', '.source', function(){
   $(this).find('.source-tooltip').remove();
 });
 
-  $(".container-fluid").on('mouseenter', '.perk-tooltip', function(){
+  $(".container-fluid").on('mouseenter', '.source-tooltip', function(){
     $(this).remove();
   });
 
