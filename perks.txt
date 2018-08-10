@@ -675,3 +675,15 @@
                               'recommended': false,
                               'icon': './assets/images/icon_rifle_scope_ssf.png'
                             },
+
+{ 'name': 'Tactic SAS',
+                              'description': 'Accurate Sidearm sight. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_control_sas.png'
+                            },
+
+{ 'name': 'FarPoint SAS',
+                              'description': 'Pinpoint Sidearm sight. • Greatly increases range • Decreases stability • Decreases handling speed',
+                              'recommended': true,
+                              'icon': './assets/images/icon_control_sas.png'
+                            },

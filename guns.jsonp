@@ -4694,6 +4694,84 @@ guns_callback(
 },
 
 {
+  "name": "Traveler's Judgment 5",
+  'type': "sidearms",
+  "picture": "./assets/images/sa-travelers-judgement-5.jpg",
+  "tier": 2,
+  "role": 'PvP > PvE',
+  "rarity": ["Energy", "Epic ", "Mercury"],
+  "stats": {"Impact": 75,
+            "Range": 45,
+            "Stability": 84,
+            "Magazine": 30,
+            "Reload_speed": 40,
+            "Handling": 56,
+            "RPM": 491,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_adaptive_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Tactic SAS',
+                              'description': 'Accurate Sidearm sight. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_control_sas.png'
+                            },
+                  'perk2':
+                            { 'name': 'Target SAS',
+                              'description': 'Sharp Sidearm sight. • Increases range • Slightly decreases stability • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_control_sas.png'
+                            },
+                  'perk3':
+                            { 'name': 'FarPoint SAS',
+                              'description': 'Pinpoint Sidearm sight. • Greatly increases range • Decreases stability • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_control_sas.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                  'perk3':
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_steady_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Headseeker',
+                              'description': 'Body shots landed with this weapon increase precision damage for a short time.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_headseeker.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Headseeker is a strong perk and this weapon utilizes it nicely.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2091737595-travelers-judgment-5'
+  }
+},
+{
   "name": "18 Kelvins",
   'type': "sidearms",
   "picture": "./assets/images/sa-18-kelvins.jpg",
