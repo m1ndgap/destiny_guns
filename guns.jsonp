@@ -2092,6 +2092,85 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3005104939-frostmires-hex'
   }
 },
+
+{
+  "name": "Niflheim Frost",
+  'type': "scout_rifles",
+  "picture": "./assets/images/scout-niflheim-frost.jpg",
+  "tier": 2,
+  "role": 'PvE > PvP',
+  "rarity": ["Energy", "Epic ", "Braytech"],
+  "stats": {"Impact": 62,
+            "Range": 46,
+            "Stability": 47,
+            "Magazine": 16,
+            "Reload_speed": 48,
+            "Handling": 50,
+            "RPM": 180,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  'perk2':
+                            { 'name': 'Full Bore',
+                              'description': 'Barrel optimized for distance. • Greatly increases range • Decreases stability • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_full_bore.png'
+                            },
+                  'perk3':
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_polygonal_rifling.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Appended Mag',
+                              'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_appended_mag.png'
+                            },
+                    'perk2':
+                            { 'name': 'Drop Mag',
+                              'description': 'Magazine drops on reload, wasting ammunition but greatly increasing reload speed.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_drop_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Kill Clip',
+                              'description': "Reloading after a kill grants increased damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_kill_clip.png'
+                            },
+                    'perk2':
+                            { 'name': 'Opening Shot',
+                              'description': "Improved accuracy and range on the opening shot of attack.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_opening_shot.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Scout rifle with good perks: Kill Clip and Drop Mag. Decent in PvE.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1350102270-niflheim-frost'
+  }
+},
 {
   "name": "MIDA Multi-Tool",
   'type': "scout_rifles",
@@ -5770,7 +5849,7 @@ guns_callback(
                   'perk2':
                             { 'name': 'Flared Magwell',
                               'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
+                              'recommended': false,
                               'icon': './assets/images/icon_flared_magwell.png'
                             },
                   'perk3':
@@ -5809,10 +5888,82 @@ guns_callback(
   }
 },
 {
+  "name": "Zenith of Your Kind",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-zenith-of-your-kind.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Power", "Rare ", "Raid"],
+  "stats": {"Impact": 65,
+            "Range": 39,
+            "Stability": 45,
+            "Magazine": 7,
+            "Reload_speed": 71,
+            "Handling": 46,
+            "RPM": 100,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Corkscrew Rifling',
+                            'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
+                            'recommended': false,
+                            'icon': './assets/images/icon_corkscrew_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Barrel Shroud',
+                              'description': 'Balanced shotgun barrel. • Increases stability • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_barrel_shroud.png'
+                            },
+                  'perk3':
+                            { 'name': 'Rifled Barrel',
+                              'description': 'Ranged shotgun barrel. • Increases range • Greatly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rifled_barrel.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Pulse Monitor',
+                              'description': "Auto-reloads part of the magazine when wielder is critically wounded.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_pulse_monitor.png'
+                            },
+                    'perk2':
+                            { 'name': 'Auto-Loading Holster',
+                              'description': "The holstered weapon is automatically reloaded after a short period of time.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_auto_reloading_holster.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Threat Detector',
+                              'description': "Increased reload, stability, and handling when enemies are in close proximity.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_threat_detector.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Solid PvE shotgun: full-auto, pocket reload and nice stats.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2707464805-zenith-of-your-kind'
+  }
+},
+{
   "name": "Main Ingredient",
   'type': "fusion_rifles",
   "picture": "./assets/images/fr-main-ingredient.jpg",
-  "tier": 2,
+  "tier": 1,
   "role": 'PvP',
   "rarity": ["Power", "Uncom.", "Vanguard"],
   "stats": {"Impact": 80,
