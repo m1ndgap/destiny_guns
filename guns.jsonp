@@ -284,6 +284,79 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4014434381-kibou-ar3'
   }
 },
+
+{
+  "name": "Origin Story",
+  'type': "ar",
+  "picture": "./assets/images/ar-origin-story.jpg",
+  "tier": 1,
+  "role": 'PvE & PvP',
+  "rarity": ["Kinetic", "Uncom.", "Vanguard"],
+  "stats": {"Impact": 29,
+            "Range": 61,
+            "Stability": 46,
+            "Magazine": 32,
+            "Reload_speed": 47,
+            "Handling": 43,
+            "RPM": 450,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hitmark IS',
+                              'description': 'Agile sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hitmark_is.png'
+                            },
+                  'perk2':
+                            { 'name': 'Red Dot 2 MOA',
+                              'description': 'Snapshot sight. Short zoom. • Slightly increases range • Increases handling speed',
+                              'recommended': true,
+                              'icon': './assets/images/icon_red_dot_2_moa.png'
+                            },
+                  'perk3':
+                            { 'name': 'Red Dot Micro',
+                              'description': 'Agile sight. Short zoom. • Increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_red_dot_micro.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Appended Mag',
+                              'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
+                              'recommended': true,
+                              'icon': './assets/images/icon_appended_mag.png'
+                            },
+                    'perk2':
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_flared_magwell.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Rampage',
+                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rampage.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Very easy to get, strong PvE perks. Solid beginner`s choice',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1644162710-origin-story'
+  }
+},
 {
   "name": "Positive Outlook",
   'type': "ar",
@@ -1122,78 +1195,6 @@ guns_callback(
   'links': {
             'description': 'Decent auto rifle with zen moment. Looks unique and special.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3188460622-null-calamity-9'
-  }
-},
-{
-  "name": "Origin Story",
-  'type': "ar",
-  "picture": "./assets/images/ar-origin-story.jpg",
-  "tier": 2,
-  "role": 'PvE & PvP',
-  "rarity": ["Kinetic", "Uncom.", "Vanguard"],
-  "stats": {"Impact": 29,
-            "Range": 61,
-            "Stability": 46,
-            "Magazine": 32,
-            "Reload_speed": 47,
-            "Handling": 43,
-            "RPM": 450,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Hitmark IS',
-                              'description': 'Agile sight. Short zoom. • Greatly increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_hitmark_is.png'
-                            },
-                  'perk2':
-                            { 'name': 'Red Dot 2 MOA',
-                              'description': 'Snapshot sight. Short zoom. • Slightly increases range • Increases handling speed',
-                              'recommended': true,
-                              'icon': './assets/images/icon_red_dot_2_moa.png'
-                            },
-                  'perk3':
-                            { 'name': 'Red Dot Micro',
-                              'description': 'Agile sight. Short zoom. • Increases range • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_red_dot_micro.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Appended Mag',
-                              'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
-                              'recommended': true,
-                              'icon': './assets/images/icon_appended_mag.png'
-                            },
-                    'perk2':
-                            { 'name': 'Flared Magwell',
-                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_flared_magwell.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Rampage',
-                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rampage.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Very easy to get, strong PvE perks. Solid beginner`s choice',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1644162710-origin-story'
   }
 },
 {
@@ -5913,11 +5914,85 @@ guns_callback(
 },
 
 {
+  "name": "IKELOS_SR_v1.0.1",
+  'type': "sniper_rifles",
+  "picture": "./assets/images/sr-ikelos-sr.jpg",
+  "tier": 1,
+  "role": 'PvE > PvP',
+  "rarity": ["Power", "Epic ", "Escalation"],
+  "stats": {"Impact": 55,
+            "Range": 37,
+            "Stability": 45,
+            "Magazine": 5,
+            "Reload_speed": 61,
+            "Handling": 70,
+            "RPM": 140,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Full Bore',
+                              'description': 'Barrel optimized for distance. • Greatly increases range • Decreases stability • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_full_bore.png'
+                            },
+                  'perk2':
+                            { 'name': 'Corkscrew Rifling',
+                              'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_corkscrew_rifling.png'
+                            },
+                  'perk3':
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_polygonal_rifling.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Seraph Rounds',
+                              'description': "Rounds overpenetrate targets and bounce off hard surfaces.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_seraph_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Box Breathing',
+                              'description': "Aiming this weapon without firing for a brief moment grants bonus range and precision damage while it remains zoomed.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_box_breathing.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Triple Tap',
+                              'description': "Rapidly landing precision hits will return 1 round to the magazine from reserves.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_triple_tap.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Pretty much epic version of DARCI, box-breathing is an awesome perk.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/847450546-ikelossrv101'
+  }
+},
+{
   "name": "Silicon Neuroma",
   'type': "sniper_rifles",
   "picture": "./assets/images/sr-silicon.jpg",
   "tier": 1,
-  "role": 'PvE > PvP',
+  "role": 'PvP',
   "rarity": ["Power", "Epic ", "Nightfall"],
   "stats": {"Impact": 90,
             "Range": 77,
@@ -5986,7 +6061,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Strong sniper rifle, decent in any activity.',
+            'description': 'Strong PvP sniper rifle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/990416096-silicon-neuroma'
   }
 },
@@ -6124,80 +6199,6 @@ guns_callback(
   'links': {
             'description': 'Solid sniper rifle for both PvP and PvE .',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
-  }
-},
-{
-  "name": "IKELOS_SR_v1.0.1",
-  'type': "sniper_rifles",
-  "picture": "./assets/images/sr-ikelos-sr.jpg",
-  "tier": 2,
-  "role": 'PvE > PvP',
-  "rarity": ["Power", "Epic ", "Escalation"],
-  "stats": {"Impact": 55,
-            "Range": 37,
-            "Stability": 45,
-            "Magazine": 5,
-            "Reload_speed": 61,
-            "Handling": 70,
-            "RPM": 140,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Rapid-Fire Frame',
-                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rapid_fire_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Full Bore',
-                              'description': 'Barrel optimized for distance. • Greatly increases range • Decreases stability • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_full_bore.png'
-                            },
-                  'perk2':
-                            { 'name': 'Corkscrew Rifling',
-                              'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_corkscrew_rifling.png'
-                            },
-                  'perk3':
-                            { 'name': 'Polygonal Rifling',
-                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_polygonal_rifling.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Seraph Rounds',
-                              'description': "Rounds overpenetrate targets and bounce off hard surfaces.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_seraph_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Box Breathing',
-                              'description': "Aiming this weapon without firing for a brief moment grants bonus range and precision damage while it remains zoomed.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_box_breathing.png'
-                            },
-                  },
-            'set5':
-                  { 'perk1':
-                            { 'name': 'Triple Tap',
-                              'description': "Rapidly landing precision hits will return 1 round to the magazine from reserves.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_triple_tap.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Pretty much epic version of DARCI',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/847450546-ikelossrv101'
   }
 },
 {
