@@ -1753,7 +1753,7 @@ guns_callback(
   'type': "scout_rifles",
   "picture": "./assets/images/scout-pleiades-corrector.jpg",
   "tier": 1,
-  "role": 'PvE',
+  "role": 'PvE + PvP',
   "rarity": ["Energy", "Epic ", "Faction Rally"],
   "stats": {"Impact": 60,
             "Range": 35,
@@ -2553,7 +2553,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Very nice in AoE heavy situations, can sometimes land awesome killing streaks in PvP too.',
+            'description': 'One of the best options in AoE heavy situations, can sometimes land awesome killing streaks in PvP too.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2286143274-the-huckleberry'
   }
 },
@@ -2787,7 +2787,7 @@ guns_callback(
   'type': "smgs",
   "picture": "./assets/images/smgs-new-city.jpg",
   "tier": 2,
-  "role": 'PvE',
+  "role": 'PvP',
   "rarity": ["Kinetic", "Rare ", "World Drop"],
   "stats": {"Impact": 6,
             "Range": 64,
@@ -2985,6 +2985,68 @@ guns_callback(
   }
 },
 
+{
+  "name": "Crimson",
+  'type': "hand_cannons",
+  "picture": "./assets/images/hc-crimson.jpg",
+  "tier": 1,
+  "role": 'PvE > PvP',
+  "rarity": ["Kinetic", "Rare ", "Exotic"],
+  "stats": {"Impact": 92,
+            "Range": 60,
+            "Stability": 82,
+            "Magazine": 14,
+            "Reload_speed": 64,
+            "Handling": 50,
+            "RPM": 415,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Banned Weapon',
+                              'description': 'This weapon fires a 3-round burst.',
+                              'recommended': false,
+                              'icon': './assets/images/crimson_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Smallbore',
+                              'description': 'Dual strength barrel. • Increases range • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_smallbore.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Cruel Remedy',
+                              'description': 'Kills with this weapon heal the wielder. Precision kills also refill the magazine.',
+                              'recommended': false,
+                              'icon': './assets/images/crimson_perk2.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Heavy Grip',
+                              'description': 'This grip is weighted for recoil control. • Increases stability • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_heavy_grip.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Fun gun with strong self-heal. Very useful during faction rallies and when playing specs with limited healing.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3437746471-crimson'
+  }
+},
 {
   "name": "Dire Promise",
   'type': "hand_cannons",
@@ -3409,68 +3471,6 @@ guns_callback(
   'links': {
             'description': 'Destiny 2 version of Desert Eagle, hits like a truck but very difficult to handle.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3649055823-crimils-dagger'
-  }
-},
-{
-  "name": "Crimson",
-  'type': "hand_cannons",
-  "picture": "./assets/images/hc-crimson.jpg",
-  "tier": 2,
-  "role": 'PvE > PvP',
-  "rarity": ["Kinetic", "Rare ", "Exotic"],
-  "stats": {"Impact": 92,
-            "Range": 60,
-            "Stability": 82,
-            "Magazine": 14,
-            "Reload_speed": 64,
-            "Handling": 50,
-            "RPM": 415,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Banned Weapon',
-                              'description': 'This weapon fires a 3-round burst.',
-                              'recommended': false,
-                              'icon': './assets/images/crimson_perk.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Smallbore',
-                              'description': 'Dual strength barrel. • Increases range • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_smallbore.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_accurized_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Cruel Remedy',
-                              'description': 'Kills with this weapon heal the wielder. Precision kills also refill the magazine.',
-                              'recommended': false,
-                              'icon': './assets/images/crimson_perk2.png'
-                            },
-                  },
-            'set5':
-                  { 'perk1':
-                            { 'name': 'Heavy Grip',
-                              'description': 'This grip is weighted for recoil control. • Increases stability • Decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_heavy_grip.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Fun gun with strong self-heal. Very useful during faction rallies and when playing specs with limited healing.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3437746471-crimson'
   }
 },
 {
