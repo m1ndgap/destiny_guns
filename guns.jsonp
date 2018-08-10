@@ -2553,7 +2553,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'One of the best options in AoE heavy situations, can sometimes land awesome killing streaks in PvP too.',
+            'description': 'One of the best options to kill enemies in quick succesion, can sometimes land awesome killing streaks in PvP too.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/2286143274-the-huckleberry'
   }
 },
