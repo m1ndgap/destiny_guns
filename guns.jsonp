@@ -1753,7 +1753,7 @@ guns_callback(
   'type': "scout_rifles",
   "picture": "./assets/images/scout-pleiades-corrector.jpg",
   "tier": 1,
-  "role": 'PvE + PvP',
+  "role": 'PvE & PvP',
   "rarity": ["Energy", "Epic ", "Faction Rally"],
   "stats": {"Impact": 60,
             "Range": 35,
