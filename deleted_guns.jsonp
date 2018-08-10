@@ -1,0 +1,73 @@
+
+{
+  "name": "Man o' War",
+  'type': "fusion_rifles",
+  "picture": "./assets/images/fr-manowar.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Power", "Uncom.", "Io"],
+  "stats": {"Impact": 41,
+            "Range": 55,
+            "Stability": 47,
+            "Magazine": 4,
+            "Reload_speed": 28,
+            "Handling": 30,
+            "RPM": 790,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk2':
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_polygonal_rifling.png'
+                            },
+                  'perk3':
+                            { 'name': 'Corkscrew Rifling',
+                              'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_corkscrew_rifling.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Projection Fuse',
+                              'description': 'Distance optimizations. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_projection_fuse.png'
+                            },
+                    'perk2':
+                            { 'name': 'Accelerated Coils',
+                              'description': 'Speeds up charge. • Faster charge time • Decreases impact damage',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accelerated_coils.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Moving Target',
+                              'description': "Increased movement speed and target acquisition when moving while aiming down sights.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_moving_target.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Decent weapon if you like using fusion rifles.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3909683950-man-o-war'
+  }
+},

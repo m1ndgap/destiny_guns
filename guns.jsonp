@@ -2025,6 +2025,72 @@ guns_callback(
   }
 },
 {
+  "name": "Pleiades Corrector",
+  'type': "scout_rifles",
+  "picture": "./assets/images/scout-pleiades-corrector.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Epic ", "Faction Rally"],
+  "stats": {"Impact": 60,
+            "Range": 35,
+            "Stability": 49,
+            "Magazine": 16,
+            "Reload_speed": 67,
+            "Handling": 74,
+            "RPM": 200,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Spark PS',
+                              'description': 'Omolon post sight. Short zoom. • Slightly increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_spark_ps.png'
+                            },
+                  'perk2':
+                            { 'name': 'Transmission MS7',
+                              'description': 'Omolon ocular technology. Long zoom. • Increases range • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_transmission_ms7.png'
+                            },
+                  },
+            'set3':
+                  {  'perk1':
+                            { 'name': 'High-Caliber Rounds',
+                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_caliber_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_flared_magwell.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Rampage',
+                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rampage.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Scout rifle with rampage.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1342668638-pleiades-corrector'
+  }
+},
+{
   "name": "Polaris Lance",
   'type': "scout_rifles",
   "picture": "./assets/images/scout_polaris_lance.jpg",
@@ -2355,6 +2421,68 @@ guns_callback(
   }
 },
 
+{
+  "name": "The Huckleberry",
+  'type': "smgs",
+  "picture": "./assets/images/smgs-huckleberry.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 22,
+            "Range": 53,
+            "Stability": 42,
+            "Magazine": 37,
+            "Reload_speed": 10,
+            "Handling": 60,
+            "RPM": 750,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Ride the Bull',
+                              'description': 'Increased rate of fire and recoil while you`re holding down the trigger. Kills with this weapon reload a portion of the magazine.',
+                              'recommended': false,
+                              'icon': './assets/images/huckleberry_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Ricochet Rounds',
+                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_ricochet_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Rampage',
+                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rampage.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Short-Action Stock',
+                              'description': "This weapon is especially easy to grip. • Greatly increases handling speed",
+                              'recommended': false,
+                              'icon': './assets/images/icon_short_action_stock.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Very nice in AoE heavy situations, can sometimes land awesome killing streaks in PvP too.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2286143274-the-huckleberry'
+  }
+},
 {
   "name": "IKELOS_SMG_v1.0.1",
   'type': "smgs",
@@ -2707,68 +2835,6 @@ guns_callback(
   'links': {
             'description': 'An interesting SMG with very high situational utility, when it procs you feel like an olympic god annihilating everything with badass lightning.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3089417789-riskrunner'
-  }
-},
-{
-  "name": "The Huckleberry",
-  'type': "smgs",
-  "picture": "./assets/images/smgs-huckleberry.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic"],
-  "stats": {"Impact": 22,
-            "Range": 53,
-            "Stability": 42,
-            "Magazine": 37,
-            "Reload_speed": 10,
-            "Handling": 60,
-            "RPM": 750,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Ride the Bull',
-                              'description': 'Increased rate of fire and recoil while you`re holding down the trigger. Kills with this weapon reload a portion of the magazine.',
-                              'recommended': false,
-                              'icon': './assets/images/huckleberry_perk.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Ricochet Rounds',
-                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_ricochet_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Rampage',
-                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rampage.png'
-                            },
-                  },
-            'set5':
-                  { 'perk1':
-                            { 'name': 'Short-Action Stock',
-                              'description': "This weapon is especially easy to grip. • Greatly increases handling speed",
-                              'recommended': false,
-                              'icon': './assets/images/icon_short_action_stock.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Very nice in AoE heavy situations, can sometimes land awesome killing streaks in PvP too.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2286143274-the-huckleberry'
   }
 },
 
@@ -4965,74 +5031,6 @@ guns_callback(
 },
 
 {
-  "name": "Hawthorne's Field-Forged Shotgun",
-  'type': "shotguns",
-  "picture": "./assets/images/sg-hawthornes.jpg",
-  "tier": 1,
-  "role": 'PvP > PvE',
-  "rarity": ["Power", "Rare ", "World Drop"],
-  "stats": {"Impact": 65,
-            "Range": 50,
-            "Stability": 37,
-            "Magazine": 7,
-            "Reload_speed": 64,
-            "Handling": 64,
-            "RPM": 90,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Lightweight Frame',
-                              'description': 'Superb handling. Move faster with this weapon equipped.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_lightweight_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Rifled Barrel',
-                              'description': 'Ranged shotgun barrel. • Increases range • Greatly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rifled_barrel.png'
-                            },
-                  'perk2':
-                            { 'name': 'Smoothbore',
-                              'description': 'Smooth shotgun barrel. Greatly increases range at the cost of more projectile spread.',
-                              'recommended': true,
-                              'icon': './assets/images/icon_smoothbore.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
-                            },
-                    'perk2':
-                            { 'name': 'Assault Mag',
-                              'description': 'This shotgun`s magazine is optimized for quick combat. • Greatly increases stability • Increases rate of fire',
-                              'recommended': true,
-                              'icon': './assets/images/icon_assault_mag.png'
-                            },
-
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Full Auto Trigger System',
-                              'description': 'Holding down the trigger will fire this weapon at full auto.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_full_auto.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Full auto shotgun, rips and tears in any activity.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/731147177-hawthornes-field-forged-shotgun'
-  }
-},
-
-{
   "name": "IKELOS_SG_v1.0.1",
   'type': "shotguns",
   "picture": "./assets/images/sg-ikelos-sg.jpg",
@@ -5177,6 +5175,84 @@ guns_callback(
 },
 
 {
+  "name": "Perfect Paradox",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-perfect-paradox.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Power", "Epic ", "Mercury"],
+  "stats": {"Impact": 65,
+            "Range": 39,
+            "Stability": 42,
+            "Magazine": 7,
+            "Reload_speed": 68,
+            "Handling": 49,
+            "RPM": 100,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Swap Mag',
+                              'description': 'Swap weapons much faster for a short duration after emptying the magazine.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_swap_mag.png'
+                            },
+                  'perk2':
+                            { 'name': 'Rifled Barrel',
+                              'description': 'Ranged shotgun barrel. • Increases range • Greatly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rifled_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Smoothbore',
+                              'description': 'Smooth shotgun barrel. Greatly increases range at the cost of more projectile spread.',
+                              'recommended': true,
+                              'icon': './assets/images/icon_smoothbore.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_flared_magwell.png'
+                            },
+                    'perk2':
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_steady_rounds.png'
+                            },
+                    'perk3':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': true,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Rampage',
+                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rampage.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Full auto shotgun with Rampage and nice stats.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2248667690-perfect-paradox'
+  }
+},
+{
   "name": "Tractor Cannon",
   'type': "shotguns",
   "picture": "./assets/images/sg-tractor-cannon.jpg",
@@ -5238,6 +5314,75 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3580904581-tractor-cannon'
   }
 },
+
+{
+  "name": "Hawthorne's Field-Forged Shotgun",
+  'type': "shotguns",
+  "picture": "./assets/images/sg-hawthornes.jpg",
+  "tier": 2,
+  "role": 'PvP > PvE',
+  "rarity": ["Power", "Rare ", "World Drop"],
+  "stats": {"Impact": 65,
+            "Range": 50,
+            "Stability": 37,
+            "Magazine": 7,
+            "Reload_speed": 64,
+            "Handling": 64,
+            "RPM": 90,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Rifled Barrel',
+                              'description': 'Ranged shotgun barrel. • Increases range • Greatly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rifled_barrel.png'
+                            },
+                  'perk2':
+                            { 'name': 'Smoothbore',
+                              'description': 'Smooth shotgun barrel. Greatly increases range at the cost of more projectile spread.',
+                              'recommended': true,
+                              'icon': './assets/images/icon_smoothbore.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                    'perk2':
+                            { 'name': 'Assault Mag',
+                              'description': 'This shotgun`s magazine is optimized for quick combat. • Greatly increases stability • Increases rate of fire',
+                              'recommended': true,
+                              'icon': './assets/images/icon_assault_mag.png'
+                            },
+
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Full Auto Trigger System',
+                              'description': 'Holding down the trigger will fire this weapon at full auto.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_full_auto.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Full auto shotgun, rips and tears in any activity.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/731147177-hawthornes-field-forged-shotgun'
+  }
+},
+
 {
   "name": "Gunnora's Axe",
   'type': "shotguns",
@@ -5308,84 +5453,6 @@ guns_callback(
   'links': {
             'description': 'Solid PvP option.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/94729174-gunnoras-axe'
-  }
-},
-{
-  "name": "Perfect Paradox",
-  'type': "shotguns",
-  "picture": "./assets/images/sg-perfect-paradox.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Power", "Epic ", "Mars Forge"],
-  "stats": {"Impact": 65,
-            "Range": 39,
-            "Stability": 42,
-            "Magazine": 7,
-            "Reload_speed": 68,
-            "Handling": 49,
-            "RPM": 100,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Rapid-Fire Frame',
-                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rapid_fire_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Swap Mag',
-                              'description': 'Swap weapons much faster for a short duration after emptying the magazine.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_swap_mag.png'
-                            },
-                  'perk2':
-                            { 'name': 'Rifled Barrel',
-                              'description': 'Ranged shotgun barrel. • Increases range • Greatly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rifled_barrel.png'
-                            },
-                  'perk3':
-                            { 'name': 'Smoothbore',
-                              'description': 'Smooth shotgun barrel. Greatly increases range at the cost of more projectile spread.',
-                              'recommended': true,
-                              'icon': './assets/images/icon_smoothbore.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Flared Magwell',
-                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_flared_magwell.png'
-                            },
-                    'perk2':
-                            { 'name': 'Steady Rounds',
-                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_steady_rounds.png'
-                            },
-                    'perk3':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': true,
-                              'icon': './assets/images/icon_accurized_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Rampage',
-                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rampage.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Okay PvE shotgun if you don`t have better options available.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2248667690-perfect-paradox'
   }
 },
 {
@@ -5530,78 +5597,6 @@ guns_callback(
   'links': {
             'description': 'Decent choice if you like fusion rifles (which is a weird thing to begin with).',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3445437901-main-ingredient'
-  }
-},
-{
-  "name": "Man o' War",
-  'type': "fusion_rifles",
-  "picture": "./assets/images/fr-manowar.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Power", "Uncom.", "Io"],
-  "stats": {"Impact": 41,
-            "Range": 55,
-            "Stability": 47,
-            "Magazine": 4,
-            "Reload_speed": 28,
-            "Handling": 30,
-            "RPM": 790,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  'perk2':
-                            { 'name': 'Polygonal Rifling',
-                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_polygonal_rifling.png'
-                            },
-                  'perk3':
-                            { 'name': 'Corkscrew Rifling',
-                              'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_corkscrew_rifling.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Projection Fuse',
-                              'description': 'Distance optimizations. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_projection_fuse.png'
-                            },
-                    'perk2':
-                            { 'name': 'Accelerated Coils',
-                              'description': 'Speeds up charge. • Faster charge time • Decreases impact damage',
-                              'recommended': false,
-                              'icon': './assets/images/icon_accelerated_coils.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Moving Target',
-                              'description': "Increased movement speed and target acquisition when moving while aiming down sights.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_moving_target.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Decent weapon if you like using fusion rifles.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3909683950-man-o-war'
   }
 },
 {
