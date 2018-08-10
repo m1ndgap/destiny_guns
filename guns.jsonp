@@ -6655,7 +6655,7 @@ guns_callback(
 },
 
 {
-  "name": "Whispers of the worm",
+  "name": "Whisper of the worm",
   'type': "sniper_rifles",
   "picture": "./assets/images/sr-whisper-of-the-worm.png",
   "tier": 1,
