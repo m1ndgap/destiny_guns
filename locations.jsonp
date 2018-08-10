@@ -39,7 +39,7 @@ locations_callback(
     'description': "Drops from legendary engrams.",
   },
   {'name': "exotic_quest",
-    'description': "Requires to complete a specific questline, see `Exotic Quests` section (coming soon™).",
+    'description': "Requires to complete a specific questline, see `Exotic Quests` section (coming soon&trade;).",
   },
   {'name': "raid",
     'description': "Drops from bosses at Leviathan raid or raid lairs (Eater of Worlds and The Spire).",
