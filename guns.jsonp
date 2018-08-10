@@ -3127,6 +3127,84 @@ guns_callback(
   }
 },
 {
+  "name": "D.F.A.",
+  'type': "hand_cannons",
+  "picture": "./assets/images/hc-dfa.jpg",
+  "tier": 1,
+  "role": 'PvP > PvE',
+  "rarity": ["Kinetic", "Epic ", "Nightfall"],
+  "stats": {"Impact": 84,
+            "Range": 50,
+            "Stability": 59,
+            "Magazine": 9,
+            "Reload_speed": 52,
+            "Handling": 48,
+            "RPM": 140,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_adaptive_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Arrowhead Brake',
+                              'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_arrowhead_brake.png'
+                            },
+                  'perk2':
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_polygonal_rifling.png'
+                            },
+                  'perk3':
+                            { 'name': 'Extended Barrel',
+                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_barrel.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Drop Mag',
+                              'description': 'Magazine drops on reload, wasting ammunition but greatly increasing reload speed.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_drop_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Opening Shot',
+                              'description': "Improved accuracy and range on the opening shot of attack.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_opening_shot.png'
+                            },
+                    'perk2':
+                            { 'name': 'Rampage',
+                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rampage.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Nice HC, lacks mag size and some stats but is a solid PvP choice due to its nice perks.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/4238497225-dfa'
+  }
+},
+{
   "name": "Dire Promise",
   'type': "hand_cannons",
   "picture": "./assets/images/hc-dire-promise.jpg",
@@ -3552,84 +3630,7 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3649055823-crimils-dagger'
   }
 },
-{
-  "name": "D.F.A.",
-  'type': "hand_cannons",
-  "picture": "./assets/images/hc-dfa.jpg",
-  "tier": 2,
-  "role": 'PvE & PvP',
-  "rarity": ["Kinetic", "Epic ", "Nightfall"],
-  "stats": {"Impact": 84,
-            "Range": 50,
-            "Stability": 59,
-            "Magazine": 9,
-            "Reload_speed": 52,
-            "Handling": 48,
-            "RPM": 140,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Adaptive Frame',
-                              'description': 'A well-rounded grip, reliable and sturdy.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_adaptive_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Arrowhead Brake',
-                              'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_arrowhead_brake.png'
-                            },
-                  'perk2':
-                            { 'name': 'Polygonal Rifling',
-                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_polygonal_rifling.png'
-                            },
-                  'perk3':
-                            { 'name': 'Extended Barrel',
-                              'description': 'Weighty barrel extension. • Increases range • Decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_barrel.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_accurized_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Drop Mag',
-                              'description': 'Magazine drops on reload, wasting ammunition but greatly increasing reload speed.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_drop_mag.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Opening Shot',
-                              'description': "Improved accuracy and range on the opening shot of attack.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_opening_shot.png'
-                            },
-                    'perk2':
-                            { 'name': 'Rampage',
-                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rampage.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Nice HC, lacks mag size and some stats but is a solid choice due to its nice perks.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/4238497225-dfa'
-  }
-},
+
 {
   "name": "Jack Queen King 3",
   'type': "hand_cannons",
