@@ -5912,7 +5912,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Terrible single target damage, powered-up shots hit like a truck',
+            'description': 'Terrifying single target damage, powered-up shots hit like a truck',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3141979346-darci'
   }
 },
