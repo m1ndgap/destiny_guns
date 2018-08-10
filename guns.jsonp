@@ -971,6 +971,79 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4124984448-hard-light'
   }
 },
+
+{
+  "name": "Hollow Earth",
+  'type': "ar",
+  "picture": "./assets/images/ar-hollow-earth.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Energy", "Epic.", "Faction Rally"],
+  "stats": {"Impact": 18,
+            "Range": 32,
+            "Stability": 54,
+            "Magazine": 51,
+            "Reload_speed": 52,
+            "Handling": 46,
+            "RPM": 720,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Arrowhead Brake',
+                              'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_arrowhead_brake.png'
+                            },
+                    'perk2':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                    'perk3':
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_polygonal_rifling.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Ricochet Rounds',
+                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_ricochet_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_steady_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Energy 720 RPM AR with Zen Moment, good substitute for Valakadyn',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1842303080-hollow-earth'
+  }
+},
 {
   "name": "The Last Breath",
   'type': "ar",
@@ -1676,6 +1749,134 @@ guns_callback(
 },
 
 {
+  "name": "Pleiades Corrector",
+  'type': "scout_rifles",
+  "picture": "./assets/images/scout-pleiades-corrector.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Energy", "Epic ", "Faction Rally"],
+  "stats": {"Impact": 60,
+            "Range": 35,
+            "Stability": 49,
+            "Magazine": 16,
+            "Reload_speed": 67,
+            "Handling": 74,
+            "RPM": 200,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Spark PS',
+                              'description': 'Omolon post sight. Short zoom. • Slightly increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_spark_ps.png'
+                            },
+                  'perk2':
+                            { 'name': 'Transmission MS7',
+                              'description': 'Omolon ocular technology. Long zoom. • Increases range • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_transmission_ms7.png'
+                            },
+                  },
+            'set3':
+                  {  'perk1':
+                            { 'name': 'High-Caliber Rounds',
+                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_caliber_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Flared Magwell',
+                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_flared_magwell.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Rampage',
+                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rampage.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Scout rifle with rampage, do I need to say more?',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1342668638-pleiades-corrector'
+  }
+},
+{
+  "name": "Polaris Lance",
+  'type': "scout_rifles",
+  "picture": "./assets/images/scout_polaris_lance.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Energy", "Epic ", "Exotic Quest"],
+  "stats": {"Impact": 67,
+            "Range": 73,
+            "Stability": 55,
+            "Magazine": 14,
+            "Reload_speed": 40,
+            "Handling": 36,
+            "RPM": 150,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'The Perfect Fifth',
+                              'description': 'Precision hits return ammo to the mag. Landing 4 precision hits loads a delayed Solar explosive round for your next shot.',
+                              'recommended': false,
+                              'icon': './assets/images/polaris_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Smallbore',
+                              'description': 'Dual strength barrel. • Increases range • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_smallbore.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Fitted Stock',
+                              'description': 'This stock makes the weapon stable but heavy • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fitted_stock.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Fun weapon to play around with, rewards good shooting with loads of extra damage and is very strong in AoE-heavy encounters.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3413074534-polaris-lance'
+  }
+},
+{
   "name": "Purpose",
   'type': "scout_rifles",
   "picture": "./assets/images/scout-purpose.jpg",
@@ -2023,134 +2224,6 @@ guns_callback(
   'links': {
             'description': 'Heavy energy scout.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3425561386-motion-to-compel'
-  }
-},
-{
-  "name": "Pleiades Corrector",
-  'type': "scout_rifles",
-  "picture": "./assets/images/scout-pleiades-corrector.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Epic ", "Faction Rally"],
-  "stats": {"Impact": 60,
-            "Range": 35,
-            "Stability": 49,
-            "Magazine": 16,
-            "Reload_speed": 67,
-            "Handling": 74,
-            "RPM": 200,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Lightweight Frame',
-                              'description': 'Superb handling. Move faster with this weapon equipped.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_lightweight_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Spark PS',
-                              'description': 'Omolon post sight. Short zoom. • Slightly increases range • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_spark_ps.png'
-                            },
-                  'perk2':
-                            { 'name': 'Transmission MS7',
-                              'description': 'Omolon ocular technology. Long zoom. • Increases range • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_transmission_ms7.png'
-                            },
-                  },
-            'set3':
-                  {  'perk1':
-                            { 'name': 'High-Caliber Rounds',
-                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_caliber_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Flared Magwell',
-                              'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_flared_magwell.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Rampage',
-                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rampage.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Scout rifle with rampage.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1342668638-pleiades-corrector'
-  }
-},
-{
-  "name": "Polaris Lance",
-  'type': "scout_rifles",
-  "picture": "./assets/images/scout_polaris_lance.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic Quest"],
-  "stats": {"Impact": 67,
-            "Range": 73,
-            "Stability": 55,
-            "Magazine": 14,
-            "Reload_speed": 40,
-            "Handling": 36,
-            "RPM": 150,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'The Perfect Fifth',
-                              'description': 'Precision hits return ammo to the mag. Landing 4 precision hits loads a delayed Solar explosive round for your next shot.',
-                              'recommended': false,
-                              'icon': './assets/images/polaris_perk.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Smallbore',
-                              'description': 'Dual strength barrel. • Increases range • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_smallbore.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
-                            },
-                  },
-            'set5':
-                  { 'perk1':
-                            { 'name': 'Fitted Stock',
-                              'description': 'This stock makes the weapon stable but heavy • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fitted_stock.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Fun weapon to play around with, rewards good shooting and is very strong in AoE-heavy encounters.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3413074534-polaris-lance'
   }
 },
 {
@@ -4328,72 +4401,10 @@ guns_callback(
   }
 },
 {
-  "name": "Rat King",
-  'type': "sidearms",
-  "picture": "./assets/images/sa-rat-king.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Kinetic", "Epic ", "Exotic Quest"],
-  "stats": {"Impact": 49,
-            "Range": 37,
-            "Stability": 46,
-            "Magazine": 15,
-            "Reload_speed": 46,
-            "Handling": 46,
-            "RPM": 300,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Rat Pack',
-                              'description': 'This fully automatic weapon becomes stronger when nearby allies also have it equipped. Stacks up to 6 times.',
-                              'recommended': false,
-                              'icon': './assets/images/rat_king_perk.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Smallbore',
-                              'description': 'Dual strength barrel. • Increases range • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_smallbore.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_tactical_mag.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Vermin',
-                              'description': "Reloading immediately after a kill grants a brief period of invisibility.",
-                              'recommended': false,
-                              'icon': './assets/images/rat_king_perk2.png'
-                            },
-                  },
-            'set5':
-                  { 'perk1':
-                            { 'name': 'Smooth Grip',
-                              'description': "This weapon is slightly easier to hold and aim. • Slightly increases stability • Slightly increases handling speed",
-                              'recommended': false,
-                              'icon': './assets/images/icon_smooth_grip.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Fun weapon to try with friends.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2362471601-rat-king'
-  }
-},
-{
   "name": "The Vision",
   'type': "sidearms",
   "picture": "./assets/images/sa-the-vision.jpg",
-  "tier": 2,
+  "tier": 1,
   "role": 'PvP > PvE',
   "rarity": ["Energy", "Epic ", "Faction Rally"],
   "stats": {"Impact": 75,
@@ -4461,6 +4472,69 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/293505772-the-vision'
   }
 },
+{
+  "name": "Rat King",
+  'type': "sidearms",
+  "picture": "./assets/images/sa-rat-king.jpg",
+  "tier": 2,
+  "role": 'PvE',
+  "rarity": ["Kinetic", "Epic ", "Exotic Quest"],
+  "stats": {"Impact": 49,
+            "Range": 37,
+            "Stability": 46,
+            "Magazine": 15,
+            "Reload_speed": 46,
+            "Handling": 46,
+            "RPM": 300,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rat Pack',
+                              'description': 'This fully automatic weapon becomes stronger when nearby allies also have it equipped. Stacks up to 6 times.',
+                              'recommended': false,
+                              'icon': './assets/images/rat_king_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Smallbore',
+                              'description': 'Dual strength barrel. • Increases range • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_smallbore.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Vermin',
+                              'description': "Reloading immediately after a kill grants a brief period of invisibility.",
+                              'recommended': false,
+                              'icon': './assets/images/rat_king_perk2.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Smooth Grip',
+                              'description': "This weapon is slightly easier to hold and aim. • Slightly increases stability • Slightly increases handling speed",
+                              'recommended': false,
+                              'icon': './assets/images/icon_smooth_grip.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Fun weapon to try with friends.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2362471601-rat-king'
+  }
+},
+
 {
   "name": "18 Kelvins",
   'type': "sidearms",
@@ -5031,6 +5105,212 @@ guns_callback(
   }
 },
 
+{
+  "name": "Fighting Lion",
+  'type': "grenade_launchers",
+  "picture": "./assets/images/gl-fighting-lion.jpg",
+  "tier": 2,
+  "role": 'PvP',
+  "rarity": ["Energy", "Rare ", "Exotic"],
+  "stats": {"Impact": 55,
+            "Range": 46,
+            "Stability": 55,
+            "Magazine": 1,
+            "Reload_speed": 55,
+            "Handling": 82,
+            "RPM": 72,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Delayed Gratification',
+                              'description': 'Grenade projectiles will bounce off surfaces. Hold to fire, and release to detonate.',
+                              'recommended': false,
+                              'icon': './assets/images/fighting_lion_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Countermass',
+                              'description': 'This weapon is weighted for vertical recoil. • Greatly controls recoil • Increases stability • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_countermass.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Implosion Rounds',
+                              'description': 'This weapon`s projectiles travel faster and have a controlled explosion. • Increases projectile speed • Greatly increases stability • Decreases blast radius',
+                              'recommended': false,
+                              'icon': './assets/images/icon_implosion_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Thin the Herd',
+                              'description': "Direct hits do more damage to enemy combatant shields. Rapid kills against grenade-damaged enemies refill the magazine. Kills always drop Energy ammo.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_thin_the_herd.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Short-Action Stock',
+                              'description': "This weapon is especially easy to grip. • Greatly increases handling speed",
+                              'recommended': false,
+                              'icon': './assets/images/icon_short_action_stock.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'High skill - high reward PvP option, not for everyone, but if you can land the hits it can be good',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3549153978-fighting-lion'
+  }
+},
+{
+  "name": "Orewing's Maul",
+  'type': "grenade_launchers",
+  "picture": "./assets/images/gl-orewings-maul.jpg",
+  "tier": 2,
+  "role": 'PvP',
+  "rarity": ["Power", "Epic ", "Banner"],
+  "stats": {"Impact": 55,
+            "Range": 77,
+            "Stability": 31,
+            "Magazine": 1,
+            "Reload_speed": 74,
+            "Handling": 69,
+            "RPM": 90,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Countermass',
+                              'description': 'This weapon is weighted for vertical recoil. • Greatly controls recoil • Increases stability • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_countermass.png'
+                            },
+                    'perk2':
+                            { 'name': 'Quick Launch',
+                              'description': 'This weapon`s barrel provides faster projectiles and much faster aiming. • Greatly increases handling speed • Increases projectile speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_quick_launch.png'
+                            },
+                    'perk3':
+                            { 'name': 'Confined Launch',
+                              'description': 'This weapon`s launch parameters are particularly stable. • Greatly increases stability • Increases blast radius • Decreases projectile speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_confined_launch.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Concussion Grenades',
+                              'description': 'Grenades fired from this weapon emit a blast that staggers enemies.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_concussion_grenades.png'
+                            },
+                   'perk2':
+                            { 'name': 'Blinding Grenades',
+                              'description': "Grenade detonation has a brief blinding effect. • Greatly decreases blast radius.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_blinding_grenades.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Auto-Loading Holster',
+                              'description': "The holstered weapon is automatically reloaded after a short period of time.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_auto_reloading_holster.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'High skill - high reward PvP option, power weapon style. Blinding/Concussion grenades can work wonders.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1870979911-orewings-maul'
+  }
+},
+{
+  "name": "Truthteller",
+  'type': "grenade_launchers",
+  "picture": "./assets/images/gl-truthteller.jpg",
+  "tier": 2,
+  "role": 'PvP',
+  "rarity": ["Power", "Epic ", "Faction Rally"],
+  "stats": {"Impact": 55,
+            "Range": 77,
+            "Stability": 26,
+            "Magazine": 1,
+            "Reload_speed": 74,
+            "Handling": 72,
+            "RPM": 90,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Confined Launch',
+                              'description': 'This weapon`s launch parameters are particularly stable. • Greatly increases stability • Increases blast radius • Decreases projectile speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_confined_launch.png'
+                            },
+                    'perk2':
+                            { 'name': 'Linear Compensator',
+                              'description': 'This weapon`s launch barrel is well-balanced. • Slightly increases projectile speed • Slightly increases blast radius • Slightly increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_linear_compensator.png'
+                            },
+                    'perk3':
+                            { 'name': 'Hard Launch',
+                              'description': 'This weapon`s launch barrel is optimized for projectile speed. • Greatly increases projectile speed • Decreases stability • Slightly decreases blast radius',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hard_launch.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Concussion Grenades',
+                              'description': 'Grenades fired from this weapon emit a blast that staggers enemies.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_concussion_grenades.png'
+                            },
+                   'perk2':
+                           { 'name': 'Black Powder',
+                             'description': 'This weapon`s explosives are more effective. • Slightly increases blast radius • Decreases stability',
+                             'recommended': false,
+                             'icon': './assets/images/icon_black_powder.png'
+                           },
+                  },
+            'set5':
+                  { 'perk1':
+                          { 'name': 'Quickdraw',
+                            'description': "This weapon can be drawn unbelievably fast.",
+                            'recommended': false,
+                            'icon': './assets/images/icon_quickdraw.png'
+                          },
+                  },
+            },
+  'links': {
+            'description': 'High skill - high reward PvP option, power weapon style. Very similar to Orewing`s Maul minus blinding grenades.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/3252697558-truthteller'
+  }
+},
 {
   "name": "IKELOS_SG_v1.0.1",
   'type': "shotguns",

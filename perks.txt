@@ -217,7 +217,7 @@
 
 { 'name': 'Flared Magwell',
                               'description': 'Optimized for fast reloading. • Slightly increases stability • Greatly increases reload speed',
-                              'recommended': true,
+                              'recommended': false,
                               'icon': './assets/images/icon_flared_magwell.png'
                             },
 
@@ -652,4 +652,10 @@
                               'description': "Missing a shot has a chance to return ammo directly to the magazine.",
                               'recommended': false,
                               'icon': './assets/images/icon_mulligan.png'
+                            },
+
+{ 'name': 'Concussion Grenades',
+                              'description': 'Grenades fired from this weapon emit a blast that staggers enemies.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_concussion_grenades.png'
                             },
