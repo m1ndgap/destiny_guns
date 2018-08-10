@@ -4343,7 +4343,7 @@ guns_callback(
                   },
             },
   'links': {
-            'description': 'Solid dragonfly pulse rifle.',
+            'description': 'Strong pulse with useful perks.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/339163900-nightshade'
   }
 },
