@@ -21,25 +21,25 @@ $('.search-display-legend').on('click', function() {
   $(`<div class="alert alert-warning alert-dismissible fade show legend" role="alert">
         <h3>Legend</h3>
       <hr>
-      <div class="alert-disclaimer">This list is completely arbitrary, if you like a certain gun — feel free to use it. This site is aimed to help people who want to go after the best guns but have no time for research or peers to ask for advice.
+      <div class="alert-disclaimer">This list is completely arbitrary, if you like a certain gun &ndash; feel free to use it. This site is aimed to help people who want to go after the best guns but have no time for research or peers to ask for advice.
       </div>
       <hr>
       <div class="alert-rarity"><span class="legend-subtitle">Rarity scale:</span>
         <ul>
-          <li><span class="legend-epic">Epic</span> — Very difficult to get guns, events on a long rotation (Faction Rally, weekly Nightfall drop etc) and with high random factor.</li>
-          <li><span class="legend-rare">Rare</span> — Guns with a high random factor (Banshee or Exotic drops) you can grind for.</li>
-          <li><span class="legend-uncom">Uncommon</span> — Guns thata are easily grindable through token farm.</li>
+          <li><span class="legend-epic">Epic</span> &ndash; Very difficult to get guns, events on a long rotation (Faction Rally, weekly Nightfall drop etc) and with high random factor.</li>
+          <li><span class="legend-rare">Rare</span> &ndash; Guns with a high random factor (Banshee or Exotic drops) you can grind for.</li>
+          <li><span class="legend-uncom">Uncommon</span> &ndash; Guns thata are easily grindable through token farm.</li>
         </ul>
       </div>
       <div><span class="legend-subtitle">Tier scale:</span>
         <ul>
-          <li><span class="legend-tier1">Tier 1</span> — Objectively strong weapon excelling in PvE, PvP or both.</li>
-          <li><span class="legend-tier2">Tier 2</span> — A gun that can perform well but has some drawbacks or a gun with high situational utility.</li>
+          <li><span class="legend-tier1">Tier 1</span> &ndash; Objectively strong weapon excelling in PvE, PvP or both.</li>
+          <li><span class="legend-tier2">Tier 2</span> &ndash; A gun that can perform well but has some drawbacks or a gun with high situational utility.</li>
         </ul>
       </div>
       <div><span class="legend-subtitle">Perks:</span>
         <ul>
-          <li><span class="legend-rec-perks">Recommended perks</span> — Perks recommended by the community.</li>
+          <li><span class="legend-rec-perks">Recommended perks</span> &ndash; Perks recommended by the community.</li>
         </ul>
       </div>
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
