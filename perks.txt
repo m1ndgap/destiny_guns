@@ -659,3 +659,19 @@
                               'recommended': false,
                               'icon': './assets/images/icon_concussion_grenades.png'
                             },
+{ 'name': 'Blinding Grenades',
+                              'description': "Grenade detonation has a brief blinding effect. • Greatly decreases blast radius.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_blinding_grenades.png'
+                            },
+{ 'name': 'Pulse Monitor',
+                              'description': "Auto-reloads part of the magazine when wielder is critically wounded.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_pulse_monitor.png'
+                            },
+
+{ 'name': 'Rifle Scope ST',
+                              'description': 'Ranged scope. Long zoom. • Increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rifle_scope_ssf.png'
+                            },

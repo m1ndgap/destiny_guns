@@ -4270,6 +4270,84 @@ guns_callback(
   }
 },
 {
+  "name": "Nightshade",
+  'type': "pulse_rifles",
+  "picture": "./assets/images/pr-nightshade.jpg",
+  "tier": 2,
+  "role": 'PvE & PvP',
+  "rarity": ["Kinetic", "Uncom ", "Vanguard"],
+  "stats": {"Impact": 27,
+            "Range": 40,
+            "Stability": 59,
+            "Magazine": 30,
+            "Reload_speed": 62,
+            "Handling": 70,
+            "RPM": 450,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Lightweight Frame',
+                              'description': 'Superb handling. Move faster with this weapon equipped.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_lightweight_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Red Dot Micro',
+                              'description': 'Agile sight. Short zoom. • Increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_red_dot_micro.png'
+                            },
+                  'perk2':
+                            { 'name': 'Red Dot 2 MOA',
+                              'description': 'Snapshot sight. Short zoom. • Slightly increases range • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_red_dot_2_moa.png'
+                            },
+                  'perk3':
+                            { 'name': 'Rifle Scope ST',
+                              'description': 'Ranged scope. Long zoom. • Increases range • Decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rifle_scope_ssf.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                    'perk2':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk3':
+                            { 'name': 'Drop Mag',
+                              'description': 'Magazine drops on reload, wasting ammunition but greatly increasing reload speed.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_drop_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Kill Clip',
+                              'description': "Reloading after a kill grants increased damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_kill_clip.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Solid dragonfly pulse rifle.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/339163900-nightshade'
+  }
+},
+{
   "name": "Relentless",
   'type': "pulse_rifles",
   "picture": "./assets/images/pr-relentless.jpg",
