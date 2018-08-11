@@ -687,3 +687,9 @@
                               'recommended': true,
                               'icon': './assets/images/icon_control_sas.png'
                             },
+
+  { 'name': 'Hungry Edge',
+                              'description': 'Increased sword ammo.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hungry_edge.png'
+                            },

@@ -79,6 +79,78 @@ guns_callback(
 },
 
 {
+  "name": "Duty Bound",
+  'type': "ar",
+  "picture": "./assets/images/ar-duty-bound.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Kinetic", "Epic ", "Nightfall"],
+  "stats": {"Impact": 20,
+            "Range": 36,
+            "Stability": 39,
+            "Magazine": 30,
+            "Reload_speed": 49,
+            "Handling": 57,
+            "RPM": 600,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_adaptive_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Fastdraw IS',
+                              'description': 'Lightweight sight. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_fastdraw_is.png'
+                            },
+                  'perk2':
+                            { 'name': 'Red Dot-ORS1',
+                              'description': 'Agile sight. Short zoom. • Increases range • Increases handling speed',
+                              'recommended': true,
+                              'icon': './assets/images/icon_red_dot_ors1.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Ricochet Rounds',
+                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_ricochet_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Accurized Rounds',
+                              'description': 'This weapon can fire longer distances. • Increases range',
+                              'recommended': true,
+                              'icon': './assets/images/icon_accurized_rounds.png'
+                            }
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                    'perk2':
+                            { 'name': 'Rampage',
+                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
+                              'recommended': true,
+                              'icon': './assets/images/icon_rampage.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Solid perks and cool looks make this kinetic auto rifle a good choice for mob-killing activities.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1457979868-duty-bound'
+  }
+},
+{
   "name": "Guiding Star",
   'type': "ar",
   "picture": "./assets/images/ar-guiding-star.jpg",
@@ -696,78 +768,6 @@ guns_callback(
   'links': {
             'description': 'Very good in single target fights when used with reload utility tools.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1345867571-coldheart'
-  }
-},
-{
-  "name": "Duty Bound",
-  'type': "ar",
-  "picture": "./assets/images/ar-duty-bound.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Kinetic", "Epic ", "Nightfall"],
-  "stats": {"Impact": 20,
-            "Range": 36,
-            "Stability": 39,
-            "Magazine": 30,
-            "Reload_speed": 49,
-            "Handling": 57,
-            "RPM": 600,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Adaptive Frame',
-                              'description': 'A well-rounded grip, reliable and sturdy.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_adaptive_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Fastdraw IS',
-                              'description': 'Lightweight sight. Short zoom. • Increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_fastdraw_is.png'
-                            },
-                  'perk2':
-                            { 'name': 'Red Dot-ORS1',
-                              'description': 'Agile sight. Short zoom. • Increases range • Increases handling speed',
-                              'recommended': true,
-                              'icon': './assets/images/icon_red_dot_ors1.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Ricochet Rounds',
-                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_ricochet_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Accurized Rounds',
-                              'description': 'This weapon can fire longer distances. • Increases range',
-                              'recommended': true,
-                              'icon': './assets/images/icon_accurized_rounds.png'
-                            }
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
-                            },
-                    'perk2':
-                            { 'name': 'Rampage',
-                              'description': 'Kills with this weapon temporarily grant increased damage. Stacks 3x.',
-                              'recommended': true,
-                              'icon': './assets/images/icon_rampage.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Solid perks and cool looks make this kinetic auto rifle a good choice for mob-killing activities.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1457979868-duty-bound'
   }
 },
 {
@@ -2434,72 +2434,6 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/566976653-antiope-d'
   }
 },
-{
-  "name": "Atalanta-D",
-  'type': "smgs",
-  "picture": "./assets/images/smgs-atalanta.jpg",
-  "tier": 1,
-  "role": 'PvP > PvE',
-  "rarity": ["Kinetic", "Rare ", "Banshee"],
-  "stats": {"Impact": 25,
-            "Range": 52,
-            "Stability": 45,
-            "Magazine": 27,
-            "Reload_speed": 27,
-            "Handling": 31,
-            "RPM": 600,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'GA Post',
-                              'description': 'Agile post sights. Short zoom. • Greatly increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_ga_post.png'
-                            },
-                  'perk2':
-                            { 'name': 'SD Thermal',
-                              'description': 'Häkke thermal imaging scope. Medium-zoom. Highlights enemy targets. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_sd_thermal.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Extended Mag',
-                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_extended_mag.png'
-                            },
-                    'perk2':
-                            { 'name': 'Steady Rounds',
-                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_steady_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Tap the Trigger',
-                              'description': "Grants a short period of increased stability and accuracy on initial trigger pull.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_tap_the_trigger.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Decent SMG for both PvE and PvP, if you don`t have Antiope use this one.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2414612777-atalanta-d'
-  }
-},
 
 {
   "name": "Hero's Burden",
@@ -2641,7 +2575,7 @@ guns_callback(
   'type': "smgs",
   "picture": "./assets/images/smgs-ikelos-smg.jpg",
   "tier": 1,
-  "role": 'PvE > PvP',
+  "role": 'PvP & PvE',
   "rarity": ["Energy", "Epic ", "Escalation"],
   "stats": {"Impact": 22,
             "Range": 54,
@@ -2787,6 +2721,73 @@ guns_callback(
   'links': {
             'description': 'Decent SMG for any activity.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1339362514-stochastic-variable'
+  }
+},
+
+{
+  "name": "Atalanta-D",
+  'type': "smgs",
+  "picture": "./assets/images/smgs-atalanta.jpg",
+  "tier": 2,
+  "role": 'PvP > PvE',
+  "rarity": ["Kinetic", "Rare ", "Banshee"],
+  "stats": {"Impact": 25,
+            "Range": 52,
+            "Stability": 45,
+            "Magazine": 27,
+            "Reload_speed": 27,
+            "Handling": 31,
+            "RPM": 600,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'GA Post',
+                              'description': 'Agile post sights. Short zoom. • Greatly increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_ga_post.png'
+                            },
+                  'perk2':
+                            { 'name': 'SD Thermal',
+                              'description': 'Häkke thermal imaging scope. Medium-zoom. Highlights enemy targets. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_sd_thermal.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Extended Mag',
+                              'description': 'This weapon has a greatly increased magazine size, but reloads much slower. • Greatly increases magazine size • Greatly decreases reload speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_extended_mag.png'
+                            },
+                    'perk2':
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_steady_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Tap the Trigger',
+                              'description': "Grants a short period of increased stability and accuracy on initial trigger pull.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_tap_the_trigger.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Decent SMG for both PvE and PvP, if you don`t have Antiope use this one.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2414612777-atalanta-d'
   }
 },
 {
@@ -4424,7 +4425,7 @@ guns_callback(
   'type': "pulse_rifles",
   "picture": "./assets/images/pr-time-worn-spire.jpg",
   "tier": 2,
-  "role": 'PvE',
+  "role": 'PvP > PvE',
   "rarity": ["Kinetic", "Epic ", "Banner"],
   "stats": {"Impact": 23,
             "Range": 33,
@@ -5696,7 +5697,7 @@ guns_callback(
   'type': "shotguns",
   "picture": "./assets/images/sg-perfect-paradox.jpg",
   "tier": 1,
-  "role": 'PvE',
+  "role": 'PvE & PvP',
   "rarity": ["Power", "Epic ", "Mercury"],
   "stats": {"Impact": 65,
             "Range": 39,
@@ -6722,7 +6723,7 @@ guns_callback(
   'type': "sniper_rifles",
   "picture": "./assets/images/sr-alone-as-a-god.jpg",
   "tier": 2,
-  "role": 'PvE & PvP',
+  "role": 'PvP > PvE',
   "rarity": ["Power", "Rare ", "Raid"],
   "stats": {"Impact": 55,
             "Range": 40,
@@ -6862,80 +6863,6 @@ guns_callback(
   }
 },
 {
-  "name": "It stared back",
-  'type': "swords",
-  "picture": "./assets/images/sw-it-stared-back.jpg",
-  "tier": 1,
-  "role": 'PvE',
-  "rarity": ["Power", "Rare ", "Raid"],
-  "stats": {"Impact": 46,
-            "Range": 62,
-            "Stability": 46,
-            "Magazine": 55,
-            "Reload_speed": 46,
-            "Handling": 25,
-            "RPM": 0,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Adaptive Frame',
-                              'description': 'A well-rounded grip, reliable and sturdy.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_adaptive_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Hungry Edge',
-                              'description': 'Increased sword ammo.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_hungry_edge.png'
-                            },
-                  'perk2':
-                            { 'name': 'Jagged Edge',
-                              'description': 'Increased damage at the cost of sword ammo.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_jagged_edge.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Enduring Guard',
-                              'description': 'Sword Guard has high efficiency and low defense.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_enduring_guard.png'
-                            },
-                    'perk2':
-                            { 'name': 'Burst Guard',
-                              'description': 'Sword Guard has low efficiency and high defense.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_burst_guard.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Whirlwind Blade',
-                              'description': "Consecutive rapid sword strikes increase this weapon's damage output.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_whirlwind_blade.png'
-                            },
-                  },
-            'set5':
-                  { 'perk1':
-                            { 'name': 'Relentless Strikes',
-                              'description': "Landing three light attack hits within a short time grants sword ammo.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_relentless_strikes.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Swords suck but this one sucks a little less.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1018072983-it-stared-back'
-  }
-},
-{
   "name": "Quickfang",
   'type': "swords",
   "picture": "./assets/images/sw-quickfang.jpg",
@@ -6999,6 +6926,136 @@ guns_callback(
   'links': {
             'description': 'Fun PvP sword (hunter only).',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1180270692-quickfang'
+  }
+},
+
+{
+  "name": "Worldline Zero",
+  'type': "swords",
+  "picture": "./assets/images/sw-worldline.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Power", "Rare ", "Exotic quest"],
+  "stats": {"Impact": 6,
+            "Range": 64,
+            "Stability": 64,
+            "Magazine": 95,
+            "Reload_speed": 37,
+            "Handling": 42,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Tesseract',
+                              'description': 'Press after sprinting for a short period to perform a Tesseract.',
+                              'recommended': false,
+                              'icon': './assets/images/worldline_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Tempered Edge',
+                              'description': 'Increased sword damage and ammo.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Infinite Guard',
+                              'description': 'Sword Guard has very high efficiency and balanced defense.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_infinite_guard.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Assassin`s Blade',
+                              'description': "Sword Kills boost movement speed and damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_assassins_blade.png'
+                            },
+                  },
+            'set5':
+                  { 'perk1':
+                            { 'name': 'Tireless Blade',
+                              'description': "Powered sword kills grant sword ammo.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_tireless_blade.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Fun to play around with, can land some interesting multikills in PvP.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1864563948-worldline-zero'
+  }
+},
+
+{
+  "name": "Complex Solution",
+  'type': "swords",
+  "picture": "./assets/images/sw-complex-solution.jpg",
+  "tier": 2,
+  "role": 'PvP',
+  "rarity": ["Power", "Rare ", "World Drop"],
+  "stats": {"Impact": 46,
+            "Range": 62,
+            "Stability": 46,
+            "Magazine": 55,
+            "Reload_speed": 46,
+            "Handling": 26,
+            "RPM": 1000,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_adaptive_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Tempered Edge',
+                              'description': 'Increased sword damage and ammo.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_tempered_edge.png'
+                            },
+                    'perk2':
+                            { 'name': 'Hungry Edge',
+                              'description': 'Increased sword ammo.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hungry_edge.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Enduring Guard',
+                              'description': 'Sword Guard has high efficiency and low defense.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_enduring_guard.png'
+                            },
+                    'perk2':
+                            { 'name': 'Balanced Guard',
+                              'description': 'Sword Guard has balanced efficiency and defense.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_balanced_guard.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Tireless Blade',
+                              'description': "Powered sword kills grant sword ammo.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_tireless_blade.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Solid sword with ammo regen.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1180270694-crown-splitter'
   }
 },
 {
@@ -7075,66 +7132,79 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1180270694-crown-splitter'
   }
 },
+
 {
-  "name": "Worldline Zero",
+  "name": "It stared back",
   'type': "swords",
-  "picture": "./assets/images/sw-worldline.jpg",
+  "picture": "./assets/images/sw-it-stared-back.jpg",
   "tier": 2,
   "role": 'PvE',
-  "rarity": ["Power", "Rare ", "Exotic quest"],
-  "stats": {"Impact": 6,
-            "Range": 64,
-            "Stability": 64,
-            "Magazine": 95,
-            "Reload_speed": 37,
-            "Handling": 42,
-            "RPM": 1000,
+  "rarity": ["Power", "Rare ", "Raid"],
+  "stats": {"Impact": 46,
+            "Range": 62,
+            "Stability": 46,
+            "Magazine": 55,
+            "Reload_speed": 46,
+            "Handling": 25,
+            "RPM": 0,
             },
   "perks":
             {'set1':
                   { 'perk1':
-                            { 'name': 'Tesseract',
-                              'description': 'Press after sprinting for a short period to perform a Tesseract.',
+                            { 'name': 'Adaptive Frame',
+                              'description': 'A well-rounded grip, reliable and sturdy.',
                               'recommended': false,
-                              'icon': './assets/images/worldline_perk.png'
+                              'icon': './assets/images/icon_adaptive_frame.png'
                             },
                   },
             'set2':
                   { 'perk1':
-                            { 'name': 'Tempered Edge',
-                              'description': 'Increased sword damage and ammo.',
+                            { 'name': 'Hungry Edge',
+                              'description': 'Increased sword ammo.',
                               'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
+                              'icon': './assets/images/icon_hungry_edge.png'
+                            },
+                  'perk2':
+                            { 'name': 'Jagged Edge',
+                              'description': 'Increased damage at the cost of sword ammo.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_jagged_edge.png'
                             },
                   },
             'set3':
                   { 'perk1':
-                            { 'name': 'Infinite Guard',
-                              'description': 'Sword Guard has very high efficiency and balanced defense.',
+                            { 'name': 'Enduring Guard',
+                              'description': 'Sword Guard has high efficiency and low defense.',
                               'recommended': false,
-                              'icon': './assets/images/icon_infinite_guard.png'
+                              'icon': './assets/images/icon_enduring_guard.png'
+                            },
+                    'perk2':
+                            { 'name': 'Burst Guard',
+                              'description': 'Sword Guard has low efficiency and high defense.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_burst_guard.png'
                             },
                   },
             'set4':
                   { 'perk1':
-                            { 'name': 'Assassin`s Blade',
-                              'description': "Sword Kills boost movement speed and damage.",
+                            { 'name': 'Whirlwind Blade',
+                              'description': "Consecutive rapid sword strikes increase this weapon's damage output.",
                               'recommended': false,
-                              'icon': './assets/images/icon_assassins_blade.png'
+                              'icon': './assets/images/icon_whirlwind_blade.png'
                             },
                   },
             'set5':
                   { 'perk1':
-                            { 'name': 'Tireless Blade',
-                              'description': "Powered sword kills grant sword ammo.",
+                            { 'name': 'Relentless Strikes',
+                              'description': "Landing three light attack hits within a short time grants sword ammo.",
                               'recommended': false,
-                              'icon': './assets/images/icon_tireless_blade.png'
+                              'icon': './assets/images/icon_relentless_strikes.png'
                             },
                   },
             },
   'links': {
-            'description': 'Fun to play around with, can land some interesting multikills in PvP.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1864563948-worldline-zero'
+            'description': 'Swords suck but this one sucks a little less.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1018072983-it-stared-back'
   }
-}
+},
 ])
