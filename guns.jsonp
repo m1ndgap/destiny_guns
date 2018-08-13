@@ -150,72 +150,6 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1457979868-duty-bound'
   }
 },
-{
-  "name": "Guiding Star",
-  'type': "ar",
-  "picture": "./assets/images/ar-guiding-star.jpg",
-  "tier": 1,
-  "role": 'PvE',
-  "rarity": ["Kinetic", "Epic ", "Faction Rally"],
-  "stats": {"Impact": 18,
-            "Range": 37,
-            "Stability": 47,
-            "Magazine": 52,
-            "Reload_speed": 47,
-            "Handling": 40,
-            "RPM": 720,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Rapid-Fire Frame',
-                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rapid_fire_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'IS 2 Classic',
-                              'description': 'Rugged and simple iron sights. Short zoom. • Increases handling speed • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_is_2_classic.png'
-                            },
-                  'perk2':
-                            { 'name': 'Model 8 Red',
-                              'description': 'Red-dot. Medium zoom. • Greatly increases range',
-                              'recommended': true,
-                              'icon': './assets/images/icon_model_8_red.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Appended Mag',
-                              'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
-                              'recommended': false,
-                              'icon': './assets/images/icon_appended_mag.png'
-                            },
-                    'perk2':
-                            { 'name': 'High-Caliber Rounds',
-                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
-                              'recommended': true,
-                              'icon': './assets/images/icon_high_caliber_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Moving Target',
-                              'description': "Increased movement speed and target acquisition when moving while aiming down sights.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_moving_target.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'One of the fastest kinetic auto rifles, shoots so fast you can cut trees with it, comes from Dead Orbit faction rally, so it`s pretty hard to get.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/472847207-guiding-star'
-  }
-},
 
 {
   "name": "Foregone Conclusion",
@@ -288,6 +222,146 @@ guns_callback(
   'links': {
             'description': 'Decent 720 RPM kinetic, Warmind Guiding Star but much easier to get, which makes it a solid choice for new players.',
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/1137768695-foregone-conclusion'
+  }
+},
+
+{
+  "name": "Guiding Star",
+  'type': "ar",
+  "picture": "./assets/images/ar-guiding-star.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Kinetic", "Epic ", "Faction Rally"],
+  "stats": {"Impact": 18,
+            "Range": 37,
+            "Stability": 47,
+            "Magazine": 52,
+            "Reload_speed": 47,
+            "Handling": 40,
+            "RPM": 720,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'IS 2 Classic',
+                              'description': 'Rugged and simple iron sights. Short zoom. • Increases handling speed • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_is_2_classic.png'
+                            },
+                  'perk2':
+                            { 'name': 'Model 8 Red',
+                              'description': 'Red-dot. Medium zoom. • Greatly increases range',
+                              'recommended': true,
+                              'icon': './assets/images/icon_model_8_red.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Appended Mag',
+                              'description': 'This weapon`s magazine is built for higher capacity. • Increases magazine size',
+                              'recommended': false,
+                              'icon': './assets/images/icon_appended_mag.png'
+                            },
+                    'perk2':
+                            { 'name': 'High-Caliber Rounds',
+                              'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
+                              'recommended': true,
+                              'icon': './assets/images/icon_high_caliber_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Moving Target',
+                              'description': "Increased movement speed and target acquisition when moving while aiming down sights.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_moving_target.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'One of the fastest kinetic auto rifles, shoots so fast you can cut trees with it, comes from Dead Orbit faction rally, so it`s pretty hard to get.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/472847207-guiding-star'
+  }
+},
+
+{
+  "name": "Hollow Earth",
+  'type': "ar",
+  "picture": "./assets/images/ar-hollow-earth.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Energy", "Epic.", "Faction Rally"],
+  "stats": {"Impact": 18,
+            "Range": 32,
+            "Stability": 54,
+            "Magazine": 51,
+            "Reload_speed": 52,
+            "Handling": 46,
+            "RPM": 720,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Rapid-Fire Frame',
+                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_rapid_fire_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Arrowhead Brake',
+                              'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_arrowhead_brake.png'
+                            },
+                    'perk2':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                    'perk3':
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_polygonal_rifling.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Ricochet Rounds',
+                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_ricochet_rounds.png'
+                            },
+                    'perk2':
+                            { 'name': 'Steady Rounds',
+                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_steady_rounds.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Energy 720 RPM AR with Zen Moment, arguably better version of Valakadyn.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1842303080-hollow-earth'
   }
 },
 {
@@ -972,78 +1046,6 @@ guns_callback(
   }
 },
 
-{
-  "name": "Hollow Earth",
-  'type': "ar",
-  "picture": "./assets/images/ar-hollow-earth.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Epic.", "Faction Rally"],
-  "stats": {"Impact": 18,
-            "Range": 32,
-            "Stability": 54,
-            "Magazine": 51,
-            "Reload_speed": 52,
-            "Handling": 46,
-            "RPM": 720,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Rapid-Fire Frame',
-                              'description': 'Deeper ammo reserves. Slightly faster reload when magazine is empty.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_rapid_fire_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Arrowhead Brake',
-                              'description': 'Lightly vented barrel. • Greatly controls recoil • Increases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_arrowhead_brake.png'
-                            },
-                    'perk2':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
-                            },
-                    'perk3':
-                            { 'name': 'Polygonal Rifling',
-                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
-                              'recommended': false,
-                              'icon': './assets/images/icon_polygonal_rifling.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Ricochet Rounds',
-                              'description': 'Rounds ricochet off hard surfaces. • Increases stability • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_ricochet_rounds.png'
-                            },
-                    'perk2':
-                            { 'name': 'Steady Rounds',
-                              'description': 'This magazine is optimized for recoil control. • Greatly increases stability • Slightly decreases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_steady_rounds.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_zen_moment.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Energy 720 RPM AR with Zen Moment, good substitute for Valakadyn',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1842303080-hollow-earth'
-  }
-},
 {
   "name": "The Last Breath",
   'type': "ar",
