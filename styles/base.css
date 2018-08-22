@@ -54,6 +54,11 @@ h3 {
   font-style: italic;
 }
 
+@font-face {
+  font-family: "myriad-cond";
+  src: url("../fonts/MyriadPro-Cond.otf") format("opentype"), local("MyriadPro-Cond");
+}
+
 html {
   background-size: 50px;
   background-color: #e1e1e1;
@@ -154,6 +159,10 @@ h3 {
   padding-right: 20px;
 }
 
+.legend {
+  margin-bottom: 41px;
+}
+
 .legend h3 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -248,12 +257,48 @@ h3 {
   cursor: pointer;
 }
 
-.input-wrap .search-display-legend {
+.search-display-legend {
   position: absolute;
-  left: 10px;
+  left: 7px;
+  top: -25px;
   cursor: pointer;
   text-decoration: underline;
   font-style: italic;
+}
+
+.gun-category-select {
+  padding-left: 10px;
+  margin-top: 10px;
+  font-family: 'myriad-cond';
+  text-transform: uppercase;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gun-category-select li {
+  color: #66878f;
+  user-select: none;
+  cursor: pointer;
+  list-style: none;
+  margin: 3px 5px 3px 5px;
+  padding: 3px 5px 0px;
+  border-radius: 7px;
+  border: 1px solid #66878f;
+}
+
+.gun-category-select .active {
+  position: relative;
+  top: 1px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=0, Color=#000000)";
+  /*IE 8*/
+  -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5) inset;
+  /*FF 3.5+*/
+  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5) inset;
+  /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5) inset;
+  /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=135, Color=#000000);
+  /*IE 5.5-7*/
 }
 
 #goToTopBtn {
@@ -430,7 +475,7 @@ h3 {
   background-color: #eaeaea;
   min-width: 150px;
   max-width: 170px;
-  top: 15px;
+  top: 17px;
   left: -70px;
   z-index: 1000;
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=0, Color=#000000)";

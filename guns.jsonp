@@ -2062,7 +2062,7 @@ guns_callback(
                   'perk3':
                             { 'name': 'Fluted Barrel',
                               'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_fluted_barrel.png'
                             },
                   },
@@ -2070,7 +2070,7 @@ guns_callback(
                   { 'perk1':
                             { 'name': 'High-Caliber Rounds',
                               'description': 'Shots from this weapon knock the target back farther. • Slightly increases range',
-                              'recommended': false,
+                              'recommended': true,
                               'icon': './assets/images/icon_high_caliber_rounds.png'
                             },
                     'perk2':

@@ -1,6 +1,6 @@
 locations_callback(
 [{'name': "braytech",
-  'description': "Braytech weapons are acquired by completing Sleeper Nodes: BrayTech Schematics drop from the nodes occasionally and you can exchange them for a BrayTech engrams with Ana Bray.",
+  'description': "Braytech weapons are acquired by completing Sleeper Nodes: BrayTech Schematics drop from the nodes occasionally and you can exchange them for BrayTech engrams with Ana Bray.",
   },
   {'name': "faction_rally",
     'description': "Special event occuring once every couple of months, during which you can pledge to one out of 3 factions to get unique gear.",

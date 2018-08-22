@@ -51,9 +51,28 @@ $('.search-display-legend').on('click', function() {
 });
 
   $('body').on('click', '.legend button', function () {
-    console.log(112311);
     $('.search-display-legend').text('Show legend');
   });
+
+// gun category buttons
+$('.gun-category-select li').on('click', function () {
+  var type = $(this).data('type');
+  if ($(this).hasClass('active')) {
+    $(this).removeClass('active');
+
+  } else {
+    $(this).addClass('active');
+    $('.container-fluid').each(function(index, val){
+      if ($(this).hasClass(type)) {
+        $(this).addClass('visible');
+      } else {
+        $(this).addClass('hidden');
+        $(this).prev().addClass('hidden');
+      };
+    });
+  }
+});
+
 
 
 // showing perks stats and links on small displays
@@ -259,7 +278,6 @@ function locations_ajax() {$.ajax({
     jsonpCallback: 'locations_callback',
       success: function (data) {
           locations = data;
-          console.log(locations);
    }});
 };
 
