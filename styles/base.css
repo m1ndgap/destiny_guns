@@ -273,6 +273,7 @@ h3 {
   text-transform: uppercase;
   display: flex;
   flex-flow: row wrap;
+  position: relative;
 }
 
 .gun-category-select li {
@@ -284,6 +285,10 @@ h3 {
   padding: 3px 5px 0px;
   border-radius: 7px;
   border: 1px solid #66878f;
+}
+
+.gun-category-select li:nth-child(2) {
+  margin-left: 100px;
 }
 
 .gun-category-select li:hover {
@@ -317,6 +322,13 @@ h3 {
   /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5) inset;
   /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+
+.gun-category-select .gun-type-reset {
+  position: absolute;
+  background-color: #bd0000;
+  color: white;
+  margin-right: 20px;
 }
 
 #goToTopBtn {

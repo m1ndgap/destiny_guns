@@ -57,24 +57,36 @@ $('.search-display-legend').on('click', function() {
 // gun category buttons
 var gun_buttons = [];
 
+function hideGunReset() {
+  if ($('gun-type-select active').length == 0) {
+    $('.gun-type-reset').addClass('hidden');
+    showEverything();
+  }
+};
+
+$('.gun-type-reset').on('click', function () {
+  showEverything();
+  $(this).addClass('hidden');
+  $('.gun-type-select').each(function(){$(this).removeClass("active")});
+});
+
 $('.gun-category-select').on('click', '.gun-type-select', function () {
   var type = $(this).data('type');
-
-
+  hideGunReset();
   if ($(this).hasClass('active')) {
     $(this).removeClass('active');
-
-  } else {
+    } else {
     $(this).addClass('active');
+    $('.gun-type-reset').removeClass('hidden');
     // hiding all other types if they are not "visible"
-    $('.container-fluid').each(function(index, val){
-      if ($(this).hasClass(type)) {
+      $('.container-fluid').each(function(index, val){
+        if ($(this).hasClass(type)) {
 
-      } else {
-        $(this).addClass('hidden');
-        $(this).prev().addClass('hidden');
-      };
-    });
+        } else {
+          $(this).addClass('hidden');
+          $(this).prev().addClass('hidden');
+        };
+      });
   }
 });
 
@@ -375,6 +387,7 @@ $(".container-fluid").on('mouseleave', '.source', function(){
   function showEverything() {
     $('h3').each(function(){$(this).removeClass("hidden")});
     $('.row').each(function(){$(this).removeClass("hidden")});
+    $('.container-fluid').each(function(){$(this).removeClass("hidden")});
     $('.no-result').remove();
   };
 
