@@ -55,16 +55,21 @@ $('.search-display-legend').on('click', function() {
   });
 
 // gun category buttons
-$('.gun-category-select li').on('click', function () {
+var gun_buttons = [];
+
+$('.gun-category-select').on('click', '.gun-type-select', function () {
   var type = $(this).data('type');
+
+
   if ($(this).hasClass('active')) {
     $(this).removeClass('active');
 
   } else {
     $(this).addClass('active');
+    // hiding all other types if they are not "visible"
     $('.container-fluid').each(function(index, val){
       if ($(this).hasClass(type)) {
-        $(this).addClass('visible');
+
       } else {
         $(this).addClass('hidden');
         $(this).prev().addClass('hidden');

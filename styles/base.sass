@@ -178,15 +178,24 @@ h3
     padding: 3px 5px 0px
     border-radius: 7px
     border: 1px solid $perks
+    &:hover
+      -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=0, Color=#000000)";/*IE 8*/
+      -moz-box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);/*FF 3.5+*/
+      -webkit-box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+      box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+      filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#000000); /*IE 5.5-7*/
   .active
     //background-color: $darkgrey
     position: relative
     top: 1px
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=0, Color=#000000)";/*IE 8*/
     -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,0.5) inset;/*FF 3.5+*/
     -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
     box-shadow: 0 0 5px 2px rgba(0,0,0,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=135, Color=#000000); /*IE 5.5-7*/
+    &:hover
+      -moz-box-shadow: 0 0 5px 3px rgba(0,0,0,0.5) inset;/*FF 3.5+*/
+      -webkit-box-shadow: 0 0 5px 3px rgba(0,0,0,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+      box-shadow: 0 0 5px 3px rgba(0,0,0,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+
 
 
 
