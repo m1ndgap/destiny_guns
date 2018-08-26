@@ -76,11 +76,11 @@ $('.gun-type-reset').on('click', function () {
 $('.gun-category-select').on('click', '.gun-type-select', function () {
   var type = $(this).data('type');
   clearSearch();
-  showEverything();
   if ($(this).hasClass('active')) {
     gun_buttons.splice($.inArray(type, gun_buttons), 1);
     $(this).removeClass('active');
     console.log(gun_buttons);
+    console.log(22222);
       $('.container-fluid').each(function(index, val){
         if ($(this).hasClass(type)) {
           $(this).addClass('hidden');
@@ -93,6 +93,7 @@ $('.gun-category-select').on('click', '.gun-type-select', function () {
     hideGunReset();
     gun_buttons.push(type);
     console.log(gun_buttons);
+    console.log(111111);
     $('.gun-type-reset').removeClass('hidden');
     // checking if the gun type is already in the array
       $('.container-fluid').each(function(index, val){
