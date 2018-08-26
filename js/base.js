@@ -57,8 +57,10 @@ $('.search-display-legend').on('click', function() {
 // gun category buttons
 var gun_buttons = [];
 
+// hiding the reset button when nothing is pressed
 function hideGunReset() {
-  if ($('gun-type-select active').length == 0) {
+  console.log($('.gun-type-select.active').length);
+  if ($('.gun-type-select.active').length == 0) {
     $('.gun-type-reset').addClass('hidden');
     showEverything();
   }
@@ -72,16 +74,25 @@ $('.gun-type-reset').on('click', function () {
 
 $('.gun-category-select').on('click', '.gun-type-select', function () {
   var type = $(this).data('type');
-  hideGunReset();
   if ($(this).hasClass('active')) {
+    gun_buttons.splice($.inArray(type, gun_buttons), 1);
     $(this).removeClass('active');
+      $('.container-fluid').each(function(index, val){
+        if ($(this).hasClass(type)) {$(this).addClass('hidden')};
+      });
     } else {
     $(this).addClass('active');
+    //hideGunReset();
+    gun_buttons.push(type);
+    console.log(gun_buttons);
+    console.log(gun_buttons.includes(type));
     $('.gun-type-reset').removeClass('hidden');
-    // hiding all other types if they are not "visible"
+    // checking if the gun type is already in the array
       $('.container-fluid').each(function(index, val){
-        if ($(this).hasClass(type)) {
-
+        var current_type = $(this).data('type');
+        if ($(this).hasClass(type) || gun_buttons.includes(current_type) ) {
+          console.log('0111');
+          $(this).removeClass('hidden');
         } else {
           $(this).addClass('hidden');
           $(this).prev().addClass('hidden');

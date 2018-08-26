@@ -50,4 +50,7 @@ locations_callback(
   {'name': "escalation",
     'description': "Obtained from Escalation Protocol public event on Mars (drops and bosses rotate weekly).",
   },
+  {'name': "unobtainable",
+    'description': "This item can no longer be obtained.",
+  },
 ])

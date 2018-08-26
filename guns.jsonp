@@ -3993,6 +3993,72 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/3325744914-inaugural-address'
   }
 },
+{
+  "name": "Redrix's Claymore",
+  'type': "pulse_rifles",
+  "picture": "./assets/images/pr-redrixs-claymore.jpg",
+  "tier": 1,
+  "role": 'PvP & PvE',
+  "rarity": ["Kinetic", "Epic ", "Unobtainable"],
+  "stats": {"Impact": 33,
+            "Range": 60,
+            "Stability": 59,
+            "Magazine": 27,
+            "Reload_speed": 44,
+            "Handling": 38,
+            "RPM": 340,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'High-Impact Frame',
+                              'description': 'Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  'perk2':
+                            { 'name': 'Corkscrew Rifling',
+                            'description': 'Balanced barrel. • Slightly increases range and stability • Slightly increases handling speed',
+                            'recommended': false,
+                            'icon': './assets/images/icon_corkscrew_rifling.png'
+                            },
+                  'perk3':
+                            { 'name': 'Polygonal Rifling',
+                              'description': 'Barrel optimized for recoil reduction. • Increases stability',
+                              'recommended': false,
+                              'icon': './assets/images/icon_polygonal_rifling.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Outlaw',
+                              'description': "Precision kills greatly decrease reload time.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_outlaw.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Despacito',
+                              'description': "Reloading while Outlaw is active increases your rate of fire.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_desperado.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Season 3 Competitive Crucible reward. If you can land precision kills this gun melts everything in PvP, viable in PvE too but has ammo issues because of the insane RPM.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/191996029-redrixs-claymore'
+  }
+},
 
 {
   "name": "Vigilance Wing",

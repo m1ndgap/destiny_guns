@@ -693,3 +693,9 @@
                               'recommended': false,
                               'icon': './assets/images/icon_hungry_edge.png'
                             },
+
+{ 'name': 'Despacito',
+                              'description': "Reloading while Outlaw is active increases your rate of fire.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_desperado.png'
+                            },
