@@ -75,6 +75,8 @@ $('.gun-type-reset').on('click', function () {
 
 $('.gun-category-select').on('click', '.gun-type-select', function () {
   var type = $(this).data('type');
+  clearSearch();
+  showEverything();
   if ($(this).hasClass('active')) {
     gun_buttons.splice($.inArray(type, gun_buttons), 1);
     $(this).removeClass('active');
@@ -408,14 +410,18 @@ $(".container-fluid").on('mouseleave', '.source', function(){
     $('.no-result').remove();
   };
 
-// button clearing the search input and resetting page state
-  $('.form-clear-button').on('click', function(){
-    showEverything();
+  function clearSearch() {
     $('.gun-search').val('');
     $('.form-clear-button').addClass('hidden');
     $('.found-gun').each(function(){
       $(this).removeClass('found-gun');
     });
+  };
+
+// button clearing the search input and resetting page state
+  $('.form-clear-button').on('click', function(){
+    showEverything();
+    clearSearch();
   });
 
 // 'scroll to top' button
