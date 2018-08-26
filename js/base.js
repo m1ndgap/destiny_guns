@@ -70,6 +70,7 @@ $('.gun-type-reset').on('click', function () {
   showEverything();
   $(this).addClass('hidden');
   $('.gun-type-select').each(function(){$(this).removeClass("active")});
+  gun_buttons = [];
 });
 
 $('.gun-category-select').on('click', '.gun-type-select', function () {
@@ -77,22 +78,27 @@ $('.gun-category-select').on('click', '.gun-type-select', function () {
   if ($(this).hasClass('active')) {
     gun_buttons.splice($.inArray(type, gun_buttons), 1);
     $(this).removeClass('active');
+    console.log(gun_buttons);
       $('.container-fluid').each(function(index, val){
-        if ($(this).hasClass(type)) {$(this).addClass('hidden')};
+        if ($(this).hasClass(type)) {
+          $(this).addClass('hidden');
+          $(this).prev().addClass('hidden');
+        };
       });
+    hideGunReset();
     } else {
     $(this).addClass('active');
-    //hideGunReset();
+    hideGunReset();
     gun_buttons.push(type);
     console.log(gun_buttons);
-    console.log(gun_buttons.includes(type));
     $('.gun-type-reset').removeClass('hidden');
     // checking if the gun type is already in the array
       $('.container-fluid').each(function(index, val){
         var current_type = $(this).data('type');
         if ($(this).hasClass(type) || gun_buttons.includes(current_type) ) {
-          console.log('0111');
+
           $(this).removeClass('hidden');
+          $(this).prev().removeClass('hidden');
         } else {
           $(this).addClass('hidden');
           $(this).prev().addClass('hidden');
