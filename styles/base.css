@@ -104,10 +104,6 @@ h3 {
   text-align: center;
 }
 
-.hidden {
-  display: none;
-}
-
 .show-switch {
   padding-top: 10px;
   position: relative;
@@ -261,6 +257,7 @@ h3 {
 }
 
 .search-filters-wrapper {
+  text-transform: capitalize;
   display: flex;
   flex-flow: row wrap;
   text-decoration: underline;
@@ -699,4 +696,8 @@ h3 {
     color: #66878f;
     text-decoration: underline;
   }
+}
+
+.hidden {
+  display: none;
 }

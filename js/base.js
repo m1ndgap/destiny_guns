@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-// code handling the alerts behavior on the index page: ie it is only shown once
+// handling the alerts behavior on the index page: ie it is only shown on your first login
 if(localStorage.getItem('alert_index'))
   {
     $('.legend').addClass('hidden');
@@ -110,6 +110,18 @@ $('.gun-category-select').on('click', '.gun-type-select', function () {
   }
 });
 
+// showing filters panel
+
+$('.search-display-filters').on('click', function() {
+  var gunFilters = $('.gun-category-select');
+  if (gunFilters.hasClass('hidden')) {
+      gunFilters.removeClass('hidden');
+      $(this).text('hide filters');
+    } else {
+      gunFilters.addClass('hidden');
+      $(this).text('show filters');
+  };
+});
 
 
 // showing perks stats and links on small displays
