@@ -11,7 +11,7 @@
 html
   //background-image: url('../assets/images/destiny_logo_vector_tint_30.svg')
   background-size: 50px
-  background-color: rgba(225, 225, 225, 1)
+  background-color: $background
   font-family: "Myriad Pro", sans-serif
 
 body
@@ -138,10 +138,28 @@ h3
 
 
 .gun-search
-  padding-left: 40px
+  background: white url('../assets/images/icon-baseline-search-24px.svg') no-repeat
+  background-position: 38px 6px
+  padding-left: 79px
+  background-size: 36px
 .input-wrap
   margin-bottom: 45px
   position: relative
+  //.form-clear-button
+    font-family: 'myriad-cond'
+    text-transform: uppercase
+    position: absolute
+    top: 7px
+    background-color: #bd0000
+    color: white
+    margin-right: 20px
+    user-select: none
+    cursor: pointer
+    list-style: none
+    margin: 3px 5px 3px 5px
+    padding: 3px 3px 0px
+    border-radius: 4px
+    border: 1px solid $perks
   .form-clear-button
     width: 30px
     height: 30px
@@ -154,13 +172,18 @@ h3
     background-repeat: no-repeat
     pointer-events: all
     cursor: pointer
-.search-display-legend
-  position: absolute
-  left: 7px
-  top: -25px
-  cursor: pointer
+.search-filters-wrapper
+  display: flex
+  flex-flow: row wrap
   text-decoration: underline
   font-style: italic
+  div
+    margin-right: 10px
+    cursor: pointer
+  
+
+
+
 
 .gun-category-select
   padding-left: 10px
@@ -182,22 +205,18 @@ h3
     &:nth-child(2)
       margin-left: 100px
     &:hover
-      -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=0, Color=#000000)";/*IE 8*/
-      -moz-box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);/*FF 3.5+*/
-      -webkit-box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-      box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-      filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#000000); /*IE 5.5-7*/
+
   .active
-    //background-color: $darkgrey
+    background-color: $perks
+    color: $background
+    border: 1px solid $background
     position: relative
     top: 1px
-    -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,0.5) inset;/*FF 3.5+*/
-    -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-    box-shadow: 0 0 5px 2px rgba(0,0,0,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-    &:hover
+  //&:hover
       -moz-box-shadow: 0 0 5px 3px rgba(0,0,0,0.5) inset;/*FF 3.5+*/
       -webkit-box-shadow: 0 0 5px 3px rgba(0,0,0,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
       box-shadow: 0 0 5px 3px rgba(0,0,0,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+
   .gun-type-reset
     position: absolute
     background-color: #bd0000

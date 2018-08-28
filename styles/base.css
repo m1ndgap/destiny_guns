@@ -235,7 +235,10 @@ h3 {
 }
 
 .gun-search {
-  padding-left: 40px;
+  background: white url("../assets/images/icon-baseline-search-24px.svg") no-repeat;
+  background-position: 38px 6px;
+  padding-left: 79px;
+  background-size: 36px;
 }
 
 .input-wrap {
@@ -257,13 +260,16 @@ h3 {
   cursor: pointer;
 }
 
-.search-display-legend {
-  position: absolute;
-  left: 7px;
-  top: -25px;
-  cursor: pointer;
+.search-filters-wrapper {
+  display: flex;
+  flex-flow: row wrap;
   text-decoration: underline;
   font-style: italic;
+}
+
+.search-filters-wrapper div {
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 .gun-category-select {
@@ -291,37 +297,12 @@ h3 {
   margin-left: 100px;
 }
 
-.gun-category-select li:hover {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=0, Color=#000000)";
-  /*IE 8*/
-  -moz-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
-  /*FF 3.5+*/
-  -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
-  /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
-  /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#000000);
-  /*IE 5.5-7*/
-}
-
 .gun-category-select .active {
+  background-color: #66878f;
+  color: #e1e1e1;
+  border: 1px solid #e1e1e1;
   position: relative;
   top: 1px;
-  -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5) inset;
-  /*FF 3.5+*/
-  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5) inset;
-  /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5) inset;
-  /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-}
-
-.gun-category-select .active:hover {
-  -moz-box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5) inset;
-  /*FF 3.5+*/
-  -webkit-box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5) inset;
-  /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5) inset;
-  /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 }
 
 .gun-category-select .gun-type-reset {
