@@ -465,6 +465,40 @@ h3 {
   margin-bottom: 0px;
 }
 
+.rarity .primary:after {
+  width: 34px;
+  height: 24px;
+  background: url("../assets/images/icon_primary_weapon.svg") no-repeat;
+}
+
+.rarity .secondary:after {
+  width: 35px;
+  height: 25px;
+  background: url("../assets/images/icon_secondary_weapon.svg") no-repeat;
+}
+
+.rarity .heavy:after {
+  width: 35px;
+  height: 25px;
+  background: url("../assets/images/icon_heavy_weapon.svg") no-repeat;
+}
+
+.rarity .wep-type {
+  position: relative;
+  padding-right: 40px;
+}
+
+.rarity .wep-type:after {
+  position: absolute;
+  display: block;
+  top: 3px;
+  right: 2px;
+  content: ' ';
+  background-color: #66878f;
+  background-size: 34px;
+  border-radius: 8px;
+}
+
 .rarity .source {
   position: relative;
   margin-top: 15px;

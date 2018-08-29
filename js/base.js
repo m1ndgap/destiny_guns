@@ -217,6 +217,7 @@ $('.search-display-filters').on('click', function() {
               var rarity_type = json[index].rarity[0];
               var rarity_rarity = json[index].rarity[1];
               var rarity_source = json[index].rarity[2];
+              var rarity_ammo_type = json[index].rarity[3];
               var stats_impact = json[index].stats.Impact;
               var stats_range = json[index].stats.Range;
               var stats_stability = json[index].stats.Stability;
@@ -263,7 +264,7 @@ $('.search-display-filters').on('click', function() {
                      <p class="specialization">${role}</p>
                    </div>
                    <div class="col-lg-1 col-md-4 col-sm-4 col-4 rarity">
-                     <p class="wep-type">${rarity_type}</p>
+                     <p class="wep-type ${rarity_ammo_type.toLowerCase()}">${rarity_type}</p>
                      <p class="${rarity_rarity.slice(0, -1).toLowerCase()}">${rarity_rarity}</p>
                      <p class="source" data-desc="${rarity_source.toLowerCase().replace(/ /g, '_')}">${rarity_source}</p>
                    </div>

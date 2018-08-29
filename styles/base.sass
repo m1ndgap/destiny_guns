@@ -374,6 +374,35 @@ h3
   p:first-child
     margin-top: 23px
     margin-bottom: 0px
+  .primary
+    &:after
+      width: 34px
+      height: 24px
+      background: url("../assets/images/icon_primary_weapon.svg") no-repeat
+  .secondary
+    &:after
+      width: 35px
+      height: 25px
+      background: url("../assets/images/icon_secondary_weapon.svg") no-repeat
+  .heavy
+    &:after
+      width: 35px
+      height: 25px
+      background: url("../assets/images/icon_heavy_weapon.svg") no-repeat
+  .wep-type
+    position: relative
+    padding-right: 40px
+    &:after
+      position: absolute
+      display: block
+      top: 3px
+      right: 2px
+      content: ' '
+      background-color: $perks
+      background-size: 34px
+      border-radius: 8px
+
+
   .source
     position: relative
     margin-top: 15px
