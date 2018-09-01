@@ -117,9 +117,16 @@ $('.search-display-filters').on('click', function() {
   if (gunFilters.hasClass('hidden')) {
       gunFilters.removeClass('hidden');
       $(this).text('hide filters');
+      showEverything();
+      $('.gun-type-select').each(function(){$(this).removeClass("active")});
+      gun_buttons = [];
     } else {
       gunFilters.addClass('hidden');
+      $('.gun-type-reset').addClass('hidden');
       $(this).text('show filters');
+      showEverything();
+      $('.gun-type-select').each(function(){$(this).removeClass("active")});
+      gun_buttons = [];
   };
 });
 
