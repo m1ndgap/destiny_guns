@@ -2506,7 +2506,7 @@ guns_callback(
             },
   'links': {
             'description': 'Very strong 900RPM SMG with unique perks, good for both PvP and PvE.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1723472487-ikelossmgv101'
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2909905776-the-heros-burden'
   }
 },
 
@@ -2649,7 +2649,7 @@ guns_callback(
             },
   'links': {
             'description': 'Strong SMG with decent synergies. Threat detector is amazing in PvP, Graverobber in PvE.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1723472487-ikelossmgv101'
   }
 },
 
