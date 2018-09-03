@@ -1,83 +1,5 @@
 guns_callback(
-[{
-  "name": "BrayTech Winter Wolf",
-  'type': "ar",
-  "picture": "./assets/images/ar-braytech-winterwolf.jpg",
-  "tier": 1,
-  "role": 'PvE',
-  "rarity": ["Kinetic", "Epic ", "Braytech", "Primary"],
-  "stats": {"Impact": 29,
-            "Range": 72,
-            "Stability": 47,
-            "Magazine": 45,
-            "Reload_speed": 48,
-            "Handling": 45,
-            "RPM": 450,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Precision Frame',
-                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
-                              'recommended': false,
-                              'icon': './assets/images/icon_precision_frame.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Hammer-Forged Rifling',
-                              'description': 'Durable ranged barrel. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_hammer_forged_rifling.png'
-                            },
-                  'perk2':
-                            { 'name': 'Fluted Barrel',
-                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
-                              'recommended': true,
-                              'icon': './assets/images/icon_fluted_barrel.png'
-                            },
-                  'perk3':
-                            { 'name': 'Chambered Compensator',
-                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
-                              'recommended': false,
-                              'icon': './assets/images/icon_chambered_compensator.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Armor-Piercing Rounds',
-                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_armor_piercing.png'
-                            },
-                    'perk2':
-                            { 'name': 'Tactical Mag',
-                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
-                              'recommended': true,
-                              'icon': './assets/images/icon_tactical_mag.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'High-Impact Reserves',
-                              'description': "Rounds at the end of the magazine deal more damage.",
-                              'recommended': false,
-                              'icon': './assets/images/icon_high_impact_reserves.png'
-                            },
-                    'perk2':
-                            { 'name': 'Zen Moment',
-                              'description': 'Causing damage with this weapon increases its stability.',
-                              'recommended': true,
-                              'icon': './assets/images/icon_zen_moment.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Very solid auto rifle, quite difficult to obtain but well worth the trouble.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
-  }
-},
-
+[
 {
   "name": "Duty Bound",
   'type': "ar",
@@ -779,6 +701,84 @@ guns_callback(
   'links': {
             'description': 'Solid midrange auto-rifle, highest RPM in its class and slot, continious shooting gives you amazingly fast reload.',
             'destinytracker': 'db.destinytracker.com/d2/en/items/3762467079-valakadyn'
+  }
+},
+{
+  "name": "BrayTech Winter Wolf",
+  'type': "ar",
+  "picture": "./assets/images/ar-braytech-winterwolf.jpg",
+  "tier": 1,
+  "role": 'PvE',
+  "rarity": ["Kinetic", "Epic ", "Braytech", "Primary"],
+  "stats": {"Impact": 29,
+            "Range": 72,
+            "Stability": 47,
+            "Magazine": 45,
+            "Reload_speed": 48,
+            "Handling": 45,
+            "RPM": 450,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Precision Frame',
+                              'description': 'This weapon`s recoil pattern is more predictably vertical.',
+                              'recommended': false,
+                              'icon': './assets/images/icon_precision_frame.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Hammer-Forged Rifling',
+                              'description': 'Durable ranged barrel. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_hammer_forged_rifling.png'
+                            },
+                  'perk2':
+                            { 'name': 'Fluted Barrel',
+                              'description': 'Ultra-light barrel. • Greatly increases handling speed • Slightly increases stability',
+                              'recommended': true,
+                              'icon': './assets/images/icon_fluted_barrel.png'
+                            },
+                  'perk3':
+                            { 'name': 'Chambered Compensator',
+                              'description': 'Stable barrel attachment. • Increases stability • Moderately controls recoil • Slightly decreases handling speed',
+                              'recommended': false,
+                              'icon': './assets/images/icon_chambered_compensator.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Armor-Piercing Rounds',
+                              'description': 'Rounds cause extra damage to combatants` shields and overpenetrate targets. • Slightly increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_armor_piercing.png'
+                            },
+                    'perk2':
+                            { 'name': 'Tactical Mag',
+                              'description': 'This weapon has multiple tactical improvements. • Slightly increases stability • Increases reload speed • Slightly increases magazine size',
+                              'recommended': true,
+                              'icon': './assets/images/icon_tactical_mag.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'High-Impact Reserves',
+                              'description': "Rounds at the end of the magazine deal more damage.",
+                              'recommended': false,
+                              'icon': './assets/images/icon_high_impact_reserves.png'
+                            },
+                    'perk2':
+                            { 'name': 'Zen Moment',
+                              'description': 'Causing damage with this weapon increases its stability.',
+                              'recommended': true,
+                              'icon': './assets/images/icon_zen_moment.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Very solid auto rifle, quite difficult to obtain but well worth the trouble.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/1752585070-braytech-winter-wolf'
   }
 },
 
