@@ -707,7 +707,7 @@ guns_callback(
   "name": "BrayTech Winter Wolf",
   'type': "ar",
   "picture": "./assets/images/ar-braytech-winterwolf.jpg",
-  "tier": 1,
+  "tier": 2,
   "role": 'PvE',
   "rarity": ["Kinetic", "Epic ", "Braytech", "Primary"],
   "stats": {"Impact": 29,
