@@ -6258,6 +6258,60 @@ guns_callback(
   }
 },
 {
+  "name": "Telesto",
+  'type': "fusion_rifles",
+  "picture": "./assets/images/fr-telesto.jpg",
+  "tier": 1,
+  "role": 'PvE & PvP',
+  "rarity": ["Energy", "Rare ", "Exotic", "Secondary"],
+  "stats": {"Impact": 85,
+            "Range": 32,
+            "Stability": 81,
+            "Magazine": 4,
+            "Reload_speed": 82,
+            "Handling": 57,
+            "RPM": 780,
+            },
+  "perks":
+            {'set1':
+                  { 'perk1':
+                            { 'name': 'Unplanned Reprieve',
+                              'description': 'Fusion projectiles attach and detonate with a delayed Void blast.',
+                              'recommended': false,
+                              'icon': './assets/images/telesto_perk.png'
+                            },
+                  },
+            'set2':
+                  { 'perk1':
+                            { 'name': 'Projection Fuse',
+                              'description': 'Distance optimizations. • Increases range',
+                              'recommended': false,
+                              'icon': './assets/images/icon_projection_fuse.png'
+                            },
+                  },
+            'set3':
+                  { 'perk1':
+                            { 'name': 'Harbinger`s Pulse',
+                              'description': 'Multikills with this weapon immediately reload your equipped Kinetic and Energy weapons from reserves.',
+                              'recommended': false,
+                              'icon': './assets/images/telesto_perk2.png'
+                            },
+                  },
+            'set4':
+                  { 'perk1':
+                            { 'name': 'Polymer Grip',
+                              'description': "This weapon's grip is made of lighter material. • Increases handling speed",
+                              'recommended': false,
+                              'icon': './assets/images/icon_polymer_grip.png'
+                            },
+                  },
+            },
+  'links': {
+            'description': 'Got very strong after patch 2.0. Since it has moved to energy slot.',
+            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2208405142-telesto'
+  }
+},
+{
   "name": "Merciless",
   'type': "fusion_rifles",
   "picture": "./assets/images/fr-merciless.jpg",
@@ -6319,60 +6373,7 @@ guns_callback(
             'destinytracker': 'https://db.destinytracker.com/d2/en/items/4190156464-merciless'
   }
 },
-{
-  "name": "Telesto",
-  'type': "fusion_rifles",
-  "picture": "./assets/images/fr-telesto.jpg",
-  "tier": 2,
-  "role": 'PvE',
-  "rarity": ["Energy", "Rare ", "Exotic", "Secondary"],
-  "stats": {"Impact": 85,
-            "Range": 32,
-            "Stability": 81,
-            "Magazine": 4,
-            "Reload_speed": 82,
-            "Handling": 57,
-            "RPM": 780,
-            },
-  "perks":
-            {'set1':
-                  { 'perk1':
-                            { 'name': 'Unplanned Reprieve',
-                              'description': 'Fusion projectiles attach and detonate with a delayed Void blast.',
-                              'recommended': false,
-                              'icon': './assets/images/telesto_perk.png'
-                            },
-                  },
-            'set2':
-                  { 'perk1':
-                            { 'name': 'Projection Fuse',
-                              'description': 'Distance optimizations. • Increases range',
-                              'recommended': false,
-                              'icon': './assets/images/icon_projection_fuse.png'
-                            },
-                  },
-            'set3':
-                  { 'perk1':
-                            { 'name': 'Harbinger`s Pulse',
-                              'description': 'Multikills with this weapon immediately reload your equipped Kinetic and Energy weapons from reserves.',
-                              'recommended': false,
-                              'icon': './assets/images/telesto_perk2.png'
-                            },
-                  },
-            'set4':
-                  { 'perk1':
-                            { 'name': 'Polymer Grip',
-                              'description': "This weapon's grip is made of lighter material. • Increases handling speed",
-                              'recommended': false,
-                              'icon': './assets/images/icon_polymer_grip.png'
-                            },
-                  },
-            },
-  'links': {
-            'description': 'Fun weapon to play around, basically a cluster bomb rocket launcher with weaker splash and more prominent long-range capabilities.',
-            'destinytracker': 'https://db.destinytracker.com/d2/en/items/2208405142-telesto'
-  }
-},
+
 {
   "name": "Sleeper Simulant",
   'type': "linear_fusion_rifles",
