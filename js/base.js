@@ -315,7 +315,7 @@ $('.search-display-filters').on('click', function() {
                    <div class="d-lg-none d-xl-none col-md-12 col-sm-12 col-12 show-switch show-links"><span>Description<div class="arrow-down"></div></span></div>
                    <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 links">
                      <p class="description">${description}</p>
-                     <a href="${dt_link}">destinytracker.com</a>
+                     <a target="_blank" href="${dt_link}">destinytracker.com</a>
 
                    </div>
 
